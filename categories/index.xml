@@ -5,6 +5,23 @@
         <link>http://ollimenzel.github.io/categories/</link>
         <description>Recent content in Categories on Menzel.IT</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="http://ollimenzel.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+        <language>en-us</language>
+        <lastBuildDate>Thu, 11 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://ollimenzel.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Microsoft365</title>
+        <link>http://ollimenzel.github.io/categories/microsoft365/</link>
+        <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
+        
+        <guid>http://ollimenzel.github.io/categories/microsoft365/</guid>
+        <description>&lt;img src="http://ollimenzel.github.io/categories/microsoft365/C045_Startup_Screens_v06.0103.jpg" alt="Featured image of post Microsoft365" /&gt;</description>
+        </item>
+        <item>
+        <title>PowerPlatform</title>
+        <link>http://ollimenzel.github.io/categories/powerplatform/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://ollimenzel.github.io/categories/powerplatform/</guid>
+        <description>&lt;img src="http://ollimenzel.github.io/categories/powerplatform/PowerPlatform_scalable.svg" alt="Featured image of post PowerPlatform" /&gt;</description>
+        </item>
+        
     </channel>
 </rss>

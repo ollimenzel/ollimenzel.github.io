@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>PowerPlatform on Menzel.IT</title>
+        <link>http://ollimenzel.github.io/categories/powerplatform/</link>
+        <description>Recent content in PowerPlatform on Menzel.IT</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language><atom:link href="http://ollimenzel.github.io/categories/powerplatform/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>
