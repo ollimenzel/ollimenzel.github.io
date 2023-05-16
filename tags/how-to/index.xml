@@ -6,7 +6,51 @@
         <description>Recent content in How-to on Menzel.IT</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 11 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://ollimenzel.github.io/tags/how-to/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 16 May 2023 16:38:45 +0200</lastBuildDate><atom:link href="http://ollimenzel.github.io/tags/how-to/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync</title>
+        <link>http://ollimenzel.github.io/post/2023/05/add_to_onedrive/</link>
+        <pubDate>Tue, 16 May 2023 16:38:45 +0200</pubDate>
+        
+        <guid>http://ollimenzel.github.io/post/2023/05/add_to_onedrive/</guid>
+        <description>&lt;img src="http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Main.png" alt="Featured image of post Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync" /&gt;&lt;p&gt;&lt;strong&gt;Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OneDrive offers convenient file management and collaboration features, including Add to OneDrive and Team Site Sync. These tools streamline access to shared files and folders, enhancing productivity. Let&amp;rsquo;s explore their benefits and compare them.&lt;/p&gt;
+&lt;h2 id=&#34;add-to-onedrive-easy-file-access&#34;&gt;Add to OneDrive: Easy File Access&lt;/h2&gt;
+&lt;p&gt;Add to OneDrive lets you bring shared files into your personal OneDrive space without moving them physically. Simply locate the desired folder, select the Folders tile, and choose &amp;ldquo;Add Shortcut to My Files.&amp;rdquo; This creates a shortcut for quick access.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Add2OneDrive.png&#34;
+	width=&#34;1692&#34;
+	height=&#34;96&#34;
+	srcset=&#34;http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Add2OneDrive_huc93e57fd6019bca2f3a66165b54ad538_26611_480x0_resize_box_3.png 480w, http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Add2OneDrive_huc93e57fd6019bca2f3a66165b54ad538_26611_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Add shortcut to OneDrive&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1762&#34;
+		data-flex-basis=&#34;4230px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;This feature is particularly useful for accessing files across devices related to collaborative projects. It provides centralized access regardless of your location, improving efficiency and reducing clicks.&lt;/p&gt;
+&lt;h2 id=&#34;team-site-sync-comprehensive-file-synchronization&#34;&gt;Team Site Sync: Comprehensive File Synchronization&lt;/h2&gt;
+&lt;p&gt;Team Site Sync also allows you syncing files from OneDrive, SharePoint, and Teams.&lt;/p&gt;
+&lt;p&gt;Team Site Sync syncs specific folders or libraries, but it is limited to the device where synchronization occurred.&lt;/p&gt;
+&lt;h2 id=&#34;choosing-between-add-to-onedrive-and-team-site-sync&#34;&gt;Choosing Between Add to OneDrive and Team Site Sync&lt;/h2&gt;
+&lt;p&gt;For most scenarios, Add to OneDrive is recommended due to its enhanced capabilities and future development. If your organization isn&amp;rsquo;t extensively using Team Site Sync, it&amp;rsquo;s advisable to prioritize Add to OneDrive exclusively.&lt;/p&gt;
+&lt;p&gt;If your organization currently employs both features, Microsoft plans to provide guidance on migrating from Team Site Sync to Add to OneDrive gradually.&lt;/p&gt;
+&lt;h2 id=&#34;disabling-the-sync-button&#34;&gt;Disabling the Sync Button&lt;/h2&gt;
+&lt;p&gt;To streamline the file synchronization experience and promote Add to OneDrive, you can disable the sync button for the entire site using the following code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;Set-SPOTenant&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-HideSyncButtonOnTeamSite&lt;/span&gt; &lt;span class=&#34;vm&#34;&gt;$true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This script helps IT administrators guide users towards Add to OneDrive and encourages its adoption.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>How to Disable Sharing for Non-Owners in SharePoint Online</title>
         <link>http://ollimenzel.github.io/post/2023/05/disable_sharing/</link>
         <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
