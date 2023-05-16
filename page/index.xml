@@ -6,35 +6,7 @@
         <description>Recent content in Pages on Menzel.IT</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 11 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://ollimenzel.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>About Me</title>
-        <link>http://ollimenzel.github.io/about-me/</link>
-        <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
-        
-        <guid>http://ollimenzel.github.io/about-me/</guid>
-        <description>&lt;p&gt;As an IT Solution Architect Collaboration, with more than 10 years of experience in M365, I help specialist departments optimize their communication and collaboration. To do this, I design and implement tailor-made solutions with the following focuses:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;🌎 Achieve more together with SharePoint
-I create user-friendly and powerful portals that meet the requirements and needs of specialist departments. I use SharePoint features such as web parts, workflows, forms, search functions and security settings.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;💬 Always connected and productive with Teams
-I am part of Microsoft’s Tap100 program, which gives me early access to new Teams features. I support specialist departments in introducing and using Teams as a central platform for internal and external communication and collaboration. I integrate Teams with other Microsoft products such as Outlook, OneDrive, Planner and Power Platform.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🚀 Make everything possible with Powerapps and Power Automate
-I create tailor-made applications and automations with Powerapps and Power Automate that improve and simplify the business processes of specialist departments. I connect Powerapps with various data sources such as SharePoint, Excel and Dataverse. I create Power Automate flows to automate recurring tasks and send notifications. Sometimes I also use PowerShell scripts that I run in Azure Runbooks.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🔧 Have everything under control with PowerShell
-I use PowerShell to automate and simplify administrative tasks. I write PowerShell scripts to manage, monitor and optimize SharePoint and Teams environments. I use PowerShell cmdlets to extract, analyze and manipulate data.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I always try to stay up-to-date with technological trends and developments in the M365 area. I like working in a team and communicate effectively with all stakeholders. I am proud of my ability to deliver creative and sustainable solutions that create added value for specialist departments.&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://ollimenzel.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Links</title>
         <link>http://ollimenzel.github.io/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
