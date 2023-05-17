@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Menzel.IT</title>
-        <link>http://ollimenzel.github.io/categories/</link>
+        <link>https://www.menzel.it/categories/</link>
         <description>Recent content in Categories on Menzel.IT</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 16 May 2023 16:38:45 +0200</lastBuildDate><atom:link href="http://ollimenzel.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 16 May 2023 16:38:45 +0200</lastBuildDate><atom:link href="https://www.menzel.it/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Microsoft365</title>
-        <link>http://ollimenzel.github.io/categories/microsoft365/</link>
+        <link>https://www.menzel.it/categories/microsoft365/</link>
         <pubDate>Tue, 16 May 2023 16:38:45 +0200</pubDate>
         
-        <guid>http://ollimenzel.github.io/categories/microsoft365/</guid>
-        <description>&lt;img src="http://ollimenzel.github.io/categories/microsoft365/C045_Startup_Screens_v06.0103.jpg" alt="Featured image of post Microsoft365" /&gt;</description>
+        <guid>https://www.menzel.it/categories/microsoft365/</guid>
+        <description>&lt;img src="https://www.menzel.it/categories/microsoft365/C045_Startup_Screens_v06.0103.jpg" alt="Featured image of post Microsoft365" /&gt;</description>
         </item>
         <item>
         <title>PowerPlatform</title>
-        <link>http://ollimenzel.github.io/categories/powerplatform/</link>
+        <link>https://www.menzel.it/categories/powerplatform/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://ollimenzel.github.io/categories/powerplatform/</guid>
-        <description>&lt;img src="http://ollimenzel.github.io/categories/powerplatform/PowerPlatform_scalable.svg" alt="Featured image of post PowerPlatform" /&gt;</description>
+        <guid>https://www.menzel.it/categories/powerplatform/</guid>
+        <description>&lt;img src="https://www.menzel.it/categories/powerplatform/PowerPlatform_scalable.svg" alt="Featured image of post PowerPlatform" /&gt;</description>
         </item>
         
     </channel>

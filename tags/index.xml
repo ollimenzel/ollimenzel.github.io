@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Menzel.IT</title>
-        <link>http://ollimenzel.github.io/tags/</link>
+        <link>https://www.menzel.it/tags/</link>
         <description>Recent content in Tags on Menzel.IT</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 16 May 2023 16:38:45 +0200</lastBuildDate><atom:link href="http://ollimenzel.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 16 May 2023 16:38:45 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>How-to</title>
-        <link>http://ollimenzel.github.io/tags/how-to/</link>
+        <link>https://www.menzel.it/tags/how-to/</link>
         <pubDate>Tue, 16 May 2023 16:38:45 +0200</pubDate>
         
-        <guid>http://ollimenzel.github.io/tags/how-to/</guid>
+        <guid>https://www.menzel.it/tags/how-to/</guid>
         <description></description>
         </item>
         <item>
         <title>OneDrive</title>
-        <link>http://ollimenzel.github.io/tags/onedrive/</link>
+        <link>https://www.menzel.it/tags/onedrive/</link>
         <pubDate>Tue, 16 May 2023 16:38:45 +0200</pubDate>
         
-        <guid>http://ollimenzel.github.io/tags/onedrive/</guid>
+        <guid>https://www.menzel.it/tags/onedrive/</guid>
         <description></description>
         </item>
         <item>
         <title>SharePoint</title>
-        <link>http://ollimenzel.github.io/tags/sharepoint/</link>
+        <link>https://www.menzel.it/tags/sharepoint/</link>
         <pubDate>Tue, 16 May 2023 16:38:45 +0200</pubDate>
         
-        <guid>http://ollimenzel.github.io/tags/sharepoint/</guid>
+        <guid>https://www.menzel.it/tags/sharepoint/</guid>
         <description></description>
         </item>
         <item>
         <title>SiteOwners</title>
-        <link>http://ollimenzel.github.io/tags/siteowners/</link>
+        <link>https://www.menzel.it/tags/siteowners/</link>
         <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://ollimenzel.github.io/tags/siteowners/</guid>
+        <guid>https://www.menzel.it/tags/siteowners/</guid>
         <description></description>
         </item>
         

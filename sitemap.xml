@@ -2,55 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://ollimenzel.github.io/</loc>
+    <loc>https://www.menzel.it/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/post/2023/</loc>
+    <loc>https://www.menzel.it/post/2023/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/categories/</loc>
+    <loc>https://www.menzel.it/categories/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/tags/how-to/</loc>
+    <loc>https://www.menzel.it/tags/how-to/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/post/2023/05/</loc>
+    <loc>https://www.menzel.it/post/2023/05/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/categories/microsoft365/</loc>
+    <loc>https://www.menzel.it/categories/microsoft365/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/tags/onedrive/</loc>
+    <loc>https://www.menzel.it/tags/onedrive/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/post/</loc>
+    <loc>https://www.menzel.it/post/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/tags/sharepoint/</loc>
+    <loc>https://www.menzel.it/tags/sharepoint/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/post/2023/05/add_to_onedrive/</loc>
+    <loc>https://www.menzel.it/post/2023/05/add_to_onedrive/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/tags/</loc>
+    <loc>https://www.menzel.it/tags/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/post/2023/05/disable_sharing/</loc>
+    <loc>https://www.menzel.it/about-me/</loc>
     <lastmod>2023-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/tags/siteowners/</loc>
+    <loc>https://www.menzel.it/post/2023/05/disable_sharing/</loc>
     <lastmod>2023-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/page/archives/</loc>
+    <loc>https://www.menzel.it/page/</loc>
+    <lastmod>2023-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.menzel.it/tags/siteowners/</loc>
+    <lastmod>2023-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.menzel.it/page/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://ollimenzel.github.io/page/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>https://www.menzel.it/categories/powerplatform/</loc>
   </url><url>
-    <loc>http://ollimenzel.github.io/links/</loc>
-  </url><url>
-    <loc>http://ollimenzel.github.io/categories/powerplatform/</loc>
-  </url><url>
-    <loc>http://ollimenzel.github.io/page/search/</loc>
+    <loc>https://www.menzel.it/page/search/</loc>
   </url>
 </urlset>

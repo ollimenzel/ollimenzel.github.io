@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>SharePoint on Menzel.IT</title>
-        <link>http://ollimenzel.github.io/tags/sharepoint/</link>
+        <link>https://www.menzel.it/tags/sharepoint/</link>
         <description>Recent content in SharePoint on Menzel.IT</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 16 May 2023 16:38:45 +0200</lastBuildDate><atom:link href="http://ollimenzel.github.io/tags/sharepoint/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 16 May 2023 16:38:45 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/sharepoint/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync</title>
-        <link>http://ollimenzel.github.io/post/2023/05/add_to_onedrive/</link>
+        <link>https://www.menzel.it/post/2023/05/add_to_onedrive/</link>
         <pubDate>Tue, 16 May 2023 16:38:45 +0200</pubDate>
         
-        <guid>http://ollimenzel.github.io/post/2023/05/add_to_onedrive/</guid>
-        <description>&lt;img src="http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Main.png" alt="Featured image of post Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync" /&gt;&lt;p&gt;&lt;strong&gt;Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync&lt;/strong&gt;&lt;/p&gt;
+        <guid>https://www.menzel.it/post/2023/05/add_to_onedrive/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/05/add_to_onedrive/Main.png" alt="Featured image of post Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync" /&gt;&lt;p&gt;&lt;strong&gt;Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;OneDrive offers convenient file management and collaboration features, including Add to OneDrive and Team Site Sync. These tools streamline access to shared files and folders, enhancing productivity. Let&amp;rsquo;s explore their benefits and compare them.&lt;/p&gt;
 &lt;h2 id=&#34;add-to-onedrive-easy-file-access&#34;&gt;Add to OneDrive: Easy File Access&lt;/h2&gt;
 &lt;p&gt;Add to OneDrive lets you bring shared files into your personal OneDrive space without moving them physically. Simply locate the desired folder, select the Folders tile, and choose &amp;ldquo;Add Shortcut to My Files.&amp;rdquo; This creates a shortcut for quick access.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Add2OneDrive.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.menzel.it/post/2023/05/add_to_onedrive/Add2OneDrive.png&#34;
 	width=&#34;1692&#34;
 	height=&#34;96&#34;
-	srcset=&#34;http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Add2OneDrive_huc93e57fd6019bca2f3a66165b54ad538_26611_480x0_resize_box_3.png 480w, http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Add2OneDrive_huc93e57fd6019bca2f3a66165b54ad538_26611_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://www.menzel.it/post/2023/05/add_to_onedrive/Add2OneDrive_huc93e57fd6019bca2f3a66165b54ad538_26611_480x0_resize_box_3.png 480w, https://www.menzel.it/post/2023/05/add_to_onedrive/Add2OneDrive_huc93e57fd6019bca2f3a66165b54ad538_26611_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Add shortcut to OneDrive&#34;
@@ -52,39 +52,40 @@
         </item>
         <item>
         <title>How to Disable Sharing for Non-Owners in SharePoint Online</title>
-        <link>http://ollimenzel.github.io/post/2023/05/disable_sharing/</link>
+        <link>https://www.menzel.it/post/2023/05/disable_sharing/</link>
         <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://ollimenzel.github.io/post/2023/05/disable_sharing/</guid>
-        <description>&lt;img src="http://ollimenzel.github.io/post/2023/05/disable_sharing/Microsoft365-Logo.png" alt="Featured image of post How to Disable Sharing for Non-Owners in SharePoint Online" /&gt;&lt;p&gt;SharePoint Online is a powerful collaboration tool that allows users to share documents and collaborate with others. However, sometimes you may want to restrict sharing permissions for non-owners of a document. In this post, we&amp;rsquo;ll show you how to disable sharing for non-owners in SharePoint Online.&lt;/p&gt;
+        <guid>https://www.menzel.it/post/2023/05/disable_sharing/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/05/disable_sharing/Microsoft365-Logo.png" alt="Featured image of post How to Disable Sharing for Non-Owners in SharePoint Online" /&gt;&lt;p&gt;SharePoint Online is a powerful collaboration tool that allows users to share documents and collaborate with others. However, sometimes you may want to restrict sharing permissions for non-owners of a document. In this post, we&amp;rsquo;ll show you how to disable sharing for non-owners in SharePoint Online.&lt;/p&gt;
 &lt;h2 id=&#34;steps-to-disable-sharing-for-non-owners&#34;&gt;Steps to Disable Sharing for Non-Owners&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Open the SharePoint Online site where you want to disable sharing for non-owners.&lt;/li&gt;
 &lt;li&gt;Click on the gear icon in the top right corner and select &amp;ldquo;Site Settings&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;Under &amp;ldquo;Site Permissions&amp;rdquo;, click on &amp;ldquo;Advanced permission settings&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;In the ribbon choose the &amp;ldquo;Access Request Settings&amp;rdquo;.
-&lt;img src=&#34;http://ollimenzel.github.io/post/2023/05/disable_sharing/Permissions.png&#34;
+&lt;img src=&#34;https://www.menzel.it/post/2023/05/disable_sharing/Permissions.png&#34;
 	width=&#34;984&#34;
 	height=&#34;350&#34;
-	srcset=&#34;http://ollimenzel.github.io/post/2023/05/disable_sharing/Permissions_hu179eb30938bbb7967bd4d1a49be09299_76848_480x0_resize_box_3.png 480w, http://ollimenzel.github.io/post/2023/05/disable_sharing/Permissions_hu179eb30938bbb7967bd4d1a49be09299_76848_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://www.menzel.it/post/2023/05/disable_sharing/Permissions_hu179eb30938bbb7967bd4d1a49be09299_76848_480x0_resize_box_3.png 480w, https://www.menzel.it/post/2023/05/disable_sharing/Permissions_hu179eb30938bbb7967bd4d1a49be09299_76848_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Permissions&#34;
+		alt=&#34;Alt text&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;281&#34;
 		data-flex-basis=&#34;674px&#34;
 	
-&gt;&lt;/li&gt;
+&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
 &lt;li&gt;Uncheck &amp;ldquo;Allow members to share the site and individual files and folders&amp;rdquo; to restrict sharing permissions for non-owners of a document.
-&lt;img src=&#34;http://ollimenzel.github.io/post/2023/05/disable_sharing/Disable_Member-sharing.png&#34;
+&lt;img src=&#34;https://www.menzel.it/post/2023/05/disable_sharing/Disable_Member-sharing.png&#34;
 	width=&#34;2100&#34;
 	height=&#34;362&#34;
-	srcset=&#34;http://ollimenzel.github.io/post/2023/05/disable_sharing/Disable_Member-sharing_hue4ad4d141d276b4788701f8737656069_83981_480x0_resize_box_3.png 480w, http://ollimenzel.github.io/post/2023/05/disable_sharing/Disable_Member-sharing_hue4ad4d141d276b4788701f8737656069_83981_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://www.menzel.it/post/2023/05/disable_sharing/Disable_Member-sharing_hue4ad4d141d276b4788701f8737656069_83981_480x0_resize_box_3.png 480w, https://www.menzel.it/post/2023/05/disable_sharing/Disable_Member-sharing_hue4ad4d141d276b4788701f8737656069_83981_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Disable sharing for members&#34;
+		alt=&#34;Alt text&#34;
 	
 	
 		class=&#34;gallery-image&#34; 

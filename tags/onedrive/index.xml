@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>OneDrive on Menzel.IT</title>
-        <link>http://ollimenzel.github.io/tags/onedrive/</link>
+        <link>https://www.menzel.it/tags/onedrive/</link>
         <description>Recent content in OneDrive on Menzel.IT</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 16 May 2023 16:38:45 +0200</lastBuildDate><atom:link href="http://ollimenzel.github.io/tags/onedrive/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 16 May 2023 16:38:45 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/onedrive/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync</title>
-        <link>http://ollimenzel.github.io/post/2023/05/add_to_onedrive/</link>
+        <link>https://www.menzel.it/post/2023/05/add_to_onedrive/</link>
         <pubDate>Tue, 16 May 2023 16:38:45 +0200</pubDate>
         
-        <guid>http://ollimenzel.github.io/post/2023/05/add_to_onedrive/</guid>
-        <description>&lt;img src="http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Main.png" alt="Featured image of post Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync" /&gt;&lt;p&gt;&lt;strong&gt;Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync&lt;/strong&gt;&lt;/p&gt;
+        <guid>https://www.menzel.it/post/2023/05/add_to_onedrive/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/05/add_to_onedrive/Main.png" alt="Featured image of post Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync" /&gt;&lt;p&gt;&lt;strong&gt;Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;OneDrive offers convenient file management and collaboration features, including Add to OneDrive and Team Site Sync. These tools streamline access to shared files and folders, enhancing productivity. Let&amp;rsquo;s explore their benefits and compare them.&lt;/p&gt;
 &lt;h2 id=&#34;add-to-onedrive-easy-file-access&#34;&gt;Add to OneDrive: Easy File Access&lt;/h2&gt;
 &lt;p&gt;Add to OneDrive lets you bring shared files into your personal OneDrive space without moving them physically. Simply locate the desired folder, select the Folders tile, and choose &amp;ldquo;Add Shortcut to My Files.&amp;rdquo; This creates a shortcut for quick access.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Add2OneDrive.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.menzel.it/post/2023/05/add_to_onedrive/Add2OneDrive.png&#34;
 	width=&#34;1692&#34;
 	height=&#34;96&#34;
-	srcset=&#34;http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Add2OneDrive_huc93e57fd6019bca2f3a66165b54ad538_26611_480x0_resize_box_3.png 480w, http://ollimenzel.github.io/post/2023/05/add_to_onedrive/Add2OneDrive_huc93e57fd6019bca2f3a66165b54ad538_26611_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://www.menzel.it/post/2023/05/add_to_onedrive/Add2OneDrive_huc93e57fd6019bca2f3a66165b54ad538_26611_480x0_resize_box_3.png 480w, https://www.menzel.it/post/2023/05/add_to_onedrive/Add2OneDrive_huc93e57fd6019bca2f3a66165b54ad538_26611_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Add shortcut to OneDrive&#34;
