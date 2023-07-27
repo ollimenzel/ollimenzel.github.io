@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='When copying pages with language variations using ShareGate, you may encounter an issue where the Pages for the different languages are not properly connected to each other. This results in the variations not being displayed correctly on the site.
+To fix this issue, you can use PowerShell to reconnect the pages with their language variations. In this blog post, we&amp;rsquo;ll walk through the PowerShell code for doing this.
+Step-by-Step Explanation of the Code Here&amp;rsquo;s a step-by-step explanation of the PowerShell code for reconnecting pages with language variations after copying them with ShareGate:'>
+<title>Reconnecting Pages with Language Variations After Copying Them with ShareGate</title>
+
+<link rel='canonical' href='https://www.menzel.it/post/2023/07/reconnect_pages/'>
+
+<link rel="stylesheet" href="/scss/style.min.8191399262444ab68b72a18c97392f5349be20a1615d77445be51e974c144cff.css"><meta property='og:title' content='Reconnecting Pages with Language Variations After Copying Them with ShareGate'>
+<meta property='og:description' content='When copying pages with language variations using ShareGate, you may encounter an issue where the Pages for the different languages are not properly connected to each other. This results in the variations not being displayed correctly on the site.
+To fix this issue, you can use PowerShell to reconnect the pages with their language variations. In this blog post, we&amp;rsquo;ll walk through the PowerShell code for doing this.
+Step-by-Step Explanation of the Code Here&amp;rsquo;s a step-by-step explanation of the PowerShell code for reconnecting pages with language variations after copying them with ShareGate:'>
+<meta property='og:url' content='https://www.menzel.it/post/2023/07/reconnect_pages/'>
+<meta property='og:site_name' content='Menzel.IT'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='How-to' /><meta property='article:tag' content='SiteOwners' /><meta property='article:tag' content='SharePoint' /><meta property='article:published_time' content='2023-07-27T11:57:41&#43;02:00'/><meta property='article:modified_time' content='2023-07-27T11:57:41&#43;02:00'/><meta property='og:image' content='https://www.menzel.it/post/2023/07/reconnect_pages/Reconnect.png' />
+<meta name="twitter:site" content="@ollimenzel">
+    <meta name="twitter:creator" content="@ollimenzel"><meta name="twitter:title" content="Reconnecting Pages with Language Variations After Copying Them with ShareGate">
+<meta name="twitter:description" content="When copying pages with language variations using ShareGate, you may encounter an issue where the Pages for the different languages are not properly connected to each other. This results in the variations not being displayed correctly on the site.
+To fix this issue, you can use PowerShell to reconnect the pages with their language variations. In this blog post, we&amp;rsquo;ll walk through the PowerShell code for doing this.
+Step-by-Step Explanation of the Code Here&amp;rsquo;s a step-by-step explanation of the PowerShell code for reconnecting pages with language variations after copying them with ShareGate:"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://www.menzel.it/post/2023/07/reconnect_pages/Reconnect.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/Me-NinjaCat_hue3e9efae7d2a8bb9e7f14aa7c285132c_461373_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Menzel.IT</a></h1>
+            <h2 class="site-description">M365 and Power Platform: The Dynamic Duo of Collaboration</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/ollimenzel'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/olivermenzel/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="M216 26H40a14 14 0 0 0-14 14v176a14 14 0 0 0 14 14h176a14 14 0 0 0 14-14V40a14 14 0 0 0-14-14Zm2 190a2 2 0 0 1-2 2H40a2 2 0 0 1-2-2V40a2 2 0 0 1 2-2h176a2 2 0 0 1 2 2ZM94 112v64a6 6 0 0 1-12 0v-64a6 6 0 0 1 12 0Zm88 28v36a6 6 0 0 1-12 0v-36a22 22 0 0 0-44 0v36a6 6 0 0 1-12 0v-64a6 6 0 0 1 12 0v2.11A34 34 0 0 1 182 140ZM98 84a10 10 0 1 1-10-10a10 10 0 0 1 10 10Z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/public/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="M212 200a4 4 0 0 1-8 0c0-81.61-66.39-148-148-148a4 4 0 0 1 0-8c86 0 156 70 156 156ZM56 116a4 4 0 0 0 0 8a76.08 76.08 0 0 1 76 76a4 4 0 0 0 8 0a84.09 84.09 0 0 0-84-84Zm4 72a8 8 0 1 0 8 8a8 8 0 0 0-8-8Z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/ollimenzel'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about-me/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About Me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/2023/07/reconnect_pages/">
+                <img src="/post/2023/07/reconnect_pages/Reconnect_hu58e59d2a09840853c5e0830e43305ea7_1183462_800x0_resize_box_3.png"
+                        srcset="/post/2023/07/reconnect_pages/Reconnect_hu58e59d2a09840853c5e0830e43305ea7_1183462_800x0_resize_box_3.png 800w, /post/2023/07/reconnect_pages/Reconnect_hu58e59d2a09840853c5e0830e43305ea7_1183462_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="419" 
+                        loading="lazy"
+                        alt="Featured image of post Reconnecting Pages with Language Variations After Copying Them with ShareGate" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/microsoft365/" style="background-color: #2a9d8f; color: #fff;">
+                Microsoft365
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/2023/07/reconnect_pages/">Reconnecting Pages with Language Variations After Copying Them with ShareGate</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 27, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    3 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>When copying pages with language variations using ShareGate, you may encounter an issue where the Pages for the different languages are not properly connected to each other. This results in the variations not being displayed correctly on the site.</p>
+<p>To fix this issue, you can use PowerShell to reconnect the pages with their language variations. In this blog post, we&rsquo;ll walk through the PowerShell code for doing this.</p>
+<h3 id="step-by-step-explanation-of-the-code">Step-by-Step Explanation of the Code</h3>
+<p>Here&rsquo;s a step-by-step explanation of the PowerShell code for reconnecting pages with language variations after copying them with ShareGate:</p>
+<ol>
+<li>First, we need to connect to the SharePoint site where the pages are located. We can do this using the <code>Connect-PnPOnline</code> cmdlet:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">Connect-PnPOnline</span> <span class="n">-Url</span> <span class="s2">&#34;https://contoso.sharepoint.com/sites/MySite&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>Next, we need to get a list of all the pages in the site. We can do this using the <code>Get-PnPFolderItem</code> cmdlet with the right language folder:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nv">$Files</span> <span class="p">=</span> <span class="nb">Get-PnPFolderItem</span> <span class="n">-FolderSiteRelativeUrl</span> <span class="n">SitePages</span><span class="p">/</span><span class="n">de</span> 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This code gets a list of all the pages in the &ldquo;Site Pages&rdquo; language folder.</p>
+<ol start="3">
+<li>Now that we have a list of all the pages, we need to loop through each page and reconnect its language variations. We can do this using a <code>foreach</code> loop:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$Page</span> <span class="k">in</span> <span class="nv">$Pages</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Reconnect language variations for the page</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>Inside the <code>foreach</code> loop, we need to get the default file for the page. We can do this using the <code>Get-PnPFile</code> cmdlet:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nv">$DefaultFile</span> <span class="p">=</span> <span class="nb">Get-PnPFile</span> <span class="n">-Url</span> <span class="s2">&#34;SitePages/</span><span class="p">$(</span><span class="nv">$Page</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span><span class="s2">&#34;</span> <span class="n">-AsListItem</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This code gets the default Page by using the <code>Name</code> property from the <code>$Page</code> object.</p>
+<ol start="5">
+<li>Next, we need to get additional informations from the language variations of the page. We can do this using the <code>Get-PnPListItem</code> cmdlet:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nv">$LangFile</span> <span class="p">=</span> <span class="nb">Get-PnPFile</span> <span class="n">-Url</span> <span class="n">SitePages</span><span class="p">/</span><span class="nv">$Language</span><span class="p">/</span><span class="vm">$</span><span class="p">(</span><span class="nv">$Page</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span> <span class="n">-AsListItem</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This code gets a information about language variations page by filtering the pages in the &ldquo;Site Pages&rdquo; library by Folder <code>$Language</code>-Variable and the <code>$Page.Name</code>.</p>
+<ol start="6">
+<li>Now that we have all the information we need, we can reconnect the language variations to the default file. We can do this using the <code>Set-PnPListItem</code> cmdlet:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl">    <span class="c">#Set the Default Item field</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-PnPListItem</span> <span class="n">-List</span> <span class="n">SitePages</span> <span class="n">-Identity</span> <span class="nv">$DefaultFile</span><span class="p">.</span><span class="py">Id</span> <span class="n">-Values</span> <span class="vm">@</span><span class="p">{</span><span class="s2">&#34;_SPTranslatedLanguages&#34;</span> <span class="p">=</span> <span class="nv">$LangISO</span><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl">    <span class="c">#Set the Language Item fields</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-PnPListItem</span> <span class="n">-List</span> <span class="n">SitePages</span> <span class="n">-Identity</span> <span class="nv">$LangFile</span><span class="p">.</span><span class="py">Id</span> <span class="n">-Values</span> <span class="vm">@</span><span class="p">{</span><span class="s1">&#39;_SPIsTranslation&#39;</span> <span class="p">=</span> <span class="s1">&#39;1&#39;</span><span class="p">;</span> <span class="s1">&#39;_SPTranslationLanguage&#39;</span> <span class="p">=</span> <span class="nv">$LangISO</span><span class="p">;</span> <span class="s1">&#39;_SPTranslationSourceItemId&#39;</span> <span class="p">=</span> <span class="nv">$DefaultFile</span><span class="p">.</span><span class="py">FieldValues</span><span class="p">.</span><span class="py">UniqueId</span> <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This code sets the <code>_SPTranslationSourceItemId</code> property of the variation file to the GUID of the default file.</p>
+<ol start="7">
+<li>That&rsquo;s it! We&rsquo;ve now looped through all the pages and their language variations, and reconnected them to each other.</li>
+</ol>
+<h3 id="conclusion">Conclusion</h3>
+<p>In this blog post, we&rsquo;ve walked through the PowerShell code for reconnecting pages with language variations after copying them with ShareGate. By using this code, you can ensure that the language variations are properly connected to each other, and that they are displayed correctly on the site.</p>
+<p>Here&rsquo;s the complete PowerShell script for reconnecting pages with language variations after copying them with ShareGate:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nv">$SiteCollection</span> <span class="p">=</span> <span class="s2">&#34;https://contoso.sharepoint.com/sites/SiteCollection&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Language</span> <span class="p">=</span> <span class="s2">&#34;de&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$LangISO</span> <span class="p">=</span> <span class="s2">&#34;de-de&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">#Create Connection</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Connect-PnPOnline</span> <span class="n">-Url</span> <span class="nv">$SiteCollection</span> <span class="n">-Interactive</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">#Get all aspx pages within Folder DE in Library SitePages</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Pages</span> <span class="p">=</span> <span class="nb">Get-PnPFolderItem</span> <span class="n">-FolderSiteRelativeUrl</span> <span class="n">SitePages</span><span class="p">/</span><span class="nv">$Language</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">#Loop through all files and get the file object from the files with the same name in the root directory</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$Page</span> <span class="k">in</span> <span class="nv">$Pages</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$DefaultFile</span> <span class="p">=</span> <span class="nb">Get-PnPFile</span> <span class="n">-Url</span> <span class="n">SitePages</span><span class="p">/</span><span class="vm">$</span><span class="p">(</span><span class="nv">$Page</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span> <span class="n">-AsListItem</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$LangFile</span> <span class="p">=</span> <span class="nb">Get-PnPFile</span> <span class="n">-Url</span> <span class="n">SitePages</span><span class="p">/</span><span class="nv">$Language</span><span class="p">/</span><span class="vm">$</span><span class="p">(</span><span class="nv">$Page</span><span class="p">.</span><span class="n">Name</span><span class="p">)</span> <span class="n">-AsListItem</span>
+</span></span><span class="line"><span class="cl">    <span class="c">#Set the Default Item field</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-PnPListItem</span> <span class="n">-List</span> <span class="n">SitePages</span> <span class="n">-Identity</span> <span class="nv">$DefaultFile</span><span class="p">.</span><span class="py">Id</span> <span class="n">-Values</span> <span class="vm">@</span><span class="p">{</span><span class="s2">&#34;_SPTranslatedLanguages&#34;</span> <span class="p">=</span> <span class="nv">$LangISO</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c">#Set the German Language Item fields</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Set-PnPListItem</span> <span class="n">-List</span> <span class="n">SitePages</span> <span class="n">-Identity</span> <span class="nv">$LangFile</span><span class="p">.</span><span class="py">Id</span> <span class="n">-Values</span> <span class="vm">@</span><span class="p">{</span><span class="s1">&#39;_SPIsTranslation&#39;</span> <span class="p">=</span> <span class="s1">&#39;1&#39;</span><span class="p">;</span> <span class="s1">&#39;_SPTranslationLanguage&#39;</span> <span class="p">=</span> <span class="nv">$LangISO</span><span class="p">;</span> <span class="s1">&#39;_SPTranslationSourceItemId&#39;</span> <span class="p">=</span> <span class="nv">$DefaultFile</span><span class="p">.</span><span class="py">FieldValues</span><span class="p">.</span><span class="py">UniqueId</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/how-to/">How-to</a>
+        
+            <a href="/tags/siteowners/">SiteOwners</a>
+        
+            <a href="/tags/sharepoint/">SharePoint</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/post/2023/05/disable_sharing/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2023/05/disable_sharing/Microsoft365-Logo.3cd1a89bb70eb36e5ea7e2729e88ed00_huc751c11c8412c46ecd89393641f090d6_5832667_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post How to Disable Sharing for Non-Owners in SharePoint Online"
+                        data-key="Disable_sharing" 
+                        data-hash="md5-PNGom7cOs25ep&#43;JynojtAA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">How to Disable Sharing for Non-Owners in SharePoint Online</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2023/05/add_to_onedrive/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2023/05/add_to_onedrive/Main.51ff833a1601f95102a7c83b0788e2e0_hu502c155179e040f10273bd58ace348bd_299354_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync"
+                        data-key="Add_to_OneDrive" 
+                        data-hash="md5-Uf&#43;DOhYB&#43;VECp8g7B4ji4A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2023 Menzel.IT
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
