@@ -7,13 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <lastBuildDate>Thu, 27 Jul 2023 11:57:41 +0200</lastBuildDate><atom:link href="https://www.menzel.it/categories/microsoft365/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>ReconnectMultiLanguagePages</title>
+        <title>Reconnecting Pages with Language Variations After Copying Them with ShareGate</title>
         <link>https://www.menzel.it/post/2023/07/disable_sharing/</link>
         <pubDate>Thu, 27 Jul 2023 11:57:41 +0200</pubDate>
         
         <guid>https://www.menzel.it/post/2023/07/disable_sharing/</guid>
-        <description>&lt;img src="https://www.menzel.it/Microsoft365-Logo.png" alt="Featured image of post ReconnectMultiLanguagePages" /&gt;&lt;h2 id=&#34;reconnecting-pages-with-language-variations-after-copying-them-with-sharegate&#34;&gt;Reconnecting Pages with Language Variations After Copying Them with ShareGate&lt;/h2&gt;
-&lt;p&gt;When copying pages with language variations using ShareGate, you may encounter an issue where the Pages for the different languages are not properly connected to each other. This results in the variations not being displayed correctly on the site.&lt;/p&gt;
+        <description>&lt;img src="https://www.menzel.it/Microsoft365-Logo.png" alt="Featured image of post Reconnecting Pages with Language Variations After Copying Them with ShareGate" /&gt;&lt;p&gt;When copying pages with language variations using ShareGate, you may encounter an issue where the Pages for the different languages are not properly connected to each other. This results in the variations not being displayed correctly on the site.&lt;/p&gt;
 &lt;p&gt;To fix this issue, you can use PowerShell to reconnect the pages with their language variations. In this blog post, we&amp;rsquo;ll walk through the PowerShell code for doing this.&lt;/p&gt;
 &lt;h3 id=&#34;step-by-step-explanation-of-the-code&#34;&gt;Step-by-Step Explanation of the Code&lt;/h3&gt;
 &lt;p&gt;Here&amp;rsquo;s a step-by-step explanation of the PowerShell code for reconnecting pages with language variations after copying them with ShareGate:&lt;/p&gt;
