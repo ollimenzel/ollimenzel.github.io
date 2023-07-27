@@ -5,13 +5,29 @@
         <link>https://www.menzel.it/tags/</link>
         <description>Recent content in Tags on Menzel.IT</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Tue, 16 May 2023 16:38:45 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Thu, 27 Jul 2023 11:57:41 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>How-to</title>
         <link>https://www.menzel.it/tags/how-to/</link>
-        <pubDate>Tue, 16 May 2023 16:38:45 +0200</pubDate>
+        <pubDate>Thu, 27 Jul 2023 11:57:41 +0200</pubDate>
         
         <guid>https://www.menzel.it/tags/how-to/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SharePoint</title>
+        <link>https://www.menzel.it/tags/sharepoint/</link>
+        <pubDate>Thu, 27 Jul 2023 11:57:41 +0200</pubDate>
+        
+        <guid>https://www.menzel.it/tags/sharepoint/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SiteOwners</title>
+        <link>https://www.menzel.it/tags/siteowners/</link>
+        <pubDate>Thu, 27 Jul 2023 11:57:41 +0200</pubDate>
+        
+        <guid>https://www.menzel.it/tags/siteowners/</guid>
         <description></description>
         </item>
         <item>
@@ -20,22 +36,6 @@
         <pubDate>Tue, 16 May 2023 16:38:45 +0200</pubDate>
         
         <guid>https://www.menzel.it/tags/onedrive/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>SharePoint</title>
-        <link>https://www.menzel.it/tags/sharepoint/</link>
-        <pubDate>Tue, 16 May 2023 16:38:45 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/sharepoint/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>SiteOwners</title>
-        <link>https://www.menzel.it/tags/siteowners/</link>
-        <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.menzel.it/tags/siteowners/</guid>
         <description></description>
         </item>
         
