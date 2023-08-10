@@ -3,21 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.menzel.it/</loc>
-    <lastmod>2023-07-27T11:57:41+02:00</lastmod>
+    <lastmod>2023-08-10T16:31:08+02:00</lastmod>
   </url><url>
     <loc>https://www.menzel.it/post/2023/</loc>
-    <lastmod>2023-07-27T11:57:41+02:00</lastmod>
+    <lastmod>2023-08-10T16:31:08+02:00</lastmod>
   </url><url>
     <loc>https://www.menzel.it/categories/</loc>
-    <lastmod>2023-07-27T11:57:41+02:00</lastmod>
+    <lastmod>2023-08-10T16:31:08+02:00</lastmod>
+  </url><url>
+    <loc>https://www.menzel.it/tags/graphapi/</loc>
+    <lastmod>2023-08-10T16:31:08+02:00</lastmod>
   </url><url>
     <loc>https://www.menzel.it/tags/how-to/</loc>
-    <lastmod>2023-07-27T11:57:41+02:00</lastmod>
-  </url><url>
-    <loc>https://www.menzel.it/categories/microsoft365/</loc>
-    <lastmod>2023-07-27T11:57:41+02:00</lastmod>
+    <lastmod>2023-08-10T16:31:08+02:00</lastmod>
   </url><url>
     <loc>https://www.menzel.it/post/</loc>
+    <lastmod>2023-08-10T16:31:08+02:00</lastmod>
+  </url><url>
+    <loc>https://www.menzel.it/tags/powerapps/</loc>
+    <lastmod>2023-08-10T16:31:08+02:00</lastmod>
+  </url><url>
+    <loc>https://www.menzel.it/categories/powerplattform/</loc>
+    <lastmod>2023-08-10T16:31:08+02:00</lastmod>
+  </url><url>
+    <loc>https://www.menzel.it/tags/search/</loc>
+    <lastmod>2023-08-10T16:31:08+02:00</lastmod>
+  </url><url>
+    <loc>https://www.menzel.it/tags/</loc>
+    <lastmod>2023-08-10T16:31:08+02:00</lastmod>
+  </url><url>
+    <loc>https://www.menzel.it/post/2023/08/powerappssearchgraphapi/</loc>
+    <lastmod>2023-08-10T16:31:08+02:00</lastmod>
+  </url><url>
+    <loc>https://www.menzel.it/categories/microsoft365/</loc>
     <lastmod>2023-07-27T11:57:41+02:00</lastmod>
   </url><url>
     <loc>https://www.menzel.it/post/2023/07/reconnect_pages/</loc>
@@ -27,9 +45,6 @@
     <lastmod>2023-07-27T11:57:41+02:00</lastmod>
   </url><url>
     <loc>https://www.menzel.it/tags/siteowners/</loc>
-    <lastmod>2023-07-27T11:57:41+02:00</lastmod>
-  </url><url>
-    <loc>https://www.menzel.it/tags/</loc>
     <lastmod>2023-07-27T11:57:41+02:00</lastmod>
   </url><url>
     <loc>https://www.menzel.it/post/2023/05/</loc>
