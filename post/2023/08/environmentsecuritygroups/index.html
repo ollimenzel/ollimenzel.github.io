@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='M365 and Power Platform: The Dynamic Duo of Collaboration'>
-<title>Posts</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='In today&amp;rsquo;s rapidly evolving business landscape, collaboration and data-driven decision-making have become paramount. Microsoft&amp;rsquo;s Power Platform empowers organizations to create custom apps, automate workflows, and derive insights from data, all without requiring extensive coding skills. As businesses strive for greater efficiency and agility, the need to collaborate seamlessly within a secure environment has become crucial. One effective way to achieve this is by sharing Power Platform environments with security groups.'>
+<meta name="keywords" content="How-to, Power Platform, Security"><title>Simplifying Collaboration: Sharing Power Platform Environments with Security Groups</title>
 
-<link rel='canonical' href='https://www.menzel.it/post/'>
+<link rel='canonical' href='https://www.menzel.it/post/2023/08/environmentsecuritygroups/'>
 
 <link rel="stylesheet" href="/scss/style.min.ff300df33b80e2ac49809c825614392ed1c7b27591d65d3c4043602cd162e25f.css"><script type="text/javascript">
     !function (v, y, T) { var S = v.location, k = "script", D = "instrumentationKey", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = (D[b](), "crossOrigin"), N = "POST", e = "appInsightsSDK", t = T.name || "appInsights", n = ((T.name || v[e]) && (v[e] = t), v[t] || function (l) { var u = !1, d = !1, g = { initialize: !0, queue: [], sv: "6", version: 2, config: l }; function m(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (g.sv || g.version), { time: (a = new Date).getUTCFullYear() + "-" + i(1 + a.getUTCMonth()) + "-" + i(a.getUTCDate()) + "T" + i(a.getUTCHours()) + ":" + i(a.getUTCMinutes()) + ":" + i(a.getUTCSeconds()) + "." + (a.getUTCMilliseconds() / 1e3).toFixed(3).slice(2, 5) + "Z", iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } }; function i(e) { e = "" + e; return 1 === e.length ? "0" + e : e } } var e, n, f = l.url || T.src; function a(e) { var t, n, a, i, o, s, r, c, p; u = !0, g.queue = [], d || (d = !0, i = f, r = (c = function () { var e, t = {}, n = l.connectionString; if (n) for (var a = n.split(";"), i = 0; i < a.length; i++) { var o = a[i].split("="); 2 === o.length && (t[o[0][b]()] = o[1]) } return t[C] || (t[C] = "https://" + ((e = (n = t.endpointsuffix) ? t.location : null) ? e + "." : "") + "dc." + (n || "services.visualstudio.com")), t }()).instrumentationkey || l[D] || "", c = (c = c[C]) ? c + "/v2/track" : l.endpointUrl, (p = []).push((t = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", n = i, o = c, (s = (a = m(r, "Exception")).data).baseType = "ExceptionData", s.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: t.replace(/\./g, "-"), hasFullStack: !1, stack: t + "\nSnippet failed to load [" + n + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + o, parsedStack: [] }], a)), p.push((s = i, t = c, (o = (n = m(r, "Message")).data).baseType = "MessageData", (a = o.baseData).message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + s + ")").replace(/\"/g, "") + '"', a.properties = { endpoint: t }, n)), i = p, r = c, JSON && ((o = v.fetch) && !T.useXhr ? o(r, { method: N, body: JSON.stringify(i), mode: "cors" }) : XMLHttpRequest && ((s = new XMLHttpRequest).open(N, r), s.setRequestHeader("Content-type", "application/json"), s.send(JSON.stringify(i))))) } function i(e, t) { d || setTimeout(function () { !t && g.core || a() }, 500) } f && ((n = y.createElement(k)).src = f, !(o = T[w]) && "" !== o || "undefined" == n[w] || (n[w] = o), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, e = n, T.ld < 0 ? y.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { y.getElementsByTagName(k)[0].parentNode.appendChild(e) }, T.ld || 0)); try { g.cookie = y.cookie } catch (h) { } function t(e) { for (; e.length;)!function (t) { g[t] = function () { var e = arguments; u || g.queue.push(function () { g[t].apply(g, e) }) } }(e.pop()) } var s, r, o = "track", c = "TrackPage", p = "TrackEvent", o = (t([o + "Event", o + "PageView", o + "Exception", o + "Trace", o + "DependencyData", o + "Metric", o + "PageViewPerformance", "start" + c, "stop" + c, "start" + p, "stop" + p, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), g.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }, (l.extensionConfig || {}).ApplicationInsightsAnalytics || {}); return !0 !== l[I] && !0 !== o[I] && (t(["_" + (s = "onerror")]), r = v[s], v[s] = function (e, t, n, a, i) { var o = r && r(e, t, n, a, i); return !0 !== o && g["_" + s]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i, evt: v.event }), o }, l.autoExceptionInstrumented = !0), g }(T.cfg)); function a() { T.onInit && T.onInit(n) } (v[t] = n).queue && 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
@@ -18,15 +18,18 @@
             connectionString: "InstrumentationKey=6785227e-bcfd-4207-bbe0-5a9b3cbe22a8;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/"
         }
     });
-</script><meta property='og:title' content='Posts'>
-<meta property='og:description' content='M365 and Power Platform: The Dynamic Duo of Collaboration'>
-<meta property='og:url' content='https://www.menzel.it/post/'>
+</script><meta property='og:title' content='Simplifying Collaboration: Sharing Power Platform Environments with Security Groups'>
+<meta property='og:description' content='In today&amp;rsquo;s rapidly evolving business landscape, collaboration and data-driven decision-making have become paramount. Microsoft&amp;rsquo;s Power Platform empowers organizations to create custom apps, automate workflows, and derive insights from data, all without requiring extensive coding skills. As businesses strive for greater efficiency and agility, the need to collaborate seamlessly within a secure environment has become crucial. One effective way to achieve this is by sharing Power Platform environments with security groups.'>
+<meta property='og:url' content='https://www.menzel.it/post/2023/08/environmentsecuritygroups/'>
 <meta property='og:site_name' content='Menzel.IT'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2023-08-21T11:37:23&#43;02:00 '/>
-<meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="M365 and Power Platform: The Dynamic Duo of Collaboration"><link rel="alternate" type="application/rss&#43;xml" href="https://www.menzel.it/post/index.xml">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='How-to' /><meta property='article:tag' content='Power Platform' /><meta property='article:tag' content='Security' /><meta property='article:published_time' content='2023-08-21T11:37:23&#43;02:00'/><meta property='article:modified_time' content='2023-08-21T11:37:23&#43;02:00'/><meta property='og:image' content='https://www.menzel.it/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.png' />
+<meta name="twitter:title" content="Simplifying Collaboration: Sharing Power Platform Environments with Security Groups">
+<meta name="twitter:description" content="In today&amp;rsquo;s rapidly evolving business landscape, collaboration and data-driven decision-making have become paramount. Microsoft&amp;rsquo;s Power Platform empowers organizations to create custom apps, automate workflows, and derive insights from data, all without requiring extensive coding skills. As businesses strive for greater efficiency and agility, the need to collaborate seamlessly within a secure environment has become crucial. One effective way to achieve this is by sharing Power Platform environments with security groups."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://www.menzel.it/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.png' />
     </head>
-    <body class="">
+    <body class="
+    article-page
+    ">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -271,183 +274,191 @@
     </ol>
 </aside>
 
-    <aside class="sidebar right-sidebar sticky">
-        
-            
-                <form action="/page/search/" class="search-form widget" >
-        <p>
-            <label>Search</label>
-            <input name="keyword" required placeholder="Type something..." />
-        
-            <button title="Search">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
+    
 
-
-
-            </button>
-        </p>
-    </form>
-            
-        
-            
-                <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
-</svg>
-
-
-
-        </div>
-        <h2 class="widget-title section-title">Archives</h2>
-
-        
-        
-        
-        
-        
-        <div class="widget-archive--list">
-            <div class="archives-year">
-                    <a href="/page/archives/#2023">
-                        
-                            <span class="year">2023</span>
-                            <span class="count">5</span>
-                        
-                    </a> 
-                </div>
-            
-        </div>
-    </section>
-            
-        
-            
-                <section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-    </div>
-    <h2 class="widget-title section-title">Categories</h2>
-
-    <div class="tagCloud-tags">
-        
-            <a href="/categories/microsoft365/" class="font_size_3">
-                Microsoft365
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/2023/08/environmentsecuritygroups/">
+                <img src="/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2_hud6ea2a34c0340bef7f9049ba72ad4486_1269955_800x0_resize_box_3.png"
+                        srcset="/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2_hud6ea2a34c0340bef7f9049ba72ad4486_1269955_800x0_resize_box_3.png 800w, /post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2_hud6ea2a34c0340bef7f9049ba72ad4486_1269955_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="419" 
+                        loading="lazy"
+                        alt="Featured image of post Simplifying Collaboration: Sharing Power Platform Environments with Security Groups" />
+                
             </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
         
-            <a href="/categories/powerplattform/" class="font_size_2">
+            <a href="/categories/powerplattform/" >
                 PowerPlattform
             </a>
         
-    </div>
-</section>
+    </header>
+    
 
-            
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/2023/08/environmentsecuritygroups/">Simplifying Collaboration: Sharing Power Platform Environments with Security Groups</a>
+        </h2>
+    
         
-            
-                <section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 21, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
 </svg>
 
 
 
-    </div>
-    <h2 class="widget-title section-title">Tags</h2>
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
 
-    <div class="tagCloud-tags">
-        
-            <a href="/tags/how-to/" class="font_size_5">
-                How-to
-            </a>
-        
-            <a href="/tags/sharepoint/" class="font_size_3">
-                SharePoint
-            </a>
-        
-            <a href="/tags/siteowners/" class="font_size_2">
-                SiteOwners
-            </a>
-        
-            <a href="/tags/graphapi/" class="font_size_1">
-                GraphAPI
-            </a>
-        
-            <a href="/tags/onedrive/" class="font_size_1">
-                OneDrive
-            </a>
-        
-            <a href="/tags/power-platform/" class="font_size_1">
-                Power Platform
-            </a>
-        
-            <a href="/tags/powerapps/" class="font_size_1">
-                PowerApps
-            </a>
-        
-            <a href="/tags/search/" class="font_size_1">
-                Search
-            </a>
-        
-            <a href="/tags/security/" class="font_size_1">
-                Security
-            </a>
-        
-    </div>
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>In today&rsquo;s rapidly evolving business landscape, collaboration and data-driven decision-making have become paramount. Microsoft&rsquo;s Power Platform empowers organizations to create custom apps, automate workflows, and derive insights from data, all without requiring extensive coding skills. As businesses strive for greater efficiency and agility, the need to collaborate seamlessly within a secure environment has become crucial. One effective way to achieve this is by sharing Power Platform environments with security groups.</p>
+<h2 id="sharing-power-platform-environments-with-security-groups">Sharing Power Platform Environments with Security Groups</h2>
+<p>Sharing a Power Platform environment with a security group is a strategic approach that streamlines collaboration and enhances security. By associating users with specific security groups, administrators can ensure that the right people have access to the right resources, eliminating the complexities of individual user management. Here&rsquo;s a step-by-step guide to sharing a Power Platform environment with a security group:</p>
+<h3 id="step-1-set-up-security-groups">Step 1: Set Up Security Groups</h3>
+<p>Before sharing your Power Platform environment, establish security groups within your organization&rsquo;s Entra ID (aka Azure Active Directory (AAD)). These groups can be based on roles, departments, projects, or any other relevant criteria. This step ensures that you can easily manage access permissions for a group of users instead of dealing with each user individually.</p>
+<h3 id="step-2-access-environment-settings">Step 2: Access Environment Settings</h3>
+<p>Within the Power Platform admin center, navigate to the environment you want to share. Open the environment settings, where you&rsquo;ll find the &ldquo;Access control&rdquo; section.
+<!-- raw HTML omitted --></p>
+<h3 id="step-3-add-security-groups">Step 3: Add Security Groups</h3>
+<p>In the &ldquo;Access control&rdquo; section, you&rsquo;ll see an Teams options to add security groups. There click on Create team.
+<!-- raw HTML omitted -->
+Select the Team Type &ldquo;Microsoft Entra Identity Security Group&rdquo; security group(s) you want to grant access to. This will grant all members of the security group access to the environment without the need for separate invitations.
+There you can also select the <strong>Membership type</strong> for the security group. This defines which part of your (Security) Group will get access.
+The access levels are:</p>
+<ul>
+<li>Members and guests</li>
+<li>Members</li>
+<li>Owners</li>
+<li>Guests
+Fill out the other fields and click on Next.</li>
+</ul>
+<h3 id="step-4-manage-security-roles">Step 4: Manage Security roles</h3>
+<p>Power Platform provides various access levels, such as System Admin, Environment Maker, etc. Choose the appropriate access level for the security group members based on their responsibilities and requirements.
+<!-- raw HTML omitted --></p>
+<h3 id="step-5-save-changes">Step 5: Save Changes</h3>
+<p>After configuring the access settings, make sure to save your changes. The security group members will now be able to collaborate within the shared environment based on their assigned access levels.</p>
+<h2 id="benefits-of-sharing-with-security-groups">Benefits of Sharing with Security Groups</h2>
+<h3 id="1-streamlined-collaboration">1. <strong>Streamlined Collaboration</strong></h3>
+<p>By sharing environments with security groups, organizations can optimize their resource allocation. Access to apps, data, and workflows can be controlled at a granular level, ensuring that users only have access to the resources they need. This reduces the risk of unauthorized data access or unintended modifications.</p>
+<h3 id="3-enhanced-security">3. <strong>Enhanced Security</strong></h3>
+<p>Security is a top priority in any digital workspace. Sharing environments with security groups enforces consistent access controls, reducing the chances of data breaches or unauthorized system changes. When a user&rsquo;s role changes or they leave the organization, their access can be easily revoked by adjusting their security group membership.</p>
+<h3 id="4-scalability-and-flexibility">4. <strong>Scalability and Flexibility</strong></h3>
+<p>As organizations grow and evolve, their collaboration needs change as well. Sharing with security groups offers scalability and flexibility. New members can be added to security groups, granting them instant access to the appropriate resources. Additionally, security group memberships can be adjusted dynamically to accommodate changing team compositions.</p>
+<h3 id="5-simplified-administration">5. <strong>Simplified Administration</strong></h3>
+<p>Managing permissions for each user individually can be a time-consuming task. Sharing with security groups streamlines administration, as access settings are applied collectively to all group members. This frees up administrators to focus on more strategic tasks.</p>
+<p>In conclusion, sharing a Power Platform environment with security groups is a smart strategy for enhancing collaboration, security, and efficiency. By leveraging this approach, organizations can streamline user management, optimize resource allocation, and foster a secure and productive digital workspace. As businesses continue to adapt to the demands of modern work, embracing collaborative solutions like Power Platform and security group sharing is a key step toward success.</p>
+
 </section>
-            
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
         
-    </aside>
+            <a href="/tags/how-to/">How-to</a>
+        
+            <a href="/tags/power-platform/">Power Platform</a>
+        
+            <a href="/tags/security/">Security</a>
+        
+    </section>
 
 
-            <main class="main full-width">
-    <header>
-        <h3 class="section-title">
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
             
-                Section
-            
-        </h3>
-
-        <div class="section-card">
-            <div class="section-details">
-                <h3 class="section-count">1 page</h3>
-                <h1 class="section-term">Posts</h1>
+                
+<article class="has-image">
+    <a href="/post/2023/08/powerappssearchgraphapi/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2023/08/powerappssearchgraphapi/Article-Image.484291a353f7bf2005843227b37ec4ed_hu74736329785e2436b8b83e4f5d265e4e_297929_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest"
+                        data-key="PowerAppsSearchGraphAPI" 
+                        data-hash="md5-SEKRo1P3vyAFhDIns37E7Q==">
                 
             </div>
-        </div>
-    </header>
         
-    
-    <section class="article-list--compact">
-        
-            <article>
-    <a href="/post/2023/">
+
         <div class="article-details">
-            <h2 class="article-title">2023</h2>
-            <footer class="article-time">
-                <time datetime='2023-08-21T11:37:23&#43;02:00'>Aug 21, 2023</time>
-            </footer>
+            <h2 class="article-title">Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest</h2>
         </div>
     </a>
 </article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
         
-    </section>
-<footer class="site-footer">
+    
+
+    <footer class="site-footer">
     <section class="copyright">
         &copy; 
         
@@ -462,6 +473,84 @@
     </section>
 </footer>
 
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
 
             </main>
         </div>
