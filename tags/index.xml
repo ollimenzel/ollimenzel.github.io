@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on Menzel.IT</title>
+        <title>Tags on My M365 Insights</title>
         <link>https://www.menzel.it/tags/</link>
-        <description>Recent content in Tags on Menzel.IT</description>
+        <description>Recent content in Tags on My M365 Insights</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 21 Aug 2023 11:37:23 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>How-to</title>
-        <link>https://www.menzel.it/tags/how-to/</link>
-        <pubDate>Mon, 21 Aug 2023 11:37:23 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/how-to/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Power Platform</title>
-        <link>https://www.menzel.it/tags/power-platform/</link>
-        <pubDate>Mon, 21 Aug 2023 11:37:23 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/power-platform/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Security</title>
-        <link>https://www.menzel.it/tags/security/</link>
-        <pubDate>Mon, 21 Aug 2023 11:37:23 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/security/</guid>
-        <description></description>
-        </item>
-        <item>
+        <lastBuildDate>Thu, 10 Aug 2023 16:31:08 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>GraphAPI</title>
         <link>https://www.menzel.it/tags/graphapi/</link>
         <pubDate>Thu, 10 Aug 2023 16:31:08 +0200</pubDate>
         
         <guid>https://www.menzel.it/tags/graphapi/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>How-to</title>
+        <link>https://www.menzel.it/tags/how-to/</link>
+        <pubDate>Thu, 10 Aug 2023 16:31:08 +0200</pubDate>
+        
+        <guid>https://www.menzel.it/tags/how-to/</guid>
         <description></description>
         </item>
         <item>
