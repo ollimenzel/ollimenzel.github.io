@@ -6,7 +6,229 @@
         <description>Recent content in PowerPlattform on My M365 Insights</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 21 Aug 2023 11:37:23 +0200</lastBuildDate><atom:link href="https://www.menzel.it/categories/powerplattform/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 27 Sep 2023 15:56:44 +0200</lastBuildDate><atom:link href="https://www.menzel.it/categories/powerplattform/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to create a Custom connector for OpenAI in PowerApps</title>
+        <link>https://www.menzel.it/post/2023/09/customconnectoropenai/</link>
+        <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
+        
+        <guid>https://www.menzel.it/post/2023/09/customconnectoropenai/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/09/customconnectoropenai/Blog_custom-connector.jpeg" alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps" /&gt;&lt;p&gt;Hi everyone,&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m super excited to share with you a new way to use OpenAI&amp;rsquo;s powerful natural language processing (NLP) capabilities in your PowerApps. In this blog post, I&amp;rsquo;ll show you how to set up a custom connector for OpenAI and how to test it in a canvas app. I&amp;rsquo;ll also give you a brief overview of how to sign up for the OpenAI API, which is currently in beta.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-openai-and-why-use-it-in-powerapps&#34;&gt;What is OpenAI and why use it in PowerApps?&lt;/h2&gt;
+&lt;p&gt;OpenAI is a research organization that aims to create artificial intelligence (AI). They have developed a general-purpose NLP system called GPT-3/ GPT-4, which can generate coherent and relevant text for a wide range of tasks, such as answering questions, writing summaries, creating content, and more.&lt;/p&gt;
+&lt;p&gt;By using OpenAI in PowerApps, you can leverage the power of GPT-3 to enhance your apps with natural language features, such as chatbots, text analysis, content generation, and more. You can also use OpenAI to create dynamic and engaging user experiences that are tailored to your specific needs and goals.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-sign-up-for-the-openai-api&#34;&gt;How to sign up for the OpenAI API?&lt;/h2&gt;
+&lt;p&gt;To sign up for the OpenAI API, follow these steps:&lt;/p&gt;
+&lt;p&gt;Sign up to the official OpenAI platform &lt;a class=&#34;link&#34; href=&#34;https://platform.openai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://platform.openai.com/&lt;/a&gt;.
+Once you’re logged in, navigate to the Personal tab in the top-right section.
+Select the View API Keys option from the dropdown.
+On the API keys page, click on the Create new secret key button. Remember to store the key somewhere safe as you won’t be able to view it again.
+The ChatGPT API allows developers to integrate ChatGPT into their own applications. It’s important to note that the API has its own pricing, which you can find at &lt;a class=&#34;link&#34; href=&#34;https://openai.com/pricing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OpenAI Pricing&lt;/a&gt;. The ChatGPT API is not included in the ChatGPT Plus subscription and is billed separately.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-set-up-a-custom-connector-for-openai&#34;&gt;How to set up a custom connector for OpenAI?&lt;/h2&gt;
+&lt;p&gt;Once you have your API key, you can set up a custom connector for OpenAI in PowerApps. A custom connector is a way to connect your app to any web service that has a RESTful API. You can use custom connectors to access data and actions that are not available in the standard connectors.&lt;/p&gt;
+&lt;p&gt;To set up a custom connector for OpenAI, follow these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;a class=&#34;link&#34; href=&#34;https://make.powerapps.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://make.powerapps.com/&lt;/a&gt; and sign in with your Microsoft account.&lt;/li&gt;
+&lt;li&gt;In the left navigation pane, click on Custom connectors.
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;Click on New custom connector &amp;gt; Create from blank.
+&lt;!-- raw HTML omitted --&gt;
+Enter a name for your connector, such as &amp;ldquo;ChatGPT&amp;rdquo;, and click Continue.
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;In the General tab, enter the following information:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Description: A brief description of your connector, such as &amp;ldquo;A custom connector for OpenAI&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Host: The base URL of the OpenAI API, which is &amp;ldquo;api.openai.com&amp;rdquo;.
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Click on Security&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Authentication type: Select &amp;ldquo;API Key&amp;rdquo; from the drop-down menu.&lt;/li&gt;
+&lt;li&gt;Parameter label: The name of the parameter that holds your API key, such as &amp;ldquo;API Key&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Parameter name: The name of the header that holds your API key, which is &amp;ldquo;Authorization&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Parameter location: Select &amp;ldquo;Header&amp;rdquo; from the drop-down menu.
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Click on Definition &amp;gt; New action and enter the following information:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Summary: A brief summary of what the action does, such as &amp;ldquo;Generate text using OpenAI&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Description: A detailed description of what the action does, such as &amp;ldquo;Generates text using OpenAI&amp;rsquo;s GPT-3 engine based on a given prompt and parameters&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Operation ID: A unique identifier for the action, such as &amp;ldquo;GenerateText&amp;rdquo;.
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;Click on Request &amp;gt; Import from sample and enter the following information:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Verb: Select &amp;ldquo;POST&amp;rdquo; from the drop-down menu.&lt;/li&gt;
+&lt;li&gt;URL: The endpoint of the OpenAI API that you want to use, which is &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://api.openai.com/v1/chat/completions%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://api.openai.com/v1/chat/completions&#34;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Headers: Leave this blank.&lt;/li&gt;
+&lt;li&gt;Body: A sample JSON body that contains the parameters for the text generation, such as:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;model&amp;#34;: &amp;#34;gpt-3.5-turbo&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;messages&amp;#34;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;role&amp;#34;: &amp;#34;user&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;content&amp;#34;: &amp;#34;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  ],
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;temperature&amp;#34;: 1,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;max_tokens&amp;#34;: 256,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;top_p&amp;#34;: 1,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;frequency_penalty&amp;#34;: 0,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;presence_penalty&amp;#34;: 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;Click on Import and then on Update connector.&lt;/li&gt;
+&lt;li&gt;Click on Test &amp;gt; New connection and create a new connection for your connector. Enter your API key in the format &amp;ldquo;Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;rdquo; (replace the x&amp;rsquo;s with your actual key).&lt;/li&gt;
+&lt;li&gt;Enter a sample prompt and parameters in the Request body and click on Test operation.&lt;/li&gt;
+&lt;li&gt;You should see a response that contains the generated text in the Response body.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;model: The ChatGPT model that you want to use, such as &amp;ldquo;gpt-3.5-turbo&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;role: The role of the user, such as &amp;ldquo;system&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;content: The prompt that you want to use, such as &amp;ldquo;Hello! How can I assist you today?&amp;rdquo;.
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;13&#34;&gt;
+&lt;li&gt;Now copy the response body ,e.g.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;id&amp;#34;: &amp;#34;chatcmpl-83NuxzGRcPdDnA8eHFzYKTZc7ctSK&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;object&amp;#34;: &amp;#34;chat.completion&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;created&amp;#34;: 1695817615,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;model&amp;#34;: &amp;#34;gpt-3.5-turbo-16k-0613&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;choices&amp;#34;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;index&amp;#34;: 0,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;message&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;role&amp;#34;: &amp;#34;assistant&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;content&amp;#34;: &amp;#34;Hello! How can I assist you today?&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      },
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;finish_reason&amp;#34;: &amp;#34;stop&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  ],
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;usage&amp;#34;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;prompt_tokens&amp;#34;: 9,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;completion_tokens&amp;#34;: 9,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;total_tokens&amp;#34;: 18
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;and go to the Definition tab. In the Response section, click on Add default response and click on &amp;ldquo;Import from Sample&amp;rdquo;. Enter the copied response body and click Import. This will bring the response body into the connector definition, which will allow you to use it in your app.
+&lt;!-- raw HTML omitted --&gt;
+14. Please update your connector and you are ready to go.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-test-the-custom-connector-in-a-canvas-app&#34;&gt;How to test the custom connector in a canvas app?&lt;/h2&gt;
+&lt;p&gt;Now that you have set up your custom connector, you can test it in a canvas app. A canvas app is a type of app that you can build in PowerApps using a drag-and-drop interface. You can use canvas apps to create interactive and user-friendly apps that can run on any device.&lt;/p&gt;
+&lt;p&gt;To test the custom connector in a canvas app, follow these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;a class=&#34;link&#34; href=&#34;https://make.powerapps.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://make.powerapps.com/&lt;/a&gt; and sign in with your Microsoft account.&lt;/li&gt;
+&lt;li&gt;In the left navigation pane, click on Apps &amp;gt; + New app &amp;gt; Canvas.&lt;/li&gt;
+&lt;li&gt;Choose a layout for your app, such as Tablet.&lt;/li&gt;
+&lt;li&gt;In the Insert tab, click on Text &amp;gt; Label and add a label to your app.&lt;/li&gt;
+&lt;li&gt;In the Properties tab, change the Text property of the label to the variable Name (e.g. Response).&lt;/li&gt;
+&lt;li&gt;In the Insert tab, click on Text &amp;gt; Text input and add a text input to your app.&lt;/li&gt;
+&lt;li&gt;In the Properties tab, change the Hint text property of the text input to &amp;ldquo;Enter your prompt here&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;In the Insert tab, click on Button and add a button to your app.&lt;/li&gt;
+&lt;li&gt;In the Properties tab, change the Text property of the button to &amp;ldquo;Generate&amp;rdquo;.
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;In the Advanced tab, click on OnSelect and enter the following formula:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Set(
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Response,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ChatGPT.ChatGPT(
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            model: &amp;#34;gpt-3.5-turbo&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            messages: {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                role: &amp;#34;system&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                content: txt_search.Text
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    )
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;Now you can test the App by entering a prompt in the text input and clicking on the button. The generated text will be displayed in the label.
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>Simplifying Collaboration: Sharing Power Platform Environments with Security Groups</title>
         <link>https://www.menzel.it/post/2023/08/environmentsecuritygroups/</link>
         <pubDate>Mon, 21 Aug 2023 11:37:23 +0200</pubDate>

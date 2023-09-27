@@ -6,10 +6,18 @@
         <description>Recent content in Categories on My M365 Insights</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 21 Aug 2023 11:37:23 +0200</lastBuildDate><atom:link href="https://www.menzel.it/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 27 Sep 2023 15:56:44 +0200</lastBuildDate><atom:link href="https://www.menzel.it/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI</title>
+        <link>https://www.menzel.it/categories/ai/</link>
+        <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
+        
+        <guid>https://www.menzel.it/categories/ai/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>PowerPlattform</title>
         <link>https://www.menzel.it/categories/powerplattform/</link>
-        <pubDate>Mon, 21 Aug 2023 11:37:23 +0200</pubDate>
+        <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
         
         <guid>https://www.menzel.it/categories/powerplattform/</guid>
         <description></description>

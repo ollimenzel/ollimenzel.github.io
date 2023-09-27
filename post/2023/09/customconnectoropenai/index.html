@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Hi everyone,
+I&amp;rsquo;m super excited to share with you a new way to use OpenAI&amp;rsquo;s powerful natural language processing (NLP) capabilities in your PowerApps. In this blog post, I&amp;rsquo;ll show you how to set up a custom connector for OpenAI and how to test it in a canvas app. I&amp;rsquo;ll also give you a brief overview of how to sign up for the OpenAI API, which is currently in beta.'>
+<meta name="keywords" content="How-to, PowerApps, ChatGPT"><title>How to create a Custom connector for OpenAI in PowerApps</title>
+
+<link rel='canonical' href='https://www.menzel.it/post/2023/09/customconnectoropenai/'>
+
+<link rel="stylesheet" href="/scss/style.min.ff300df33b80e2ac49809c825614392ed1c7b27591d65d3c4043602cd162e25f.css"><script type="text/javascript">
+    !function (v, y, T) { var S = v.location, k = "script", D = "instrumentationKey", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = (D[b](), "crossOrigin"), N = "POST", e = "appInsightsSDK", t = T.name || "appInsights", n = ((T.name || v[e]) && (v[e] = t), v[t] || function (l) { var u = !1, d = !1, g = { initialize: !0, queue: [], sv: "6", version: 2, config: l }; function m(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (g.sv || g.version), { time: (a = new Date).getUTCFullYear() + "-" + i(1 + a.getUTCMonth()) + "-" + i(a.getUTCDate()) + "T" + i(a.getUTCHours()) + ":" + i(a.getUTCMinutes()) + ":" + i(a.getUTCSeconds()) + "." + (a.getUTCMilliseconds() / 1e3).toFixed(3).slice(2, 5) + "Z", iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } }; function i(e) { e = "" + e; return 1 === e.length ? "0" + e : e } } var e, n, f = l.url || T.src; function a(e) { var t, n, a, i, o, s, r, c, p; u = !0, g.queue = [], d || (d = !0, i = f, r = (c = function () { var e, t = {}, n = l.connectionString; if (n) for (var a = n.split(";"), i = 0; i < a.length; i++) { var o = a[i].split("="); 2 === o.length && (t[o[0][b]()] = o[1]) } return t[C] || (t[C] = "https://" + ((e = (n = t.endpointsuffix) ? t.location : null) ? e + "." : "") + "dc." + (n || "services.visualstudio.com")), t }()).instrumentationkey || l[D] || "", c = (c = c[C]) ? c + "/v2/track" : l.endpointUrl, (p = []).push((t = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", n = i, o = c, (s = (a = m(r, "Exception")).data).baseType = "ExceptionData", s.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: t.replace(/\./g, "-"), hasFullStack: !1, stack: t + "\nSnippet failed to load [" + n + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + o, parsedStack: [] }], a)), p.push((s = i, t = c, (o = (n = m(r, "Message")).data).baseType = "MessageData", (a = o.baseData).message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + s + ")").replace(/\"/g, "") + '"', a.properties = { endpoint: t }, n)), i = p, r = c, JSON && ((o = v.fetch) && !T.useXhr ? o(r, { method: N, body: JSON.stringify(i), mode: "cors" }) : XMLHttpRequest && ((s = new XMLHttpRequest).open(N, r), s.setRequestHeader("Content-type", "application/json"), s.send(JSON.stringify(i))))) } function i(e, t) { d || setTimeout(function () { !t && g.core || a() }, 500) } f && ((n = y.createElement(k)).src = f, !(o = T[w]) && "" !== o || "undefined" == n[w] || (n[w] = o), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, e = n, T.ld < 0 ? y.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { y.getElementsByTagName(k)[0].parentNode.appendChild(e) }, T.ld || 0)); try { g.cookie = y.cookie } catch (h) { } function t(e) { for (; e.length;)!function (t) { g[t] = function () { var e = arguments; u || g.queue.push(function () { g[t].apply(g, e) }) } }(e.pop()) } var s, r, o = "track", c = "TrackPage", p = "TrackEvent", o = (t([o + "Event", o + "PageView", o + "Exception", o + "Trace", o + "DependencyData", o + "Metric", o + "PageViewPerformance", "start" + c, "stop" + c, "start" + p, "stop" + p, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), g.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }, (l.extensionConfig || {}).ApplicationInsightsAnalytics || {}); return !0 !== l[I] && !0 !== o[I] && (t(["_" + (s = "onerror")]), r = v[s], v[s] = function (e, t, n, a, i) { var o = r && r(e, t, n, a, i); return !0 !== o && g["_" + s]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i, evt: v.event }), o }, l.autoExceptionInstrumented = !0), g }(T.cfg)); function a() { T.onInit && T.onInit(n) } (v[t] = n).queue && 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+        src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js",
+        
+        
+        
+        crossOrigin: "anonymous",
+        
+        cfg: { 
+            connectionString: "InstrumentationKey=6785227e-bcfd-4207-bbe0-5a9b3cbe22a8;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/"
+        }
+    });
+    
+    (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "inws37js4a");
+</script><meta property='og:title' content='How to create a Custom connector for OpenAI in PowerApps'>
+<meta property='og:description' content='Hi everyone,
+I&amp;rsquo;m super excited to share with you a new way to use OpenAI&amp;rsquo;s powerful natural language processing (NLP) capabilities in your PowerApps. In this blog post, I&amp;rsquo;ll show you how to set up a custom connector for OpenAI and how to test it in a canvas app. I&amp;rsquo;ll also give you a brief overview of how to sign up for the OpenAI API, which is currently in beta.'>
+<meta property='og:url' content='https://www.menzel.it/post/2023/09/customconnectoropenai/'>
+<meta property='og:site_name' content='My M365 Insights'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='How-to' /><meta property='article:tag' content='PowerApps' /><meta property='article:published_time' content='2023-09-27T15:56:44&#43;02:00'/><meta property='article:modified_time' content='2023-09-27T15:56:44&#43;02:00'/><meta property='og:image' content='https://www.menzel.it/post/2023/09/customconnectoropenai/Blog_custom-connector.jpeg' />
+<meta name="twitter:title" content="How to create a Custom connector for OpenAI in PowerApps">
+<meta name="twitter:description" content="Hi everyone,
+I&amp;rsquo;m super excited to share with you a new way to use OpenAI&amp;rsquo;s powerful natural language processing (NLP) capabilities in your PowerApps. In this blog post, I&amp;rsquo;ll show you how to set up a custom connector for OpenAI and how to test it in a canvas app. I&amp;rsquo;ll also give you a brief overview of how to sign up for the OpenAI API, which is currently in beta."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://www.menzel.it/post/2023/09/customconnectoropenai/Blog_custom-connector.jpeg' /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="me" href="https://techhub.social/@ollimenzel">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/Me-NinjaCat_hue3e9efae7d2a8bb9e7f14aa7c285132c_461373_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">My M365 Insights</a></h1>
+            <h2 class="site-description">M365 and Power Platform: The Dynamic Duo of Collaboration</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/ollimenzel'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/olivermenzel/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+    <path d="M8 11l0 5" />
+    <path d="M8 8l0 .01" />
+    <path d="M12 16l0 -5" />
+    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/public/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/ollimenzel'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about-me/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About Me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="has-image main-article" data-clarity-region="article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/2023/09/customconnectoropenai/">
+                <img src="/post/2023/09/customconnectoropenai/Blog_custom-connector_hu0f1f440f2b9b7592a7416835c1d006cb_74818_800x0_resize_q75_box.jpeg"
+                        srcset="/post/2023/09/customconnectoropenai/Blog_custom-connector_hu0f1f440f2b9b7592a7416835c1d006cb_74818_800x0_resize_q75_box.jpeg 800w, /post/2023/09/customconnectoropenai/Blog_custom-connector_hu0f1f440f2b9b7592a7416835c1d006cb_74818_1600x0_resize_q75_box.jpeg 1600w"
+                        width="800" 
+                        height="800" 
+                        loading="lazy"
+                        alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/ai/" >
+                AI
+            </a>
+        
+            <a href="/categories/powerplattform/" >
+                PowerPlattform
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/2023/09/customconnectoropenai/">How to create a Custom connector for OpenAI in PowerApps</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 27, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    6 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>Hi everyone,</p>
+<p>I&rsquo;m super excited to share with you a new way to use OpenAI&rsquo;s powerful natural language processing (NLP) capabilities in your PowerApps. In this blog post, I&rsquo;ll show you how to set up a custom connector for OpenAI and how to test it in a canvas app. I&rsquo;ll also give you a brief overview of how to sign up for the OpenAI API, which is currently in beta.</p>
+<h2 id="what-is-openai-and-why-use-it-in-powerapps">What is OpenAI and why use it in PowerApps?</h2>
+<p>OpenAI is a research organization that aims to create artificial intelligence (AI). They have developed a general-purpose NLP system called GPT-3/ GPT-4, which can generate coherent and relevant text for a wide range of tasks, such as answering questions, writing summaries, creating content, and more.</p>
+<p>By using OpenAI in PowerApps, you can leverage the power of GPT-3 to enhance your apps with natural language features, such as chatbots, text analysis, content generation, and more. You can also use OpenAI to create dynamic and engaging user experiences that are tailored to your specific needs and goals.</p>
+<h2 id="how-to-sign-up-for-the-openai-api">How to sign up for the OpenAI API?</h2>
+<p>To sign up for the OpenAI API, follow these steps:</p>
+<p>Sign up to the official OpenAI platform <a class="link" href="https://platform.openai.com/"  target="_blank" rel="noopener"
+    >https://platform.openai.com/</a>.
+Once you’re logged in, navigate to the Personal tab in the top-right section.
+Select the View API Keys option from the dropdown.
+On the API keys page, click on the Create new secret key button. Remember to store the key somewhere safe as you won’t be able to view it again.
+The ChatGPT API allows developers to integrate ChatGPT into their own applications. It’s important to note that the API has its own pricing, which you can find at <a class="link" href="https://openai.com/pricing"  target="_blank" rel="noopener"
+    >OpenAI Pricing</a>. The ChatGPT API is not included in the ChatGPT Plus subscription and is billed separately.</p>
+<h2 id="how-to-set-up-a-custom-connector-for-openai">How to set up a custom connector for OpenAI?</h2>
+<p>Once you have your API key, you can set up a custom connector for OpenAI in PowerApps. A custom connector is a way to connect your app to any web service that has a RESTful API. You can use custom connectors to access data and actions that are not available in the standard connectors.</p>
+<p>To set up a custom connector for OpenAI, follow these steps:</p>
+<ol>
+<li>Go to <a class="link" href="https://make.powerapps.com/"  target="_blank" rel="noopener"
+    >https://make.powerapps.com/</a> and sign in with your Microsoft account.</li>
+<li>In the left navigation pane, click on Custom connectors.
+<!-- raw HTML omitted --></li>
+<li>Click on New custom connector &gt; Create from blank.
+<!-- raw HTML omitted -->
+Enter a name for your connector, such as &ldquo;ChatGPT&rdquo;, and click Continue.
+<!-- raw HTML omitted --></li>
+<li>In the General tab, enter the following information:</li>
+</ol>
+<ul>
+<li>Description: A brief description of your connector, such as &ldquo;A custom connector for OpenAI&rdquo;.</li>
+<li>Host: The base URL of the OpenAI API, which is &ldquo;api.openai.com&rdquo;.
+<!-- raw HTML omitted --></li>
+</ul>
+<ol start="6">
+<li>Click on Security</li>
+</ol>
+<ul>
+<li>Authentication type: Select &ldquo;API Key&rdquo; from the drop-down menu.</li>
+<li>Parameter label: The name of the parameter that holds your API key, such as &ldquo;API Key&rdquo;.</li>
+<li>Parameter name: The name of the header that holds your API key, which is &ldquo;Authorization&rdquo;.</li>
+<li>Parameter location: Select &ldquo;Header&rdquo; from the drop-down menu.
+<!-- raw HTML omitted --></li>
+</ul>
+<ol start="7">
+<li>Click on Definition &gt; New action and enter the following information:</li>
+</ol>
+<ul>
+<li>Summary: A brief summary of what the action does, such as &ldquo;Generate text using OpenAI&rdquo;.</li>
+<li>Description: A detailed description of what the action does, such as &ldquo;Generates text using OpenAI&rsquo;s GPT-3 engine based on a given prompt and parameters&rdquo;.</li>
+<li>Operation ID: A unique identifier for the action, such as &ldquo;GenerateText&rdquo;.
+<!-- raw HTML omitted --></li>
+</ul>
+<ol start="8">
+<li>Click on Request &gt; Import from sample and enter the following information:</li>
+</ol>
+<ul>
+<li>Verb: Select &ldquo;POST&rdquo; from the drop-down menu.</li>
+<li>URL: The endpoint of the OpenAI API that you want to use, which is &ldquo;<a class="link" href="https://api.openai.com/v1/chat/completions%22"  target="_blank" rel="noopener"
+    >https://api.openai.com/v1/chat/completions"</a>.</li>
+<li>Headers: Leave this blank.</li>
+<li>Body: A sample JSON body that contains the parameters for the text generation, such as:</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{
+</span></span><span class="line"><span class="cl">  &#34;model&#34;: &#34;gpt-3.5-turbo&#34;,
+</span></span><span class="line"><span class="cl">  &#34;messages&#34;: [
+</span></span><span class="line"><span class="cl">    {
+</span></span><span class="line"><span class="cl">      &#34;role&#34;: &#34;user&#34;,
+</span></span><span class="line"><span class="cl">      &#34;content&#34;: &#34;&#34;
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">  ],
+</span></span><span class="line"><span class="cl">  &#34;temperature&#34;: 1,
+</span></span><span class="line"><span class="cl">  &#34;max_tokens&#34;: 256,
+</span></span><span class="line"><span class="cl">  &#34;top_p&#34;: 1,
+</span></span><span class="line"><span class="cl">  &#34;frequency_penalty&#34;: 0,
+</span></span><span class="line"><span class="cl">  &#34;presence_penalty&#34;: 0
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><!-- raw HTML omitted -->
+<ol start="9">
+<li>Click on Import and then on Update connector.</li>
+<li>Click on Test &gt; New connection and create a new connection for your connector. Enter your API key in the format &ldquo;Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&rdquo; (replace the x&rsquo;s with your actual key).</li>
+<li>Enter a sample prompt and parameters in the Request body and click on Test operation.</li>
+<li>You should see a response that contains the generated text in the Response body.</li>
+</ol>
+<ul>
+<li>model: The ChatGPT model that you want to use, such as &ldquo;gpt-3.5-turbo&rdquo;.</li>
+<li>role: The role of the user, such as &ldquo;system&rdquo;.</li>
+<li>content: The prompt that you want to use, such as &ldquo;Hello! How can I assist you today?&rdquo;.
+<!-- raw HTML omitted --></li>
+</ul>
+<ol start="13">
+<li>Now copy the response body ,e.g.</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{
+</span></span><span class="line"><span class="cl">  &#34;id&#34;: &#34;chatcmpl-83NuxzGRcPdDnA8eHFzYKTZc7ctSK&#34;,
+</span></span><span class="line"><span class="cl">  &#34;object&#34;: &#34;chat.completion&#34;,
+</span></span><span class="line"><span class="cl">  &#34;created&#34;: 1695817615,
+</span></span><span class="line"><span class="cl">  &#34;model&#34;: &#34;gpt-3.5-turbo-16k-0613&#34;,
+</span></span><span class="line"><span class="cl">  &#34;choices&#34;: [
+</span></span><span class="line"><span class="cl">    {
+</span></span><span class="line"><span class="cl">      &#34;index&#34;: 0,
+</span></span><span class="line"><span class="cl">      &#34;message&#34;: {
+</span></span><span class="line"><span class="cl">        &#34;role&#34;: &#34;assistant&#34;,
+</span></span><span class="line"><span class="cl">        &#34;content&#34;: &#34;Hello! How can I assist you today?&#34;
+</span></span><span class="line"><span class="cl">      },
+</span></span><span class="line"><span class="cl">      &#34;finish_reason&#34;: &#34;stop&#34;
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">  ],
+</span></span><span class="line"><span class="cl">  &#34;usage&#34;: {
+</span></span><span class="line"><span class="cl">    &#34;prompt_tokens&#34;: 9,
+</span></span><span class="line"><span class="cl">    &#34;completion_tokens&#34;: 9,
+</span></span><span class="line"><span class="cl">    &#34;total_tokens&#34;: 18
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>and go to the Definition tab. In the Response section, click on Add default response and click on &ldquo;Import from Sample&rdquo;. Enter the copied response body and click Import. This will bring the response body into the connector definition, which will allow you to use it in your app.
+<!-- raw HTML omitted -->
+14. Please update your connector and you are ready to go.</p>
+<h2 id="how-to-test-the-custom-connector-in-a-canvas-app">How to test the custom connector in a canvas app?</h2>
+<p>Now that you have set up your custom connector, you can test it in a canvas app. A canvas app is a type of app that you can build in PowerApps using a drag-and-drop interface. You can use canvas apps to create interactive and user-friendly apps that can run on any device.</p>
+<p>To test the custom connector in a canvas app, follow these steps:</p>
+<ol>
+<li>Go to <a class="link" href="https://make.powerapps.com/"  target="_blank" rel="noopener"
+    >https://make.powerapps.com/</a> and sign in with your Microsoft account.</li>
+<li>In the left navigation pane, click on Apps &gt; + New app &gt; Canvas.</li>
+<li>Choose a layout for your app, such as Tablet.</li>
+<li>In the Insert tab, click on Text &gt; Label and add a label to your app.</li>
+<li>In the Properties tab, change the Text property of the label to the variable Name (e.g. Response).</li>
+<li>In the Insert tab, click on Text &gt; Text input and add a text input to your app.</li>
+<li>In the Properties tab, change the Hint text property of the text input to &ldquo;Enter your prompt here&rdquo;.</li>
+<li>In the Insert tab, click on Button and add a button to your app.</li>
+<li>In the Properties tab, change the Text property of the button to &ldquo;Generate&rdquo;.
+<!-- raw HTML omitted --></li>
+<li>In the Advanced tab, click on OnSelect and enter the following formula:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Set(
+</span></span><span class="line"><span class="cl">    Response,
+</span></span><span class="line"><span class="cl">    ChatGPT.ChatGPT(
+</span></span><span class="line"><span class="cl">        {
+</span></span><span class="line"><span class="cl">            model: &#34;gpt-3.5-turbo&#34;,
+</span></span><span class="line"><span class="cl">            messages: {
+</span></span><span class="line"><span class="cl">                role: &#34;system&#34;,
+</span></span><span class="line"><span class="cl">                content: txt_search.Text
+</span></span><span class="line"><span class="cl">            }
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">    )
+</span></span><span class="line"><span class="cl">)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="11">
+<li>Now you can test the App by entering a prompt in the text input and clicking on the button. The generated text will be displayed in the label.
+<!-- raw HTML omitted --></li>
+</ol>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/how-to/">How-to</a>
+        
+            <a href="/tags/powerapps/">PowerApps</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/post/2023/08/powerappssearchgraphapi/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2023/08/powerappssearchgraphapi/Article-Image.484291a353f7bf2005843227b37ec4ed_hu74736329785e2436b8b83e4f5d265e4e_297929_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest"
+                        data-key="PowerAppsSearchGraphAPI" 
+                        data-hash="md5-SEKRo1P3vyAFhDIns37E7Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2023/08/environmentsecuritygroups/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.0a02b1c5a01dd59b93c8b5647c5032b3_hud6ea2a34c0340bef7f9049ba72ad4486_1269955_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Simplifying Collaboration: Sharing Power Platform Environments with Security Groups"
+                        data-key="EnvironmentSecurityGroups" 
+                        data-hash="md5-CgKxxaAd1ZuTyLVkfFAysw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Simplifying Collaboration: Sharing Power Platform Environments with Security Groups</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2023 My M365 Insights
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.17.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
