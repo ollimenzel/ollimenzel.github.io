@@ -37,6 +37,7 @@
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <link rel="me" href="https://techhub.social/@ollimenzel">
+<link rel="stylesheet" href="/css/picture-left.css">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
     </head>
@@ -377,10 +378,16 @@
 <p>Before sharing your Power Platform environment, establish security groups within your organization&rsquo;s Entra ID (aka Azure Active Directory (AAD)). These groups can be based on roles, departments, projects, or any other relevant criteria. This step ensures that you can easily manage access permissions for a group of users instead of dealing with each user individually.</p>
 <h3 id="step-2-access-environment-settings">Step 2: Access Environment Settings</h3>
 <p>Within the Power Platform admin center, navigate to the environment you want to share. Open the environment settings, where you&rsquo;ll find the &ldquo;Access control&rdquo; section.
-<!-- raw HTML omitted --></p>
+<figure class="my-float-left"><img src="AdminSettings.png"
+         alt="Admin Settings Page" width="70%"/>
+</figure>
+</p>
 <h3 id="step-3-add-security-groups">Step 3: Add Security Groups</h3>
 <p>In the &ldquo;Access control&rdquo; section, you&rsquo;ll see an Teams options to add security groups. There click on Create team.
-<!-- raw HTML omitted -->
+<figure class="my-float-left"><img src="NewTeam.png"
+         alt="New team form" width="30%"/>
+</figure>
+
 Select the Team Type &ldquo;Microsoft Entra Identity Security Group&rdquo; security group(s) you want to grant access to. This will grant all members of the security group access to the environment without the need for separate invitations.
 There you can also select the <strong>Membership type</strong> for the security group. This defines which part of your (Security) Group will get access.
 The access levels are:</p>
@@ -393,7 +400,10 @@ Fill out the other fields and click on Next.</li>
 </ul>
 <h3 id="step-4-manage-security-roles">Step 4: Manage Security roles</h3>
 <p>Power Platform provides various access levels, such as System Admin, Environment Maker, etc. Choose the appropriate access level for the security group members based on their responsibilities and requirements.
-<!-- raw HTML omitted --></p>
+<figure class="my-float-left"><img src="SecurityRoles.png"
+         alt="Security roles" width="40%"/>
+</figure>
+</p>
 <h3 id="step-5-save-changes">Step 5: Save Changes</h3>
 <p>After configuring the access settings, make sure to save your changes. The security group members will now be able to collaborate within the shared environment based on their assigned access levels.</p>
 <h2 id="benefits-of-sharing-with-security-groups">Benefits of Sharing with Security Groups</h2>

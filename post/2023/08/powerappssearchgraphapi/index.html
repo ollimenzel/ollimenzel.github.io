@@ -40,6 +40,7 @@ Pre-requisites Before we get started, you&amp;rsquo;ll need to activate the prev
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <link rel="me" href="https://techhub.social/@ollimenzel">
+<link rel="stylesheet" href="/css/picture-left.css">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
     </head>
@@ -380,7 +381,10 @@ Pre-requisites Before we get started, you&amp;rsquo;ll need to activate the prev
 <li>Before we get started, you&rsquo;ll need to activate the preview feature &ldquo;ParseJSON function and untyped objects&rdquo; in your PowerApps settings. To do this, go to the Settings menu, browse to Upcoming features, and turn on the setting called ParseJSON function and untyped objects. If this feature is not turned on, the ParseJSON function will not be found in the formula bar.</li>
 <li>You need to add the Office365Groups connector to your PowerApps. To do this, go to the Data menu, and select Office 365 Groups. This will add the connector to your PowerApps.</li>
 </ol>
-<!-- raw HTML omitted -->
+<figure class="my-float-left"><img src="./Office365-Connector.png"
+         alt="Adding Office365 Connector" width="30%"/>
+</figure>
+
 <h2 id="using-office365groupshttprequest">Using Office365Groups.HttpRequest</h2>
 <p>The Office365Groups.HttpRequest allows you to make HTTP requests to external services from within your PowerApps. This can be useful when you want to retrieve data from an external source, such as the Graph API.</p>
 <p>Here&rsquo;s an example of how you might use Office365Groups.HttpRequest to search for a message by its subject:</p>
@@ -606,14 +610,23 @@ The <code>varRequestBody</code> variable is then used to generate a Base64-encod
 </div>
 </div><p>The HTTP request is sent to the Microsoft Graph API&rsquo;s search endpoint (<code>https://graph.microsoft.com/v1.0/search/query</code>) using the <code>Office365Groups.HttpRequest</code> function. The function takes three arguments: the URL of the endpoint, the HTTP method to use (in this case, <code>POST</code>), and the request body to send with the request.
 This whole code can for example be put in a buttons OnSelect property to send the request when the button is clicked.</p>
-<!-- raw HTML omitted -->
+<figure class="my-float-left"><img src="SearchBehindButton.png"
+         alt="Button control with OnSelect code"/>
+</figure>
+
 <h2 id="showing-the-results-in-a-gallery">Showing the Results in a Gallery</h2>
 <p>Once we&rsquo;ve made our HTTP request and retrieved the result, we can use a gallery to display the results. To do this, we&rsquo;ll need to insert a gallery control to our App and set the <code>Items</code> property of the gallery to the following. To be able to work with those results, we need to get the resonse body from the HTTP request. This is done by doing one of the following:</p>
 <ul>
 <li>Make the same call in the Graph Explorer and exam the response body from there
-<!-- raw HTML omitted --></li>
+<figure class="my-float-left"><img src="Graph-Explorer.png"
+             alt="Picture of the Graph Explorer" width="60%"/>
+    </figure>
+</li>
 <li>In PowerApps start the App - Monitor to get the response body from there
-<!-- raw HTML omitted --></li>
+<figure class="my-float-left"><img src="Monitor.png"
+             alt="Advanced Tools with PowerApp Monitor" width="30%"/>
+    </figure>
+</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">

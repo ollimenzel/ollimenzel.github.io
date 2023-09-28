@@ -19,10 +19,16 @@
 &lt;p&gt;Before sharing your Power Platform environment, establish security groups within your organization&amp;rsquo;s Entra ID (aka Azure Active Directory (AAD)). These groups can be based on roles, departments, projects, or any other relevant criteria. This step ensures that you can easily manage access permissions for a group of users instead of dealing with each user individually.&lt;/p&gt;
 &lt;h3 id=&#34;step-2-access-environment-settings&#34;&gt;Step 2: Access Environment Settings&lt;/h3&gt;
 &lt;p&gt;Within the Power Platform admin center, navigate to the environment you want to share. Open the environment settings, where you&amp;rsquo;ll find the &amp;ldquo;Access control&amp;rdquo; section.
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;figure class=&#34;my-float-left&#34;&gt;&lt;img src=&#34;AdminSettings.png&#34;
+         alt=&#34;Admin Settings Page&#34; width=&#34;70%&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;step-3-add-security-groups&#34;&gt;Step 3: Add Security Groups&lt;/h3&gt;
 &lt;p&gt;In the &amp;ldquo;Access control&amp;rdquo; section, you&amp;rsquo;ll see an Teams options to add security groups. There click on Create team.
-&lt;!-- raw HTML omitted --&gt;
+&lt;figure class=&#34;my-float-left&#34;&gt;&lt;img src=&#34;NewTeam.png&#34;
+         alt=&#34;New team form&#34; width=&#34;30%&#34;/&gt;
+&lt;/figure&gt;
+
 Select the Team Type &amp;ldquo;Microsoft Entra Identity Security Group&amp;rdquo; security group(s) you want to grant access to. This will grant all members of the security group access to the environment without the need for separate invitations.
 There you can also select the &lt;strong&gt;Membership type&lt;/strong&gt; for the security group. This defines which part of your (Security) Group will get access.
 The access levels are:&lt;/p&gt;
@@ -35,7 +41,10 @@ Fill out the other fields and click on Next.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;step-4-manage-security-roles&#34;&gt;Step 4: Manage Security roles&lt;/h3&gt;
 &lt;p&gt;Power Platform provides various access levels, such as System Admin, Environment Maker, etc. Choose the appropriate access level for the security group members based on their responsibilities and requirements.
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;figure class=&#34;my-float-left&#34;&gt;&lt;img src=&#34;SecurityRoles.png&#34;
+         alt=&#34;Security roles&#34; width=&#34;40%&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;step-5-save-changes&#34;&gt;Step 5: Save Changes&lt;/h3&gt;
 &lt;p&gt;After configuring the access settings, make sure to save your changes. The security group members will now be able to collaborate within the shared environment based on their assigned access levels.&lt;/p&gt;
 &lt;h2 id=&#34;benefits-of-sharing-with-security-groups&#34;&gt;Benefits of Sharing with Security Groups&lt;/h2&gt;

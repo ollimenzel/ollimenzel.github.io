@@ -40,6 +40,7 @@ What is OpenAI and why use it in PowerApps?"><meta name="twitter:card" content="
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <link rel="me" href="https://techhub.social/@ollimenzel">
+<link rel="stylesheet" href="/css/picture-left.css">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
     </head>
@@ -397,17 +398,29 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 <li>Go to <a class="link" href="https://make.powerapps.com/"  target="_blank" rel="noopener"
     >https://make.powerapps.com/</a> and sign in with your Microsoft account.</li>
 <li>In the left navigation pane, click on Custom connectors.
-<!-- raw HTML omitted --></li>
+<figure class="my-float-left"><img src="SCR-20230927-offd.png"
+         alt="Custom connector" width="20%"/>
+</figure>
+</li>
 <li>Click on New custom connector &gt; Create from blank.
-<!-- raw HTML omitted -->
+<figure class="my-float-left"><img src="SCR-20230927-pkic.png"
+         alt="Create from blank" width="30%"/>
+</figure>
+
 Enter a name for your connector, such as &ldquo;ChatGPT&rdquo;, and click Continue.
-<!-- raw HTML omitted --></li>
+<figure class="my-float-left"><img src="SCR-20230927-plig.png"
+         alt="Connector name" width="40%"/>
+</figure>
+</li>
 <li>In the General tab, enter the following information:</li>
 </ol>
 <ul>
 <li>Description: A brief description of your connector, such as &ldquo;A custom connector for OpenAI&rdquo;.</li>
 <li>Host: The base URL of the OpenAI API, which is &ldquo;api.openai.com&rdquo;.
-<!-- raw HTML omitted --></li>
+<figure class="my-float-left"><img src="SCR-20230927-pmek.png"
+         alt="General Information" width="50%"/>
+</figure>
+</li>
 </ul>
 <ol start="6">
 <li>Click on Security</li>
@@ -417,7 +430,10 @@ Enter a name for your connector, such as &ldquo;ChatGPT&rdquo;, and click Contin
 <li>Parameter label: The name of the parameter that holds your API key, such as &ldquo;API Key&rdquo;.</li>
 <li>Parameter name: The name of the header that holds your API key, which is &ldquo;Authorization&rdquo;.</li>
 <li>Parameter location: Select &ldquo;Header&rdquo; from the drop-down menu.
-<!-- raw HTML omitted --></li>
+<figure class="my-float-left"><img src="SCR-20230927-pmwf.png"
+         alt="Security" width="50%"/>
+</figure>
+</li>
 </ul>
 <ol start="7">
 <li>Click on Definition &gt; New action and enter the following information:</li>
@@ -426,7 +442,10 @@ Enter a name for your connector, such as &ldquo;ChatGPT&rdquo;, and click Contin
 <li>Summary: A brief summary of what the action does, such as &ldquo;Generate text using OpenAI&rdquo;.</li>
 <li>Description: A detailed description of what the action does, such as &ldquo;Generates text using OpenAI&rsquo;s GPT-3 engine based on a given prompt and parameters&rdquo;.</li>
 <li>Operation ID: A unique identifier for the action, such as &ldquo;GenerateText&rdquo;.
-<!-- raw HTML omitted --></li>
+<figure class="my-float-left"><img src="SCR-20230927-pnkn.png"
+         alt="Definition" width="50%"/>
+</figure>
+</li>
 </ul>
 <ol start="8">
 <li>Click on Request &gt; Import from sample and enter the following information:</li>
@@ -472,7 +491,10 @@ Enter a name for your connector, such as &ldquo;ChatGPT&rdquo;, and click Contin
 </span></span><span class="line"><span class="cl">}
 </span></span></code></pre></td></tr></table>
 </div>
-</div><!-- raw HTML omitted -->
+</div><figure class="my-float-left"><img src="SCR-20230927-pobx.png"
+         alt="Import from sample" width="30%"/>
+</figure>
+
 <ol start="9">
 <li>Click on Import and then on Update connector.</li>
 <li>Click on Test &gt; New connection and create a new connection for your connector. Enter your API key in the format &ldquo;Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&rdquo; (replace the x&rsquo;s with your actual key).</li>
@@ -483,7 +505,10 @@ Enter a name for your connector, such as &ldquo;ChatGPT&rdquo;, and click Contin
 <li>model: The ChatGPT model that you want to use, such as &ldquo;gpt-3.5-turbo&rdquo;.</li>
 <li>role: The role of the user, such as &ldquo;system&rdquo;.</li>
 <li>content: The prompt that you want to use, such as &ldquo;Hello! How can I assist you today?&rdquo;.
-<!-- raw HTML omitted --></li>
+<figure class="my-float-left"><img src="SCR-20230927-pplu.png"
+         alt="Test connection" width="50%"/>
+</figure>
+</li>
 </ul>
 <ol start="13">
 <li>Now copy the response body ,e.g.</li>
@@ -537,7 +562,10 @@ Enter a name for your connector, such as &ldquo;ChatGPT&rdquo;, and click Contin
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>and go to the Definition tab. In the Response section, click on Add default response and click on &ldquo;Import from Sample&rdquo;. Enter the copied response body and click Import. This will bring the response body into the connector definition, which will allow you to use it in your app.
-<!-- raw HTML omitted -->
+<figure class="my-float-left"><img src="SCR-20230927-onbe.png"
+         alt="Default response" width="50%"/>
+</figure>
+
 14. Please update your connector and you are ready to go.</p>
 <h2 id="how-to-test-the-custom-connector-in-a-canvas-app">How to test the custom connector in a canvas app?</h2>
 <p>Now that you have set up your custom connector, you can test it in a canvas app. A canvas app is a type of app that you can build in PowerApps using a drag-and-drop interface. You can use canvas apps to create interactive and user-friendly apps that can run on any device.</p>
@@ -553,7 +581,10 @@ Enter a name for your connector, such as &ldquo;ChatGPT&rdquo;, and click Contin
 <li>In the Properties tab, change the Hint text property of the text input to &ldquo;Enter your prompt here&rdquo;.</li>
 <li>In the Insert tab, click on Button and add a button to your app.</li>
 <li>In the Properties tab, change the Text property of the button to &ldquo;Generate&rdquo;.
-<!-- raw HTML omitted --></li>
+<figure class="my-float-left"><img src="SCR-20230927-prhk.png"
+         alt="PowerApps Builder" width="70%"/>
+</figure>
+</li>
 <li>In the Advanced tab, click on OnSelect and enter the following formula:</li>
 </ol>
 <div class="highlight"><div class="chroma">
@@ -588,7 +619,10 @@ Enter a name for your connector, such as &ldquo;ChatGPT&rdquo;, and click Contin
 </div>
 </div><ol start="11">
 <li>Now you can test the App by entering a prompt in the text input and clicking on the button. The generated text will be displayed in the label.
-<!-- raw HTML omitted --></li>
+<figure class="my-float-left"><img src="SCR-20230927-oqaj.png"
+         alt="Test PowerApp" width="60%"/>
+</figure>
+</li>
 </ol>
 
 </section>

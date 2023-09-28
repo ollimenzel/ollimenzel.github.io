@@ -1,0 +1,6 @@
+
+/* Ensure the image inside the figure is also left-aligned */
+figure.my-float-left {
+    text-align: left;
+    display: flex;
+}

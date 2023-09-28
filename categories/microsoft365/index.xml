@@ -224,8 +224,7 @@
 		data-flex-grow=&#34;281&#34;
 		data-flex-basis=&#34;674px&#34;
 	
-&gt;
-&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&gt;&lt;/li&gt;
 &lt;li&gt;Uncheck &amp;ldquo;Allow members to share the site and individual files and folders&amp;rdquo; to restrict sharing permissions for non-owners of a document.
 &lt;img src=&#34;https://www.menzel.it/post/2023/05/disable_sharing/Disable_Member-sharing.png&#34;
 	width=&#34;2100&#34;

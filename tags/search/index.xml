@@ -19,7 +19,10 @@
 &lt;li&gt;Before we get started, you&amp;rsquo;ll need to activate the preview feature &amp;ldquo;ParseJSON function and untyped objects&amp;rdquo; in your PowerApps settings. To do this, go to the Settings menu, browse to Upcoming features, and turn on the setting called ParseJSON function and untyped objects. If this feature is not turned on, the ParseJSON function will not be found in the formula bar.&lt;/li&gt;
 &lt;li&gt;You need to add the Office365Groups connector to your PowerApps. To do this, go to the Data menu, and select Office 365 Groups. This will add the connector to your PowerApps.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;figure class=&#34;my-float-left&#34;&gt;&lt;img src=&#34;./Office365-Connector.png&#34;
+         alt=&#34;Adding Office365 Connector&#34; width=&#34;30%&#34;/&gt;
+&lt;/figure&gt;
+
 &lt;h2 id=&#34;using-office365groupshttprequest&#34;&gt;Using Office365Groups.HttpRequest&lt;/h2&gt;
 &lt;p&gt;The Office365Groups.HttpRequest allows you to make HTTP requests to external services from within your PowerApps. This can be useful when you want to retrieve data from an external source, such as the Graph API.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s an example of how you might use Office365Groups.HttpRequest to search for a message by its subject:&lt;/p&gt;
@@ -245,14 +248,23 @@ The &lt;code&gt;varRequestBody&lt;/code&gt; variable is then used to generate a 
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The HTTP request is sent to the Microsoft Graph API&amp;rsquo;s search endpoint (&lt;code&gt;https://graph.microsoft.com/v1.0/search/query&lt;/code&gt;) using the &lt;code&gt;Office365Groups.HttpRequest&lt;/code&gt; function. The function takes three arguments: the URL of the endpoint, the HTTP method to use (in this case, &lt;code&gt;POST&lt;/code&gt;), and the request body to send with the request.
 This whole code can for example be put in a buttons OnSelect property to send the request when the button is clicked.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;figure class=&#34;my-float-left&#34;&gt;&lt;img src=&#34;SearchBehindButton.png&#34;
+         alt=&#34;Button control with OnSelect code&#34;/&gt;
+&lt;/figure&gt;
+
 &lt;h2 id=&#34;showing-the-results-in-a-gallery&#34;&gt;Showing the Results in a Gallery&lt;/h2&gt;
 &lt;p&gt;Once we&amp;rsquo;ve made our HTTP request and retrieved the result, we can use a gallery to display the results. To do this, we&amp;rsquo;ll need to insert a gallery control to our App and set the &lt;code&gt;Items&lt;/code&gt; property of the gallery to the following. To be able to work with those results, we need to get the resonse body from the HTTP request. This is done by doing one of the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Make the same call in the Graph Explorer and exam the response body from there
-&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;figure class=&#34;my-float-left&#34;&gt;&lt;img src=&#34;Graph-Explorer.png&#34;
+             alt=&#34;Picture of the Graph Explorer&#34; width=&#34;60%&#34;/&gt;
+    &lt;/figure&gt;
+&lt;/li&gt;
 &lt;li&gt;In PowerApps start the App - Monitor to get the response body from there
-&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;figure class=&#34;my-float-left&#34;&gt;&lt;img src=&#34;Monitor.png&#34;
+             alt=&#34;Advanced Tools with PowerApp Monitor&#34; width=&#34;30%&#34;/&gt;
+    &lt;/figure&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
