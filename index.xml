@@ -6,7 +6,79 @@
         <description>Recent content on My M365 Insights</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 27 Sep 2023 15:56:44 +0200</lastBuildDate><atom:link href="https://www.menzel.it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 08 Oct 2023 11:23:54 +0200</lastBuildDate><atom:link href="https://www.menzel.it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to Sync Hub Permissions to Associated Sites in SharePoint Online</title>
+        <link>https://www.menzel.it/post/2023/10/hub_sync_permissions/</link>
+        <pubDate>Sun, 08 Oct 2023 11:23:54 +0200</pubDate>
+        
+        <guid>https://www.menzel.it/post/2023/10/hub_sync_permissions/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/10/hub_sync_permissions/image-3.png" alt="Featured image of post How to Sync Hub Permissions to Associated Sites in SharePoint Online" /&gt;&lt;p&gt;If you are using SharePoint Online, you may have created a hub site to organize your related sites and provide a consistent look and feel. A hub site consists of a main hub site and several associated sites that are connected to the hub. Each site has its own security and permissions, which means that users who have access to the hub site may not have access to the associated sites, and vice versa.&lt;/p&gt;
+&lt;p&gt;However, in some scenarios, you may want to sync the permissions of the hub site to the associated sites, so that users who have access to the hub site can also have access to the associated sites. For example, if you have a hub site for an Intranet and several associated sites for different teams, you may want everyone in the company to have at least read access to all the sites within the hub.&lt;/p&gt;
+&lt;p&gt;Fortunately, SharePoint Online has a feature called Hub Sync Permissions that allows you to do this easily. In this blog post, I will show you how to enable this feature and what it does.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-enable-hub-sync-permissions&#34;&gt;How to Enable Hub Sync Permissions&lt;/h2&gt;
+&lt;p&gt;To enable Hub Sync Permissions, you need to do two steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Enable the feature at the hub site level.&lt;/li&gt;
+&lt;li&gt;Enable the feature at each associated site.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;step-1-enable-the-feature-at-the-hub-site-level&#34;&gt;Step 1: Enable the feature at the hub site level&lt;/h3&gt;
+&lt;p&gt;To enable the feature at the hub site level, you need to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigate to the main hub site.&lt;/li&gt;
+&lt;li&gt;Click on &lt;strong&gt;Site permissions&lt;/strong&gt; from the gear icon menu.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;strong&gt;Hub&lt;/strong&gt; Tab.&lt;/li&gt;
+&lt;li&gt;Turn on the toggle for &lt;strong&gt;Sync hub permissions to associated sites&lt;/strong&gt;.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/10/hub_sync_permissions/image.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+
+&lt;/li&gt;
+&lt;li&gt;Select a security group that will serve as the hub visitors. This group will be added to all the associated sites as visitors. You can use any existing security group or create a new one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;step-2-enable-the-feature-at-each-associated-site&#34;&gt;Step 2: Enable the feature at each associated site&lt;/h3&gt;
+&lt;p&gt;To enable the feature at each associated site, you need to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigate to each associated site that you want to sync permissions with.&lt;/li&gt;
+&lt;li&gt;Click on &lt;strong&gt;Site permissions&lt;/strong&gt; from the gear icon menu.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;strong&gt;Hub&lt;/strong&gt; Tab.&lt;/li&gt;
+&lt;li&gt;Turn on the toggle for &lt;strong&gt;Sync hub permissions to this site&lt;/strong&gt;.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/10/hub_sync_permissions/image-1.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-hub-sync-permissions-does&#34;&gt;What Hub Sync Permissions Does&lt;/h2&gt;
+&lt;p&gt;When you enable Hub Sync Permissions, it does two things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It adds the hub visitors group that you selected at the hub site level to each associated site as visitors. This means that users who are in this group will have read access to all the sites within the hub.&lt;/li&gt;
+&lt;li&gt;It creates a new security group called &lt;strong&gt;Hub Visitors&lt;/strong&gt; at each associated site. This group contains all the Visitors of the hub site. This means that users who are Visitors of the hub site will also be Visitors of all the associated sites.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/10/hub_sync_permissions/image-2.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-disable-hub-sync-permissions&#34;&gt;How to Disable Hub Sync Permissions&lt;/h2&gt;
+&lt;p&gt;If you want to disable Hub Sync Permissions, you can do so by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Turning off the toggle for &lt;strong&gt;Sync hub permissions to this site&lt;/strong&gt; at each associated site level.&lt;/li&gt;
+&lt;li&gt;Turning off the toggle for &lt;strong&gt;Sync hub permissions to associated sites&lt;/strong&gt; at the hub site level.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; that disabling Hub Sync Permissions will not remove the existing permissions that were added by this feature. You will need to manually remove them if you want to.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Hub Sync Permissions is a useful feature that allows you to sync the permissions of your hub site and your associated sites in SharePoint Online. It can help you simplify your permission management and ensure consistent access across your related sites. However, you should also be aware of its implications and limitations before using it.&lt;/p&gt;
+&lt;p&gt;I hope this blog post was helpful for you. If you have any questions or feedback, please contact me at one of the social networks.
+Thank you for reading!&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>How to create a Custom connector for OpenAI in PowerApps</title>
         <link>https://www.menzel.it/post/2023/09/customconnectoropenai/</link>
         <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
