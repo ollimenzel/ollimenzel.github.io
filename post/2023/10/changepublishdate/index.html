@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='M365 and Power Platform: The Dynamic Duo of Collaboration'>
-<title>Search</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Introduction In this blog post, we will explore how to use PowerShell to change the first publish date of a news page in SharePoint Online. This can be useful if you need to update the publish date of a news page to reflect changes in the content or to correct errors in the original publish date.
+Prerequisites Before we get started, there are a few prerequisites that you will need:'>
+<meta name="keywords" content="How-to, SiteOwners, SharePoint"><title>How to use PowerShell to change the publish date of a news page in SharePoint Online</title>
 
-<link rel='canonical' href='https://www.menzel.it/page/search/'>
+<link rel='canonical' href='https://www.menzel.it/post/2023/10/changepublishdate/'>
 
 <link rel="stylesheet" href="/scss/style.min.85ef553442abef9d388f896084b84473f204ae98903bc0468fa1d51e560ceb91.css"><script type="text/javascript">
     !function (v, y, T) { var S = v.location, k = "script", D = "instrumentationKey", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = (D[b](), "crossOrigin"), N = "POST", e = "appInsightsSDK", t = T.name || "appInsights", n = ((T.name || v[e]) && (v[e] = t), v[t] || function (l) { var u = !1, d = !1, g = { initialize: !0, queue: [], sv: "6", version: 2, config: l }; function m(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (g.sv || g.version), { time: (a = new Date).getUTCFullYear() + "-" + i(1 + a.getUTCMonth()) + "-" + i(a.getUTCDate()) + "T" + i(a.getUTCHours()) + ":" + i(a.getUTCMinutes()) + ":" + i(a.getUTCSeconds()) + "." + (a.getUTCMilliseconds() / 1e3).toFixed(3).slice(2, 5) + "Z", iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } }; function i(e) { e = "" + e; return 1 === e.length ? "0" + e : e } } var e, n, f = l.url || T.src; function a(e) { var t, n, a, i, o, s, r, c, p; u = !0, g.queue = [], d || (d = !0, i = f, r = (c = function () { var e, t = {}, n = l.connectionString; if (n) for (var a = n.split(";"), i = 0; i < a.length; i++) { var o = a[i].split("="); 2 === o.length && (t[o[0][b]()] = o[1]) } return t[C] || (t[C] = "https://" + ((e = (n = t.endpointsuffix) ? t.location : null) ? e + "." : "") + "dc." + (n || "services.visualstudio.com")), t }()).instrumentationkey || l[D] || "", c = (c = c[C]) ? c + "/v2/track" : l.endpointUrl, (p = []).push((t = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", n = i, o = c, (s = (a = m(r, "Exception")).data).baseType = "ExceptionData", s.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: t.replace(/\./g, "-"), hasFullStack: !1, stack: t + "\nSnippet failed to load [" + n + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + o, parsedStack: [] }], a)), p.push((s = i, t = c, (o = (n = m(r, "Message")).data).baseType = "MessageData", (a = o.baseData).message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + s + ")").replace(/\"/g, "") + '"', a.properties = { endpoint: t }, n)), i = p, r = c, JSON && ((o = v.fetch) && !T.useXhr ? o(r, { method: N, body: JSON.stringify(i), mode: "cors" }) : XMLHttpRequest && ((s = new XMLHttpRequest).open(N, r), s.setRequestHeader("Content-type", "application/json"), s.send(JSON.stringify(i))))) } function i(e, t) { d || setTimeout(function () { !t && g.core || a() }, 500) } f && ((n = y.createElement(k)).src = f, !(o = T[w]) && "" !== o || "undefined" == n[w] || (n[w] = o), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, e = n, T.ld < 0 ? y.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { y.getElementsByTagName(k)[0].parentNode.appendChild(e) }, T.ld || 0)); try { g.cookie = y.cookie } catch (h) { } function t(e) { for (; e.length;)!function (t) { g[t] = function () { var e = arguments; u || g.queue.push(function () { g[t].apply(g, e) }) } }(e.pop()) } var s, r, o = "track", c = "TrackPage", p = "TrackEvent", o = (t([o + "Event", o + "PageView", o + "Exception", o + "Trace", o + "DependencyData", o + "Metric", o + "PageViewPerformance", "start" + c, "stop" + c, "start" + p, "stop" + p, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), g.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }, (l.extensionConfig || {}).ApplicationInsightsAnalytics || {}); return !0 !== l[I] && !0 !== o[I] && (t(["_" + (s = "onerror")]), r = v[s], v[s] = function (e, t, n, a, i) { var o = r && r(e, t, n, a, i); return !0 !== o && g["_" + s]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i, evt: v.event }), o }, l.autoExceptionInstrumented = !0), g }(T.cfg)); function a() { T.onInit && T.onInit(n) } (v[t] = n).queue && 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
@@ -24,13 +25,16 @@
     t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
     y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "inws37js4a");
-</script><meta property='og:title' content='Search'>
-<meta property='og:description' content='M365 and Power Platform: The Dynamic Duo of Collaboration'>
-<meta property='og:url' content='https://www.menzel.it/page/search/'>
+</script><meta property='og:title' content='How to use PowerShell to change the publish date of a news page in SharePoint Online'>
+<meta property='og:description' content='Introduction In this blog post, we will explore how to use PowerShell to change the first publish date of a news page in SharePoint Online. This can be useful if you need to update the publish date of a news page to reflect changes in the content or to correct errors in the original publish date.
+Prerequisites Before we get started, there are a few prerequisites that you will need:'>
+<meta property='og:url' content='https://www.menzel.it/post/2023/10/changepublishdate/'>
 <meta property='og:site_name' content='My M365 Insights'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2023-10-13T08:22:49&#43;02:00 '/>
-<meta name="twitter:title" content="Search">
-<meta name="twitter:description" content="M365 and Power Platform: The Dynamic Duo of Collaboration"><link rel="alternate" type="application/json" href="https://www.menzel.it/page/search/index.json"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='How-to' /><meta property='article:tag' content='SiteOwners' /><meta property='article:tag' content='SharePoint' /><meta property='article:published_time' content='2023-10-13T08:22:49&#43;02:00'/><meta property='article:modified_time' content='2023-10-13T08:22:49&#43;02:00'/><meta property='og:image' content='https://www.menzel.it/post/2023/10/changepublishdate/ChangePublishDate.jpeg' />
+<meta name="twitter:title" content="How to use PowerShell to change the publish date of a news page in SharePoint Online">
+<meta name="twitter:description" content="Introduction In this blog post, we will explore how to use PowerShell to change the first publish date of a news page in SharePoint Online. This can be useful if you need to update the publish date of a news page to reflect changes in the content or to correct errors in the original publish date.
+Prerequisites Before we get started, there are a few prerequisites that you will need:"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://www.menzel.it/post/2023/10/changepublishdate/ChangePublishDate.jpeg' /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -38,9 +42,11 @@
 <link rel="me" href="https://techhub.social/@ollimenzel">
 <link rel="stylesheet" href="/css/picture-left.css">
 <meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"><link rel="preload" href="https://www.menzel.it/page/search/index.json" as="fetch" crossorigin="anonymous">
+<meta name="theme-color" content="#ffffff">
     </head>
-    <body class="template-search">
+    <body class="
+    article-page
+    ">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -269,7 +275,7 @@
         </li>
         
         
-        <li  class='current' >
+        <li >
             <a href='/page/search/' >
                 
                 
@@ -315,35 +321,410 @@
     </ol>
 </aside>
 
-            <main class="main full-width">
-<form action="https://www.menzel.it/page/search/" class="search-form"data-json="https://www.menzel.it/page/search/index.json">
-    <p>
-        <label>Search</label>
-        <input name="keyword" placeholder="Type something..." />
-    </p>
+    
 
-    <button title="Search">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <main class="main full-width">
+    <article class="has-image main-article">
+  <header class="article-header">
+        <div class="article-image">
+            <a href="/post/2023/10/changepublishdate/">
+                <img src="/post/2023/10/changepublishdate/ChangePublishDate_huf677ab5284dc3059c291ae31652dfe1d_265353_800x0_resize_q75_box.jpeg"
+                        srcset="/post/2023/10/changepublishdate/ChangePublishDate_huf677ab5284dc3059c291ae31652dfe1d_265353_800x0_resize_q75_box.jpeg 800w, /post/2023/10/changepublishdate/ChangePublishDate_huf677ab5284dc3059c291ae31652dfe1d_265353_1600x0_resize_q75_box.jpeg 1600w"
+                        width="800" 
+                        height="800" 
+                        loading="lazy"
+                        alt="Featured image of post How to use PowerShell to change the publish date of a news page in SharePoint Online" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/microsoft365/" style="background-color: #2a9d8f; color: #fff;">
+                Microsoft365
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/2023/10/changepublishdate/">How to use PowerShell to change the publish date of a news page in SharePoint Online</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 13, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
 </svg>
 
 
 
-    </button>
-</form>
+                <time class="article-time--reading">
+                    3 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
 
-<div class="search-result">
-    <h3 class="search-result--title section-title"></h3>
-    <div class="search-result--list article-list--compact"></div>
+    
 </div>
 
-<script>
-    window.searchResultTitleTemplate = "#PAGES_COUNT pages (#TIME_SECONDS seconds)"
-</script><script type="text/javascript" src="/ts/search.js" defer></script>
+</header>
 
-<footer class="site-footer">
+  <section class="article-content">
+    
+    
+    <h2 id="introduction">Introduction</h2>
+<p>In this blog post, we will explore how to use PowerShell to change the first publish date of a news page in SharePoint Online. This can be useful if you need to update the publish date of a news page to reflect changes in the content or to correct errors in the original publish date.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before we get started, there are a few prerequisites that you will need:</p>
+<ul>
+<li>A SharePoint Online site where you have permission to create and edit news pages.</li>
+<li>PowerShell 7.2 or later installed on your computer.</li>
+<li>The PnP.PowerShell module installed on your computer.</li>
+</ul>
+<h2 id="the-script">The Script</h2>
+<p>The PowerShell script below demonstrates how to change the first publish date of a news page in SharePoint Online:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Set the new publish date</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$publishDate</span> <span class="p">=</span> <span class="s1">&#39;2023-10-12&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Set the ID of the news item to update</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$newsItemId</span> <span class="p">=</span> <span class="mf">361</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Connect to the SharePoint site using PnP-PowerShell</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Connect-PnPOnline</span> <span class="s2">&#34;https://yourtenant.sharepoint.com/sites/yoursite&#34;</span> <span class="n">-ClientId</span> <span class="nv">$AppID</span> <span class="n">-Interactive</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Get the news item in English</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$englishNewsItem</span> <span class="p">=</span> <span class="nb">Get-PnPListItem</span> <span class="n">-List</span> <span class="s1">&#39;SitePages&#39;</span> <span class="n">-Id</span> <span class="nv">$newsItemId</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Update the news item with the new publish date</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Set-PnPListItem</span> <span class="n">-List</span> <span class="s1">&#39;SitePages&#39;</span> <span class="n">-Identity</span> <span class="nv">$newsItemId</span> <span class="n">-Values</span> <span class="vm">@</span><span class="p">{</span><span class="s1">&#39;FirstPublishedDate&#39;</span> <span class="p">=</span> <span class="nv">$publishDate</span> <span class="p">}</span> <span class="n">-UpdateType</span> <span class="n">SystemUpdate</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Check if the news item has any translations</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nv">$englishNewsItem</span><span class="p">.</span><span class="py">FieldValues</span><span class="p">.</span><span class="n">_SPTranslatedLanguages</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># If there are translations, get the UniqueId of the English news item</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$uniqueId</span> <span class="p">=</span> <span class="nv">$englishNewsItem</span><span class="p">.</span><span class="py">FieldValues</span><span class="p">.</span><span class="py">UniqueId</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get the translated news items</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$translatedNewsItems</span> <span class="p">=</span> <span class="nb">Get-PnPListItem</span> <span class="n">-List</span> <span class="s1">&#39;SitePages&#39;</span> <span class="n">-Query</span> <span class="s2">&#34;&lt;View Scope=&#39;RecursiveAll&#39;&gt;&lt;Query&gt;&lt;Where&gt;&lt;Contains&gt;&lt;FieldRef Name=&#39;_SPTranslationSourceItemId&#39;/&gt;&lt;Value Type=&#39;Guid&#39;&gt;</span><span class="p">$(</span><span class="nv">$uniqueId</span><span class="p">)</span><span class="s2">&lt;/Value&gt;&lt;/Contains&gt;&lt;/Where&gt;&lt;/Query&gt;&lt;/View&gt;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Update each translated news item</span>
+</span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="nv">$translatedNewsItem</span> <span class="k">in</span> <span class="nv">$translatedNewsItems</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Set-PnPListItem</span> <span class="n">-List</span> <span class="s1">&#39;SitePages&#39;</span> <span class="n">-Identity</span> <span class="nv">$translatedNewsItem</span><span class="p">.</span><span class="py">Id</span> <span class="n">-Values</span> <span class="vm">@</span><span class="p">{</span><span class="s1">&#39;FirstPublishedDate&#39;</span> <span class="p">=</span> <span class="nv">$publishDate</span> <span class="p">}</span> <span class="n">-UpdateType</span> <span class="n">SystemUpdate</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The script starts by setting the new publish date and the ID of the news item to update. You will need to modify these values to match your specific scenario.</p>
+<p>Next, the script connects to the SharePoint site using PnP-PowerShell and retrieves the news item in English. The script then updates the news item with the new publish date using the Set-PnPListItem cmdlet.</p>
+<p>The script then checks if the news item has any translations. If there are translations, the script retrieves the UniqueId of the English news item and uses it to get the translated news items. The script then updates each translated news item with the new publish date using the Set-PnPListItem cmdlet.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In this blog post, we explored how to use PowerShell to change the first publish date of a news page in SharePoint Online. This can be a useful tool for updating the publish date of a news page to reflect changes in the content or to correct errors in the original publish date.</p>
+<p>By using PowerShell and the PnP PowerShell module, you can automate this process and save time and effort when managing your SharePoint Online news pages.</p>
+
+</section>
+
+
+  
+  <div class="article-content">
+    <h2>Comments</h2>
+    <p>You can use your Mastodon account to reply to this <a class="link" href="https://techhub.social/@ollimenzel/">post</a>. Learn how this is implemented <a class="link" href="/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/">here.</a></p>
+    <p><button id="replyButton" href="https://techhub.social/@ollimenzel/">Reply</button></p>
+    <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
+    <dialog id="toot-reply" class="mastodon" data-component="dialog">
+      <h3>Reply to ollimenzel's post</h3>
+      <p>
+        With an account on the Fediverse or Mastodon, you can respond to this post.
+        Since Mastodon is decentralized, you can use your existing account hosted by another Mastodon server or compatible platform if you don't have an account on this one.
+      </p>
+      <p>Copy and paste this URL into the search field of your favourite Fediverse app or the web interface of your Mastodon server.</p>
+      <div class="copypaste">
+        <input type="text" readonly="" value="https://techhub.social/@ollimenzel/">
+        <button class="button" id="copyButton">Copy</button>
+        <button class="button" id="cancelButton">Close</button>
+      </div>
+    </dialog>
+    <noscript>You need JavaScript to view the comments.</noscript>
+    <script src="/assets/js/purify.min.js"></script>
+    <script type="text/javascript">
+
+      const dialog = document.querySelector('dialog');
+
+      document.getElementById('replyButton').addEventListener('click', () => {
+        dialog.showModal();
+      });
+
+      document.getElementById('copyButton').addEventListener('click', () => {
+        navigator.clipboard.writeText('https://techhub.social/@ollimenzel/');
+      });
+
+      document.getElementById('cancelButton').addEventListener('click', () => {
+        dialog.close();
+      });
+
+      dialog.addEventListener('keydown', e => {
+        if (e.key === 'Escape') dialog.close();
+      });
+
+      const dateOptions = {
+        year: "numeric",
+        month: "numeric",
+        day: "numeric",
+        hour: "numeric",
+        minute: "numeric",
+      };
+
+      function escapeHtml(unsafe) {
+        return unsafe
+             .replace(/&/g, "&amp;")
+             .replace(/</g, "&lt;")
+             .replace(/>/g, "&gt;")
+             .replace(/"/g, "&quot;")
+             .replace(/'/g, "&#039;");
+     }
+
+      document.getElementById("load-comment").addEventListener("click", function() {
+        document.getElementById("load-comment").innerHTML = "Loading";
+        fetch('https://techhub.social/api/v1/statuses//context')
+          .then(function(response) {
+            return response.json();
+          })
+          .then(function(data) {
+            if(data['descendants'] &&
+               Array.isArray(data['descendants']) && 
+              data['descendants'].length > 0) {
+                document.getElementById('mastodon-comments-list').innerHTML = "";
+                data['descendants'].forEach(function(reply) {
+                  reply.account.display_name = escapeHtml(reply.account.display_name);
+                  reply.account.reply_class = reply.in_reply_to_id == "" ? "reply-original" : "reply-child";
+                  reply.created_date = new Date(reply.created_at);
+                  reply.account.emojis.forEach(emoji => {
+                    reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
+                      `<img src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
+                  });
+                  mastodonComment =
+                    `
+<div class="mastodon-wrapper">
+  <div class="comment-level ${reply.account.reply_class}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <path fill="currentColor" stroke="currentColor" d="m 307,477.17986 c -11.5,-5.1 -19,-16.6 -19,-29.2 v -64 H 176 C 78.8,383.97986 -4.6936293e-8,305.17986 -4.6936293e-8,207.97986 -4.6936293e-8,94.679854 81.5,44.079854 100.2,33.879854 c 2.5,-1.4 5.3,-1.9 8.1,-1.9 10.9,0 19.7,8.9 19.7,19.7 0,7.5 -4.3,14.4 -9.8,19.5 -9.4,8.8 -22.2,26.4 -22.2,56.700006 0,53 43,96 96,96 h 96 v -64 c 0,-12.6 7.4,-24.1 19,-29.2 11.6,-5.1 25,-3 34.4,5.4 l 160,144 c 6.7,6.2 10.6,14.8 10.6,23.9 0,9.1 -3.9,17.7 -10.6,23.8 l -160,144 c -9.4,8.5 -22.9,10.6 -34.4,5.4 z" />
+  </svg></div>
+  <div class="mastodon-comment">
+    <div class="comment">
+      <div class="comment-avatar"><img src="${escapeHtml(reply.account.avatar_static)}" alt=""></div>
+      <div class="comment-author">
+        <div class="comment-author-name"><a href="${reply.account.url}" rel="nofollow">${reply.account.display_name}</a></div>
+        <div class="comment-author-reply"><a href="${reply.account.url}" rel="nofollow">${escapeHtml(reply.account.acct)}</a></div>
+      </div>
+      <div class="comment-author-date">${reply.created_date.toLocaleString(navigator.language, dateOptions)}</div>
+    </div>
+    <div class="comment-content">${reply.content}</div> 
+  </div>
+</div>
+`;
+                  document.getElementById('mastodon-comments-list').appendChild(DOMPurify.sanitize(mastodonComment, {'RETURN_DOM_FRAGMENT': true}));
+                });
+            } else {
+              document.getElementById('mastodon-comments-list').innerHTML = "<p>Not comments found</p>";
+            }
+          });
+        });
+    </script>
+  </div>
+  
+
+  <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/how-to/">How-to</a>
+        
+            <a href="/tags/siteowners/">SiteOwners</a>
+        
+            <a href="/tags/sharepoint/">SharePoint</a>
+        
+    </section>
+
+
+    </footer>
+
+
+  
+</article>
+
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/post/2023/10/hub_sync_permissions/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2023/10/hub_sync_permissions/image-3.5c0e14e6e88d1c62cc4dd15e74ae7be8_hu7d116d096ef4ed34ced1b52a4853405e_1121548_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post How to Sync Hub Permissions to Associated Sites in SharePoint Online"
+                        data-key="Hub_Sync_Permissions" 
+                        data-hash="md5-XA4U5uiNHGLMTdFedK576A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">How to Sync Hub Permissions to Associated Sites in SharePoint Online</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2023/07/reconnect_pages/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2023/07/reconnect_pages/Reconnect.bcb3d7c1f2f8ff822d4cbe8b98f39ca8_hu58e59d2a09840853c5e0830e43305ea7_1183462_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Reconnecting Pages with Language Variations After Copying Them with ShareGate"
+                        data-key="reconnect_pages" 
+                        data-hash="md5-vLPXwfL4/4ItTL6LmPOcqA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Reconnecting Pages with Language Variations After Copying Them with ShareGate</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2023/05/disable_sharing/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2023/05/disable_sharing/Microsoft365-Logo.3cd1a89bb70eb36e5ea7e2729e88ed00_huc751c11c8412c46ecd89393641f090d6_5832667_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post How to Disable Sharing for Non-Owners in SharePoint Online"
+                        data-key="Disable_sharing" 
+                        data-hash="md5-PNGom7cOs25ep&#43;JynojtAA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">How to Disable Sharing for Non-Owners in SharePoint Online</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2023/05/add_to_onedrive/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2023/05/add_to_onedrive/Main.51ff833a1601f95102a7c83b0788e2e0_hu502c155179e040f10273bd58ace348bd_299354_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync"
+                        data-key="Add_to_OneDrive" 
+                        data-hash="md5-Uf&#43;DOhYB&#43;VECp8g7B4ji4A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
     <section class="copyright">
         &copy; 
         
@@ -358,6 +739,84 @@
     </section>
 </footer>
 
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
 
             </main>
         </div>

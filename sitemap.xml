@@ -3,51 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.menzel.it/</loc>
-    <lastmod>2023-10-08T11:23:54+02:00</lastmod>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/post/2023/</loc>
-    <lastmod>2023-10-08T11:23:54+02:00</lastmod>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/categories/</loc>
-    <lastmod>2023-10-08T11:23:54+02:00</lastmod>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/10/hub_sync_permissions/</loc>
-    <lastmod>2023-10-08T11:23:54+02:00</lastmod>
+    <loc>https://www.menzel.it/post/2023/10/changepublishdate/</loc>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/tags/how-to/</loc>
-    <lastmod>2023-10-08T11:23:54+02:00</lastmod>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/categories/microsoft365/</loc>
-    <lastmod>2023-10-08T11:23:54+02:00</lastmod>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/post/</loc>
-    <lastmod>2023-10-08T11:23:54+02:00</lastmod>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/tags/sharepoint/</loc>
-    <lastmod>2023-10-08T11:23:54+02:00</lastmod>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/tags/siteowners/</loc>
-    <lastmod>2023-10-08T11:23:54+02:00</lastmod>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/tags/</loc>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/post/2023/10/hub_sync_permissions/</loc>
     <lastmod>2023-10-08T11:23:54+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
