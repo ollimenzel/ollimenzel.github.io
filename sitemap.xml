@@ -32,12 +32,32 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.menzel.it/tags/pnp/</loc>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.menzel.it/post/</loc>
     <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.menzel.it/tags/powershell/</loc>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/categories/powershell/</loc>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.menzel.it/tags/sharepoint/</loc>
+    <lastmod>2023-10-13T08:22:49+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/sharepoint-news/</loc>
     <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -107,7 +127,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.menzel.it/tags/languagevariations/</loc>
+    <lastmod>2023-07-27T11:57:41+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.menzel.it/post/2023/07/reconnect_pages/</loc>
+    <lastmod>2023-07-27T11:57:41+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/sharegate/</loc>
     <lastmod>2023-07-27T11:57:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
