@@ -6,10 +6,10 @@
         <description>Recent content in Categories on My M365 Insights</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 15 Oct 2023 22:52:41 +0200</lastBuildDate><atom:link href="https://www.menzel.it/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Oct 2023 20:35:23 +0200</lastBuildDate><atom:link href="https://www.menzel.it/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Microsoft365</title>
         <link>https://www.menzel.it/categories/microsoft365/</link>
-        <pubDate>Sun, 15 Oct 2023 22:52:41 +0200</pubDate>
+        <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
         
         <guid>https://www.menzel.it/categories/microsoft365/</guid>
         <description>&lt;img src="https://www.menzel.it/categories/microsoft365/C045_Startup_Screens_v06.0103.jpg" alt="Featured image of post Microsoft365" /&gt;</description>
@@ -17,10 +17,10 @@
         <item>
         <title>PowerShell</title>
         <link>https://www.menzel.it/categories/powershell/</link>
-        <pubDate>Sun, 15 Oct 2023 22:52:41 +0200</pubDate>
+        <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
         
         <guid>https://www.menzel.it/categories/powershell/</guid>
-        <description></description>
+        <description>&lt;img src="https://www.menzel.it/categories/powershell/powershell.png" alt="Featured image of post PowerShell" /&gt;</description>
         </item>
         <item>
         <title>AI</title>
@@ -28,20 +28,12 @@
         <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
         
         <guid>https://www.menzel.it/categories/ai/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>PowerPlattform</title>
-        <link>https://www.menzel.it/categories/powerplattform/</link>
-        <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/categories/powerplattform/</guid>
-        <description></description>
+        <description>&lt;img src="https://www.menzel.it/categories/ai/AI.png" alt="Featured image of post AI" /&gt;</description>
         </item>
         <item>
         <title>PowerPlatform</title>
         <link>https://www.menzel.it/categories/powerplatform/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
         
         <guid>https://www.menzel.it/categories/powerplatform/</guid>
         <description>&lt;img src="https://www.menzel.it/categories/powerplatform/PowerPlatform_scalable.svg" alt="Featured image of post PowerPlatform" /&gt;</description>

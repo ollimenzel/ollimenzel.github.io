@@ -6,42 +6,34 @@
         <description>Recent content in Tags on My M365 Insights</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 15 Oct 2023 22:52:41 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Oct 2023 20:35:23 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Clarity</title>
+        <link>https://www.menzel.it/tags/clarity/</link>
+        <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
+        
+        <guid>https://www.menzel.it/tags/clarity/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>How-to</title>
         <link>https://www.menzel.it/tags/how-to/</link>
-        <pubDate>Sun, 15 Oct 2023 22:52:41 +0200</pubDate>
+        <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
         
         <guid>https://www.menzel.it/tags/how-to/</guid>
         <description></description>
         </item>
         <item>
-        <title>PnP</title>
-        <link>https://www.menzel.it/tags/pnp/</link>
-        <pubDate>Sun, 15 Oct 2023 22:52:41 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/pnp/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>PowerShell</title>
         <link>https://www.menzel.it/tags/powershell/</link>
-        <pubDate>Sun, 15 Oct 2023 22:52:41 +0200</pubDate>
+        <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
         
         <guid>https://www.menzel.it/tags/powershell/</guid>
         <description></description>
         </item>
         <item>
-        <title>RecycleBin</title>
-        <link>https://www.menzel.it/tags/recyclebin/</link>
-        <pubDate>Sun, 15 Oct 2023 22:52:41 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/recyclebin/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>SharePoint</title>
         <link>https://www.menzel.it/tags/sharepoint/</link>
-        <pubDate>Sun, 15 Oct 2023 22:52:41 +0200</pubDate>
+        <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
         
         <guid>https://www.menzel.it/tags/sharepoint/</guid>
         <description></description>
@@ -49,17 +41,9 @@
         <item>
         <title>SiteOwners</title>
         <link>https://www.menzel.it/tags/siteowners/</link>
-        <pubDate>Sun, 15 Oct 2023 22:52:41 +0200</pubDate>
+        <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
         
         <guid>https://www.menzel.it/tags/siteowners/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>SharePoint News</title>
-        <link>https://www.menzel.it/tags/sharepoint-news/</link>
-        <pubDate>Fri, 13 Oct 2023 08:22:49 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/sharepoint-news/</guid>
         <description></description>
         </item>
         <item>
@@ -103,11 +87,11 @@
         <description></description>
         </item>
         <item>
-        <title>LanguageVariations</title>
-        <link>https://www.menzel.it/tags/languagevariations/</link>
+        <title>PnP</title>
+        <link>https://www.menzel.it/tags/pnp/</link>
         <pubDate>Thu, 27 Jul 2023 11:57:41 +0200</pubDate>
         
-        <guid>https://www.menzel.it/tags/languagevariations/</guid>
+        <guid>https://www.menzel.it/tags/pnp/</guid>
         <description></description>
         </item>
         <item>

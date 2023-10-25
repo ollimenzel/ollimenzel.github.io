@@ -12,8 +12,7 @@
         <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
         
         <guid>https://www.menzel.it/post/2023/09/customconnectoropenai/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/09/customconnectoropenai/Blog_custom-connector.jpeg" alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps" /&gt;&lt;p&gt;I&amp;rsquo;m super excited to share with you a new way to use OpenAI&amp;rsquo;s powerful natural language processing (NLP) capabilities in your PowerApps. In this blog post, I&amp;rsquo;ll show you how to set up a custom connector for OpenAI and how to test it in a canvas app. I&amp;rsquo;ll also give you a brief overview of how to sign up for the OpenAI API, which is currently in beta.&lt;/p&gt;
-&lt;h2 id=&#34;what-is-openai-and-why-use-it-in-powerapps&#34;&gt;What is OpenAI and why use it in PowerApps?&lt;/h2&gt;
+        <description>&lt;img src="https://www.menzel.it/post/2023/09/customconnectoropenai/Blog_custom-connector.jpeg" alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps" /&gt;&lt;h2 id=&#34;what-is-openai-and-why-use-it-in-powerapps&#34;&gt;What is OpenAI and why use it in PowerApps?&lt;/h2&gt;
 &lt;p&gt;OpenAI is a research organization that aims to create artificial intelligence (AI). They have developed a general-purpose NLP system called GPT-3/ GPT-4, which can generate coherent and relevant text for a wide range of tasks, such as answering questions, writing summaries, creating content, and more.&lt;/p&gt;
 &lt;p&gt;By using OpenAI in PowerApps, you can leverage the power of GPT-3 to enhance your apps with natural language features, such as chatbots, text analysis, content generation, and more. You can also use OpenAI to create dynamic and engaging user experiences that are tailored to your specific needs and goals.&lt;/p&gt;
 &lt;h2 id=&#34;how-to-sign-up-for-the-openai-api&#34;&gt;How to sign up for the OpenAI API?&lt;/h2&gt;
@@ -331,9 +330,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
         <pubDate>Thu, 10 Aug 2023 16:31:08 +0200</pubDate>
         
         <guid>https://www.menzel.it/post/2023/08/powerappssearchgraphapi/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/08/powerappssearchgraphapi/Article-Image.png" alt="Featured image of post Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest" /&gt;&lt;p&gt;PowerApps is a powerful tool that allows you to create custom business applications without the need for coding. One of the ways you can enhance your PowerApps is by using Graph API calls to the search endpoint &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://graph.microsoft.com/v1.0/search/query%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://graph.microsoft.com/v1.0/search/query&#34;&lt;/a&gt;. In this blog post, we&amp;rsquo;ll show you how to do this using the Office365Groups.HttpRequest and the preview feature &amp;ldquo;ParseJSON function and untyped objects&amp;rdquo;.&lt;/p&gt;
-&lt;h2 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h2&gt;
+        <description>&lt;img src="https://www.menzel.it/post/2023/08/powerappssearchgraphapi/Article-Image.png" alt="Featured image of post Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest" /&gt;&lt;h2 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Before we get started, you&amp;rsquo;ll need to activate the preview feature &amp;ldquo;ParseJSON function and untyped objects&amp;rdquo; in your PowerApps settings. To do this, go to the Settings menu, browse to Upcoming features, and turn on the setting called ParseJSON function and untyped objects. If this feature is not turned on, the ParseJSON function will not be found in the formula bar.&lt;/li&gt;
 &lt;li&gt;You need to add the Office365Groups connector to your PowerApps. To do this, go to the Data menu, and select Office 365 Groups. This will add the connector to your PowerApps.&lt;/li&gt;
