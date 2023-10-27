@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Categories on My M365 Insights</title>
+        <title>Categories on The State of the Microsoft 365 Nation</title>
         <link>https://www.menzel.it/categories/</link>
-        <description>Recent content in Categories on My M365 Insights</description>
+        <description>Recent content in Categories on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 23 Oct 2023 20:35:23 +0200</lastBuildDate><atom:link href="https://www.menzel.it/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 27 Oct 2023 15:22:18 +0200</lastBuildDate><atom:link href="https://www.menzel.it/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Microsoft365</title>
         <link>https://www.menzel.it/categories/microsoft365/</link>
-        <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
+        <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>
         
         <guid>https://www.menzel.it/categories/microsoft365/</guid>
         <description>&lt;img src="https://www.menzel.it/categories/microsoft365/C045_Startup_Screens_v06.0103.jpg" alt="Featured image of post Microsoft365" /&gt;</description>
@@ -17,7 +17,7 @@
         <item>
         <title>PowerShell</title>
         <link>https://www.menzel.it/categories/powershell/</link>
-        <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
+        <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>
         
         <guid>https://www.menzel.it/categories/powershell/</guid>
         <description>&lt;img src="https://www.menzel.it/categories/powershell/powershell.png" alt="Featured image of post PowerShell" /&gt;</description>

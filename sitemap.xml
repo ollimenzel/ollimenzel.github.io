@@ -3,17 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.menzel.it/</loc>
-    <lastmod>2023-10-23T20:35:23+02:00</lastmod>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/post/2023/</loc>
-    <lastmod>2023-10-23T20:35:23+02:00</lastmod>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/categories/</loc>
-    <lastmod>2023-10-23T20:35:23+02:00</lastmod>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/post/2023/10/deleted_onedrive/</loc>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/how-to/</loc>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/categories/microsoft365/</loc>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/onedrive/</loc>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/pnp/</loc>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/post/</loc>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/powershell/</loc>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/categories/powershell/</loc>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/siteowners/</loc>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/</loc>
+    <lastmod>2023-10-27T15:22:18+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -27,42 +77,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/how-to/</loc>
-    <lastmod>2023-10-23T20:35:23+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/categories/microsoft365/</loc>
-    <lastmod>2023-10-23T20:35:23+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/post/</loc>
-    <lastmod>2023-10-23T20:35:23+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/tags/powershell/</loc>
-    <lastmod>2023-10-23T20:35:23+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/categories/powershell/</loc>
-    <lastmod>2023-10-23T20:35:23+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.menzel.it/tags/sharepoint/</loc>
-    <lastmod>2023-10-23T20:35:23+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/tags/siteowners/</loc>
-    <lastmod>2023-10-23T20:35:23+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/tags/</loc>
     <lastmod>2023-10-23T20:35:23+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -132,11 +147,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/pnp/</loc>
-    <lastmod>2023-07-27T11:57:41+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.menzel.it/post/2023/07/reconnect_pages/</loc>
     <lastmod>2023-07-27T11:57:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -148,11 +158,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/post/2023/05/</loc>
-    <lastmod>2023-05-16T16:38:45+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/tags/onedrive/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
