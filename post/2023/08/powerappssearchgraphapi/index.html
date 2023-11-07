@@ -431,7 +431,7 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Set(varRequestBody,&#34;{&#34;&#34;requests&#34;&#34;: [{&#34;&#34;entityTypes&#34;&#34;: [&#34;&#34;message&#34;&#34;], &#34;&#34;query&#34;&#34;: {&#34;&#34;queryString&#34;&#34;: &#34;&#34;subject:Hello&#34;&#34;}}]}&#34;);
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">Set</span><span class="p">(</span><span class="n">varRequestBody</span><span class="p">,</span><span class="s2">&#34;{&#34;&#34;requests&#34;&#34;: [{&#34;&#34;entityTypes&#34;&#34;: [&#34;&#34;message&#34;&#34;], &#34;&#34;query&#34;&#34;: {&#34;&#34;queryString&#34;&#34;: &#34;&#34;subject:Hello&#34;&#34;}}]}&#34;</span><span class="p">);</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The code above sets a variable named <code>varRequestBody</code>. The JSON object contains a single property named requests .The object in the array represent the search request and contains two properties: entityTypes and query. The entityTypes property a string that specifies the type of entity to search for. In this case, the entity type specified is message (Email&rsquo;s). The query property is an object that contains a single property named queryString. The queryString property is a string that specifies the search query to execute. In this case, the search query is <code>subject:Hello</code>.</p>
@@ -529,96 +529,96 @@
 </span><span class="lnt">90
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Set(varFile,
-</span></span><span class="line"><span class="cl">    &#34;data:text/plain;base64,&#34; &amp; With({
-</span></span><span class="line"><span class="cl">    InputText:varRequestBody,
-</span></span><span class="line"><span class="cl">    AsciiTable:AddColumns(Sequence(2^8,1),&#34;char&#34;,Char(Value)),
-</span></span><span class="line"><span class="cl">    B64ToBin:
-</span></span><span class="line"><span class="cl">    Table(
-</span></span><span class="line"><span class="cl">        {b64:&#34;A&#34;,bin:&#34;000000&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;B&#34;,bin:&#34;000001&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;C&#34;,bin:&#34;000010&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;D&#34;,bin:&#34;000011&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;E&#34;,bin:&#34;000100&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;F&#34;,bin:&#34;000101&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;G&#34;,bin:&#34;000110&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;H&#34;,bin:&#34;000111&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;I&#34;,bin:&#34;001000&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;J&#34;,bin:&#34;001001&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;K&#34;,bin:&#34;001010&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;L&#34;,bin:&#34;001011&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;M&#34;,bin:&#34;001100&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;N&#34;,bin:&#34;001101&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;O&#34;,bin:&#34;001110&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;P&#34;,bin:&#34;001111&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;Q&#34;,bin:&#34;010000&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;R&#34;,bin:&#34;010001&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;S&#34;,bin:&#34;010010&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;T&#34;,bin:&#34;010011&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;U&#34;,bin:&#34;010100&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;V&#34;,bin:&#34;010101&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;W&#34;,bin:&#34;010110&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;X&#34;,bin:&#34;010111&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;Y&#34;,bin:&#34;011000&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;Z&#34;,bin:&#34;011001&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;a&#34;,bin:&#34;011010&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;b&#34;,bin:&#34;011011&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;c&#34;,bin:&#34;011100&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;d&#34;,bin:&#34;011101&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;e&#34;,bin:&#34;011110&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;f&#34;,bin:&#34;011111&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;g&#34;,bin:&#34;100000&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;h&#34;,bin:&#34;100001&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;i&#34;,bin:&#34;100010&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;j&#34;,bin:&#34;100011&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;k&#34;,bin:&#34;100100&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;l&#34;,bin:&#34;100101&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;m&#34;,bin:&#34;100110&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;n&#34;,bin:&#34;100111&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;o&#34;,bin:&#34;101000&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;p&#34;,bin:&#34;101001&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;q&#34;,bin:&#34;101010&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;r&#34;,bin:&#34;101011&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;s&#34;,bin:&#34;101100&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;t&#34;,bin:&#34;101101&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;u&#34;,bin:&#34;101110&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;v&#34;,bin:&#34;101111&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;w&#34;,bin:&#34;110000&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;x&#34;,bin:&#34;110001&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;y&#34;,bin:&#34;110010&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;z&#34;,bin:&#34;110011&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;0&#34;,bin:&#34;110100&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;1&#34;,bin:&#34;110101&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;2&#34;,bin:&#34;110110&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;3&#34;,bin:&#34;110111&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;4&#34;,bin:&#34;111000&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;5&#34;,bin:&#34;111001&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;6&#34;,bin:&#34;111010&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;7&#34;,bin:&#34;111011&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;8&#34;,bin:&#34;111100&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;9&#34;,bin:&#34;111101&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;+&#34;,bin:&#34;111110&#34;},
-</span></span><span class="line"><span class="cl">        {b64:&#34;/&#34;,bin:&#34;111111&#34;}
-</span></span><span class="line"><span class="cl">    )},
-</span></span><span class="line"><span class="cl">    With({
-</span></span><span class="line"><span class="cl">    BinRep:
-</span></span><span class="line"><span class="cl">    Concat(
-</span></span><span class="line"><span class="cl">        AddColumns(ForAll(Split(InputText,&#34;&#34;), {Result: ThisRecord.Value}),&#34;dec&#34;,LookUp(AsciiTable,char=Result).Value),//Convert text to Ascii character code (decimal)
-</span></span><span class="line"><span class="cl">        Concat(Sequence(8,8,-1),Text(If(And(Mod(dec,Power(2,Value))&gt;=Power(2,Value-1),Mod(dec,Power(2,Value))&lt;Power(2,Value)),1,0)))&amp;&#34;&#34;,&#34;&#34;)//Convert decimal to binary
-</span></span><span class="line"><span class="cl">    },
-</span></span><span class="line"><span class="cl">        With({b64string:Concat(
-</span></span><span class="line"><span class="cl">            Sequence(
-</span></span><span class="line"><span class="cl">                RoundUp(Len(BinRep)/6,0),0),
-</span></span><span class="line"><span class="cl">                LookUp(
-</span></span><span class="line"><span class="cl">                    B64ToBin,
-</span></span><span class="line"><span class="cl">                    bin=Mid(BinRep&amp;Left(&#34;000000&#34;,6-Mod(Len(BinRep),6)),6*Value+1,6) //Left(&#34;000000&#34;....) is padding right with zero
-</span></span><span class="line"><span class="cl">                ).b64&amp;&#34;&#34;, 
-</span></span><span class="line"><span class="cl">                &#34;&#34;
-</span></span><span class="line"><span class="cl">            )},
-</span></span><span class="line"><span class="cl">            b64string&amp;Left(&#34;====&#34;,Mod(4-Mod(Len(b64string),4),4))//Convert binary to base64
-</span></span><span class="line"><span class="cl">        )
-</span></span><span class="line"><span class="cl">    )
-</span></span><span class="line"><span class="cl">));
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">Set</span><span class="p">(</span><span class="n">varFile</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;data:text/plain;base64,&#34;</span> <span class="o">&amp;</span> <span class="n">With</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">    <span class="n">InputText</span><span class="p">:</span><span class="n">varRequestBody</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">AsciiTable</span><span class="p">:</span><span class="n">AddColumns</span><span class="p">(</span><span class="n">Sequence</span><span class="p">(</span><span class="mi">2</span><span class="o">^</span><span class="mi">8</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="s2">&#34;char&#34;</span><span class="p">,</span><span class="n">Char</span><span class="p">(</span><span class="n">Value</span><span class="p">)),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">B64ToBin</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Table</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;A&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;000000&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;B&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;000001&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;C&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;000010&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;D&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;000011&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;E&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;000100&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;F&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;000101&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;G&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;000110&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;H&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;000111&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;I&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;001000&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;J&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;001001&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;K&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;001010&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;L&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;001011&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;M&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;001100&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;N&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;001101&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;O&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;001110&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;P&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;001111&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;Q&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;010000&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;R&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;010001&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;S&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;010010&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;T&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;010011&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;U&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;010100&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;V&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;010101&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;W&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;010110&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;X&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;010111&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;Y&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;011000&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;Z&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;011001&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;a&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;011010&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;b&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;011011&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;c&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;011100&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;d&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;011101&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;e&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;011110&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;f&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;011111&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;g&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;100000&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;h&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;100001&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;i&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;100010&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;j&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;100011&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;k&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;100100&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;l&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;100101&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;m&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;100110&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;n&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;100111&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;o&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;101000&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;p&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;101001&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;q&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;101010&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;r&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;101011&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;s&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;101100&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;t&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;101101&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;u&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;101110&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;v&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;101111&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;w&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;110000&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;x&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;110001&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;y&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;110010&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;z&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;110011&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;0&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;110100&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;1&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;110101&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;2&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;110110&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;3&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;110111&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;4&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;111000&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;5&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;111001&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;6&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;111010&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;7&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;111011&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;8&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;111100&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;9&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;111101&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;+&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;111110&#34;</span><span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="n">b64</span><span class="p">:</span><span class="s2">&#34;/&#34;</span><span class="p">,</span><span class="n">bin</span><span class="p">:</span><span class="s2">&#34;111111&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)},</span>
+</span></span><span class="line"><span class="cl">    <span class="n">With</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">    <span class="n">BinRep</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Concat</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="n">AddColumns</span><span class="p">(</span><span class="n">ForAll</span><span class="p">(</span><span class="n">Split</span><span class="p">(</span><span class="n">InputText</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">),</span> <span class="p">{</span><span class="n">Result</span><span class="p">:</span> <span class="n">ThisRecord</span><span class="o">.</span><span class="n">Value</span><span class="p">}),</span><span class="s2">&#34;dec&#34;</span><span class="p">,</span><span class="n">LookUp</span><span class="p">(</span><span class="n">AsciiTable</span><span class="p">,</span><span class="n">char</span><span class="o">=</span><span class="n">Result</span><span class="p">)</span><span class="o">.</span><span class="n">Value</span><span class="p">),</span><span class="o">//</span><span class="n">Convert</span> <span class="n">text</span> <span class="n">to</span> <span class="n">Ascii</span> <span class="n">character</span> <span class="n">code</span> <span class="p">(</span><span class="n">decimal</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Concat</span><span class="p">(</span><span class="n">Sequence</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span><span class="n">Text</span><span class="p">(</span><span class="n">If</span><span class="p">(</span><span class="n">And</span><span class="p">(</span><span class="n">Mod</span><span class="p">(</span><span class="n">dec</span><span class="p">,</span><span class="n">Power</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">Value</span><span class="p">))</span><span class="o">&gt;=</span><span class="n">Power</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">Value</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span><span class="n">Mod</span><span class="p">(</span><span class="n">dec</span><span class="p">,</span><span class="n">Power</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">Value</span><span class="p">))</span><span class="o">&lt;</span><span class="n">Power</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">Value</span><span class="p">)),</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">)))</span><span class="o">&amp;</span><span class="s2">&#34;&#34;</span><span class="p">,</span><span class="s2">&#34;&#34;</span><span class="p">)</span><span class="o">//</span><span class="n">Convert</span> <span class="n">decimal</span> <span class="n">to</span> <span class="n">binary</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="n">With</span><span class="p">({</span><span class="n">b64string</span><span class="p">:</span><span class="n">Concat</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Sequence</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                <span class="n">RoundUp</span><span class="p">(</span><span class="n">Len</span><span class="p">(</span><span class="n">BinRep</span><span class="p">)</span><span class="o">/</span><span class="mi">6</span><span class="p">,</span><span class="mi">0</span><span class="p">),</span><span class="mi">0</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">                <span class="n">LookUp</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">B64ToBin</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">bin</span><span class="o">=</span><span class="n">Mid</span><span class="p">(</span><span class="n">BinRep</span><span class="o">&amp;</span><span class="n">Left</span><span class="p">(</span><span class="s2">&#34;000000&#34;</span><span class="p">,</span><span class="mi">6</span><span class="o">-</span><span class="n">Mod</span><span class="p">(</span><span class="n">Len</span><span class="p">(</span><span class="n">BinRep</span><span class="p">),</span><span class="mi">6</span><span class="p">)),</span><span class="mi">6</span><span class="o">*</span><span class="n">Value</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="mi">6</span><span class="p">)</span> <span class="o">//</span><span class="n">Left</span><span class="p">(</span><span class="s2">&#34;000000&#34;</span><span class="o">....</span><span class="p">)</span> <span class="n">is</span> <span class="n">padding</span> <span class="n">right</span> <span class="n">with</span> <span class="n">zero</span>
+</span></span><span class="line"><span class="cl">                <span class="p">)</span><span class="o">.</span><span class="n">b64</span><span class="o">&amp;</span><span class="s2">&#34;&#34;</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">)},</span>
+</span></span><span class="line"><span class="cl">            <span class="n">b64string</span><span class="o">&amp;</span><span class="n">Left</span><span class="p">(</span><span class="s2">&#34;====&#34;</span><span class="p">,</span><span class="n">Mod</span><span class="p">(</span><span class="mi">4</span><span class="o">-</span><span class="n">Mod</span><span class="p">(</span><span class="n">Len</span><span class="p">(</span><span class="n">b64string</span><span class="p">),</span><span class="mi">4</span><span class="p">),</span><span class="mi">4</span><span class="p">))</span><span class="o">//</span><span class="n">Convert</span> <span class="n">binary</span> <span class="n">to</span> <span class="n">base64</span>
+</span></span><span class="line"><span class="cl">        <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">));</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>This nice trick I learned from Hiro&rsquo;s Blog - Encode plain text to Base64 - <a class="link" href="https://mofumofupower.hatenablog.com/entry/encode_decode"  target="_blank" rel="noopener"
@@ -636,14 +636,14 @@ The <code>varRequestBody</code> variable is then used to generate a Base64-encod
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Set(
-</span></span><span class="line"><span class="cl">    varResult,
-</span></span><span class="line"><span class="cl">    Office365Groups.HttpRequest(
-</span></span><span class="line"><span class="cl">        &#34;https://graph.microsoft.com/v1.0/search/query&#34;,
-</span></span><span class="line"><span class="cl">        &#34;POST&#34;,
-</span></span><span class="line"><span class="cl">        varFile
-</span></span><span class="line"><span class="cl">    )
-</span></span><span class="line"><span class="cl">)
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">Set</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">varResult</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Office365Groups</span><span class="o">.</span><span class="n">HttpRequest</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;https://graph.microsoft.com/v1.0/search/query&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;POST&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">varFile</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The HTTP request is sent to the Microsoft Graph API&rsquo;s search endpoint (<code>https://graph.microsoft.com/v1.0/search/query</code>) using the <code>Office365Groups.HttpRequest</code> function. The function takes three arguments: the URL of the endpoint, the HTTP method to use (in this case, <code>POST</code>), and the request body to send with the request.
@@ -671,7 +671,7 @@ This whole code can for example be put in a buttons OnSelect property to send th
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Table(Index(Table(Index(Table(varResult.value),1).Value.hitsContainers),1).Value.hits)
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">Table</span><span class="p">(</span><span class="n">Index</span><span class="p">(</span><span class="n">Table</span><span class="p">(</span><span class="n">Index</span><span class="p">(</span><span class="n">Table</span><span class="p">(</span><span class="n">varResult</span><span class="o">.</span><span class="n">value</span><span class="p">),</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">Value</span><span class="o">.</span><span class="n">hitsContainers</span><span class="p">),</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">Value</span><span class="o">.</span><span class="n">hits</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The <code>varResult</code> variable is containing the response from the API. The response is expected to be a JSON object that contains a property named <code>value</code>. The <code>value</code> property is an array of objects that represent the search results.</p>
