@@ -6,7 +6,98 @@
         <description>Recent content in PnP on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 27 Oct 2023 15:22:18 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/pnp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 06 Nov 2023 15:58:22 +0100</lastBuildDate><atom:link href="https://www.menzel.it/tags/pnp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Update SharePoint Metadata Silently with PnP PowerShell</title>
+        <link>https://www.menzel.it/post/2023/10/update-sharepoint-metadata-pnp-powershell/</link>
+        <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
+        
+        <guid>https://www.menzel.it/post/2023/10/update-sharepoint-metadata-pnp-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/10/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png" alt="Featured image of post Update SharePoint Metadata Silently with PnP PowerShell" /&gt;&lt;h2 id=&#34;why-bother-with-metadata&#34;&gt;Why Bother with Metadata?&lt;/h2&gt;
+&lt;p&gt;Think of metadata as the DNA of your SharePoint content. It tells you who created a document, when it was last touched, and more. This information isn’t just for kicks; it&amp;rsquo;s vital for audits, compliance, and knowing the lineage of your content.&lt;/p&gt;
+&lt;h2 id=&#34;keeping-metadata-intact-with-updates&#34;&gt;Keeping Metadata Intact with Updates&lt;/h2&gt;
+&lt;p&gt;Sometimes you need to tweak a document&amp;rsquo;s details but want to keep the original &amp;ldquo;Modified By&amp;rdquo; data. PnP PowerShell is your ally here:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;# Connect to your SharePoint site&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;Connect-PnPOnline&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Url&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;contoso&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;py&#34;&gt;sharepoint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;com&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sites&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;demo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Interactive&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;# Preserve metadata with a SystemUpdate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;Set-PnPListItem&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-List&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Tasks&amp;#34;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Identity&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$item&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Values&lt;/span&gt; &lt;span class=&#34;vm&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Title&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;New Project Title&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-UpdateType&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;SystemUpdate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;understanding-update-types-in-pnp-powershell&#34;&gt;Understanding Update Types in PnP PowerShell&lt;/h2&gt;
+&lt;p&gt;When you&amp;rsquo;re updating SharePoint items with PnP PowerShell, you have three update methods at your disposal, each serving a different purpose. Let&amp;rsquo;s demystify these:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is the standard update command. When you use Update, SharePoint treats the action as if you manually updated the item through the UI. This means:&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;Modified&amp;rdquo; and &amp;ldquo;Modified By&amp;rdquo; fields will be updated to reflect the time of the update and the user who made the change.
+If versioning is enabled on the list or library, a new version will be created.
+Use it when you want to make a straightforward update that logs your changes as a new version.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;SystemUpdate&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SystemUpdate is more discreet:&lt;/p&gt;
+&lt;p&gt;It updates items without changing the &amp;ldquo;Modified By&amp;rdquo; and &amp;ldquo;Modified&amp;rdquo; fields.
+A new version is created if versioning is enabled, but it will not show as a new &amp;ldquo;modified&amp;rdquo; entry.
+This method is perfect when you need to make changes that don&amp;rsquo;t affect the item&amp;rsquo;s version history as seen by end-users, like during system migrations or bulk updates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;UpdateOverwriteVersion&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The UpdateOverwriteVersion is the stealth operator:&lt;/p&gt;
+&lt;p&gt;It updates the item while keeping the &amp;ldquo;Modified By&amp;rdquo; and &amp;ldquo;Modified&amp;rdquo; fields as they were.
+It does not create a new version; instead, it overwrites the current version, even if versioning is enabled.
+This approach is suitable when you want to make a correction to the current version of an item or document without increasing the version count, effectively keeping the update under the radar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;changing-creator-and-creation-dates-is-it-even-possible&#34;&gt;Changing Creator and Creation Dates: Is It Even Possible?&lt;/h2&gt;
+&lt;p&gt;Yes, it is! You might need to backdate a document or correct the creator&amp;rsquo;s details during migrations or cleanup:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;# Fetch the item you need to update&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;$item&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Get-PnPListItem&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-List&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Documents&amp;#34;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Id&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;42&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;# Change the &amp;#34;Created By&amp;#34; and &amp;#34;Created&amp;#34; fields&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;$creationDate&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Get-Date&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2020-01-14&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;Set-PnPListItem&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-List&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Documents&amp;#34;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Identity&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$item&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Values&lt;/span&gt; &lt;span class=&#34;vm&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;Author&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$newCreatorUserId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;Created&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$creationDate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-SystemUpdate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;data-integrity-best-practices&#34;&gt;Data Integrity Best Practices&lt;/h2&gt;
+&lt;p&gt;When you&amp;rsquo;re making changes to your SharePoint content, it&amp;rsquo;s essential to follow best practices to avoid data loss or corruption. Here are some tips to keep in mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keep a Log&lt;/strong&gt;: Track changes for accountability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Get Approval&lt;/strong&gt;: Make sure changes are above board and approved.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test Changes&lt;/strong&gt;: Test your changes in a non-production environment before applying them to your live content.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;wrapping-up&#34;&gt;Wrapping Up&lt;/h2&gt;
+&lt;p&gt;Whether you&amp;rsquo;re nudging metadata back to its original state or updating it to reflect new truths, PnP PowerShell offers the flexibility and power needed for the task. It’s about making changes without losing the story of your data.&lt;/p&gt;
+&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
+&lt;p&gt;PnP PowerShell Cmdlet Documentation: &lt;a class=&#34;link&#34; href=&#34;https://pnp.github.io/powershell/cmdlets/Set-PnPListItem.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pnp.github.io/powershell/cmdlets/Set-PnPListItem.html&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>How to Find / Restore Deleted OneDrive Sites with PnP PowerShell</title>
         <link>https://www.menzel.it/post/2023/10/deleted_onedrive/</link>
         <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>

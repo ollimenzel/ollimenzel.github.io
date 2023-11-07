@@ -6,12 +6,60 @@
         <description>Recent content in Tags on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 27 Oct 2023 15:22:18 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 06 Nov 2023 15:58:22 +0100</lastBuildDate><atom:link href="https://www.menzel.it/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>How-to</title>
         <link>https://www.menzel.it/tags/how-to/</link>
-        <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>
+        <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
         
         <guid>https://www.menzel.it/tags/how-to/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Metadata</title>
+        <link>https://www.menzel.it/tags/metadata/</link>
+        <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
+        
+        <guid>https://www.menzel.it/tags/metadata/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Microsoft365</title>
+        <link>https://www.menzel.it/tags/microsoft365/</link>
+        <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
+        
+        <guid>https://www.menzel.it/tags/microsoft365/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>PnP</title>
+        <link>https://www.menzel.it/tags/pnp/</link>
+        <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
+        
+        <guid>https://www.menzel.it/tags/pnp/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>PowerShell</title>
+        <link>https://www.menzel.it/tags/powershell/</link>
+        <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
+        
+        <guid>https://www.menzel.it/tags/powershell/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SharePoint</title>
+        <link>https://www.menzel.it/tags/sharepoint/</link>
+        <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
+        
+        <guid>https://www.menzel.it/tags/sharepoint/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SiteOwners</title>
+        <link>https://www.menzel.it/tags/siteowners/</link>
+        <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
+        
+        <guid>https://www.menzel.it/tags/siteowners/</guid>
         <description></description>
         </item>
         <item>
@@ -23,43 +71,11 @@
         <description></description>
         </item>
         <item>
-        <title>PnP</title>
-        <link>https://www.menzel.it/tags/pnp/</link>
-        <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/pnp/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>PowerShell</title>
-        <link>https://www.menzel.it/tags/powershell/</link>
-        <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/powershell/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>SiteOwners</title>
-        <link>https://www.menzel.it/tags/siteowners/</link>
-        <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/siteowners/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>Clarity</title>
         <link>https://www.menzel.it/tags/clarity/</link>
         <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
         
         <guid>https://www.menzel.it/tags/clarity/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>SharePoint</title>
-        <link>https://www.menzel.it/tags/sharepoint/</link>
-        <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/sharepoint/</guid>
         <description></description>
         </item>
         <item>
