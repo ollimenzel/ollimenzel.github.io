@@ -6,13 +6,73 @@
         <description>Recent content in 2023 on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 06 Nov 2023 15:58:22 +0100</lastBuildDate><atom:link href="https://www.menzel.it/post/2023/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 09 Nov 2023 13:19:06 +0100</lastBuildDate><atom:link href="https://www.menzel.it/post/2023/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part</title>
+        <link>https://www.menzel.it/post/2023/11/spimageediting/</link>
+        <pubDate>Thu, 09 Nov 2023 13:19:06 +0100</pubDate>
+        
+        <guid>https://www.menzel.it/post/2023/11/spimageediting/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/11/spimageediting/HeaderImage.png" alt="Featured image of post New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part" /&gt;
+
+
+
+&lt;h2 id=&#34;adding-and-editing-images-with-the-image-web-part&#34;&gt;Adding and Editing Images with the Image Web Part&lt;/h2&gt;
+&lt;p&gt;The Image web part simplifies the process of adding visual elements to your SharePoint Online pages. Here&amp;rsquo;s how you can set it up:&lt;/p&gt;
+&lt;h3 id=&#34;inserting-an-image&#34;&gt;Inserting an Image&lt;/h3&gt;
+&lt;p&gt;Navigate to the page where you want to add an image and select &amp;ldquo;Edit&amp;rdquo; at the top right of the page to enable editing mode. Choose the section you want to insert the Image web part and click the &amp;ldquo;+&amp;rdquo; sign to add a new web part. Select &amp;ldquo;Image&amp;rdquo; from the list of available web parts.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-owfe.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;editing-an-image&#34;&gt;Editing an Image&lt;/h3&gt;
+&lt;p&gt;Once the image is inserted, you might want to fine-tune its appearance. Click the &amp;lsquo;Advanced editing&amp;rsquo; to access the editing options. From there, you can:
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-oxpo.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Crop:&lt;/strong&gt; Adjust the framing of your image to focus on the most important elements.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adjustment:&lt;/strong&gt; Modify brightness, contrast, and saturation to ensure your image stands out or blends in with the overall design.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Filters:&lt;/strong&gt; Apply filters for artistic effects or to conform to your branding guidelines.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markup:&lt;/strong&gt; Add shapes, lines, and text to your image to highlight specific elements.
+
+    
+    
+    
+    &lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-oycy.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+    
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;adding-text-overlays&#34;&gt;Adding Text Overlays&lt;/h3&gt;
+&lt;p&gt;Enhance your images by adding text directly over them. While in the edit mode of the Image web part, you&amp;rsquo;ll find an option to &amp;ldquo;add text over the image.&amp;rdquo; Click on it, and a text box will appear on your image where you can enter your desired text. This feature is particularly useful for headers, announcements, or to convey additional context.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-oysu.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;configuring-accessibility&#34;&gt;Configuring Accessibility&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s crucial to ensure that your images are accessible to all users. When editing the Image web part, add descriptive alternative text that accurately represents the image content for users who use screen readers.&lt;/p&gt;
+&lt;h3 id=&#34;saving-your-edits&#34;&gt;Saving Your Edits&lt;/h3&gt;
+&lt;p&gt;After making all your edits, don&amp;rsquo;t forget to save your changes. You can publish or republish the page to make the changes live or you can &amp;lsquo;Save as draft&amp;rsquo; to work on this page later.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The Image web part in SharePoint Online is a powerful tool that, with its new editing capabilities, can significantly enhance the visual impact of your pages. By following these detailed steps, you can effectively use images to complement your textual content, make your pages more engaging, and ensure they are inclusive for all users.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins</title>
-        <link>https://www.menzel.it/post/2023/10/update-sharepoint-metadata-pnp-powershell/</link>
+        <link>https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/</link>
         <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/10/update-sharepoint-metadata-pnp-powershell/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/10/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png" alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins" /&gt;&lt;h2 id=&#34;why-bother-with-metadata&#34;&gt;Why Bother with Metadata?&lt;/h2&gt;
+        <guid>https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png" alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins" /&gt;&lt;h2 id=&#34;why-bother-with-metadata&#34;&gt;Why Bother with Metadata?&lt;/h2&gt;
 &lt;p&gt;Think of metadata as the DNA of your SharePoint content. It tells you who created a document, when it was last touched, and more. This information isn’t just for kicks; it&amp;rsquo;s vital for audits, compliance, and knowing the lineage of your content.&lt;/p&gt;
 &lt;h2 id=&#34;keeping-metadata-intact-with-updates&#34;&gt;Keeping Metadata Intact with Updates&lt;/h2&gt;
 &lt;p&gt;Sometimes you need to adjust a document&amp;rsquo;s details but want to keep the original &amp;lsquo;Modified By&amp;rsquo; data. PnP PowerShell is your ally here:&lt;/p&gt;
