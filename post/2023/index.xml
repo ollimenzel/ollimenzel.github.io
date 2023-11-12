@@ -12,11 +12,7 @@
         <pubDate>Thu, 09 Nov 2023 13:19:06 +0100</pubDate>
         
         <guid>https://www.menzel.it/post/2023/11/spimageediting/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/11/spimageediting/HeaderImage.png" alt="Featured image of post New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part" /&gt;
-
-
-
-&lt;h2 id=&#34;adding-and-editing-images-with-the-image-web-part&#34;&gt;Adding and Editing Images with the Image Web Part&lt;/h2&gt;
+        <description>&lt;img src="https://www.menzel.it/post/2023/11/spimageediting/HeaderImage.png" alt="Featured image of post New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part" /&gt;&lt;h2 id=&#34;adding-and-editing-images-with-the-image-web-part&#34;&gt;Adding and Editing Images with the Image Web Part&lt;/h2&gt;
 &lt;p&gt;The Image web part simplifies the process of adding visual elements to your SharePoint Online pages. Here&amp;rsquo;s how you can set it up:&lt;/p&gt;
 &lt;h3 id=&#34;inserting-an-image&#34;&gt;Inserting an Image&lt;/h3&gt;
 &lt;p&gt;Navigate to the page where you want to add an image and select &amp;ldquo;Edit&amp;rdquo; at the top right of the page to enable editing mode. Choose the section you want to insert the Image web part and click the &amp;ldquo;+&amp;rdquo; sign to add a new web part. Select &amp;ldquo;Image&amp;rdquo; from the list of available web parts.
