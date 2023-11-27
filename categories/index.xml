@@ -6,7 +6,15 @@
         <description>Recent content in Categories on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 12 Nov 2023 20:19:16 +0000</lastBuildDate><atom:link href="https://www.menzel.it/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 26 Nov 2023 21:25:48 +0000</lastBuildDate><atom:link href="https://www.menzel.it/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>PowerPlatform</title>
+        <link>https://www.menzel.it/categories/powerplatform/</link>
+        <pubDate>Sun, 26 Nov 2023 21:25:48 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/categories/powerplatform/</guid>
+        <description>&lt;img src="https://www.menzel.it/categories/powerplatform/PowerPlatform_scalable.svg" alt="Featured image of post PowerPlatform" /&gt;</description>
+        </item>
+        <item>
         <title>Microsoft365</title>
         <link>https://www.menzel.it/categories/microsoft365/</link>
         <pubDate>Sun, 12 Nov 2023 20:19:16 +0000</pubDate>
@@ -37,14 +45,6 @@
         
         <guid>https://www.menzel.it/categories/ai/</guid>
         <description>&lt;img src="https://www.menzel.it/categories/ai/AI.png" alt="Featured image of post AI" /&gt;</description>
-        </item>
-        <item>
-        <title>PowerPlatform</title>
-        <link>https://www.menzel.it/categories/powerplatform/</link>
-        <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/categories/powerplatform/</guid>
-        <description>&lt;img src="https://www.menzel.it/categories/powerplatform/PowerPlatform_scalable.svg" alt="Featured image of post PowerPlatform" /&gt;</description>
         </item>
         
     </channel>
