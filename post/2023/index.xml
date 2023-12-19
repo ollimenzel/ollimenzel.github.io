@@ -6,7 +6,109 @@
         <description>Recent content in 2023 on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 26 Nov 2023 21:25:48 +0000</lastBuildDate><atom:link href="https://www.menzel.it/post/2023/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 Dec 2023 10:00:38 +0000</lastBuildDate><atom:link href="https://www.menzel.it/post/2023/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>M365 Groups: Set Up a &#39;No Owner Policy&#39; &amp; why it&#39;s Important</title>
+        <link>https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/</link>
+        <pubDate>Tue, 19 Dec 2023 10:00:38 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/image-2.png" alt="Featured image of post M365 Groups: Set Up a &#39;No Owner Policy&#39; &amp; why it&#39;s Important" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Managing group ownership is crucial for maintaining order and security within an organization in Microsoft 365. A &amp;ldquo;No Owner Policy&amp;rdquo; in Microsoft 365 Groups prompts members to assume ownership when the original owner leaves, ensuring continuity and accountability. This blog post explores setting up this policy, its importance, and the different settings options.&lt;/p&gt;
+&lt;h2 id=&#34;the-importance-of-a-no-owner-policy&#34;&gt;The Importance of a No Owner Policy&lt;/h2&gt;
+&lt;h3 id=&#34;ensuring-group-continuity&#34;&gt;Ensuring Group Continuity&lt;/h3&gt;
+&lt;p&gt;When a group&amp;rsquo;s owner leaves, it can disrupt the group&amp;rsquo;s direction and leadership. The No Owner Policy addresses this by asking members to take ownership, ensuring the group remains active and well-managed.&lt;/p&gt;
+&lt;h3 id=&#34;facilitating-other-policies&#34;&gt;Facilitating Other Policies&lt;/h3&gt;
+&lt;p&gt;This policy is instrumental in supporting other group management policies. For example, the Inactive Group Policy or &lt;a class=&#34;link&#34; href=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Guest Access Review Policy&lt;/a&gt; require an active owner for key decisions. Without this, such policies will not work correctly, leading to unmanaged groups or security risks.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-set-up-a-no-owner-policy&#34;&gt;How-to Set Up a No Owner Policy&lt;/h2&gt;
+&lt;h3 id=&#34;access-microsoft-365-admin-center&#34;&gt;Access Microsoft 365 Admin Center&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Login&lt;/strong&gt;: Sign in to the &lt;a class=&#34;link&#34; href=&#34;https://admin.microsoft.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft 365 Admin Center&lt;/a&gt; using an administrator account.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;navigate-to-groups&#34;&gt;Navigate to Groups&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Find Groups Section&lt;/strong&gt;: In the Admin Center, locate the &amp;lsquo;Settings&amp;rsquo; section. This is typically found in the navigation pane.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;implementing-the-policy&#34;&gt;Implementing the Policy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Locate Group Policies&lt;/strong&gt;: Within the Settings section, go to &amp;lsquo;Microsoft 365 Groups&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enabling No Owner Policy&lt;/strong&gt;: Look for an option that triggers a notification for group members to volunteer for ownership when the current owner leaves. Enable this setting.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-layz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;configuring-notifications&#34;&gt;Configuring Notifications&lt;/h3&gt;
+&lt;p&gt;You can configure the following settings by clicking on the &amp;lsquo;Configure&amp;rsquo; link:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Specify who can receive ownership notifications&lt;/strong&gt;: Choose whether all members or only selected members can receive notifications.
+&lt;img src=&#34;https://www.menzel.it/&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+&gt;
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/image.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Number of active members to notify&lt;/strong&gt;: Set the number of members to notify. Only up to 90 active members, who aren&amp;rsquo;t guests, can be notified
+per group.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Notify most active members&lt;/strong&gt;: Set for how long these notifications are sent.
+Consider the urgency and how best to prompt a response without causing notification fatigue.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Select a sender&lt;/strong&gt;: Choose who the notification is sent from. This can be the group email or a specific user.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Customize Notification Messages&lt;/strong&gt;: Edit the default message to clearly explain why the member is receiving this notification and the importance of taking ownership.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-leig.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Select which groups to target&lt;/strong&gt;: Choose which groups to target with this policy. You can select all groups or specific groups.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-lerz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;save-and-test&#34;&gt;Save and Test&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Review and finish&lt;/strong&gt;: Review the settings and click &amp;lsquo;Save&amp;rsquo; to implement the policy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test the Policy&lt;/strong&gt;: It&amp;rsquo;s a good practice to test the policy with a few groups to ensure it works as expected and members receive notifications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Setting up a No Owner Policy in Microsoft 365 Groups is a proactive step towards ensuring seamless group management and security. By following this how-to, organizations can effectively implement this policy to maintain continuous and responsible group management.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you have any questions or feedback, please leave a comment below or reach out to me on social media.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Power Automate - How-to Posting on BlueSky and Mastodon</title>
         <link>https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/</link>
         <pubDate>Sun, 26 Nov 2023 21:25:48 +0000</pubDate>

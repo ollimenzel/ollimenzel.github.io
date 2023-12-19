@@ -3,22 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.menzel.it/</loc>
-    <lastmod>2023-11-26T21:25:48+00:00</lastmod>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/post/2023/</loc>
-    <lastmod>2023-11-26T21:25:48+00:00</lastmod>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/categories/</loc>
-    <lastmod>2023-11-26T21:25:48+00:00</lastmod>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/categories/governance/</loc>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/how-to/</loc>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/</loc>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/microsoft-365/</loc>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/microsoft-365-groups/</loc>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/categories/microsoft365/</loc>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/policy/</loc>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/post/</loc>
-    <lastmod>2023-11-26T21:25:48+00:00</lastmod>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/</loc>
+    <lastmod>2023-12-19T10:00:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -42,32 +82,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/</loc>
-    <lastmod>2023-11-26T21:25:48+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/</loc>
     <lastmod>2023-11-12T20:19:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/how-to/</loc>
-    <lastmod>2023-11-12T20:19:16+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/categories/microsoft365/</loc>
-    <lastmod>2023-11-12T20:19:16+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.menzel.it/tags/sharepoint/</loc>
-    <lastmod>2023-11-12T20:19:16+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/categories/sharepoint/</loc>
     <lastmod>2023-11-12T20:19:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -78,6 +98,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/post/2023/11/spimageediting/</loc>
+    <lastmod>2023-11-09T13:19:06+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/categories/sharepoint/</loc>
     <lastmod>2023-11-09T13:19:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Governance on The State of the Microsoft 365 Nation</title>
+        <link>https://www.menzel.it/categories/governance/</link>
+        <description>Recent content in Governance on The State of the Microsoft 365 Nation</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Tue, 19 Dec 2023 10:00:38 +0000</lastBuildDate><atom:link href="https://www.menzel.it/categories/governance/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>M365 Groups: Set Up a &#39;No Owner Policy&#39; &amp; why it&#39;s Important</title>
+        <link>https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/</link>
+        <pubDate>Tue, 19 Dec 2023 10:00:38 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/image-2.png" alt="Featured image of post M365 Groups: Set Up a &#39;No Owner Policy&#39; &amp; why it&#39;s Important" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Managing group ownership is crucial for maintaining order and security within an organization in Microsoft 365. A &amp;ldquo;No Owner Policy&amp;rdquo; in Microsoft 365 Groups prompts members to assume ownership when the original owner leaves, ensuring continuity and accountability. This blog post explores setting up this policy, its importance, and the different settings options.&lt;/p&gt;
+&lt;h2 id=&#34;the-importance-of-a-no-owner-policy&#34;&gt;The Importance of a No Owner Policy&lt;/h2&gt;
+&lt;h3 id=&#34;ensuring-group-continuity&#34;&gt;Ensuring Group Continuity&lt;/h3&gt;
+&lt;p&gt;When a group&amp;rsquo;s owner leaves, it can disrupt the group&amp;rsquo;s direction and leadership. The No Owner Policy addresses this by asking members to take ownership, ensuring the group remains active and well-managed.&lt;/p&gt;
+&lt;h3 id=&#34;facilitating-other-policies&#34;&gt;Facilitating Other Policies&lt;/h3&gt;
+&lt;p&gt;This policy is instrumental in supporting other group management policies. For example, the Inactive Group Policy or &lt;a class=&#34;link&#34; href=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Guest Access Review Policy&lt;/a&gt; require an active owner for key decisions. Without this, such policies will not work correctly, leading to unmanaged groups or security risks.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-set-up-a-no-owner-policy&#34;&gt;How-to Set Up a No Owner Policy&lt;/h2&gt;
+&lt;h3 id=&#34;access-microsoft-365-admin-center&#34;&gt;Access Microsoft 365 Admin Center&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Login&lt;/strong&gt;: Sign in to the &lt;a class=&#34;link&#34; href=&#34;https://admin.microsoft.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft 365 Admin Center&lt;/a&gt; using an administrator account.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;navigate-to-groups&#34;&gt;Navigate to Groups&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Find Groups Section&lt;/strong&gt;: In the Admin Center, locate the &amp;lsquo;Settings&amp;rsquo; section. This is typically found in the navigation pane.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;implementing-the-policy&#34;&gt;Implementing the Policy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Locate Group Policies&lt;/strong&gt;: Within the Settings section, go to &amp;lsquo;Microsoft 365 Groups&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enabling No Owner Policy&lt;/strong&gt;: Look for an option that triggers a notification for group members to volunteer for ownership when the current owner leaves. Enable this setting.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-layz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;configuring-notifications&#34;&gt;Configuring Notifications&lt;/h3&gt;
+&lt;p&gt;You can configure the following settings by clicking on the &amp;lsquo;Configure&amp;rsquo; link:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Specify who can receive ownership notifications&lt;/strong&gt;: Choose whether all members or only selected members can receive notifications.
+&lt;img src=&#34;https://www.menzel.it/&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Alt text&#34;
+	
+	
+&gt;
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/image.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Number of active members to notify&lt;/strong&gt;: Set the number of members to notify. Only up to 90 active members, who aren&amp;rsquo;t guests, can be notified
+per group.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Notify most active members&lt;/strong&gt;: Set for how long these notifications are sent.
+Consider the urgency and how best to prompt a response without causing notification fatigue.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Select a sender&lt;/strong&gt;: Choose who the notification is sent from. This can be the group email or a specific user.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Customize Notification Messages&lt;/strong&gt;: Edit the default message to clearly explain why the member is receiving this notification and the importance of taking ownership.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-leig.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Select which groups to target&lt;/strong&gt;: Choose which groups to target with this policy. You can select all groups or specific groups.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-lerz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;save-and-test&#34;&gt;Save and Test&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Review and finish&lt;/strong&gt;: Review the settings and click &amp;lsquo;Save&amp;rsquo; to implement the policy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test the Policy&lt;/strong&gt;: It&amp;rsquo;s a good practice to test the policy with a few groups to ensure it works as expected and members receive notifications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Setting up a No Owner Policy in Microsoft 365 Groups is a proactive step towards ensuring seamless group management and security. By following this how-to, organizations can effectively implement this policy to maintain continuous and responsible group management.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you have any questions or feedback, please leave a comment below or reach out to me on social media.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>External User Access Reviews in Office 365</title>
+        <link>https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/</link>
+        <pubDate>Sun, 12 Nov 2023 20:19:16 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/HeaderImage.png" alt="Featured image of post External User Access Reviews in Office 365" /&gt;&lt;p&gt;&lt;strong&gt;Understanding External User Access&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Before diving into the reviews, it&amp;rsquo;s important to understand what external access entails. External users in O365 are individuals who are not employees, or onsite agents for your organization. They could be partners, vendors, or consultants who need access to certain parts of your O365 environment, such as SharePoint sites or Microsoft Teams.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Need for Access Reviews&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The principle of least privilege mandates that users should have access only to the information and resources that are absolutely necessary for their work. Over time, access requirements can change, and periodic reviews ensure that external users only have the access they need. This is where O365&amp;rsquo;s access review feature comes into play, allowing for the systematic verification and auditing of user privileges.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Setting Up Access Reviews&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To set up access reviews in O365, follow these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Navigate to the Access Reviews Dashboard&lt;/strong&gt;: Access this via the Microsoft 365 compliance center or Azure Active Directory (EntraID) portal.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a New Access Review&lt;/strong&gt;: Specify the scope of the review, whether it&amp;rsquo;s targeted at guest users across all Microsoft Teams and Groups or specific ones.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-1.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-2.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Define Review Settings&lt;/strong&gt;: Choose who will perform the review (group owners, specific users, or application owners), set the frequency (one-time or recurring), and establish the start and end dates.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-3.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-4.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Customize Review Settings&lt;/strong&gt;: Decide on the outcomes for denied access, such as automatic removal or a manual step, and whether reviewers receive reminders.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-5.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Review and Confirm&lt;/strong&gt;: Double-check the settings, and then create the access review.
+
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-6.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Conducting the Review&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Once set up, designated reviewers will be notified to examine the access rights of external users. Reviewers can approve or deny access for each user, and they can provide reasons for their decisions. It&amp;rsquo;s best practice to include guidelines for making these decisions to ensure consistency and compliance.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Examples of Access Reviews in Action&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Vendor Access Review&lt;/strong&gt;: A company conducts quarterly reviews of vendor access to its internal procurement system to validate that only current vendors have access.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Consultant Project Completion&lt;/strong&gt;: Upon the completion of a project, the external consultant’s access to the project’s SharePoint site is reviewed and revoked if no longer needed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Partner Collaboration&lt;/strong&gt;: Annual reviews of a partner organization’s access to shared Teams channels are performed to ensure that only relevant individuals retain access.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Best Practices&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Regular Schedule&lt;/strong&gt;: Conduct access reviews on a regular schedule to maintain security hygiene.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Clear Documentation&lt;/strong&gt;: Keep detailed records of each review for auditing purposes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;User Notification&lt;/strong&gt;: Inform external users about the review process to ensure transparency and avoid confusion if access is altered or revoked.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Access reviews in O365 are an essential practice for maintaining secure and efficient collaborations with external users. By regularly reviewing and adjusting access rights, organizations can protect sensitive information while facilitating productive partnerships. With O365’s robust access review tools, you can ensure that your external collaborations are both productive and secure.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
