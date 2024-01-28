@@ -266,12 +266,12 @@ This approach is suitable when you want to make a correction to the current vers
 </description>
         </item>
         <item>
-        <title>How to Find / Restore Deleted OneDrive Sites with PnP PowerShell</title>
+        <title>Find / Restore Deleted OneDrive Sites with PnP PowerShell</title>
         <link>https://www.menzel.it/post/2023/10/deleted_onedrive/</link>
         <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>
         
         <guid>https://www.menzel.it/post/2023/10/deleted_onedrive/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/10/deleted_onedrive/header.png" alt="Featured image of post How to Find / Restore Deleted OneDrive Sites with PnP PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <description>&lt;img src="https://www.menzel.it/post/2023/10/deleted_onedrive/header.png" alt="Featured image of post Find / Restore Deleted OneDrive Sites with PnP PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In SharePoint Online, users can store their files in OneDrive for Business, which is a personal document library that is associated with their user account. Sometimes, users may accidentally delete their OneDrive site or get deleted when they leave the company, which can result in the loss of important files and data.&lt;/p&gt;
 &lt;p&gt;Fortunately, SharePoint Online administrators can restore deleted OneDrive sites using PowerShell and the PnP PowerShell module. In this blog post, we will discuss how to use the PowerShell script &amp;ldquo;Get-deleted-OneDrives.ps1&amp;rdquo; to restore a deleted OneDrive site.&lt;/p&gt;
 &lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;

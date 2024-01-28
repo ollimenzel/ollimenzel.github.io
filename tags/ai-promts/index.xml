@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>AI Promts on The State of the Microsoft 365 Nation</title>
+        <link>https://www.menzel.it/tags/ai-promts/</link>
+        <description>Recent content in AI Promts on The State of the Microsoft 365 Nation</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Sun, 28 Jan 2024 09:57:41 +0000</lastBuildDate><atom:link href="https://www.menzel.it/tags/ai-promts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Social media content creator with AI Promts</title>
+        <link>https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/</link>
+        <pubDate>Sun, 28 Jan 2024 09:57:41 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/Header-Picture.jpeg" alt="Featured image of post Social media content creator with AI Promts" /&gt;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;For this tutorial you need the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A premium Power Automate account, e.g. a Power Automate per user plan or an Powerapps Comunity Plan&lt;/li&gt;
+&lt;li&gt;A Social Media Account, e.g. Twitter, Mastodon, LinkedIn, etc.&lt;/li&gt;
+&lt;li&gt;The Flows from one of my previous posts &lt;a class=&#34;link&#34; href=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/&#34; &gt;Power Automate - How-to Posting on BlueSky and Mastodon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;create-ai-prompt-in-power-platform&#34;&gt;Create AI Prompt in Power Platform&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Go to &lt;a class=&#34;link&#34; href=&#34;https://flow.microsoft.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Power Automate&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click on &lt;strong&gt;AI hub&lt;/strong&gt; in the left navigation
+
+    
+    
+    
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image.png&#34; alt=&#34;&#34; style=&#34;width: 30%; display: block;&#34;&gt;
+    
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Choose &lt;strong&gt;AI Prompts&lt;/strong&gt;
+
+    
+    
+    
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-1.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+    
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click on &lt;strong&gt;Create text using custom prompt&lt;/strong&gt;
+
+    
+    
+    
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-2.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+    
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Choose &lt;strong&gt;Custom task with custom prompts&lt;/strong&gt; and click on &lt;strong&gt;Create custom prompt&lt;/strong&gt;
+
+    
+    
+    
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/SCR-20231221-ohvw.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter a name for your AI Prompt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter your prompt (here is what I used for my prompt)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As an expert in social media, create me witty posts for my social networks
+(Bluesky and Mastodon) with meaningful hashtags (Microsoft centric) about my newest Blog post
+that you can find here: [Dynamic Value BlogURL] .
+Also please take the lowest character count into consideration for the two networks.
+Also create another post for LinkedIn that can be a bit longer.
+Please create the posts in a way that will make my followers want to know more about the blog post
+e.g. with examples or some insides.
+Please also don&amp;rsquo;t add any BlogURL.
+Please just response the post without any explanations. but in the following format:
+{ &amp;ldquo;ShortPost&amp;rdquo; : Post text for BlueSky and Mastodon,
+&amp;ldquo;LinkedInHeading&amp;rdquo; : Headline for LinkedIn Post,
+&amp;ldquo;LinkedInPost&amp;rdquo; : Post text for LinkedIn
+}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;create-the-flow-in-power-automate&#34;&gt;Create the Flow in Power Automate&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+&lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-3.png&#34; alt=&#34;&#34; style=&#34;width: 90%; display: block;&#34;&gt;
+
+
+This is the Flow I created for writing post on social media. I will explain the steps in the following sections.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;Manually trigger a flow&amp;rdquo; (this is the trigger)
+Of course you could also use another trigger like schedule post from a calendar .&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Get Item&amp;rdquo; from SharePoint Online.
+This step gets the URL of the newest blog post from my SharePoint Blog list.
+
+    
+    
+    
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-4.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    
+&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;AIBuilder Predict Custom Prompt&amp;rdquo; from Common Data Service for Apps.
+This step uses the AI Prompt we created in the previous section to create the post text for the social media networks.
+
+    
+    
+    
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-5.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    
+&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Start and Wait for a Text Suggestion Approval&amp;rdquo; from Approvals.
+This step waits for the approval of the post text. I use this step to check the post text before it is posted on social media.
+If you don&amp;rsquo;t want to check the post text before it is posted on social media you can skip this step and go directly to the next step.
+
+    
+    
+    
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-6.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    
+&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Parse JSON&amp;rdquo;.
+This step parses the JSON from the previous step and creates the variables for the post text.
+Copy the JSON from the AI Builder step and paste it into the &amp;ldquo;Schema&amp;rdquo; field.
+
+    
+    
+    
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-7.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    
+&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Condition&amp;rdquo;.
+This step checks if we approved the AI generated post text or not. If we approved the post text it will go to the next step. If we didn&amp;rsquo;t approve the post text it will go to the &amp;ldquo;Condition - No&amp;rdquo; step which will lead to the end of the Flow.
+
+    
+    
+    
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-8.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    
+&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Apply to each&amp;rdquo;.
+This step will create a post for each social media network that we put in the Column in the SharPoint list. With the &amp;ldquo;switch&amp;rdquo; step we are running the &amp;ldquo;Run a Child Flow&amp;rdquo; step to create the post for each needed social media network.
+
+    
+    
+    
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-9.png&#34; alt=&#34;&#34; style=&#34;width: 80%; display: block;&#34;&gt;
+    
+
+As you can see this is a very simple Flow. But it will save you a lot of time and you can be sure that your post text is correct.
+Now let&amp;rsquo;s see how you will use this Flow to create your social media posts. Please leave a comment if you have any questions or suggestions. Also please share your use cases for this Flow.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -328,13 +328,16 @@ To get the sample, you can use the &lt;strong&gt;Run Flow&lt;/strong&gt; option 
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;This guide provides an overview of using Microsoft Power Automate to automate social media posts across various platforms, like BlueSky, Mastodon and LinkedIn. I hope you found this guide useful and that it helps you to get started with Power Automate. If you have any questions or feedback, please leave a comment below. Also you can combine this with a SharePoint list to create a queue for your posts. If this is interessting for you I will cover this in a future post.&lt;/p&gt;
+&lt;p&gt;This guide provides an overview of using Microsoft Power Automate to automate social media posts across various platforms, like BlueSky, Mastodon and LinkedIn. I hope you found this guide useful and that it helps you to get started with Power Automate. If you have any questions or feedback, please leave a comment below. Also you can combine this with a SharePoint list to create a queue for your posts. If this is interessting for you I will cover this in a future post.
+I added the Flows to my GitHub repo so you can download them and import them into your environment.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://atproto.com/blog/create-post#post-record-structure&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;BlueSky API Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.joinmastodon.org/user/posting/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Mastodon API Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ollimenzel/Blog-Files&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flows for download on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
