@@ -6,20 +6,44 @@
         <description>Recent content in Tags on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 28 Jan 2024 09:57:41 +0000</lastBuildDate><atom:link href="https://www.menzel.it/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 12 Feb 2024 16:29:31 +0000</lastBuildDate><atom:link href="https://www.menzel.it/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How-to</title>
+        <link>https://www.menzel.it/tags/how-to/</link>
+        <pubDate>Mon, 12 Feb 2024 16:29:31 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/tags/how-to/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>PowerShell</title>
+        <link>https://www.menzel.it/tags/powershell/</link>
+        <pubDate>Mon, 12 Feb 2024 16:29:31 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/tags/powershell/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Security</title>
+        <link>https://www.menzel.it/tags/security/</link>
+        <pubDate>Mon, 12 Feb 2024 16:29:31 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/tags/security/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SharePoint</title>
+        <link>https://www.menzel.it/tags/sharepoint/</link>
+        <pubDate>Mon, 12 Feb 2024 16:29:31 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/tags/sharepoint/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>AI Promts</title>
         <link>https://www.menzel.it/tags/ai-promts/</link>
         <pubDate>Sun, 28 Jan 2024 09:57:41 +0000</pubDate>
         
         <guid>https://www.menzel.it/tags/ai-promts/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>How-to</title>
-        <link>https://www.menzel.it/tags/how-to/</link>
-        <pubDate>Sun, 28 Jan 2024 09:57:41 +0000</pubDate>
-        
-        <guid>https://www.menzel.it/tags/how-to/</guid>
         <description></description>
         </item>
         <item>
@@ -63,14 +87,6 @@
         <description></description>
         </item>
         <item>
-        <title>SharePoint</title>
-        <link>https://www.menzel.it/tags/sharepoint/</link>
-        <pubDate>Sun, 12 Nov 2023 20:19:16 +0000</pubDate>
-        
-        <guid>https://www.menzel.it/tags/sharepoint/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>SiteOwners</title>
         <link>https://www.menzel.it/tags/siteowners/</link>
         <pubDate>Sun, 12 Nov 2023 20:19:16 +0000</pubDate>
@@ -103,14 +119,6 @@
         <description></description>
         </item>
         <item>
-        <title>PowerShell</title>
-        <link>https://www.menzel.it/tags/powershell/</link>
-        <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
-        
-        <guid>https://www.menzel.it/tags/powershell/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>OneDrive</title>
         <link>https://www.menzel.it/tags/onedrive/</link>
         <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>
@@ -132,14 +140,6 @@
         <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
         
         <guid>https://www.menzel.it/tags/powerapps/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Security</title>
-        <link>https://www.menzel.it/tags/security/</link>
-        <pubDate>Mon, 21 Aug 2023 11:37:23 +0200</pubDate>
-        
-        <guid>https://www.menzel.it/tags/security/</guid>
         <description></description>
         </item>
         <item>

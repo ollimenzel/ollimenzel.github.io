@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Sharing Power Platform environments with security groups is a smart strategy for enhancing collaboration, security, and efficiency. By leveraging this approach, organizations can streamline user management, optimize resource allocation, and foster a secure and productive digital workspace.'>
-<meta name="keywords" content="How-to, Power Platform, Security"><title>Simplifying Collaboration: Sharing Power Platform Environments with Security Groups</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Streamline SharePoint group with my PowerShell script guide. Efficiently manage user access and enhance security in your organization.'>
+<meta name="keywords" content="SharePoint group, PowerShell, Security Groups, SharePoint permission management, SharePoint group migration, EntraID group management, SharePoint user permissions"><title>Change SharePoint group to Security Groups with PowerShell</title>
 
-<link rel='canonical' href='https://www.menzel.it/post/2023/08/environmentsecuritygroups/'>
+<link rel='canonical' href='https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/'>
 
 <link rel="stylesheet" href="/scss/style.min.85ef553442abef9d388f896084b84473f204ae98903bc0468fa1d51e560ceb91.css"><script type="text/javascript">
     !function (v, y, T) { var S = v.location, k = "script", D = "instrumentationKey", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = (D[b](), "crossOrigin"), N = "POST", e = "appInsightsSDK", t = T.name || "appInsights", n = ((T.name || v[e]) && (v[e] = t), v[t] || function (l) { var u = !1, d = !1, g = { initialize: !0, queue: [], sv: "6", version: 2, config: l }; function m(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (g.sv || g.version), { time: (a = new Date).getUTCFullYear() + "-" + i(1 + a.getUTCMonth()) + "-" + i(a.getUTCDate()) + "T" + i(a.getUTCHours()) + ":" + i(a.getUTCMinutes()) + ":" + i(a.getUTCSeconds()) + "." + (a.getUTCMilliseconds() / 1e3).toFixed(3).slice(2, 5) + "Z", iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } }; function i(e) { e = "" + e; return 1 === e.length ? "0" + e : e } } var e, n, f = l.url || T.src; function a(e) { var t, n, a, i, o, s, r, c, p; u = !0, g.queue = [], d || (d = !0, i = f, r = (c = function () { var e, t = {}, n = l.connectionString; if (n) for (var a = n.split(";"), i = 0; i < a.length; i++) { var o = a[i].split("="); 2 === o.length && (t[o[0][b]()] = o[1]) } return t[C] || (t[C] = "https://" + ((e = (n = t.endpointsuffix) ? t.location : null) ? e + "." : "") + "dc." + (n || "services.visualstudio.com")), t }()).instrumentationkey || l[D] || "", c = (c = c[C]) ? c + "/v2/track" : l.endpointUrl, (p = []).push((t = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", n = i, o = c, (s = (a = m(r, "Exception")).data).baseType = "ExceptionData", s.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: t.replace(/\./g, "-"), hasFullStack: !1, stack: t + "\nSnippet failed to load [" + n + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + o, parsedStack: [] }], a)), p.push((s = i, t = c, (o = (n = m(r, "Message")).data).baseType = "MessageData", (a = o.baseData).message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + s + ")").replace(/\"/g, "") + '"', a.properties = { endpoint: t }, n)), i = p, r = c, JSON && ((o = v.fetch) && !T.useXhr ? o(r, { method: N, body: JSON.stringify(i), mode: "cors" }) : XMLHttpRequest && ((s = new XMLHttpRequest).open(N, r), s.setRequestHeader("Content-type", "application/json"), s.send(JSON.stringify(i))))) } function i(e, t) { d || setTimeout(function () { !t && g.core || a() }, 500) } f && ((n = y.createElement(k)).src = f, !(o = T[w]) && "" !== o || "undefined" == n[w] || (n[w] = o), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, e = n, T.ld < 0 ? y.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { y.getElementsByTagName(k)[0].parentNode.appendChild(e) }, T.ld || 0)); try { g.cookie = y.cookie } catch (h) { } function t(e) { for (; e.length;)!function (t) { g[t] = function () { var e = arguments; u || g.queue.push(function () { g[t].apply(g, e) }) } }(e.pop()) } var s, r, o = "track", c = "TrackPage", p = "TrackEvent", o = (t([o + "Event", o + "PageView", o + "Exception", o + "Trace", o + "DependencyData", o + "Metric", o + "PageViewPerformance", "start" + c, "stop" + c, "start" + p, "stop" + p, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), g.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }, (l.extensionConfig || {}).ApplicationInsightsAnalytics || {}); return !0 !== l[I] && !0 !== o[I] && (t(["_" + (s = "onerror")]), r = v[s], v[s] = function (e, t, n, a, i) { var o = r && r(e, t, n, a, i); return !0 !== o && g["_" + s]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i, evt: v.event }), o }, l.autoExceptionInstrumented = !0), g }(T.cfg)); function a() { T.onInit && T.onInit(n) } (v[t] = n).queue && 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
@@ -35,14 +35,14 @@
     gtag('js', new Date());
 
     gtag('config', 'G-NQR0VXREZN');
-</script><meta property='og:title' content='Simplifying Collaboration: Sharing Power Platform Environments with Security Groups'>
-<meta property='og:description' content='Sharing Power Platform environments with security groups is a smart strategy for enhancing collaboration, security, and efficiency. By leveraging this approach, organizations can streamline user management, optimize resource allocation, and foster a secure and productive digital workspace.'>
-<meta property='og:url' content='https://www.menzel.it/post/2023/08/environmentsecuritygroups/'>
+</script><meta property='og:title' content='Change SharePoint group to Security Groups with PowerShell'>
+<meta property='og:description' content='Streamline SharePoint group with my PowerShell script guide. Efficiently manage user access and enhance security in your organization.'>
+<meta property='og:url' content='https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/'>
 <meta property='og:site_name' content='The State of the Microsoft 365 Nation'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='How-to' /><meta property='article:tag' content='Power Platform' /><meta property='article:tag' content='Security' /><meta property='article:published_time' content='2023-08-21T11:37:23&#43;02:00'/><meta property='article:modified_time' content='2023-08-21T11:37:23&#43;02:00'/><meta property='og:image' content='https://www.menzel.it/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.png' />
-<meta name="twitter:title" content="Simplifying Collaboration: Sharing Power Platform Environments with Security Groups">
-<meta name="twitter:description" content="Sharing Power Platform environments with security groups is a smart strategy for enhancing collaboration, security, and efficiency. By leveraging this approach, organizations can streamline user management, optimize resource allocation, and foster a secure and productive digital workspace."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://www.menzel.it/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.png' /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='How-to' /><meta property='article:tag' content='PowerShell' /><meta property='article:tag' content='Security' /><meta property='article:tag' content='SharePoint' /><meta property='article:published_time' content='2024-02-12T16:29:31&#43;00:00'/><meta property='article:modified_time' content='2024-02-12T16:29:31&#43;00:00'/><meta property='og:image' content='https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image.png' />
+<meta name="twitter:title" content="Change SharePoint group to Security Groups with PowerShell">
+<meta name="twitter:description" content="Streamline SharePoint group with my PowerShell script guide. Efficiently manage user access and enhance security in your organization."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image.png' /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -356,13 +356,13 @@
     <article class="has-image main-article" data-clarity-region="article">
   <header class="article-header">
         <div class="article-image">
-            <a href="/post/2023/08/environmentsecuritygroups/">
-                <img src="/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2_hud6ea2a34c0340bef7f9049ba72ad4486_1269955_800x0_resize_box_3.png"
-                        srcset="/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2_hud6ea2a34c0340bef7f9049ba72ad4486_1269955_800x0_resize_box_3.png 800w, /post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2_hud6ea2a34c0340bef7f9049ba72ad4486_1269955_1600x0_resize_box_3.png 1600w"
+            <a href="/post/2024/02/change-sharepoint-group-security-groups-powershell/">
+                <img src="/post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image_hue8b8dfc6ed1499f95e511a6467f55805_1954526_800x0_resize_box_3.png"
+                        srcset="/post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image_hue8b8dfc6ed1499f95e511a6467f55805_1954526_800x0_resize_box_3.png 800w, /post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image_hue8b8dfc6ed1499f95e511a6467f55805_1954526_1600x0_resize_box_3.png 1600w"
                         width="800" 
-                        height="419" 
+                        height="457" 
                         loading="lazy"
-                        alt="Featured image of post Simplifying Collaboration: Sharing Power Platform Environments with Security Groups" />
+                        alt="Featured image of post Change SharePoint group to Security Groups with PowerShell" />
                 
             </a>
         </div>
@@ -372,8 +372,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/powerplatform/" style="background-color: #2a9d8f; color: #fff;">
-                PowerPlatform
+            <a href="/categories/sharepoint/" style="background-color: #2a9d8f; color: #fff;">
+                PowerShell
             </a>
         
     </header>
@@ -381,12 +381,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/2023/08/environmentsecuritygroups/">Simplifying Collaboration: Sharing Power Platform Environments with Security Groups</a>
+            <a href="/post/2024/02/change-sharepoint-group-security-groups-powershell/">Change SharePoint group to Security Groups with PowerShell</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            Sharing Power Platform environments with security groups is a smart strategy for enhancing collaboration, security, and efficiency. By leveraging this approach, organizations can streamline user management, optimize resource allocation, and foster a secure and productive digital workspace.
+            Streamline SharePoint group with my PowerShell script guide. Efficiently manage user access and enhance security in your organization.
         </h3>
         
     </div>
@@ -407,7 +407,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 21, 2023</time>
+                <time class="article-time--published">Feb 12, 2024</time>
             </div>
         
 
@@ -422,7 +422,7 @@
 
 
                 <time class="article-time--reading">
-                    4 minute read
+                    5 minute read
                 </time>
             </div>
         
@@ -437,51 +437,237 @@
   <section class="article-content">
     
     
-    <p>In today&rsquo;s rapidly evolving business landscape, collaboration and data-driven decision-making have become paramount. Microsoft&rsquo;s Power Platform empowers organizations to create custom apps, automate workflows, and derive insights from data, all without requiring extensive coding skills. As businesses strive for greater efficiency and agility, the need to collaborate seamlessly within a secure environment has become crucial. One effective way to achieve this is by sharing Power Platform environments with security groups.</p>
-<h2 id="sharing-power-platform-environments-with-security-groups">Sharing Power Platform Environments with Security Groups</h2>
-<p>Sharing a Power Platform environment with a security group is a strategic approach that streamlines collaboration and enhances security. By associating users with specific security groups, administrators can ensure that the right people have access to the right resources, eliminating the complexities of individual user management. Here&rsquo;s a step-by-step guide to sharing a Power Platform environment with a security group:</p>
-<h3 id="step-1-set-up-security-groups">Step 1: Set Up Security Groups</h3>
-<p>Before sharing your Power Platform environment, establish security groups within your organization&rsquo;s Entra ID (aka Azure Active Directory (AAD)). These groups can be based on roles, departments, projects, or any other relevant criteria. This step ensures that you can easily manage access permissions for a group of users instead of dealing with each user individually.</p>
-<h3 id="step-2-access-environment-settings">Step 2: Access Environment Settings</h3>
-<p>Within the Power Platform admin center, navigate to the environment you want to share. Open the environment settings, where you&rsquo;ll find the &ldquo;Access control&rdquo; section.
-<figure class="my-float-left"><img src="AdminSettings.png"
-         alt="Admin Settings Page" width="70%"/>
-</figure>
-</p>
-<h3 id="step-3-add-security-groups">Step 3: Add Security Groups</h3>
-<p>In the &ldquo;Access control&rdquo; section, you&rsquo;ll see an Teams options to add security groups. There click on Create team.
-<figure class="my-float-left"><img src="NewTeam.png"
-         alt="New team form" width="30%"/>
-</figure>
-
-Select the Team Type &ldquo;Microsoft Entra Identity Security Group&rdquo; security group(s) you want to grant access to. This will grant all members of the security group access to the environment without the need for separate invitations.
-There you can also select the <strong>Membership type</strong> for the security group. This defines which part of your (Security) Group will get access.
-The access levels are:</p>
+    <h1 id="automating-sharepoint-permissions-with-powershell">Automating SharePoint Permissions with PowerShell</h1>
+<p>Managing SharePoint user permissions can be a complex and time-consuming task, especially for large organizations with numerous users and groups. Automation can significantly streamline this process, saving time and reducing the potential for errors. In this post, we&rsquo;ll explore a PowerShell script that automates the management of SharePoint permissions by migrating users from SharePoint groups to EntraID Security Groups.</p>
+<h2 id="why-use-security-groups-instead-of-sharepoint-permission-groups">Why use Security groups instead of SharePoint permission groups?</h2>
+<p>Using EntraID Security Groups instead of SharePoint permission groups offers several advantages:</p>
 <ul>
-<li>Members and guests</li>
-<li>Members</li>
-<li>Owners</li>
-<li>Guests
-Fill out the other fields and click on Next.</li>
+<li>
+<p>Centralized Management:</p>
+<p>EntraID Security Groups allow for centralized management of user access across multiple services, including SharePoint. This means you can manage permissions for various applications from one place.</p>
+</li>
+<li>
+<p>Simplified Administration:</p>
+<p>When users are added or removed from an EntraID Security Group, their access to all associated resources is automatically updated, reducing the administrative overhead of managing permissions for each resource separately.</p>
+</li>
+<li>
+<p>Improved Security:</p>
+<p>EntraID Security Groups can be integrated with advanced security features like conditional access policies, which provide better control and security over who can access your SharePoint content.</p>
+</li>
+<li>
+<p>Audience Targeting:</p>
+<p>EntraID and Microsoft 365 groups support audience targeting in SharePoint, which is not available with SharePoint groups. This allows for more granular control over content and resource visibility to different groups of users.</p>
+</li>
+<li>
+<p>Flexibility:</p>
+<p>EntraID Security Groups can be used across multiple sites and can be managed by group/site owners, providing flexibility in permission management tailored to specific sites or departments.</p>
+</li>
 </ul>
-<h3 id="step-4-manage-security-roles">Step 4: Manage Security roles</h3>
-<p>Power Platform provides various access levels, such as System Admin, Environment Maker, etc. Choose the appropriate access level for the security group members based on their responsibilities and requirements.
-<figure class="my-float-left"><img src="SecurityRoles.png"
-         alt="Security roles" width="40%"/>
-</figure>
-</p>
-<h3 id="step-5-save-changes">Step 5: Save Changes</h3>
-<p>After configuring the access settings, make sure to save your changes. The security group members will now be able to collaborate within the shared environment based on their assigned access levels.</p>
-<h2 id="benefits-of-sharing-with-security-groups">Benefits of Sharing with Security Groups</h2>
-<h3 id="1-streamlined-collaboration">1. <strong>Streamlined Collaboration</strong></h3>
-<p>By sharing environments with security groups, organizations can optimize their resource allocation. Access to apps, data, and workflows can be controlled at a granular level, ensuring that users only have access to the resources they need. This reduces the risk of unauthorized data access or unintended modifications.</p>
-<h3 id="3-enhanced-security">3. <strong>Enhanced Security</strong></h3>
-<p>Security is a top priority in any digital workspace. Sharing environments with security groups enforces consistent access controls, reducing the chances of data breaches or unauthorized system changes. When a user&rsquo;s role changes or they leave the organization, their access can be easily revoked by adjusting their security group membership.</p>
-<h3 id="4-scalability-and-flexibility">4. <strong>Scalability and Flexibility</strong></h3>
-<p>As organizations grow and evolve, their collaboration needs change as well. Sharing with security groups offers scalability and flexibility. New members can be added to security groups, granting them instant access to the appropriate resources. Additionally, security group memberships can be adjusted dynamically to accommodate changing team compositions.</p>
-<h3 id="5-simplified-administration">5. <strong>Simplified Administration</strong></h3>
-<p>Managing permissions for each user individually can be a time-consuming task. Sharing with security groups streamlines administration, as access settings are applied collectively to all group members. This frees up administrators to focus on more strategic tasks.</p>
-<p>In conclusion, sharing a Power Platform environment with security groups is a smart strategy for enhancing collaboration, security, and efficiency. By leveraging this approach, organizations can streamline user management, optimize resource allocation, and foster a secure and productive digital workspace. As businesses continue to adapt to the demands of modern work, embracing collaborative solutions like Power Platform and security group sharing is a key step toward success.</p>
+<p>These benefits make EntraID Security Groups a robust and efficient choice for managing permissions in a SharePoint environment.</p>
+<h2 id="understanding-the-powershell-script">Understanding the PowerShell Script</h2>
+<p>The script performs the following actions:</p>
+<ol>
+<li>
+<p>Connects to a SharePoint site collection.</p>
+</li>
+<li>
+<p>Retrieves all SharePoint Permission Groups.</p>
+</li>
+<li>
+<p>For each group, it performs the following:</p>
+<ul>
+<li>Gets users from the SharePoint Group.</li>
+<li>Creates a new EntraID Security Group.</li>
+<li>Adds all users from the SharePoint Group to the EntraID Security Group.</li>
+<li>Removes all users from the SharePoint Group.</li>
+<li>Adds the EntraID Security Group to the SharePoint Group.</li>
+</ul>
+</li>
+</ol>
+<h3 id="script-breakdown">Script Breakdown</h3>
+<p>Here&rsquo;s a breakdown of the key parts of the script:</p>
+<h4 id="connecting-to-sharepoint">Connecting to SharePoint</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">Connect-PnPOnline</span> <span class="n">-Url</span> <span class="s2">&#34;https://&lt;YourTenantName&gt;.sharepoint.com/sites/&lt;YourSiteName&gt;&#34;</span> <span class="n">-Interactive</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="retrieving-groups">Retrieving Groups</h4>
+<p>The script is checking if the Title of the current item does not match any of the listed patterns.
+If the Title does not contain “SiteCollection Owners”, “SiteCollection Members”, “SiteCollection Visitors”, “SharingLinks”, or “Limited Access”, then the condition will be $true and the SharePoint Group will be added to the $Groups array.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nv">$Groups</span> <span class="p">=</span> <span class="nb">Get-PnPGroup</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Title</span> <span class="o">-notlike</span> <span class="s1">&#39;*SiteCollection Owners*&#39;</span> <span class="o">-and</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Title</span> <span class="o">-notlike</span> <span class="s1">&#39;*SiteCollection Members*&#39;</span> <span class="o">-and</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Title</span> <span class="o">-notlike</span> <span class="s1">&#39;*SiteCollection Visitors*&#39;</span> <span class="o">-and</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Title</span> <span class="o">-notlike</span> <span class="s1">&#39;*SharingLinks*&#39;</span> <span class="o">-and</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Title</span> <span class="o">-notlike</span> <span class="s1">&#39;*Limited Access*&#39;</span> <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="creating-a-new-entraid-security-group">Creating a New EntraID Security Group</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nv">$NewGroup</span> <span class="p">=</span> <span class="nb">New-PnPAzureADGroup</span> <span class="n">-DisplayName</span> <span class="s2">&#34;&lt;NewGroupName&gt;&#34;</span> <span class="n">-MailNickname</span> <span class="s2">&#34;&lt;MailNickname&gt;&#34;</span> <span class="n">-Description</span> <span class="s2">&#34;&lt;GroupDescription&gt;&#34;</span> <span class="n">-IsSecurityEnabled</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="adding-users-to-the-entraid-security-group">Adding Users to the EntraID Security Group</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$User</span> <span class="k">in</span> <span class="nv">$Users</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Add-PnPAzureADGroupMember</span> <span class="n">-Identity</span> <span class="nv">$NewGroup</span><span class="p">.</span><span class="py">Id</span> <span class="n">-Users</span> <span class="nv">$User</span><span class="p">.</span><span class="py">UserPrincipalName</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="removing-users-from-the-sharepoint-group">Removing Users from the SharePoint Group</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$User</span> <span class="k">in</span> <span class="nv">$Users</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Remove-PnPGroupMember</span> <span class="n">-LoginName</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LoginName</span> <span class="n">-Identity</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Title</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="adding-the-entraid-security-group-to-the-sharepoint-group">Adding the EntraID Security Group to the SharePoint Group</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Assuming $NewGroup contains the EntraID Security Group you created earlier</span>
+</span></span><span class="line"><span class="cl"><span class="c"># and $Group is the current SharePoint Group you&#39;re processing</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Initialize variables for the loop</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Stoploop</span> <span class="p">=</span> <span class="vm">$false</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="no">int</span><span class="p">]</span><span class="nv">$Retrycount</span> <span class="p">=</span> <span class="mf">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">do</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Add the EntraID Security Group to the SharePoint Group</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Add-PnPGroupMember</span> <span class="n">-Group</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Title</span> <span class="n">-LoginName</span> <span class="nv">$NewGroup</span><span class="p">.</span><span class="py">DisplayName</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Write-Host</span> <span class="s2">&#34;EntraID Group </span><span class="p">$(</span><span class="nv">$NewGroup</span><span class="p">.</span><span class="n">DisplayName</span><span class="p">)</span><span class="s2"> added successfully to SharePoint Group </span><span class="p">$(</span><span class="nv">$Group</span><span class="p">.</span><span class="n">Title</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$Stoploop</span> <span class="p">=</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$Retrycount</span> <span class="o">-gt</span> <span class="mf">5</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="s2">&#34;Failed to add EntraID Group </span><span class="p">$(</span><span class="nv">$NewGroup</span><span class="p">.</span><span class="n">DisplayName</span><span class="p">)</span><span class="s2"> to SharePoint Group </span><span class="p">$(</span><span class="nv">$Group</span><span class="p">.</span><span class="n">Title</span><span class="p">)</span><span class="s2"> after 5 retries.&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$Stoploop</span> <span class="p">=</span> <span class="vm">$true</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Host</span> <span class="s2">&#34;Retrying to add EntraID Group </span><span class="p">$(</span><span class="nv">$NewGroup</span><span class="p">.</span><span class="n">DisplayName</span><span class="p">)</span><span class="s2"> to SharePoint Group </span><span class="p">$(</span><span class="nv">$Group</span><span class="p">.</span><span class="n">Title</span><span class="p">)</span><span class="s2"> in 10 seconds...&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Start-Sleep</span> <span class="n">-Seconds</span> <span class="mf">10</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$Retrycount</span> <span class="p">=</span> <span class="nv">$Retrycount</span> <span class="p">+</span> <span class="mf">1</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="k">While</span> <span class="p">(</span><span class="nv">$Stoploop</span> <span class="o">-eq</span> <span class="vm">$false</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This loop will attempt to add the EntraID Security Group to the SharePoint Group. If it encounters an error, it will retry up to five times before giving up. This ensures that temporary issues such as network latency or because the newly created group isn&rsquo;t available yet don’t prevent the script from completing its task.</p>
+<h1 id="the-complete-script">The Complete Script</h1>
+<p>Below is the complete script without personal information. Ensure you replace the placeholders with your specific details before running it.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Connect to the SharePoint site using PnP-PowerShell</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Connect-PnPOnline</span> <span class="n">-Url</span> <span class="s2">&#34;https://&lt;YourTenantName&gt;.sharepoint.com/sites/&lt;YourSiteName&gt;&#34;</span> <span class="n">-Interactive</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Get all SharePoint Permission Groups for the site collection</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$Groups</span> <span class="p">=</span> <span class="nb">Get-PnPGroup</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Title</span> <span class="o">-notlike</span> <span class="s1">&#39;*SiteCollection Owners*&#39;</span> <span class="o">-and</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Title</span> <span class="o">-notlike</span> <span class="s1">&#39;*SiteCollection Members*&#39;</span> <span class="o">-and</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Title</span> <span class="o">-notlike</span> <span class="s1">&#39;*SiteCollection Visitors*&#39;</span> <span class="o">-and</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Title</span> <span class="o">-notlike</span> <span class="s1">&#39;*SharingLinks*&#39;</span> <span class="o">-and</span> <span class="nv">$_</span><span class="p">.</span><span class="py">Title</span> <span class="o">-notlike</span> <span class="s1">&#39;*Limited Access*&#39;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Go through all permission groups</span>
+</span></span><span class="line"><span class="cl"><span class="k">foreach</span> <span class="p">(</span><span class="nv">$Group</span> <span class="k">in</span> <span class="nv">$Groups</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get Users from the SharePoint Group</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$Users</span> <span class="p">=</span> <span class="nb">Get-PnPGroupMember</span> <span class="n">-Identity</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Title</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Create a new EntraID Security Group</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$NewGroup</span> <span class="p">=</span> <span class="nb">New-PnPAzureADGroup</span> <span class="n">-DisplayName</span> <span class="s2">&#34;&lt;NewGroupName&gt;&#34;</span> <span class="n">-MailNickname</span> <span class="s2">&#34;&lt;MailNickname&gt;&#34;</span> <span class="n">-Description</span> <span class="s2">&#34;&lt;GroupDescription&gt;&#34;</span> <span class="n">-IsSecurityEnabled</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Add all Users from the SharePoint Group to the EntraID Security Group</span>
+</span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="nv">$User</span> <span class="k">in</span> <span class="nv">$Users</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Add-PnPAzureADGroupMember</span> <span class="n">-Identity</span> <span class="nv">$NewGroup</span><span class="p">.</span><span class="py">Id</span> <span class="n">-Users</span> <span class="nv">$User</span><span class="p">.</span><span class="py">UserPrincipalName</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Remove all Users from the SharePoint Group</span>
+</span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="nv">$User</span> <span class="k">in</span> <span class="nv">$Users</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Remove-PnPGroupMember</span> <span class="n">-LoginName</span> <span class="nv">$User</span><span class="p">.</span><span class="py">LoginName</span> <span class="n">-Identity</span> <span class="nv">$Group</span><span class="p">.</span><span class="py">Title</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Add the EntraID Security Group to the SharePoint Group</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># ... (rest of the loop and error handling)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">Disconnect-PnPOnline</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Conclusion
+This PowerShell script is a powerful tool for SharePoint administrators looking to automate the management of user permissions. By leveraging EntraID Security Groups, it provides a more centralized and manageable approach to permission management. As always, test any scripts in a development environment before deploying them in production.</p>
+<p>Happy scripting!</p>
 
 </section>
 
@@ -802,7 +988,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Simplifying%20Collaboration%3a%20Sharing%20Power%20Platform%20Environments%20with%20Security%20Groups&amp;url=https://www.menzel.it/post/2023/08/environmentsecuritygroups/" target="_blank" rel="noopener" aria-label="" title="Twitter">
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Change%20SharePoint%20group%20to%20Security%20Groups%20with%20PowerShell&amp;url=https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/" target="_blank" rel="noopener" aria-label="" title="Twitter">
   <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
@@ -817,7 +1003,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="mailto:?subject=Simplifying%20Collaboration%3a%20Sharing%20Power%20Platform%20Environments%20with%20Security%20Groups&amp;body=https://www.menzel.it/post/2023/08/environmentsecuritygroups/" target="_self" rel="noopener" aria-label="" title="E-Mail">
+<a class="resp-sharing-button__link" href="mailto:?subject=Change%20SharePoint%20group%20to%20Security%20Groups%20with%20PowerShell&amp;body=https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/" target="_self" rel="noopener" aria-label="" title="E-Mail">
   <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z"/></svg>
@@ -832,7 +1018,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.menzel.it/post/2023/08/environmentsecuritygroups/&amp;title=Simplifying%20Collaboration%3a%20Sharing%20Power%20Platform%20Environments%20with%20Security%20Groups&amp;summary=Simplifying%20Collaboration%3a%20Sharing%20Power%20Platform%20Environments%20with%20Security%20Groups&amp;https://www.menzel.it/post/2023/08/environmentsecuritygroups/" target="_blank" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/&amp;title=Change%20SharePoint%20group%20to%20Security%20Groups%20with%20PowerShell&amp;summary=Change%20SharePoint%20group%20to%20Security%20Groups%20with%20PowerShell&amp;https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
@@ -845,7 +1031,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https://www.menzel.it/post/2023/08/environmentsecuritygroups/&amp;resubmit=true&amp;title=Simplifying%20Collaboration%3a%20Sharing%20Power%20Platform%20Environments%20with%20Security%20Groups" target="_blank" rel="noopener" aria-label="" title="Reddit">
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/&amp;resubmit=true&amp;title=Change%20SharePoint%20group%20to%20Security%20Groups%20with%20PowerShell" target="_blank" rel="noopener" aria-label="" title="Reddit">
   <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.75-1.64-6.07-1.72.08-1.1.4-3.05 1.52-3.7.72-.4 1.73-.24 3 .5C17.2 6.3 18.46 7.5 20 7.5c1.65 0 3-1.35 3-3s-1.35-3-3-3c-1.38 0-2.54.94-2.88 2.22-1.43-.72-2.64-.8-3.6-.25-1.64.94-1.95 3.47-2 4.55-2.33.08-4.45.7-6.1 1.72C4.86 8.98 3.96 8.5 3 8.5c-1.65 0-3 1.35-3 3 0 1.32.84 2.44 2.05 2.84-.03.22-.05.44-.05.66 0 3.86 4.5 7 10 7s10-3.14 10-7c0-.22-.02-.44-.05-.66 1.2-.4 2.05-1.54 2.05-2.84zM2.3 13.37C1.5 13.07 1 12.35 1 11.5c0-1.1.9-2 2-2 .64 0 1.22.32 1.6.82-1.1.85-1.92 1.9-2.3 3.05zm3.7.13c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9.8 4.8c-1.08.63-2.42.96-3.8.96-1.4 0-2.74-.34-3.8-.95-.24-.13-.32-.44-.2-.68.15-.24.46-.32.7-.18 1.83 1.06 4.76 1.06 6.6 0 .23-.13.53-.05.67.2.14.23.06.54-.18.67zm.2-2.8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm5.7-2.13c-.38-1.16-1.2-2.2-2.3-3.05.38-.5.97-.82 1.6-.82 1.1 0 2 .9 2 2 0 .84-.53 1.57-1.3 1.87z"/></svg>
@@ -858,7 +1044,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https://www.menzel.it/post/2023/08/environmentsecuritygroups/;title=Simplifying%20Collaboration%3a%20Sharing%20Power%20Platform%20Environments%20with%20Security%20Groups" target="_blank" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/;title=Change%20SharePoint%20group%20to%20Security%20Groups%20with%20PowerShell" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.2 9.7l-3-5.4C7.2 4 7 4 6.8 4h-5c-.3 0-.4 0-.5.2v.5L4 10 .4 16v.5c0 .2.2.3.4.3h5c.3 0 .4 0 .5-.2l4-6.6v-.5zM24 .2l-.5-.2H18s-.2 0-.3.3l-8 14v.4l5.2 9c0 .2 0 .3.3.3h5.4s.3 0 .4-.2c.2-.2.2-.4 0-.5l-5-8.8L24 .7V.2z"/></svg>
@@ -884,8 +1070,8 @@ background-color: #FF6600
   
   <div class="article-content">
     <h2>Comments</h2>
-    <p>You can use your Mastodon account to reply to this <a class="link" href="https://techhub.social/@ollimenzel/110935095160928984">post</a>. Learn how this is implemented <a class="link" href="https://carlschwan.eu//2020/12/29/adding-comments-to-your-static-blog-with-mastodon/">here.</a></p>
-    <p><button id="replyButton" href="https://techhub.social/@ollimenzel/110935095160928984">Reply</button></p>
+    <p>You can use your Mastodon account to reply to this <a class="link" href="https://techhub.social/@ollimenzel/">post</a>. Learn how this is implemented <a class="link" href="https://carlschwan.eu//2020/12/29/adding-comments-to-your-static-blog-with-mastodon/">here.</a></p>
+    <p><button id="replyButton" href="https://techhub.social/@ollimenzel/">Reply</button></p>
     <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
     <dialog id="toot-reply" class="mastodon" data-component="dialog">
       <h3>Reply to ollimenzel's post</h3>
@@ -895,7 +1081,7 @@ background-color: #FF6600
       </p>
       <p>Copy and paste this URL into the search field of your favourite Fediverse app or the web interface of your Mastodon server.</p>
       <div class="copypaste">
-        <input type="text" readonly="" value="https://techhub.social/@ollimenzel/110935095160928984">
+        <input type="text" readonly="" value="https://techhub.social/@ollimenzel/">
         <button class="button" id="copyButton">Copy</button>
         <button class="button" id="cancelButton">Close</button>
       </div>
@@ -911,7 +1097,7 @@ background-color: #FF6600
       });
 
       document.getElementById('copyButton').addEventListener('click', () => {
-        navigator.clipboard.writeText('https://techhub.social/@ollimenzel/110935095160928984');
+        navigator.clipboard.writeText('https://techhub.social/@ollimenzel/');
       });
 
       document.getElementById('cancelButton').addEventListener('click', () => {
@@ -941,7 +1127,7 @@ background-color: #FF6600
 
       document.getElementById("load-comment").addEventListener("click", function() {
         document.getElementById("load-comment").innerHTML = "Loading";
-        fetch('https://techhub.social/api/v1/statuses/110935095160928984/context')
+        fetch('https://techhub.social/api/v1/statuses//context')
           .then(function(response) {
             return response.json();
           })
@@ -952,7 +1138,7 @@ background-color: #FF6600
                 document.getElementById('mastodon-comments-list').innerHTML = "";
                 data['descendants'].forEach(function(reply) {
                   reply.account.display_name = escapeHtml(reply.account.display_name);
-                  reply.account.reply_class = reply.in_reply_to_id == "110935095160928984" ? "reply-original" : "reply-child";
+                  reply.account.reply_class = reply.in_reply_to_id == "" ? "reply-original" : "reply-child";
                   reply.created_date = new Date(reply.created_at);
                   reply.account.emojis.forEach(emoji => {
                     reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
@@ -994,9 +1180,11 @@ background-color: #FF6600
         
             <a href="/tags/how-to/">How-to</a>
         
-            <a href="/tags/power-platform/">Power Platform</a>
+            <a href="/tags/powershell/">PowerShell</a>
         
             <a href="/tags/security/">Security</a>
+        
+            <a href="/tags/sharepoint/">SharePoint</a>
         
     </section>
 
@@ -1019,23 +1207,23 @@ background-color: #FF6600
             
                 
 <article class="has-image">
-    <a href="/post/2023/11/power-automate-posting-bluesky-mastodon/">
+    <a href="/post/2023/11/spimageediting/">
         
         
             <div class="article-image">
-                <img src="/post/2023/11/power-automate-posting-bluesky-mastodon/Blog-Header.e942733934fb63b320dd167151d2558a_hu5a1df5d6cca77f0876c4c8749db3d7d6_134628_250x150_fill_q75_box_smart1.jpeg" 
+                <img src="/post/2023/11/spimageediting/HeaderImage.5691c6c6d404e2357e39bdcb40e48ada_huefa2d296b3d689e8c666e69baf0e4849_779101_250x150_fill_box_smart1_3.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post Power Automate - How-to Posting on BlueSky and Mastodon"
-                        data-key="power-automate-posting-bluesky-mastodon" 
-                        data-hash="md5-6UJzOTT7Y7Mg3RZxUdJVig==">
+                        alt="Featured image of post New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part"
+                        data-key="SPImageEditing" 
+                        data-hash="md5-VpHGxtQE4jV&#43;Ob3LQOSK2g==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Power Automate - How-to Posting on BlueSky and Mastodon</h2>
+            <h2 class="article-title">New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part</h2>
         </div>
     </a>
 </article>
@@ -1043,23 +1231,23 @@ background-color: #FF6600
             
                 
 <article class="has-image">
-    <a href="/post/2023/09/customconnectoropenai/">
+    <a href="/post/2023/11/update-sharepoint-metadata-pnp-powershell/">
         
         
             <div class="article-image">
-                <img src="/post/2023/09/customconnectoropenai/Blog_custom-connector.39fec4300890479423eb4aabebdcc196_hu0f1f440f2b9b7592a7416835c1d006cb_74818_250x150_fill_q75_box_smart1.jpeg" 
+                <img src="/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.2e47bd92dc6979860763354d7a91d734_hu8a0927647fb612d41352e2a9e1819f48_1340266_250x150_fill_box_smart1_3.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps"
-                        data-key="CustomConnectorOpenAI" 
-                        data-hash="md5-Of7EMAiQR5Qj60qr69zBlg==">
+                        alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins"
+                        data-key="update-sharepoint-metadata-pnp-powershell" 
+                        data-hash="md5-Lke9ktxpeYYHYzVNepHXNA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">How to create a Custom connector for OpenAI in PowerApps</h2>
+            <h2 class="article-title">Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins</h2>
         </div>
     </a>
 </article>
@@ -1067,23 +1255,23 @@ background-color: #FF6600
             
                 
 <article class="has-image">
-    <a href="/post/2023/08/powerappssearchgraphapi/">
+    <a href="/post/2023/10/addclarity/">
         
         
             <div class="article-image">
-                <img src="/post/2023/08/powerappssearchgraphapi/Article-Image.484291a353f7bf2005843227b37ec4ed_hu74736329785e2436b8b83e4f5d265e4e_297929_250x150_fill_box_smart1_3.png" 
+                <img src="/post/2023/10/addclarity/HeaderImage.b807ca765de7621efa10ba0739a839ac_hu9a40e9a801e330a7ff36615729e71f63_1490024_250x150_fill_box_smart1_3.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest"
-                        data-key="PowerAppsSearchGraphAPI" 
-                        data-hash="md5-SEKRo1P3vyAFhDIns37E7Q==">
+                        alt="Featured image of post How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell"
+                        data-key="AddClarity" 
+                        data-hash="md5-uAfKdl3nYh76ELoHOag5rA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest</h2>
+            <h2 class="article-title">How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell</h2>
         </div>
     </a>
 </article>
@@ -1091,23 +1279,23 @@ background-color: #FF6600
             
                 
 <article class="has-image">
-    <a href="/post/2024/02/change-sharepoint-group-security-groups-powershell/">
+    <a href="/post/2023/10/restorerecyclebin/">
         
         
             <div class="article-image">
-                <img src="/post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image.fc3c58fbb18e78bb9de2ba961e133660_hue8b8dfc6ed1499f95e511a6467f55805_1954526_250x150_fill_box_smart1_3.png" 
+                <img src="/post/2023/10/restorerecyclebin/RecycleBin.f710c898cae8fa43a516445cda8c193a_hu5a1df5d6cca77f0876c4c8749db3d7d6_164575_250x150_fill_q75_box_smart1.jpeg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post Change SharePoint group to Security Groups with PowerShell"
-                        data-key="change-sharepoint-group-security-groups-powershell" 
-                        data-hash="md5-/DxY&#43;7GOeLud4rqWHhM2YA==">
+                        alt="Featured image of post Restoring Files from the Recycle Bin in SharePoint using PnP PowerShell"
+                        data-key="RestoreRecycleBin" 
+                        data-hash="md5-9xDImMro&#43;kOlFkRc2owZOg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Change SharePoint group to Security Groups with PowerShell</h2>
+            <h2 class="article-title">Restoring Files from the Recycle Bin in SharePoint using PnP PowerShell</h2>
         </div>
     </a>
 </article>
@@ -1115,23 +1303,23 @@ background-color: #FF6600
             
                 
 <article class="has-image">
-    <a href="/post/2024/01/social-media-content-creator-ai-prompts/">
+    <a href="/post/2023/10/changepublishdate/">
         
         
             <div class="article-image">
-                <img src="/post/2024/01/social-media-content-creator-ai-prompts/Header-Picture.053f3eab279caeb379724c2056b97737_hufee8f29b6edf1bf13cecb5bf4b74c988_255909_250x150_fill_q75_box_smart1.jpeg" 
+                <img src="/post/2023/10/changepublishdate/ChangePublishDate.2a7af820461b6644226c8fab0c09ea28_huf677ab5284dc3059c291ae31652dfe1d_265353_250x150_fill_q75_box_smart1.jpeg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post Social media content creator with AI Promts"
-                        data-key="social-media-content-creator-ai-prompts" 
-                        data-hash="md5-BT8&#43;qyecrrN5ckwgVrl3Nw==">
+                        alt="Featured image of post How to use PowerShell to change the publish date of a news page in SharePoint Online"
+                        data-key="ChangePublishDate" 
+                        data-hash="md5-Knr4IEYbZkQibI&#43;rDAnqKA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Social media content creator with AI Promts</h2>
+            <h2 class="article-title">How to use PowerShell to change the publish date of a news page in SharePoint Online</h2>
         </div>
     </a>
 </article>
