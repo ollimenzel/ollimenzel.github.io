@@ -977,8 +977,8 @@ background-color: #FF6600
   
   <div class="article-content">
     <h2>Comments</h2>
-    <p>You can use your Mastodon account to reply to this <a class="link" href="https://techhub.social/@ollimenzel/111835402481462176">post</a>. Learn how this is implemented <a class="link" href="https://carlschwan.eu//2020/12/29/adding-comments-to-your-static-blog-with-mastodon/">here.</a></p>
-    <p><button id="replyButton" href="https://techhub.social/@ollimenzel/111835402481462176">Reply</button></p>
+    <p>You can use your Mastodon account to reply to this <a class="link" href="https://techhub.social/@ollimenzel/111835402481462176%7c%20Where-Object%20%7b%20$_.Title%20-notcontains%20%27SharingLinks%27%20%7d">post</a>. Learn how this is implemented <a class="link" href="https://carlschwan.eu//2020/12/29/adding-comments-to-your-static-blog-with-mastodon/">here.</a></p>
+    <p><button id="replyButton" href="https://techhub.social/@ollimenzel/111835402481462176%7c%20Where-Object%20%7b%20$_.Title%20-notcontains%20%27SharingLinks%27%20%7d">Reply</button></p>
     <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
     <dialog id="toot-reply" class="mastodon" data-component="dialog">
       <h3>Reply to ollimenzel's post</h3>
@@ -988,7 +988,7 @@ background-color: #FF6600
       </p>
       <p>Copy and paste this URL into the search field of your favourite Fediverse app or the web interface of your Mastodon server.</p>
       <div class="copypaste">
-        <input type="text" readonly="" value="https://techhub.social/@ollimenzel/111835402481462176">
+        <input type="text" readonly="" value="https://techhub.social/@ollimenzel/111835402481462176| Where-Object { $_.Title -notcontains &#39;SharingLinks&#39; }">
         <button class="button" id="copyButton">Copy</button>
         <button class="button" id="cancelButton">Close</button>
       </div>
@@ -1004,7 +1004,7 @@ background-color: #FF6600
       });
 
       document.getElementById('copyButton').addEventListener('click', () => {
-        navigator.clipboard.writeText('https://techhub.social/@ollimenzel/111835402481462176');
+        navigator.clipboard.writeText('https://techhub.social/@ollimenzel/111835402481462176| Where-Object { $_.Title -notcontains \u0027SharingLinks\u0027 }');
       });
 
       document.getElementById('cancelButton').addEventListener('click', () => {
@@ -1034,7 +1034,7 @@ background-color: #FF6600
 
       document.getElementById("load-comment").addEventListener("click", function() {
         document.getElementById("load-comment").innerHTML = "Loading";
-        fetch('https://techhub.social/api/v1/statuses/111835402481462176/context')
+        fetch('https://techhub.social/api/v1/statuses/111835402481462176| Where-Object { $_.Title -notcontains \u0027SharingLinks\u0027 }/context')
           .then(function(response) {
             return response.json();
           })
@@ -1045,7 +1045,7 @@ background-color: #FF6600
                 document.getElementById('mastodon-comments-list').innerHTML = "";
                 data['descendants'].forEach(function(reply) {
                   reply.account.display_name = escapeHtml(reply.account.display_name);
-                  reply.account.reply_class = reply.in_reply_to_id == "111835402481462176" ? "reply-original" : "reply-child";
+                  reply.account.reply_class = reply.in_reply_to_id == "111835402481462176| Where-Object { $_.Title -notcontains \u0027SharingLinks\u0027 }" ? "reply-original" : "reply-child";
                   reply.created_date = new Date(reply.created_at);
                   reply.account.emojis.forEach(emoji => {
                     reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
