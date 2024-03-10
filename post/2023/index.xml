@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>2023 on The State of the Microsoft 365 Nation</title>
-        <link>https://www.menzel.it/post/2023/</link>
+        <link>http://localhost:1313/post/2023/</link>
         <description>Recent content in 2023 on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 19 Dec 2023 10:00:38 +0000</lastBuildDate><atom:link href="https://www.menzel.it/post/2023/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 Dec 2023 10:00:38 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/2023/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>M365 Groups: Set Up a &#39;No Owner Policy&#39; &amp; why it&#39;s Important</title>
-        <link>https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/</link>
+        <link>http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/</link>
         <pubDate>Tue, 19 Dec 2023 10:00:38 +0000</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/image-2.png" alt="Featured image of post M365 Groups: Set Up a &#39;No Owner Policy&#39; &amp; why it&#39;s Important" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/image-2.png" alt="Featured image of post M365 Groups: Set Up a &#39;No Owner Policy&#39; &amp; why it&#39;s Important" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Managing group ownership is crucial for maintaining order and security within an organization in Microsoft 365. A &amp;ldquo;No Owner Policy&amp;rdquo; in Microsoft 365 Groups prompts members to assume ownership when the original owner leaves, ensuring continuity and accountability. This blog post explores setting up this policy, its importance, and the different settings options.&lt;/p&gt;
 &lt;h2 id=&#34;the-importance-of-a-no-owner-policy&#34;&gt;The Importance of a No Owner Policy&lt;/h2&gt;
 &lt;h3 id=&#34;ensuring-group-continuity&#34;&gt;Ensuring Group Continuity&lt;/h3&gt;
@@ -38,7 +38,7 @@
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-layz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-layz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -51,7 +51,7 @@
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/image.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/image.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -72,7 +72,7 @@ Consider the urgency and how best to prompt a response without causing notificat
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-leig.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-leig.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -82,7 +82,7 @@ Consider the urgency and how best to prompt a response without causing notificat
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-lerz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-lerz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -100,11 +100,11 @@ Consider the urgency and how best to prompt a response without causing notificat
         </item>
         <item>
         <title>Power Automate - How-to Posting on BlueSky and Mastodon</title>
-        <link>https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/</link>
+        <link>http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/</link>
         <pubDate>Sun, 26 Nov 2023 21:25:48 +0000</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/Blog-Header.jpeg" alt="Featured image of post Power Automate - How-to Posting on BlueSky and Mastodon" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/Blog-Header.jpeg" alt="Featured image of post Power Automate - How-to Posting on BlueSky and Mastodon" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Do you want to save time and effort by automating your social media posts across different platforms? Do you want to learn how to use Microsoft Power Automate to post on BlueSky and Mastodon with ease? If so, this guide is for you.&lt;/p&gt;
 &lt;h2 id=&#34;integrating-mastodon-with-hugo-blog-for-comment-management&#34;&gt;Integrating Mastodon with Hugo Blog for Comment Management&lt;/h2&gt;
 &lt;p&gt;To streamline the management of comments on my Hugo blog, I have implemented a Mastodon workflow. This workflow allows for easy retrieval of Mastodon post IDs. I use Mastadon as my comments platform as described in &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -146,7 +146,7 @@ If you need access plesae contact me via &lt;a class=&#34;link&#34; href=&#34;ht
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -156,7 +156,7 @@ If you need access plesae contact me via &lt;a class=&#34;link&#34; href=&#34;ht
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-1.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-1.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 
 Merge the ShortText and link inputs into a single string.
@@ -168,7 +168,7 @@ Merge the ShortText and link inputs into a single string.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-2.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-2.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 
 - Expression: &lt;code&gt;@{UriComponentToString(replace(uriComponent(triggerBody()?[&#39;text&#39;]) &#39;%0A&#39; &#39;&#39;))}&lt;/code&gt;&lt;/p&gt;
@@ -182,7 +182,7 @@ Merge the ShortText and link inputs into a single string.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-3.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-3.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;ul&gt;
@@ -195,7 +195,7 @@ Merge the ShortText and link inputs into a single string.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-4.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-4.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -220,7 +220,7 @@ Merge the ShortText and link inputs into a single string.
     
     
     
-    &lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-5.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-5.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
     
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -289,7 +289,7 @@ For more information on the BlueSky API, refer to the &lt;a class=&#34;link&#34;
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-6.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-6.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;ul&gt;
@@ -305,7 +305,7 @@ To get the sample, you can use the &lt;strong&gt;Run Flow&lt;/strong&gt; option 
     
     
     
-    &lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-7.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-7.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
     
 &lt;/p&gt;
 &lt;/li&gt;
@@ -315,7 +315,7 @@ To get the sample, you can use the &lt;strong&gt;Run Flow&lt;/strong&gt; option 
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-8.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-8.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;ul&gt;
@@ -351,7 +351,7 @@ To get the sample, you can use the &lt;strong&gt;Run Flow&lt;/strong&gt; option 
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-9.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-9.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -361,7 +361,7 @@ To get the sample, you can use the &lt;strong&gt;Run Flow&lt;/strong&gt; option 
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-10.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-10.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;ul&gt;
@@ -385,7 +385,7 @@ I used environment variables for this as I store everything in a solution.&lt;/l
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-11.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-11.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;ul&gt;
@@ -402,7 +402,7 @@ To get the sample, you can use the &lt;strong&gt;Run Flow&lt;/strong&gt; option 
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/image-12.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/image-12.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;ul&gt;
@@ -435,11 +435,11 @@ I added the Flows to my GitHub repo so you can download them and import them int
         </item>
         <item>
         <title>External User Access Reviews in Office 365</title>
-        <link>https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/</link>
+        <link>http://localhost:1313/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/</link>
         <pubDate>Sun, 12 Nov 2023 20:19:16 +0000</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/HeaderImage.png" alt="Featured image of post External User Access Reviews in Office 365" /&gt;&lt;p&gt;&lt;strong&gt;Understanding External User Access&lt;/strong&gt;&lt;/p&gt;
+        <guid>http://localhost:1313/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/HeaderImage.png" alt="Featured image of post External User Access Reviews in Office 365" /&gt;&lt;p&gt;&lt;strong&gt;Understanding External User Access&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Before diving into the reviews, it&amp;rsquo;s important to understand what external access entails. External users in O365 are individuals who are not employees, or onsite agents for your organization. They could be partners, vendors, or consultants who need access to certain parts of your O365 environment, such as SharePoint sites or Microsoft Teams.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The Need for Access Reviews&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The principle of least privilege mandates that users should have access only to the information and resources that are absolutely necessary for their work. Over time, access requirements can change, and periodic reviews ensure that external users only have the access they need. This is where O365&amp;rsquo;s access review feature comes into play, allowing for the systematic verification and auditing of user privileges.&lt;/p&gt;
@@ -452,7 +452,7 @@ I added the Flows to my GitHub repo so you can download them and import them int
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -462,14 +462,14 @@ I added the Flows to my GitHub repo so you can download them and import them int
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-1.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-1.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 
 
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-2.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-2.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -479,14 +479,14 @@ I added the Flows to my GitHub repo so you can download them and import them int
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-3.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-3.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 
 
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-4.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-4.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -496,7 +496,7 @@ I added the Flows to my GitHub repo so you can download them and import them int
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-5.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-5.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -506,7 +506,7 @@ I added the Flows to my GitHub repo so you can download them and import them int
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-6.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/image-6.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -543,11 +543,11 @@ I added the Flows to my GitHub repo so you can download them and import them int
         </item>
         <item>
         <title>New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part</title>
-        <link>https://www.menzel.it/post/2023/11/spimageediting/</link>
+        <link>http://localhost:1313/post/2023/11/spimageediting/</link>
         <pubDate>Thu, 09 Nov 2023 13:19:06 +0100</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/11/spimageediting/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/11/spimageediting/HeaderImage.png" alt="Featured image of post New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part" /&gt;&lt;h2 id=&#34;adding-and-editing-images-with-the-image-web-part&#34;&gt;Adding and Editing Images with the Image Web Part&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/11/spimageediting/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/11/spimageediting/HeaderImage.png" alt="Featured image of post New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part" /&gt;&lt;h2 id=&#34;adding-and-editing-images-with-the-image-web-part&#34;&gt;Adding and Editing Images with the Image Web Part&lt;/h2&gt;
 &lt;p&gt;The Image web part simplifies the process of adding visual elements to your SharePoint Online pages. Here&amp;rsquo;s how you can set it up:&lt;/p&gt;
 &lt;h3 id=&#34;inserting-an-image&#34;&gt;Inserting an Image&lt;/h3&gt;
 &lt;p&gt;Navigate to the page where you want to add an image and select &amp;ldquo;Edit&amp;rdquo; at the top right of the page to enable editing mode. Choose the section you want to insert the Image web part and click the &amp;ldquo;+&amp;rdquo; sign to add a new web part. Select &amp;ldquo;Image&amp;rdquo; from the list of available web parts.
@@ -555,7 +555,7 @@ I added the Flows to my GitHub repo so you can download them and import them int
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-owfe.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/spimageediting/SCR-20231110-owfe.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;h3 id=&#34;editing-an-image&#34;&gt;Editing an Image&lt;/h3&gt;
@@ -564,7 +564,7 @@ I added the Flows to my GitHub repo so you can download them and import them int
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-oxpo.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/spimageediting/SCR-20231110-oxpo.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;ul&gt;
@@ -576,7 +576,7 @@ I added the Flows to my GitHub repo so you can download them and import them int
     
     
     
-    &lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-oycy.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/post/2023/11/spimageediting/SCR-20231110-oycy.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
     
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -586,7 +586,7 @@ I added the Flows to my GitHub repo so you can download them and import them int
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-oysu.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/11/spimageediting/SCR-20231110-oysu.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;h3 id=&#34;configuring-accessibility&#34;&gt;Configuring Accessibility&lt;/h3&gt;
@@ -599,11 +599,11 @@ I added the Flows to my GitHub repo so you can download them and import them int
         </item>
         <item>
         <title>Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins</title>
-        <link>https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/</link>
+        <link>http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/</link>
         <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png" alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins" /&gt;&lt;h2 id=&#34;why-bother-with-metadata&#34;&gt;Why Bother with Metadata?&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png" alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins" /&gt;&lt;h2 id=&#34;why-bother-with-metadata&#34;&gt;Why Bother with Metadata?&lt;/h2&gt;
 &lt;p&gt;Think of metadata as the DNA of your SharePoint content. It tells you who created a document, when it was last touched, and more. This information isn’t just for kicks; it&amp;rsquo;s vital for audits, compliance, and knowing the lineage of your content.&lt;/p&gt;
 &lt;h2 id=&#34;keeping-metadata-intact-with-updates&#34;&gt;Keeping Metadata Intact with Updates&lt;/h2&gt;
 &lt;p&gt;Sometimes you need to adjust a document&amp;rsquo;s details but want to keep the original &amp;lsquo;Modified By&amp;rsquo; data. PnP PowerShell is your ally here:&lt;/p&gt;
@@ -694,11 +694,11 @@ This approach is suitable when you want to make a correction to the current vers
         </item>
         <item>
         <title>Find / Restore Deleted OneDrive Sites with PnP PowerShell</title>
-        <link>https://www.menzel.it/post/2023/10/deleted_onedrive/</link>
+        <link>http://localhost:1313/post/2023/10/deleted_onedrive/</link>
         <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/10/deleted_onedrive/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/10/deleted_onedrive/header.png" alt="Featured image of post Find / Restore Deleted OneDrive Sites with PnP PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/10/deleted_onedrive/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/10/deleted_onedrive/header.png" alt="Featured image of post Find / Restore Deleted OneDrive Sites with PnP PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In SharePoint Online, users can store their files in OneDrive for Business, which is a personal document library that is associated with their user account. Sometimes, users may accidentally delete their OneDrive site or get deleted when they leave the company, which can result in the loss of important files and data.&lt;/p&gt;
 &lt;p&gt;Fortunately, SharePoint Online administrators can restore deleted OneDrive sites using PowerShell and the PnP PowerShell module. In this blog post, we will discuss how to use the PowerShell script &amp;ldquo;Get-deleted-OneDrives.ps1&amp;rdquo; to restore a deleted OneDrive site.&lt;/p&gt;
 &lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
@@ -828,11 +828,11 @@ This approach is suitable when you want to make a correction to the current vers
         </item>
         <item>
         <title>How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell</title>
-        <link>https://www.menzel.it/post/2023/10/addclarity/</link>
+        <link>http://localhost:1313/post/2023/10/addclarity/</link>
         <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/10/addclarity/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/10/addclarity/HeaderImage.png" alt="Featured image of post How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/10/addclarity/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/10/addclarity/HeaderImage.png" alt="Featured image of post How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Microsoft Clarity is a free web analytics tool that helps website owners understand how users interact with their website. Clarity provides insights into user behavior, such as heatmaps, session recordings, and funnels, which can be used to optimize the user experience and improve website performance.&lt;/p&gt;
 &lt;h2 id=&#34;why-use-clarity-for-a-sharepoint-portal&#34;&gt;Why Use Clarity for a SharePoint Portal?&lt;/h2&gt;
 &lt;p&gt;Microsoft Clarity can be a useful tool for gaining insights into how users interact with your SharePoint portal. By using Clarity, you can:&lt;/p&gt;
@@ -855,7 +855,7 @@ Get the Product ID of the Clarity App. You will need it in the script.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/ProjectID.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/ProjectID.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -874,7 +874,7 @@ In the SharePoint Admin Center click on more features and then click on the &lt;
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/SP-Apps.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/SP-Apps.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -885,7 +885,7 @@ Click the upload button and choose the dowloaded app file.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/UploadClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/UploadClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -896,7 +896,7 @@ Select if you want to install the App for the whole tenant or only for specific 
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/SelectClarityScope.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/SelectClarityScope.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -907,7 +907,7 @@ Check the Apps for SharePoint list to see if the app was added successfully.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/ClarityInstalled.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/ClarityInstalled.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -921,7 +921,7 @@ Check the Apps for SharePoint list to see if the app was added successfully.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/AddClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/AddClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;li&gt;In the My apps page click on the &lt;code&gt;All&lt;/code&gt; tab and then click on the &lt;code&gt;Clarity&lt;/code&gt; app.
@@ -929,7 +929,7 @@ Check the Apps for SharePoint list to see if the app was added successfully.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/ClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/ClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -967,11 +967,11 @@ Check the Apps for SharePoint list to see if the app was added successfully.
         </item>
         <item>
         <title>Restoring Files from the Recycle Bin in SharePoint using PnP PowerShell</title>
-        <link>https://www.menzel.it/post/2023/10/restorerecyclebin/</link>
+        <link>http://localhost:1313/post/2023/10/restorerecyclebin/</link>
         <pubDate>Sun, 15 Oct 2023 22:52:41 +0200</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/10/restorerecyclebin/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/10/restorerecyclebin/RecycleBin.jpeg" alt="Featured image of post Restoring Files from the Recycle Bin in SharePoint using PnP PowerShell" /&gt;&lt;p&gt;PnP PowerShell is a powerful tool that allows you to interact with SharePoint and perform various operations, including restoring files from the recycle bin. In this blog post, we will explore how to use PnP PowerShell to restore files from the recycle bin, filter by path or folder, and filter by timespan.&lt;/p&gt;
+        <guid>http://localhost:1313/post/2023/10/restorerecyclebin/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/10/restorerecyclebin/RecycleBin.jpeg" alt="Featured image of post Restoring Files from the Recycle Bin in SharePoint using PnP PowerShell" /&gt;&lt;p&gt;PnP PowerShell is a powerful tool that allows you to interact with SharePoint and perform various operations, including restoring files from the recycle bin. In this blog post, we will explore how to use PnP PowerShell to restore files from the recycle bin, filter by path or folder, and filter by timespan.&lt;/p&gt;
 &lt;h2 id=&#34;basic-commands&#34;&gt;Basic Commands&lt;/h2&gt;
 &lt;p&gt;Here are some of the basic cmdlets you can use:&lt;/p&gt;
 &lt;ol&gt;
@@ -1074,11 +1074,11 @@ with something like this: &lt;code&gt;$folderPath = &amp;quot;/sites/YourSiteNam
         </item>
         <item>
         <title>How to use PowerShell to change the publish date of a news page in SharePoint Online</title>
-        <link>https://www.menzel.it/post/2023/10/changepublishdate/</link>
+        <link>http://localhost:1313/post/2023/10/changepublishdate/</link>
         <pubDate>Fri, 13 Oct 2023 08:22:49 +0200</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/10/changepublishdate/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/10/changepublishdate/ChangePublishDate.jpeg" alt="Featured image of post How to use PowerShell to change the publish date of a news page in SharePoint Online" /&gt;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/10/changepublishdate/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/10/changepublishdate/ChangePublishDate.jpeg" alt="Featured image of post How to use PowerShell to change the publish date of a news page in SharePoint Online" /&gt;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;Before we get started, there are a few prerequisites that you will need:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A SharePoint Online site where you have permission to create and edit news pages.&lt;/li&gt;
@@ -1155,11 +1155,11 @@ with something like this: &lt;code&gt;$folderPath = &amp;quot;/sites/YourSiteNam
         </item>
         <item>
         <title>How to Sync Hub Permissions to Associated Sites in SharePoint Online</title>
-        <link>https://www.menzel.it/post/2023/10/hub_sync_permissions/</link>
+        <link>http://localhost:1313/post/2023/10/hub_sync_permissions/</link>
         <pubDate>Sun, 08 Oct 2023 11:23:54 +0200</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/10/hub_sync_permissions/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/10/hub_sync_permissions/image-3.png" alt="Featured image of post How to Sync Hub Permissions to Associated Sites in SharePoint Online" /&gt;&lt;p&gt;If you are using SharePoint Online, you may have created a hub site to organize your related sites and provide a consistent look and feel. A hub site consists of a main hub site and several associated sites that are connected to the hub. Each site has its own security and permissions, which means that users who have access to the hub site may not have access to the associated sites, and vice versa.&lt;/p&gt;
+        <guid>http://localhost:1313/post/2023/10/hub_sync_permissions/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/10/hub_sync_permissions/image-3.png" alt="Featured image of post How to Sync Hub Permissions to Associated Sites in SharePoint Online" /&gt;&lt;p&gt;If you are using SharePoint Online, you may have created a hub site to organize your related sites and provide a consistent look and feel. A hub site consists of a main hub site and several associated sites that are connected to the hub. Each site has its own security and permissions, which means that users who have access to the hub site may not have access to the associated sites, and vice versa.&lt;/p&gt;
 &lt;p&gt;However, in some scenarios, you may want to sync the permissions of the hub site to the associated sites, so that users who have access to the hub site can also have access to the associated sites. For example, if you have a hub site for an Intranet and several associated sites for different teams, you may want everyone in the company to have at least read access to all the sites within the hub.&lt;/p&gt;
 &lt;p&gt;Fortunately, SharePoint Online has a feature called Hub Sync Permissions that allows you to do this easily. In this blog post, I will show you how to enable this feature and what it does.&lt;/p&gt;
 &lt;h2 id=&#34;how-to-enable-hub-sync-permissions&#34;&gt;How to Enable Hub Sync Permissions&lt;/h2&gt;
@@ -1179,7 +1179,7 @@ with something like this: &lt;code&gt;$folderPath = &amp;quot;/sites/YourSiteNam
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/hub_sync_permissions/image.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/hub_sync_permissions/image.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;li&gt;Select a security group that will serve as the hub visitors. This group will be added to all the associated sites as visitors. You can use any existing security group or create a new one.&lt;/li&gt;
@@ -1195,7 +1195,7 @@ with something like this: &lt;code&gt;$folderPath = &amp;quot;/sites/YourSiteNam
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/hub_sync_permissions/image-1.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/hub_sync_permissions/image-1.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1208,7 +1208,7 @@ with something like this: &lt;code&gt;$folderPath = &amp;quot;/sites/YourSiteNam
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/hub_sync_permissions/image-2.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/hub_sync_permissions/image-2.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1226,12 +1226,34 @@ Thank you for reading!&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title>Create a Custom Connector for Azure OpenAI</title>
+        <link>http://localhost:1313/post/2023/10/disable_sharing/</link>
+        <pubDate>Wed, 04 Oct 2023 08:59:32 +0200</pubDate>
+        
+        <guid>http://localhost:1313/post/2023/10/disable_sharing/</guid>
+        <description>&lt;img src="http://localhost:1313/Microsoft365-Logo.png" alt="Featured image of post Create a Custom Connector for Azure OpenAI" /&gt;&lt;p&gt;Today I want to share with you a new feature that I&amp;rsquo;ve been testing out: a custom connector for AzureOpenAI. This connector allows you to access the powerful natural language processing capabilities of OpenAI from Azure Logic Apps, Power Automate, and Power Apps.&lt;/p&gt;
+&lt;p&gt;In this post, I&amp;rsquo;ll show you how to set up and test the connector, and give you some tips on how to use it effectively.&lt;/p&gt;
+&lt;p&gt;First, you need to get access to the AzureOpenAI beta. This is a limited preview, so you need to fill out this form and wait for an invitation email. Once you get the email, you can activate your subscription and get your API key.&lt;/p&gt;
+&lt;p&gt;Next, you need to create the custom connector in Azure. Go to the Azure portal and navigate to the Custom Connectors section. Click on &amp;ldquo;Create custom connector&amp;rdquo; and choose &amp;ldquo;Import an OpenAPI file&amp;rdquo;. Then, upload this file that contains the OpenAPI definition of the AzureOpenAI connector. Give your connector a name and a description, and click &amp;ldquo;Continue&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Now, you need to configure the security settings of the connector. Go to the &amp;ldquo;Security&amp;rdquo; tab and choose &amp;ldquo;API Key&amp;rdquo; as the authentication type. Enter your API key in the &amp;ldquo;Parameter value&amp;rdquo; field, and click &amp;ldquo;Continue&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Finally, you need to test the connector. Go to the &amp;ldquo;Test&amp;rdquo; tab and choose an operation to test. For example, you can test the &amp;ldquo;Complete&amp;rdquo; operation, which generates text completions based on a prompt. Enter a prompt in the &amp;ldquo;query&amp;rdquo; field, and click &amp;ldquo;Test operation&amp;rdquo;. You should see a response with a list of possible completions.&lt;/p&gt;
+&lt;p&gt;You can also test the connector from Power Apps. To do that, you need to create a new app or open an existing one. Then, go to the &amp;ldquo;Data&amp;rdquo; tab and click on &amp;ldquo;Add data&amp;rdquo;. Choose your custom connector from the list and click &amp;ldquo;Connect&amp;rdquo;. Now, you can use the connector&amp;rsquo;s actions in your app logic.&lt;/p&gt;
+&lt;p&gt;For example, you can create a simple app that generates blog post titles based on a topic. To do that, you need to add a text input control for the topic, a button to trigger the generation, and a gallery control to display the results. Then, set the button&amp;rsquo;s OnSelect property to:&lt;/p&gt;
+&lt;p&gt;ClearCollect(Results,AzureOpenAI.Complete({query:TextInput1.Text &amp;amp; &amp;quot; blog post&amp;quot;,engine:&amp;ldquo;davinci&amp;rdquo;,max_tokens:10,top_p:1}))&lt;/p&gt;
+&lt;p&gt;This will call the Complete operation of the connector with the text input as the query, and store the results in a collection called Results. Then, set the gallery&amp;rsquo;s Items property to:&lt;/p&gt;
+&lt;p&gt;Results.choices&lt;/p&gt;
+&lt;p&gt;This will display the choices returned by the connector in the gallery. You can also customize the gallery&amp;rsquo;s layout and appearance as you like.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it! You have created a custom connector for AzureOpenAI and tested it from Power Apps. I hope you find this feature useful and fun. Please let me know if you have any feedback or questions in the comments below.&lt;/p&gt;
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>How to create a Custom connector for OpenAI in PowerApps</title>
-        <link>https://www.menzel.it/post/2023/09/customconnectoropenai/</link>
+        <link>http://localhost:1313/post/2023/09/customconnectoropenai/</link>
         <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/09/customconnectoropenai/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/09/customconnectoropenai/Blog_custom-connector.jpeg" alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps" /&gt;&lt;h2 id=&#34;what-is-openai-and-why-use-it-in-powerapps&#34;&gt;What is OpenAI and why use it in PowerApps?&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/09/customconnectoropenai/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/09/customconnectoropenai/Blog_custom-connector.jpeg" alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps" /&gt;&lt;h2 id=&#34;what-is-openai-and-why-use-it-in-powerapps&#34;&gt;What is OpenAI and why use it in PowerApps?&lt;/h2&gt;
 &lt;p&gt;OpenAI is a research organization that aims to create artificial intelligence (AI). They have developed a general-purpose NLP system called GPT-3/ GPT-4, which can generate coherent and relevant text for a wide range of tasks, such as answering questions, writing summaries, creating content, and more.&lt;/p&gt;
 &lt;p&gt;By using OpenAI in PowerApps, you can leverage the power of GPT-3 to enhance your apps with natural language features, such as chatbots, text analysis, content generation, and more. You can also use OpenAI to create dynamic and engaging user experiences that are tailored to your specific needs and goals.&lt;/p&gt;
 &lt;h2 id=&#34;how-to-sign-up-for-the-openai-api&#34;&gt;How to sign up for the OpenAI API?&lt;/h2&gt;
@@ -1257,7 +1279,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-offd.png&#34; alt=&#34;&#34; style=&#34;width: 20%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-offd.png&#34; alt=&#34;&#34; style=&#34;width: 20%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -1267,7 +1289,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pkic.png&#34; alt=&#34;&#34; style=&#34;width: 30%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pkic.png&#34; alt=&#34;&#34; style=&#34;width: 30%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -1277,7 +1299,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-plig.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-plig.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -1292,7 +1314,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pmek.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pmek.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1308,7 +1330,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pmwf.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pmwf.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1323,7 +1345,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pnkn.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pnkn.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1375,7 +1397,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pobx.png&#34; alt=&#34;&#34; style=&#34;width: 30%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pobx.png&#34; alt=&#34;&#34; style=&#34;width: 30%; display: block;&#34;&gt;
 
 
 &lt;ol start=&#34;9&#34;&gt;
@@ -1392,7 +1414,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pplu.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pplu.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1452,7 +1474,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-onbe.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-onbe.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;ol start=&#34;14&#34;&gt;
@@ -1493,7 +1515,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-prhk.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-prhk.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -1537,7 +1559,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-oqaj.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-oqaj.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -1545,11 +1567,11 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
         </item>
         <item>
         <title>Simplifying Collaboration: Sharing Power Platform Environments with Security Groups</title>
-        <link>https://www.menzel.it/post/2023/08/environmentsecuritygroups/</link>
+        <link>http://localhost:1313/post/2023/08/environmentsecuritygroups/</link>
         <pubDate>Mon, 21 Aug 2023 11:37:23 +0200</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/08/environmentsecuritygroups/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.png" alt="Featured image of post Simplifying Collaboration: Sharing Power Platform Environments with Security Groups" /&gt;&lt;p&gt;In today&amp;rsquo;s rapidly evolving business landscape, collaboration and data-driven decision-making have become paramount. Microsoft&amp;rsquo;s Power Platform empowers organizations to create custom apps, automate workflows, and derive insights from data, all without requiring extensive coding skills. As businesses strive for greater efficiency and agility, the need to collaborate seamlessly within a secure environment has become crucial. One effective way to achieve this is by sharing Power Platform environments with security groups.&lt;/p&gt;
+        <guid>http://localhost:1313/post/2023/08/environmentsecuritygroups/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.png" alt="Featured image of post Simplifying Collaboration: Sharing Power Platform Environments with Security Groups" /&gt;&lt;p&gt;In today&amp;rsquo;s rapidly evolving business landscape, collaboration and data-driven decision-making have become paramount. Microsoft&amp;rsquo;s Power Platform empowers organizations to create custom apps, automate workflows, and derive insights from data, all without requiring extensive coding skills. As businesses strive for greater efficiency and agility, the need to collaborate seamlessly within a secure environment has become crucial. One effective way to achieve this is by sharing Power Platform environments with security groups.&lt;/p&gt;
 &lt;h2 id=&#34;sharing-power-platform-environments-with-security-groups&#34;&gt;Sharing Power Platform Environments with Security Groups&lt;/h2&gt;
 &lt;p&gt;Sharing a Power Platform environment with a security group is a strategic approach that streamlines collaboration and enhances security. By associating users with specific security groups, administrators can ensure that the right people have access to the right resources, eliminating the complexities of individual user management. Here&amp;rsquo;s a step-by-step guide to sharing a Power Platform environment with a security group:&lt;/p&gt;
 &lt;h3 id=&#34;step-1-set-up-security-groups&#34;&gt;Step 1: Set Up Security Groups&lt;/h3&gt;
@@ -1598,11 +1620,11 @@ Fill out the other fields and click on Next.&lt;/li&gt;
         </item>
         <item>
         <title>Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest</title>
-        <link>https://www.menzel.it/post/2023/08/powerappssearchgraphapi/</link>
+        <link>http://localhost:1313/post/2023/08/powerappssearchgraphapi/</link>
         <pubDate>Thu, 10 Aug 2023 16:31:08 +0200</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/08/powerappssearchgraphapi/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/08/powerappssearchgraphapi/Article-Image.png" alt="Featured image of post Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest" /&gt;&lt;h2 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/08/powerappssearchgraphapi/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/08/powerappssearchgraphapi/Article-Image.png" alt="Featured image of post Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest" /&gt;&lt;h2 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Before we get started, you&amp;rsquo;ll need to activate the preview feature &amp;ldquo;ParseJSON function and untyped objects&amp;rdquo; in your PowerApps settings. To do this, go to the Settings menu, browse to Upcoming features, and turn on the setting called ParseJSON function and untyped objects. If this feature is not turned on, the ParseJSON function will not be found in the formula bar.&lt;/li&gt;
 &lt;li&gt;You need to add the Office365Groups connector to your PowerApps. To do this, go to the Data menu, and select Office 365 Groups. This will add the connector to your PowerApps.&lt;/li&gt;
@@ -1903,11 +1925,11 @@ This whole code can for example be put in a buttons OnSelect property to send th
         </item>
         <item>
         <title>Reconnecting Pages with Language Variations After Copying Them with ShareGate</title>
-        <link>https://www.menzel.it/post/2023/07/reconnect_pages/</link>
+        <link>http://localhost:1313/post/2023/07/reconnect_pages/</link>
         <pubDate>Thu, 27 Jul 2023 11:57:41 +0200</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/07/reconnect_pages/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/07/reconnect_pages/Reconnect.png" alt="Featured image of post Reconnecting Pages with Language Variations After Copying Them with ShareGate" /&gt;&lt;h3 id=&#34;step-by-step-explanation-of-the-code&#34;&gt;Step-by-Step Explanation of the Code&lt;/h3&gt;
+        <guid>http://localhost:1313/post/2023/07/reconnect_pages/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/07/reconnect_pages/Reconnect.png" alt="Featured image of post Reconnecting Pages with Language Variations After Copying Them with ShareGate" /&gt;&lt;h3 id=&#34;step-by-step-explanation-of-the-code&#34;&gt;Step-by-Step Explanation of the Code&lt;/h3&gt;
 &lt;p&gt;Here&amp;rsquo;s a step-by-step explanation of the PowerShell code for reconnecting pages with language variations after copying them with ShareGate:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;First, we need to connect to the SharePoint site where the pages are located. We can do this using the &lt;code&gt;Connect-PnPOnline&lt;/code&gt; cmdlet:&lt;/li&gt;

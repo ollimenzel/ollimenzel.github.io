@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Microsoft 365 Groups on The State of the Microsoft 365 Nation</title>
-        <link>https://www.menzel.it/tags/microsoft-365-groups/</link>
+        <link>http://localhost:1313/tags/microsoft-365-groups/</link>
         <description>Recent content in Microsoft 365 Groups on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 19 Dec 2023 10:00:38 +0000</lastBuildDate><atom:link href="https://www.menzel.it/tags/microsoft-365-groups/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 Dec 2023 10:00:38 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/microsoft-365-groups/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>M365 Groups: Set Up a &#39;No Owner Policy&#39; &amp; why it&#39;s Important</title>
-        <link>https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/</link>
+        <link>http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/</link>
         <pubDate>Tue, 19 Dec 2023 10:00:38 +0000</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/image-2.png" alt="Featured image of post M365 Groups: Set Up a &#39;No Owner Policy&#39; &amp; why it&#39;s Important" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/image-2.png" alt="Featured image of post M365 Groups: Set Up a &#39;No Owner Policy&#39; &amp; why it&#39;s Important" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Managing group ownership is crucial for maintaining order and security within an organization in Microsoft 365. A &amp;ldquo;No Owner Policy&amp;rdquo; in Microsoft 365 Groups prompts members to assume ownership when the original owner leaves, ensuring continuity and accountability. This blog post explores setting up this policy, its importance, and the different settings options.&lt;/p&gt;
 &lt;h2 id=&#34;the-importance-of-a-no-owner-policy&#34;&gt;The Importance of a No Owner Policy&lt;/h2&gt;
 &lt;h3 id=&#34;ensuring-group-continuity&#34;&gt;Ensuring Group Continuity&lt;/h3&gt;
@@ -38,7 +38,7 @@
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-layz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-layz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -51,7 +51,7 @@
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/image.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/image.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -72,7 +72,7 @@ Consider the urgency and how best to prompt a response without causing notificat
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-leig.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-leig.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -82,7 +82,7 @@ Consider the urgency and how best to prompt a response without causing notificat
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-lerz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/SCR-20231219-lerz.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;

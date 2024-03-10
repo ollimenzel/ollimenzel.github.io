@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>AI on The State of the Microsoft 365 Nation</title>
-        <link>https://www.menzel.it/categories/ai/</link>
+        <link>http://localhost:1313/categories/ai/</link>
         <description>Recent content in AI on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 27 Sep 2023 15:56:44 +0200</lastBuildDate><atom:link href="https://www.menzel.it/categories/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 27 Sep 2023 15:56:44 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/ai/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>How to create a Custom connector for OpenAI in PowerApps</title>
-        <link>https://www.menzel.it/post/2023/09/customconnectoropenai/</link>
+        <link>http://localhost:1313/post/2023/09/customconnectoropenai/</link>
         <pubDate>Wed, 27 Sep 2023 15:56:44 +0200</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/09/customconnectoropenai/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/09/customconnectoropenai/Blog_custom-connector.jpeg" alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps" /&gt;&lt;h2 id=&#34;what-is-openai-and-why-use-it-in-powerapps&#34;&gt;What is OpenAI and why use it in PowerApps?&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/09/customconnectoropenai/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/09/customconnectoropenai/Blog_custom-connector.jpeg" alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps" /&gt;&lt;h2 id=&#34;what-is-openai-and-why-use-it-in-powerapps&#34;&gt;What is OpenAI and why use it in PowerApps?&lt;/h2&gt;
 &lt;p&gt;OpenAI is a research organization that aims to create artificial intelligence (AI). They have developed a general-purpose NLP system called GPT-3/ GPT-4, which can generate coherent and relevant text for a wide range of tasks, such as answering questions, writing summaries, creating content, and more.&lt;/p&gt;
 &lt;p&gt;By using OpenAI in PowerApps, you can leverage the power of GPT-3 to enhance your apps with natural language features, such as chatbots, text analysis, content generation, and more. You can also use OpenAI to create dynamic and engaging user experiences that are tailored to your specific needs and goals.&lt;/p&gt;
 &lt;h2 id=&#34;how-to-sign-up-for-the-openai-api&#34;&gt;How to sign up for the OpenAI API?&lt;/h2&gt;
@@ -38,7 +38,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-offd.png&#34; alt=&#34;&#34; style=&#34;width: 20%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-offd.png&#34; alt=&#34;&#34; style=&#34;width: 20%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -48,7 +48,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pkic.png&#34; alt=&#34;&#34; style=&#34;width: 30%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pkic.png&#34; alt=&#34;&#34; style=&#34;width: 30%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -58,7 +58,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-plig.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-plig.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -73,7 +73,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pmek.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pmek.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -89,7 +89,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pmwf.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pmwf.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -104,7 +104,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pnkn.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pnkn.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -156,7 +156,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pobx.png&#34; alt=&#34;&#34; style=&#34;width: 30%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pobx.png&#34; alt=&#34;&#34; style=&#34;width: 30%; display: block;&#34;&gt;
 
 
 &lt;ol start=&#34;9&#34;&gt;
@@ -173,7 +173,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-pplu.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-pplu.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -233,7 +233,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-onbe.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-onbe.png&#34; alt=&#34;&#34; style=&#34;width: 50%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;ol start=&#34;14&#34;&gt;
@@ -274,7 +274,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-prhk.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-prhk.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -318,7 +318,7 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/09/customconnectoropenai/SCR-20230927-oqaj.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/09/customconnectoropenai/SCR-20230927-oqaj.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ol&gt;

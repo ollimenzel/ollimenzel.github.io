@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Clarity on The State of the Microsoft 365 Nation</title>
-        <link>https://www.menzel.it/tags/clarity/</link>
+        <link>http://localhost:1313/tags/clarity/</link>
         <description>Recent content in Clarity on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 23 Oct 2023 20:35:23 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/clarity/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Oct 2023 20:35:23 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/clarity/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell</title>
-        <link>https://www.menzel.it/post/2023/10/addclarity/</link>
+        <link>http://localhost:1313/post/2023/10/addclarity/</link>
         <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
         
-        <guid>https://www.menzel.it/post/2023/10/addclarity/</guid>
-        <description>&lt;img src="https://www.menzel.it/post/2023/10/addclarity/HeaderImage.png" alt="Featured image of post How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <guid>http://localhost:1313/post/2023/10/addclarity/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2023/10/addclarity/HeaderImage.png" alt="Featured image of post How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Microsoft Clarity is a free web analytics tool that helps website owners understand how users interact with their website. Clarity provides insights into user behavior, such as heatmaps, session recordings, and funnels, which can be used to optimize the user experience and improve website performance.&lt;/p&gt;
 &lt;h2 id=&#34;why-use-clarity-for-a-sharepoint-portal&#34;&gt;Why Use Clarity for a SharePoint Portal?&lt;/h2&gt;
 &lt;p&gt;Microsoft Clarity can be a useful tool for gaining insights into how users interact with your SharePoint portal. By using Clarity, you can:&lt;/p&gt;
@@ -35,7 +35,7 @@ Get the Product ID of the Clarity App. You will need it in the script.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/ProjectID.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/ProjectID.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -54,7 +54,7 @@ In the SharePoint Admin Center click on more features and then click on the &lt;
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/SP-Apps.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/SP-Apps.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -65,7 +65,7 @@ Click the upload button and choose the dowloaded app file.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/UploadClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/UploadClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -76,7 +76,7 @@ Select if you want to install the App for the whole tenant or only for specific 
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/SelectClarityScope.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/SelectClarityScope.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -87,7 +87,7 @@ Check the Apps for SharePoint list to see if the app was added successfully.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/ClarityInstalled.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/ClarityInstalled.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -101,7 +101,7 @@ Check the Apps for SharePoint list to see if the app was added successfully.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/AddClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/AddClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;li&gt;In the My apps page click on the &lt;code&gt;All&lt;/code&gt; tab and then click on the &lt;code&gt;Clarity&lt;/code&gt; app.
@@ -109,7 +109,7 @@ Check the Apps for SharePoint list to see if the app was added successfully.
 
 
 
-&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/ClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/ClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;

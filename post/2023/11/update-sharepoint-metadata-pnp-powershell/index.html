@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Master the art of updating SharePoint metadata without rewriting the file history using PnP PowerShell. This guide offers a seamless approach to preserving metadata integrity, tailored for administrators and IT professionals.'>
 <meta name="keywords" content="How-to, SiteOwners, SharePoint, Microsoft365, PowerShell, PnP, Update SharePoint Metadata, PnP PowerShell Metadata, SystemUpdate SharePoint, SharePoint Data Integrity"><title>Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins</title>
 
-<link rel='canonical' href='https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/'>
+<link rel='canonical' href='http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/'>
 
 <link rel="stylesheet" href="/scss/style.min.85ef553442abef9d388f896084b84473f204ae98903bc0468fa1d51e560ceb91.css"><script type="text/javascript">
     !function (v, y, T) { var S = v.location, k = "script", D = "instrumentationKey", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = (D[b](), "crossOrigin"), N = "POST", e = "appInsightsSDK", t = T.name || "appInsights", n = ((T.name || v[e]) && (v[e] = t), v[t] || function (l) { var u = !1, d = !1, g = { initialize: !0, queue: [], sv: "6", version: 2, config: l }; function m(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (g.sv || g.version), { time: (a = new Date).getUTCFullYear() + "-" + i(1 + a.getUTCMonth()) + "-" + i(a.getUTCDate()) + "T" + i(a.getUTCHours()) + ":" + i(a.getUTCMinutes()) + ":" + i(a.getUTCSeconds()) + "." + (a.getUTCMilliseconds() / 1e3).toFixed(3).slice(2, 5) + "Z", iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } }; function i(e) { e = "" + e; return 1 === e.length ? "0" + e : e } } var e, n, f = l.url || T.src; function a(e) { var t, n, a, i, o, s, r, c, p; u = !0, g.queue = [], d || (d = !0, i = f, r = (c = function () { var e, t = {}, n = l.connectionString; if (n) for (var a = n.split(";"), i = 0; i < a.length; i++) { var o = a[i].split("="); 2 === o.length && (t[o[0][b]()] = o[1]) } return t[C] || (t[C] = "https://" + ((e = (n = t.endpointsuffix) ? t.location : null) ? e + "." : "") + "dc." + (n || "services.visualstudio.com")), t }()).instrumentationkey || l[D] || "", c = (c = c[C]) ? c + "/v2/track" : l.endpointUrl, (p = []).push((t = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", n = i, o = c, (s = (a = m(r, "Exception")).data).baseType = "ExceptionData", s.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: t.replace(/\./g, "-"), hasFullStack: !1, stack: t + "\nSnippet failed to load [" + n + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + o, parsedStack: [] }], a)), p.push((s = i, t = c, (o = (n = m(r, "Message")).data).baseType = "MessageData", (a = o.baseData).message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + s + ")").replace(/\"/g, "") + '"', a.properties = { endpoint: t }, n)), i = p, r = c, JSON && ((o = v.fetch) && !T.useXhr ? o(r, { method: N, body: JSON.stringify(i), mode: "cors" }) : XMLHttpRequest && ((s = new XMLHttpRequest).open(N, r), s.setRequestHeader("Content-type", "application/json"), s.send(JSON.stringify(i))))) } function i(e, t) { d || setTimeout(function () { !t && g.core || a() }, 500) } f && ((n = y.createElement(k)).src = f, !(o = T[w]) && "" !== o || "undefined" == n[w] || (n[w] = o), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, e = n, T.ld < 0 ? y.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { y.getElementsByTagName(k)[0].parentNode.appendChild(e) }, T.ld || 0)); try { g.cookie = y.cookie } catch (h) { } function t(e) { for (; e.length;)!function (t) { g[t] = function () { var e = arguments; u || g.queue.push(function () { g[t].apply(g, e) }) } }(e.pop()) } var s, r, o = "track", c = "TrackPage", p = "TrackEvent", o = (t([o + "Event", o + "PageView", o + "Exception", o + "Trace", o + "DependencyData", o + "Metric", o + "PageViewPerformance", "start" + c, "stop" + c, "start" + p, "stop" + p, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), g.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }, (l.extensionConfig || {}).ApplicationInsightsAnalytics || {}); return !0 !== l[I] && !0 !== o[I] && (t(["_" + (s = "onerror")]), r = v[s], v[s] = function (e, t, n, a, i) { var o = r && r(e, t, n, a, i); return !0 !== o && g["_" + s]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i, evt: v.event }), o }, l.autoExceptionInstrumented = !0), g }(T.cfg)); function a() { T.onInit && T.onInit(n) } (v[t] = n).queue && 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
@@ -37,12 +37,12 @@
     gtag('config', 'G-NQR0VXREZN');
 </script><meta property='og:title' content='Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins'>
 <meta property='og:description' content='Master the art of updating SharePoint metadata without rewriting the file history using PnP PowerShell. This guide offers a seamless approach to preserving metadata integrity, tailored for administrators and IT professionals.'>
-<meta property='og:url' content='https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/'>
+<meta property='og:url' content='http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/'>
 <meta property='og:site_name' content='The State of the Microsoft 365 Nation'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='How-to' /><meta property='article:tag' content='SiteOwners' /><meta property='article:tag' content='SharePoint' /><meta property='article:tag' content='Microsoft365' /><meta property='article:tag' content='PowerShell' /><meta property='article:tag' content='PnP' /><meta property='article:tag' content='Metadata' /><meta property='article:published_time' content='2023-11-06T15:58:22&#43;01:00'/><meta property='article:modified_time' content='2023-11-06T15:58:22&#43;01:00'/><meta property='og:image' content='https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='How-to' /><meta property='article:tag' content='SiteOwners' /><meta property='article:tag' content='SharePoint' /><meta property='article:tag' content='Microsoft365' /><meta property='article:tag' content='PowerShell' /><meta property='article:tag' content='PnP' /><meta property='article:tag' content='Metadata' /><meta property='article:published_time' content='2023-11-06T15:58:22&#43;01:00'/><meta property='article:modified_time' content='2023-11-06T15:58:22&#43;01:00'/><meta property='og:image' content='http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png' />
 <meta name="twitter:title" content="Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins">
 <meta name="twitter:description" content="Master the art of updating SharePoint metadata without rewriting the file history using PnP PowerShell. This guide offers a seamless approach to preserving metadata integrity, tailored for administrators and IT professionals."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png' /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="twitter:image" content='http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png' /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -119,11 +119,10 @@
                     >
                         
                         
-                            <svg width="36" height="32" viewBox="0 0 360 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M254.896 184.158C252.81 183.926 250.733 183.645 248.671 183.315C250.773 183.574 252.849 183.855 254.896 184.158Z" fill="white"/>
-<path d="M180 141.964C163.699 110.262 119.308 51.1817 78.0347 22.044C38.4971 -5.86834 23.414 -1.03207 13.526 3.43594C2.08093 8.60755 0 26.1785 0 36.5164C0 46.8542 5.66748 121.272 9.36416 133.694C21.5786 174.738 65.0603 188.607 105.104 184.156C107.151 183.852 109.227 183.572 111.329 183.312C109.267 183.642 107.19 183.924 105.104 184.156C46.4204 192.847 -5.69621 214.233 62.6582 290.33C137.848 368.18 165.705 273.637 180 225.702C194.295 273.637 210.76 364.771 295.995 290.33C360 225.702 313.58 192.85 254.896 184.158C252.81 183.926 250.733 183.645 248.671 183.315C250.773 183.574 252.849 183.855 254.896 184.158C294.94 188.61 338.421 174.74 350.636 133.697C354.333 121.275 360 46.8568 360 36.519C360 26.1811 357.919 8.61012 346.474 3.43851C336.586 -1.02949 321.503 -5.86576 281.965 22.0466C240.692 51.1843 196.301 110.262 180 141.964Z" fill="#295ef6"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-bluesky" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M6.335 5.144c-1.654 -1.199 -4.335 -2.127 -4.335 .826c0 .59 .35 4.953 .556 5.661c.713 2.463 3.13 2.75 5.444 2.369c-4.045 .665 -4.889 3.208 -2.667 5.41c1.03 1.018 1.913 1.59 2.667 1.59c2 0 3.134 -2.769 3.5 -3.5c.333 -.667 .5 -1.167 .5 -1.5c0 .333 .167 .833 .5 1.5c.366 .731 1.5 3.5 3.5 3.5c.754 0 1.637 -.571 2.667 -1.59c2.222 -2.203 1.378 -4.746 -2.667 -5.41c2.314 .38 4.73 .094 5.444 -2.369c.206 -.708 .556 -5.072 .556 -5.661c0 -2.953 -2.68 -2.025 -4.335 -.826c-2.293 1.662 -4.76 5.048 -5.665 6.856c-.905 -1.808 -3.372 -5.194 -5.665 -6.856z" />
 </svg>
-
                         
                     </a>
                 </li>
@@ -322,8 +321,46 @@
             </a>
         </li>
         
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="http://localhost:1313/" selected>English</option>
+                        
+                    </select>
+                </li>
+            
             
             
                 <li id="dark-mode-toggle">
@@ -848,7 +885,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins&amp;url=https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/" target="_blank" rel="noopener" aria-label="" title="Twitter">
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins&amp;url=http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/" target="_blank" rel="noopener" aria-label="" title="Twitter">
   <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
@@ -863,7 +900,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="mailto:?subject=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins&amp;body=https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/" target="_self" rel="noopener" aria-label="" title="E-Mail">
+<a class="resp-sharing-button__link" href="mailto:?subject=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins&amp;body=http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/" target="_self" rel="noopener" aria-label="" title="E-Mail">
   <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z"/></svg>
@@ -878,7 +915,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/&amp;title=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins&amp;summary=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins&amp;https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/" target="_blank" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/&amp;title=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins&amp;summary=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins&amp;http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
@@ -891,7 +928,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/&amp;resubmit=true&amp;title=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins" target="_blank" rel="noopener" aria-label="" title="Reddit">
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/&amp;resubmit=true&amp;title=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins" target="_blank" rel="noopener" aria-label="" title="Reddit">
   <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.75-1.64-6.07-1.72.08-1.1.4-3.05 1.52-3.7.72-.4 1.73-.24 3 .5C17.2 6.3 18.46 7.5 20 7.5c1.65 0 3-1.35 3-3s-1.35-3-3-3c-1.38 0-2.54.94-2.88 2.22-1.43-.72-2.64-.8-3.6-.25-1.64.94-1.95 3.47-2 4.55-2.33.08-4.45.7-6.1 1.72C4.86 8.98 3.96 8.5 3 8.5c-1.65 0-3 1.35-3 3 0 1.32.84 2.44 2.05 2.84-.03.22-.05.44-.05.66 0 3.86 4.5 7 10 7s10-3.14 10-7c0-.22-.02-.44-.05-.66 1.2-.4 2.05-1.54 2.05-2.84zM2.3 13.37C1.5 13.07 1 12.35 1 11.5c0-1.1.9-2 2-2 .64 0 1.22.32 1.6.82-1.1.85-1.92 1.9-2.3 3.05zm3.7.13c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9.8 4.8c-1.08.63-2.42.96-3.8.96-1.4 0-2.74-.34-3.8-.95-.24-.13-.32-.44-.2-.68.15-.24.46-.32.7-.18 1.83 1.06 4.76 1.06 6.6 0 .23-.13.53-.05.67.2.14.23.06.54-.18.67zm.2-2.8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm5.7-2.13c-.38-1.16-1.2-2.2-2.3-3.05.38-.5.97-.82 1.6-.82 1.1 0 2 .9 2 2 0 .84-.53 1.57-1.3 1.87z"/></svg>
@@ -904,7 +941,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/;title=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins" target="_blank" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/;title=Silently%20Update%20SharePoint%20Metadata%20with%20PnP%20PowerShell%3a%20A%20Guide%20for%20Admins" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.2 9.7l-3-5.4C7.2 4 7 4 6.8 4h-5c-.3 0-.4 0-.5.2v.5L4 10 .4 16v.5c0 .2.2.3.4.3h5c.3 0 .4 0 .5-.2l4-6.6v-.5zM24 .2l-.5-.2H18s-.2 0-.3.3l-8 14v.4l5.2 9c0 .2 0 .3.3.3h5.4s.3 0 .4-.2c.2-.2.2-.4 0-.5l-5-8.8L24 .7V.2z"/></svg>
@@ -1038,7 +1075,7 @@ background-color: #FF6600
     
     <section class="article-tags">
         
-            <a href="/tags/how-to/">How-to</a>
+            <a href="/tags/how-to/">How-To</a>
         
             <a href="/tags/siteowners/">SiteOwners</a>
         
