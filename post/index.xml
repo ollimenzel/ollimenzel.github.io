@@ -7,12 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <lastBuildDate>Sun, 10 Mar 2024 10:59:06 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Finding doublettes in SharePoint list with PnP PowerShell</title>
+        <title>Deleting doublettes in SharePoint list with PnP PowerShell</title>
         <link>http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</link>
         <pubDate>Sun, 10 Mar 2024 10:59:06 +0000</pubDate>
         
         <guid>http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/Header-Image.jpeg" alt="Featured image of post Finding doublettes in SharePoint list with PnP PowerShell" /&gt;&lt;p&gt;In this blog post, I will break down a PnP PowerShell script that is designed to connect to a SharePoint site, retrieve a list of users from a specific SharePoint list (doublettes), identify duplicate users based on a unique identifier field, and then remove these duplicates. Of course you can use this script to remove any other kind of duplicate as well.
+        <description>&lt;img src="http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/Header-Image.jpeg" alt="Featured image of post Deleting doublettes in SharePoint list with PnP PowerShell" /&gt;&lt;p&gt;In this blog post, I will break down a PnP PowerShell script that is designed to connect to a SharePoint site, retrieve a list of users from a specific SharePoint list (doublettes), identify duplicate users based on a unique identifier field, and then remove these duplicates. Of course you can use this script to remove any other kind of duplicate as well.
 Let&amp;rsquo;s dive into the details.&lt;/p&gt;
 &lt;h3 id=&#34;step-1-metadata-retrieval&#34;&gt;Step 1: Metadata Retrieval&lt;/h3&gt;
 &lt;p&gt;Set the tenant name and site name for the SharePoint site. The tenant name is typically the domain of the organization, the site name is the specific site within the SharePoint environment that the script will interact with. The SharePoint list name is the name of the list within the site that contains the user data.&lt;/p&gt;
