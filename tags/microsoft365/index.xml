@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Microsoft365 on The State of the Microsoft 365 Nation</title>
-        <link>http://localhost:1313/tags/microsoft365/</link>
+        <link>https://www.menzel.it/tags/microsoft365/</link>
         <description>Recent content in Microsoft365 on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 06 Nov 2023 15:58:22 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/microsoft365/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 06 Nov 2023 15:58:22 +0100</lastBuildDate><atom:link href="https://www.menzel.it/tags/microsoft365/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins</title>
-        <link>http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/</link>
+        <link>https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/</link>
         <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
         
-        <guid>http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png" alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins" /&gt;&lt;h2 id=&#34;why-bother-with-metadata&#34;&gt;Why Bother with Metadata?&lt;/h2&gt;
+        <guid>https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png" alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins" /&gt;&lt;h2 id=&#34;why-bother-with-metadata&#34;&gt;Why Bother with Metadata?&lt;/h2&gt;
 &lt;p&gt;Think of metadata as the DNA of your SharePoint content. It tells you who created a document, when it was last touched, and more. This information isn’t just for kicks; it&amp;rsquo;s vital for audits, compliance, and knowing the lineage of your content.&lt;/p&gt;
 &lt;h2 id=&#34;keeping-metadata-intact-with-updates&#34;&gt;Keeping Metadata Intact with Updates&lt;/h2&gt;
 &lt;p&gt;Sometimes you need to adjust a document&amp;rsquo;s details but want to keep the original &amp;lsquo;Modified By&amp;rsquo; data. PnP PowerShell is your ally here:&lt;/p&gt;

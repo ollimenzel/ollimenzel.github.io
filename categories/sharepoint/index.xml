@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>PowerShell on The State of the Microsoft 365 Nation</title>
-        <link>http://localhost:1313/categories/sharepoint/</link>
+        <link>https://www.menzel.it/categories/sharepoint/</link>
         <description>Recent content in PowerShell on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 10 Mar 2024 10:59:06 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/sharepoint/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 Mar 2024 10:59:06 +0000</lastBuildDate><atom:link href="https://www.menzel.it/categories/sharepoint/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Deleting doublettes in SharePoint list with PnP PowerShell</title>
-        <link>http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</link>
+        <link>https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</link>
         <pubDate>Sun, 10 Mar 2024 10:59:06 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/Header-Image.jpeg" alt="Featured image of post Deleting doublettes in SharePoint list with PnP PowerShell" /&gt;&lt;p&gt;In this blog post, I will break down a PnP PowerShell script that is designed to connect to a SharePoint site, retrieve a list of users from a specific SharePoint list (doublettes), identify duplicate users based on a unique identifier field, and then remove these duplicates. Of course you can use this script to remove any other kind of duplicate as well.
+        <guid>https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/Header-Image.jpeg" alt="Featured image of post Deleting doublettes in SharePoint list with PnP PowerShell" /&gt;&lt;p&gt;In this blog post, I will break down a PnP PowerShell script that is designed to connect to a SharePoint site, retrieve a list of users from a specific SharePoint list (doublettes), identify duplicate users based on a unique identifier field, and then remove these duplicates. Of course you can use this script to remove any other kind of duplicate as well.
 Let&amp;rsquo;s dive into the details.&lt;/p&gt;
 &lt;h3 id=&#34;step-1-metadata-retrieval&#34;&gt;Step 1: Metadata Retrieval&lt;/h3&gt;
 &lt;p&gt;Set the tenant name and site name for the SharePoint site. The tenant name is typically the domain of the organization, the site name is the specific site within the SharePoint environment that the script will interact with. The SharePoint list name is the name of the list within the site that contains the user data.&lt;/p&gt;
@@ -161,11 +161,11 @@ Let&amp;rsquo;s dive into the details.&lt;/p&gt;
         </item>
         <item>
         <title>Change SharePoint group to Security Groups with PowerShell</title>
-        <link>http://localhost:1313/post/2024/02/change-sharepoint-group-security-groups-powershell/</link>
+        <link>https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/</link>
         <pubDate>Mon, 12 Feb 2024 16:29:31 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/2024/02/change-sharepoint-group-security-groups-powershell/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image.png" alt="Featured image of post Change SharePoint group to Security Groups with PowerShell" /&gt;&lt;h1 id=&#34;automating-sharepoint-permissions-with-powershell&#34;&gt;Automating SharePoint Permissions with PowerShell&lt;/h1&gt;
+        <guid>https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image.png" alt="Featured image of post Change SharePoint group to Security Groups with PowerShell" /&gt;&lt;h1 id=&#34;automating-sharepoint-permissions-with-powershell&#34;&gt;Automating SharePoint Permissions with PowerShell&lt;/h1&gt;
 &lt;p&gt;Managing SharePoint user permissions can be a complex and time-consuming task, especially for large organizations with numerous users and groups. Automation can significantly streamline this process, saving time and reducing the potential for errors. In this post, we&amp;rsquo;ll explore a PowerShell script that automates the management of SharePoint permissions by migrating users from SharePoint groups to EntraID Security Groups.&lt;/p&gt;
 &lt;h2 id=&#34;why-use-security-groups-instead-of-sharepoint-permission-groups&#34;&gt;Why use Security groups instead of SharePoint permission groups?&lt;/h2&gt;
 &lt;p&gt;Using EntraID Security Groups instead of SharePoint permission groups offers several advantages:&lt;/p&gt;
@@ -400,11 +400,11 @@ This PowerShell script is a powerful tool for SharePoint administrators looking 
         </item>
         <item>
         <title>New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part</title>
-        <link>http://localhost:1313/post/2023/11/spimageediting/</link>
+        <link>https://www.menzel.it/post/2023/11/spimageediting/</link>
         <pubDate>Thu, 09 Nov 2023 13:19:06 +0100</pubDate>
         
-        <guid>http://localhost:1313/post/2023/11/spimageediting/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/11/spimageediting/HeaderImage.png" alt="Featured image of post New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part" /&gt;&lt;h2 id=&#34;adding-and-editing-images-with-the-image-web-part&#34;&gt;Adding and Editing Images with the Image Web Part&lt;/h2&gt;
+        <guid>https://www.menzel.it/post/2023/11/spimageediting/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/11/spimageediting/HeaderImage.png" alt="Featured image of post New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part" /&gt;&lt;h2 id=&#34;adding-and-editing-images-with-the-image-web-part&#34;&gt;Adding and Editing Images with the Image Web Part&lt;/h2&gt;
 &lt;p&gt;The Image web part simplifies the process of adding visual elements to your SharePoint Online pages. Here&amp;rsquo;s how you can set it up:&lt;/p&gt;
 &lt;h3 id=&#34;inserting-an-image&#34;&gt;Inserting an Image&lt;/h3&gt;
 &lt;p&gt;Navigate to the page where you want to add an image and select &amp;ldquo;Edit&amp;rdquo; at the top right of the page to enable editing mode. Choose the section you want to insert the Image web part and click the &amp;ldquo;+&amp;rdquo; sign to add a new web part. Select &amp;ldquo;Image&amp;rdquo; from the list of available web parts.
@@ -412,7 +412,7 @@ This PowerShell script is a powerful tool for SharePoint administrators looking 
 
 
 
-&lt;img src=&#34;http://localhost:1313/post/2023/11/spimageediting/SCR-20231110-owfe.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-owfe.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;h3 id=&#34;editing-an-image&#34;&gt;Editing an Image&lt;/h3&gt;
@@ -421,7 +421,7 @@ This PowerShell script is a powerful tool for SharePoint administrators looking 
 
 
 
-&lt;img src=&#34;http://localhost:1313/post/2023/11/spimageediting/SCR-20231110-oxpo.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-oxpo.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;ul&gt;
@@ -433,7 +433,7 @@ This PowerShell script is a powerful tool for SharePoint administrators looking 
     
     
     
-    &lt;img src=&#34;http://localhost:1313/post/2023/11/spimageediting/SCR-20231110-oycy.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+    &lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-oycy.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
     
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -443,7 +443,7 @@ This PowerShell script is a powerful tool for SharePoint administrators looking 
 
 
 
-&lt;img src=&#34;http://localhost:1313/post/2023/11/spimageediting/SCR-20231110-oysu.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;https://www.menzel.it/post/2023/11/spimageediting/SCR-20231110-oysu.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;h3 id=&#34;configuring-accessibility&#34;&gt;Configuring Accessibility&lt;/h3&gt;

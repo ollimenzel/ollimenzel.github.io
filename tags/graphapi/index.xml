@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>GraphAPI on The State of the Microsoft 365 Nation</title>
-        <link>http://localhost:1313/tags/graphapi/</link>
+        <link>https://www.menzel.it/tags/graphapi/</link>
         <description>Recent content in GraphAPI on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Thu, 10 Aug 2023 16:31:08 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/graphapi/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 10 Aug 2023 16:31:08 +0200</lastBuildDate><atom:link href="https://www.menzel.it/tags/graphapi/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest</title>
-        <link>http://localhost:1313/post/2023/08/powerappssearchgraphapi/</link>
+        <link>https://www.menzel.it/post/2023/08/powerappssearchgraphapi/</link>
         <pubDate>Thu, 10 Aug 2023 16:31:08 +0200</pubDate>
         
-        <guid>http://localhost:1313/post/2023/08/powerappssearchgraphapi/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/08/powerappssearchgraphapi/Article-Image.png" alt="Featured image of post Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest" /&gt;&lt;h2 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h2&gt;
+        <guid>https://www.menzel.it/post/2023/08/powerappssearchgraphapi/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/08/powerappssearchgraphapi/Article-Image.png" alt="Featured image of post Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest" /&gt;&lt;h2 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Before we get started, you&amp;rsquo;ll need to activate the preview feature &amp;ldquo;ParseJSON function and untyped objects&amp;rdquo; in your PowerApps settings. To do this, go to the Settings menu, browse to Upcoming features, and turn on the setting called ParseJSON function and untyped objects. If this feature is not turned on, the ParseJSON function will not be found in the formula bar.&lt;/li&gt;
 &lt;li&gt;You need to add the Office365Groups connector to your PowerApps. To do this, go to the Data menu, and select Office 365 Groups. This will add the connector to your PowerApps.&lt;/li&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on The State of the Microsoft 365 Nation</title>
-        <link>http://localhost:1313/post/</link>
+        <link>https://www.menzel.it/post/</link>
         <description>Recent content in Posts on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 10 Mar 2024 10:59:06 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 Mar 2024 10:59:06 +0000</lastBuildDate><atom:link href="https://www.menzel.it/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Deleting doublettes in SharePoint list with PnP PowerShell</title>
-        <link>http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</link>
+        <link>https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</link>
         <pubDate>Sun, 10 Mar 2024 10:59:06 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/Header-Image.jpeg" alt="Featured image of post Deleting doublettes in SharePoint list with PnP PowerShell" /&gt;&lt;p&gt;In this blog post, I will break down a PnP PowerShell script that is designed to connect to a SharePoint site, retrieve a list of users from a specific SharePoint list (doublettes), identify duplicate users based on a unique identifier field, and then remove these duplicates. Of course you can use this script to remove any other kind of duplicate as well.
+        <guid>https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/Header-Image.jpeg" alt="Featured image of post Deleting doublettes in SharePoint list with PnP PowerShell" /&gt;&lt;p&gt;In this blog post, I will break down a PnP PowerShell script that is designed to connect to a SharePoint site, retrieve a list of users from a specific SharePoint list (doublettes), identify duplicate users based on a unique identifier field, and then remove these duplicates. Of course you can use this script to remove any other kind of duplicate as well.
 Let&amp;rsquo;s dive into the details.&lt;/p&gt;
 &lt;h3 id=&#34;step-1-metadata-retrieval&#34;&gt;Step 1: Metadata Retrieval&lt;/h3&gt;
 &lt;p&gt;Set the tenant name and site name for the SharePoint site. The tenant name is typically the domain of the organization, the site name is the specific site within the SharePoint environment that the script will interact with. The SharePoint list name is the name of the list within the site that contains the user data.&lt;/p&gt;
@@ -161,11 +161,11 @@ Let&amp;rsquo;s dive into the details.&lt;/p&gt;
         </item>
         <item>
         <title>Change SharePoint group to Security Groups with PowerShell</title>
-        <link>http://localhost:1313/post/2024/02/change-sharepoint-group-security-groups-powershell/</link>
+        <link>https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/</link>
         <pubDate>Mon, 12 Feb 2024 16:29:31 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/2024/02/change-sharepoint-group-security-groups-powershell/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image.png" alt="Featured image of post Change SharePoint group to Security Groups with PowerShell" /&gt;&lt;h1 id=&#34;automating-sharepoint-permissions-with-powershell&#34;&gt;Automating SharePoint Permissions with PowerShell&lt;/h1&gt;
+        <guid>https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image.png" alt="Featured image of post Change SharePoint group to Security Groups with PowerShell" /&gt;&lt;h1 id=&#34;automating-sharepoint-permissions-with-powershell&#34;&gt;Automating SharePoint Permissions with PowerShell&lt;/h1&gt;
 &lt;p&gt;Managing SharePoint user permissions can be a complex and time-consuming task, especially for large organizations with numerous users and groups. Automation can significantly streamline this process, saving time and reducing the potential for errors. In this post, we&amp;rsquo;ll explore a PowerShell script that automates the management of SharePoint permissions by migrating users from SharePoint groups to EntraID Security Groups.&lt;/p&gt;
 &lt;h2 id=&#34;why-use-security-groups-instead-of-sharepoint-permission-groups&#34;&gt;Why use Security groups instead of SharePoint permission groups?&lt;/h2&gt;
 &lt;p&gt;Using EntraID Security Groups instead of SharePoint permission groups offers several advantages:&lt;/p&gt;
@@ -400,16 +400,16 @@ This PowerShell script is a powerful tool for SharePoint administrators looking 
         </item>
         <item>
         <title>Social media content creator with AI Promts</title>
-        <link>http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/</link>
+        <link>https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/</link>
         <pubDate>Sun, 28 Jan 2024 09:57:41 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/Header-Picture.jpeg" alt="Featured image of post Social media content creator with AI Promts" /&gt;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+        <guid>https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/Header-Picture.jpeg" alt="Featured image of post Social media content creator with AI Promts" /&gt;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;For this tutorial you need the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A premium Power Automate account, e.g. a Power Automate per user plan or an Powerapps Comunity Plan&lt;/li&gt;
 &lt;li&gt;A Social Media Account, e.g. Twitter, Mastodon, LinkedIn, etc.&lt;/li&gt;
-&lt;li&gt;The Flows from one of my previous posts &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/&#34; &gt;Power Automate - How-to Posting on BlueSky and Mastodon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Flows from one of my previous posts &lt;a class=&#34;link&#34; href=&#34;https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/&#34; &gt;Power Automate - How-to Posting on BlueSky and Mastodon&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;create-ai-prompt-in-power-platform&#34;&gt;Create AI Prompt in Power Platform&lt;/h2&gt;
 &lt;ol&gt;
@@ -423,7 +423,7 @@ This PowerShell script is a powerful tool for SharePoint administrators looking 
     
     
     
-    &lt;img src=&#34;http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/image.png&#34; alt=&#34;&#34; style=&#34;width: 30%; display: block;&#34;&gt;
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image.png&#34; alt=&#34;&#34; style=&#34;width: 30%; display: block;&#34;&gt;
     
 &lt;/p&gt;
 &lt;/li&gt;
@@ -433,7 +433,7 @@ This PowerShell script is a powerful tool for SharePoint administrators looking 
     
     
     
-    &lt;img src=&#34;http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/image-1.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-1.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
     
 &lt;/p&gt;
 &lt;/li&gt;
@@ -443,7 +443,7 @@ This PowerShell script is a powerful tool for SharePoint administrators looking 
     
     
     
-    &lt;img src=&#34;http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/image-2.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-2.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
     
 &lt;/p&gt;
 &lt;/li&gt;
@@ -453,7 +453,7 @@ This PowerShell script is a powerful tool for SharePoint administrators looking 
     
     
     
-    &lt;img src=&#34;http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/SCR-20231221-ohvw.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/SCR-20231221-ohvw.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
     
 &lt;/p&gt;
 &lt;/li&gt;
@@ -484,7 +484,7 @@ Please just response the post without any explanations. but in the following for
 
 
 
-&lt;img src=&#34;http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/image-3.png&#34; alt=&#34;&#34; style=&#34;width: 90%; display: block;&#34;&gt;
+&lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-3.png&#34; alt=&#34;&#34; style=&#34;width: 90%; display: block;&#34;&gt;
 
 
 This is the Flow I created for writing post on social media. I will explain the steps in the following sections.&lt;/p&gt;
@@ -497,7 +497,7 @@ This step gets the URL of the newest blog post from my SharePoint Blog list.
     
     
     
-    &lt;img src=&#34;http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/image-4.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-4.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
     
 &lt;/li&gt;
 &lt;li&gt;&amp;ldquo;AIBuilder Predict Custom Prompt&amp;rdquo; from Common Data Service for Apps.
@@ -506,7 +506,7 @@ This step uses the AI Prompt we created in the previous section to create the po
     
     
     
-    &lt;img src=&#34;http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/image-5.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-5.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
     
 &lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Start and Wait for a Text Suggestion Approval&amp;rdquo; from Approvals.
@@ -516,7 +516,7 @@ If you don&amp;rsquo;t want to check the post text before it is posted on social
     
     
     
-    &lt;img src=&#34;http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/image-6.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-6.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
     
 &lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Parse JSON&amp;rdquo;.
@@ -526,7 +526,7 @@ Copy the JSON from the AI Builder step and paste it into the &amp;ldquo;Schema&a
     
     
     
-    &lt;img src=&#34;http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/image-7.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-7.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
     
 &lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Condition&amp;rdquo;.
@@ -535,7 +535,7 @@ This step checks if we approved the AI generated post text or not. If we approve
     
     
     
-    &lt;img src=&#34;http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/image-8.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-8.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
     
 &lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Apply to each&amp;rdquo;.
@@ -544,7 +544,7 @@ This step will create a post for each social media network that we put in the Co
     
     
     
-    &lt;img src=&#34;http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/image-9.png&#34; alt=&#34;&#34; style=&#34;width: 80%; display: block;&#34;&gt;
+    &lt;img src=&#34;https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/image-9.png&#34; alt=&#34;&#34; style=&#34;width: 80%; display: block;&#34;&gt;
     
 
 As you can see this is a very simple Flow. But it will save you a lot of time and you can be sure that your post text is correct.

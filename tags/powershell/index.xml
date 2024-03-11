@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>PowerShell on The State of the Microsoft 365 Nation</title>
-        <link>http://localhost:1313/tags/powershell/</link>
+        <link>https://www.menzel.it/tags/powershell/</link>
         <description>Recent content in PowerShell on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 10 Mar 2024 10:59:06 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 Mar 2024 10:59:06 +0000</lastBuildDate><atom:link href="https://www.menzel.it/tags/powershell/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Deleting doublettes in SharePoint list with PnP PowerShell</title>
-        <link>http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</link>
+        <link>https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</link>
         <pubDate>Sun, 10 Mar 2024 10:59:06 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/Header-Image.jpeg" alt="Featured image of post Deleting doublettes in SharePoint list with PnP PowerShell" /&gt;&lt;p&gt;In this blog post, I will break down a PnP PowerShell script that is designed to connect to a SharePoint site, retrieve a list of users from a specific SharePoint list (doublettes), identify duplicate users based on a unique identifier field, and then remove these duplicates. Of course you can use this script to remove any other kind of duplicate as well.
+        <guid>https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/Header-Image.jpeg" alt="Featured image of post Deleting doublettes in SharePoint list with PnP PowerShell" /&gt;&lt;p&gt;In this blog post, I will break down a PnP PowerShell script that is designed to connect to a SharePoint site, retrieve a list of users from a specific SharePoint list (doublettes), identify duplicate users based on a unique identifier field, and then remove these duplicates. Of course you can use this script to remove any other kind of duplicate as well.
 Let&amp;rsquo;s dive into the details.&lt;/p&gt;
 &lt;h3 id=&#34;step-1-metadata-retrieval&#34;&gt;Step 1: Metadata Retrieval&lt;/h3&gt;
 &lt;p&gt;Set the tenant name and site name for the SharePoint site. The tenant name is typically the domain of the organization, the site name is the specific site within the SharePoint environment that the script will interact with. The SharePoint list name is the name of the list within the site that contains the user data.&lt;/p&gt;
@@ -161,11 +161,11 @@ Let&amp;rsquo;s dive into the details.&lt;/p&gt;
         </item>
         <item>
         <title>Change SharePoint group to Security Groups with PowerShell</title>
-        <link>http://localhost:1313/post/2024/02/change-sharepoint-group-security-groups-powershell/</link>
+        <link>https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/</link>
         <pubDate>Mon, 12 Feb 2024 16:29:31 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/2024/02/change-sharepoint-group-security-groups-powershell/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image.png" alt="Featured image of post Change SharePoint group to Security Groups with PowerShell" /&gt;&lt;h1 id=&#34;automating-sharepoint-permissions-with-powershell&#34;&gt;Automating SharePoint Permissions with PowerShell&lt;/h1&gt;
+        <guid>https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/Header-Image.png" alt="Featured image of post Change SharePoint group to Security Groups with PowerShell" /&gt;&lt;h1 id=&#34;automating-sharepoint-permissions-with-powershell&#34;&gt;Automating SharePoint Permissions with PowerShell&lt;/h1&gt;
 &lt;p&gt;Managing SharePoint user permissions can be a complex and time-consuming task, especially for large organizations with numerous users and groups. Automation can significantly streamline this process, saving time and reducing the potential for errors. In this post, we&amp;rsquo;ll explore a PowerShell script that automates the management of SharePoint permissions by migrating users from SharePoint groups to EntraID Security Groups.&lt;/p&gt;
 &lt;h2 id=&#34;why-use-security-groups-instead-of-sharepoint-permission-groups&#34;&gt;Why use Security groups instead of SharePoint permission groups?&lt;/h2&gt;
 &lt;p&gt;Using EntraID Security Groups instead of SharePoint permission groups offers several advantages:&lt;/p&gt;
@@ -400,11 +400,11 @@ This PowerShell script is a powerful tool for SharePoint administrators looking 
         </item>
         <item>
         <title>Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins</title>
-        <link>http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/</link>
+        <link>https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/</link>
         <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
         
-        <guid>http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png" alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins" /&gt;&lt;h2 id=&#34;why-bother-with-metadata&#34;&gt;Why Bother with Metadata?&lt;/h2&gt;
+        <guid>https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png" alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins" /&gt;&lt;h2 id=&#34;why-bother-with-metadata&#34;&gt;Why Bother with Metadata?&lt;/h2&gt;
 &lt;p&gt;Think of metadata as the DNA of your SharePoint content. It tells you who created a document, when it was last touched, and more. This information isn’t just for kicks; it&amp;rsquo;s vital for audits, compliance, and knowing the lineage of your content.&lt;/p&gt;
 &lt;h2 id=&#34;keeping-metadata-intact-with-updates&#34;&gt;Keeping Metadata Intact with Updates&lt;/h2&gt;
 &lt;p&gt;Sometimes you need to adjust a document&amp;rsquo;s details but want to keep the original &amp;lsquo;Modified By&amp;rsquo; data. PnP PowerShell is your ally here:&lt;/p&gt;
@@ -495,11 +495,11 @@ This approach is suitable when you want to make a correction to the current vers
         </item>
         <item>
         <title>Find / Restore Deleted OneDrive Sites with PnP PowerShell</title>
-        <link>http://localhost:1313/post/2023/10/deleted_onedrive/</link>
+        <link>https://www.menzel.it/post/2023/10/deleted_onedrive/</link>
         <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>
         
-        <guid>http://localhost:1313/post/2023/10/deleted_onedrive/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/10/deleted_onedrive/header.png" alt="Featured image of post Find / Restore Deleted OneDrive Sites with PnP PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <guid>https://www.menzel.it/post/2023/10/deleted_onedrive/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/10/deleted_onedrive/header.png" alt="Featured image of post Find / Restore Deleted OneDrive Sites with PnP PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In SharePoint Online, users can store their files in OneDrive for Business, which is a personal document library that is associated with their user account. Sometimes, users may accidentally delete their OneDrive site or get deleted when they leave the company, which can result in the loss of important files and data.&lt;/p&gt;
 &lt;p&gt;Fortunately, SharePoint Online administrators can restore deleted OneDrive sites using PowerShell and the PnP PowerShell module. In this blog post, we will discuss how to use the PowerShell script &amp;ldquo;Get-deleted-OneDrives.ps1&amp;rdquo; to restore a deleted OneDrive site.&lt;/p&gt;
 &lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
@@ -629,11 +629,11 @@ This approach is suitable when you want to make a correction to the current vers
         </item>
         <item>
         <title>How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell</title>
-        <link>http://localhost:1313/post/2023/10/addclarity/</link>
+        <link>https://www.menzel.it/post/2023/10/addclarity/</link>
         <pubDate>Mon, 23 Oct 2023 20:35:23 +0200</pubDate>
         
-        <guid>http://localhost:1313/post/2023/10/addclarity/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/10/addclarity/HeaderImage.png" alt="Featured image of post How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <guid>https://www.menzel.it/post/2023/10/addclarity/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/10/addclarity/HeaderImage.png" alt="Featured image of post How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Microsoft Clarity is a free web analytics tool that helps website owners understand how users interact with their website. Clarity provides insights into user behavior, such as heatmaps, session recordings, and funnels, which can be used to optimize the user experience and improve website performance.&lt;/p&gt;
 &lt;h2 id=&#34;why-use-clarity-for-a-sharepoint-portal&#34;&gt;Why Use Clarity for a SharePoint Portal?&lt;/h2&gt;
 &lt;p&gt;Microsoft Clarity can be a useful tool for gaining insights into how users interact with your SharePoint portal. By using Clarity, you can:&lt;/p&gt;
@@ -656,7 +656,7 @@ Get the Product ID of the Clarity App. You will need it in the script.
 
 
 
-&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/ProjectID.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/ProjectID.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -675,7 +675,7 @@ In the SharePoint Admin Center click on more features and then click on the &lt;
 
 
 
-&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/SP-Apps.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/SP-Apps.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -686,7 +686,7 @@ Click the upload button and choose the dowloaded app file.
 
 
 
-&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/UploadClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/UploadClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -697,7 +697,7 @@ Select if you want to install the App for the whole tenant or only for specific 
 
 
 
-&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/SelectClarityScope.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
+&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/SelectClarityScope.png&#34; alt=&#34;&#34; style=&#34;width: 40%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -708,7 +708,7 @@ Check the Apps for SharePoint list to see if the app was added successfully.
 
 
 
-&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/ClarityInstalled.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
+&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/ClarityInstalled.png&#34; alt=&#34;&#34; style=&#34;width: 70%; display: block;&#34;&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
@@ -722,7 +722,7 @@ Check the Apps for SharePoint list to see if the app was added successfully.
 
 
 
-&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/AddClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/AddClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;li&gt;In the My apps page click on the &lt;code&gt;All&lt;/code&gt; tab and then click on the &lt;code&gt;Clarity&lt;/code&gt; app.
@@ -730,7 +730,7 @@ Check the Apps for SharePoint list to see if the app was added successfully.
 
 
 
-&lt;img src=&#34;http://localhost:1313/post/2023/10/addclarity/ClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
+&lt;img src=&#34;https://www.menzel.it/post/2023/10/addclarity/ClarityApp.png&#34; alt=&#34;&#34; style=&#34;width: 60%; display: block;&#34;&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -768,11 +768,11 @@ Check the Apps for SharePoint list to see if the app was added successfully.
         </item>
         <item>
         <title>Restoring Files from the Recycle Bin in SharePoint using PnP PowerShell</title>
-        <link>http://localhost:1313/post/2023/10/restorerecyclebin/</link>
+        <link>https://www.menzel.it/post/2023/10/restorerecyclebin/</link>
         <pubDate>Sun, 15 Oct 2023 22:52:41 +0200</pubDate>
         
-        <guid>http://localhost:1313/post/2023/10/restorerecyclebin/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/10/restorerecyclebin/RecycleBin.jpeg" alt="Featured image of post Restoring Files from the Recycle Bin in SharePoint using PnP PowerShell" /&gt;&lt;p&gt;PnP PowerShell is a powerful tool that allows you to interact with SharePoint and perform various operations, including restoring files from the recycle bin. In this blog post, we will explore how to use PnP PowerShell to restore files from the recycle bin, filter by path or folder, and filter by timespan.&lt;/p&gt;
+        <guid>https://www.menzel.it/post/2023/10/restorerecyclebin/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/10/restorerecyclebin/RecycleBin.jpeg" alt="Featured image of post Restoring Files from the Recycle Bin in SharePoint using PnP PowerShell" /&gt;&lt;p&gt;PnP PowerShell is a powerful tool that allows you to interact with SharePoint and perform various operations, including restoring files from the recycle bin. In this blog post, we will explore how to use PnP PowerShell to restore files from the recycle bin, filter by path or folder, and filter by timespan.&lt;/p&gt;
 &lt;h2 id=&#34;basic-commands&#34;&gt;Basic Commands&lt;/h2&gt;
 &lt;p&gt;Here are some of the basic cmdlets you can use:&lt;/p&gt;
 &lt;ol&gt;
@@ -875,11 +875,11 @@ with something like this: &lt;code&gt;$folderPath = &amp;quot;/sites/YourSiteNam
         </item>
         <item>
         <title>How to use PowerShell to change the publish date of a news page in SharePoint Online</title>
-        <link>http://localhost:1313/post/2023/10/changepublishdate/</link>
+        <link>https://www.menzel.it/post/2023/10/changepublishdate/</link>
         <pubDate>Fri, 13 Oct 2023 08:22:49 +0200</pubDate>
         
-        <guid>http://localhost:1313/post/2023/10/changepublishdate/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/10/changepublishdate/ChangePublishDate.jpeg" alt="Featured image of post How to use PowerShell to change the publish date of a news page in SharePoint Online" /&gt;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+        <guid>https://www.menzel.it/post/2023/10/changepublishdate/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/10/changepublishdate/ChangePublishDate.jpeg" alt="Featured image of post How to use PowerShell to change the publish date of a news page in SharePoint Online" /&gt;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;Before we get started, there are a few prerequisites that you will need:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A SharePoint Online site where you have permission to create and edit news pages.&lt;/li&gt;
@@ -956,11 +956,11 @@ with something like this: &lt;code&gt;$folderPath = &amp;quot;/sites/YourSiteNam
         </item>
         <item>
         <title>Reconnecting Pages with Language Variations After Copying Them with ShareGate</title>
-        <link>http://localhost:1313/post/2023/07/reconnect_pages/</link>
+        <link>https://www.menzel.it/post/2023/07/reconnect_pages/</link>
         <pubDate>Thu, 27 Jul 2023 11:57:41 +0200</pubDate>
         
-        <guid>http://localhost:1313/post/2023/07/reconnect_pages/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/07/reconnect_pages/Reconnect.png" alt="Featured image of post Reconnecting Pages with Language Variations After Copying Them with ShareGate" /&gt;&lt;h3 id=&#34;step-by-step-explanation-of-the-code&#34;&gt;Step-by-Step Explanation of the Code&lt;/h3&gt;
+        <guid>https://www.menzel.it/post/2023/07/reconnect_pages/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/07/reconnect_pages/Reconnect.png" alt="Featured image of post Reconnecting Pages with Language Variations After Copying Them with ShareGate" /&gt;&lt;h3 id=&#34;step-by-step-explanation-of-the-code&#34;&gt;Step-by-Step Explanation of the Code&lt;/h3&gt;
 &lt;p&gt;Here&amp;rsquo;s a step-by-step explanation of the PowerShell code for reconnecting pages with language variations after copying them with ShareGate:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;First, we need to connect to the SharePoint site where the pages are located. We can do this using the &lt;code&gt;Connect-PnPOnline&lt;/code&gt; cmdlet:&lt;/li&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>PnP on The State of the Microsoft 365 Nation</title>
-        <link>http://localhost:1313/tags/pnp/</link>
+        <link>https://www.menzel.it/tags/pnp/</link>
         <description>Recent content in PnP on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 10 Mar 2024 10:59:06 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/pnp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 Mar 2024 10:59:06 +0000</lastBuildDate><atom:link href="https://www.menzel.it/tags/pnp/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Deleting doublettes in SharePoint list with PnP PowerShell</title>
-        <link>http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</link>
+        <link>https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</link>
         <pubDate>Sun, 10 Mar 2024 10:59:06 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/Header-Image.jpeg" alt="Featured image of post Deleting doublettes in SharePoint list with PnP PowerShell" /&gt;&lt;p&gt;In this blog post, I will break down a PnP PowerShell script that is designed to connect to a SharePoint site, retrieve a list of users from a specific SharePoint list (doublettes), identify duplicate users based on a unique identifier field, and then remove these duplicates. Of course you can use this script to remove any other kind of duplicate as well.
+        <guid>https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/Header-Image.jpeg" alt="Featured image of post Deleting doublettes in SharePoint list with PnP PowerShell" /&gt;&lt;p&gt;In this blog post, I will break down a PnP PowerShell script that is designed to connect to a SharePoint site, retrieve a list of users from a specific SharePoint list (doublettes), identify duplicate users based on a unique identifier field, and then remove these duplicates. Of course you can use this script to remove any other kind of duplicate as well.
 Let&amp;rsquo;s dive into the details.&lt;/p&gt;
 &lt;h3 id=&#34;step-1-metadata-retrieval&#34;&gt;Step 1: Metadata Retrieval&lt;/h3&gt;
 &lt;p&gt;Set the tenant name and site name for the SharePoint site. The tenant name is typically the domain of the organization, the site name is the specific site within the SharePoint environment that the script will interact with. The SharePoint list name is the name of the list within the site that contains the user data.&lt;/p&gt;
@@ -161,11 +161,11 @@ Let&amp;rsquo;s dive into the details.&lt;/p&gt;
         </item>
         <item>
         <title>Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins</title>
-        <link>http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/</link>
+        <link>https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/</link>
         <pubDate>Mon, 06 Nov 2023 15:58:22 +0100</pubDate>
         
-        <guid>http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png" alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins" /&gt;&lt;h2 id=&#34;why-bother-with-metadata&#34;&gt;Why Bother with Metadata?&lt;/h2&gt;
+        <guid>https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.png" alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins" /&gt;&lt;h2 id=&#34;why-bother-with-metadata&#34;&gt;Why Bother with Metadata?&lt;/h2&gt;
 &lt;p&gt;Think of metadata as the DNA of your SharePoint content. It tells you who created a document, when it was last touched, and more. This information isn’t just for kicks; it&amp;rsquo;s vital for audits, compliance, and knowing the lineage of your content.&lt;/p&gt;
 &lt;h2 id=&#34;keeping-metadata-intact-with-updates&#34;&gt;Keeping Metadata Intact with Updates&lt;/h2&gt;
 &lt;p&gt;Sometimes you need to adjust a document&amp;rsquo;s details but want to keep the original &amp;lsquo;Modified By&amp;rsquo; data. PnP PowerShell is your ally here:&lt;/p&gt;
@@ -256,11 +256,11 @@ This approach is suitable when you want to make a correction to the current vers
         </item>
         <item>
         <title>Find / Restore Deleted OneDrive Sites with PnP PowerShell</title>
-        <link>http://localhost:1313/post/2023/10/deleted_onedrive/</link>
+        <link>https://www.menzel.it/post/2023/10/deleted_onedrive/</link>
         <pubDate>Fri, 27 Oct 2023 15:22:18 +0200</pubDate>
         
-        <guid>http://localhost:1313/post/2023/10/deleted_onedrive/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/10/deleted_onedrive/header.png" alt="Featured image of post Find / Restore Deleted OneDrive Sites with PnP PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <guid>https://www.menzel.it/post/2023/10/deleted_onedrive/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/10/deleted_onedrive/header.png" alt="Featured image of post Find / Restore Deleted OneDrive Sites with PnP PowerShell" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In SharePoint Online, users can store their files in OneDrive for Business, which is a personal document library that is associated with their user account. Sometimes, users may accidentally delete their OneDrive site or get deleted when they leave the company, which can result in the loss of important files and data.&lt;/p&gt;
 &lt;p&gt;Fortunately, SharePoint Online administrators can restore deleted OneDrive sites using PowerShell and the PnP PowerShell module. In this blog post, we will discuss how to use the PowerShell script &amp;ldquo;Get-deleted-OneDrives.ps1&amp;rdquo; to restore a deleted OneDrive site.&lt;/p&gt;
 &lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
@@ -390,11 +390,11 @@ This approach is suitable when you want to make a correction to the current vers
         </item>
         <item>
         <title>Reconnecting Pages with Language Variations After Copying Them with ShareGate</title>
-        <link>http://localhost:1313/post/2023/07/reconnect_pages/</link>
+        <link>https://www.menzel.it/post/2023/07/reconnect_pages/</link>
         <pubDate>Thu, 27 Jul 2023 11:57:41 +0200</pubDate>
         
-        <guid>http://localhost:1313/post/2023/07/reconnect_pages/</guid>
-        <description>&lt;img src="http://localhost:1313/post/2023/07/reconnect_pages/Reconnect.png" alt="Featured image of post Reconnecting Pages with Language Variations After Copying Them with ShareGate" /&gt;&lt;h3 id=&#34;step-by-step-explanation-of-the-code&#34;&gt;Step-by-Step Explanation of the Code&lt;/h3&gt;
+        <guid>https://www.menzel.it/post/2023/07/reconnect_pages/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2023/07/reconnect_pages/Reconnect.png" alt="Featured image of post Reconnecting Pages with Language Variations After Copying Them with ShareGate" /&gt;&lt;h3 id=&#34;step-by-step-explanation-of-the-code&#34;&gt;Step-by-Step Explanation of the Code&lt;/h3&gt;
 &lt;p&gt;Here&amp;rsquo;s a step-by-step explanation of the PowerShell code for reconnecting pages with language variations after copying them with ShareGate:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;First, we need to connect to the SharePoint site where the pages are located. We can do this using the &lt;code&gt;Connect-PnPOnline&lt;/code&gt; cmdlet:&lt;/li&gt;
