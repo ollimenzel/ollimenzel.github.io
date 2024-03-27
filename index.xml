@@ -6,7 +6,15 @@
         <description>Recent content on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 10 Mar 2024 10:59:06 +0000</lastBuildDate><atom:link href="https://www.menzel.it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 27 Mar 2024 17:00:34 +0000</lastBuildDate><atom:link href="https://www.menzel.it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Limit Copilot&#39;s access to SharePoint Sites and Content</title>
+        <link>https://www.menzel.it/post/2024/03/limit-copilot-access-sharepoint-sites-content/</link>
+        <pubDate>Wed, 27 Mar 2024 17:00:34 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/post/2024/03/limit-copilot-access-sharepoint-sites-content/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/03/limit-copilot-access-sharepoint-sites-content/Header-Picture.jpeg" alt="Featured image of post Limit Copilot&#39;s access to SharePoint Sites and Content" /&gt;Why Permissions in Office365 matter for Copilot In the ever changing digital landscape, managing permissions and ensuring data security are paramount. This blog post delves into the importance of permissions in Office365 for the functionality and security of Copilot, an AI that integrates with various Office365 applications. It explores how permissions at different levels in SharePoint control content visibility, how to fine-tune content visibility for Copilot, and the role of sensitivity labels in data protection.</description>
+        </item>
+        <item>
         <title>Deleting doublettes in SharePoint list with PnP PowerShell</title>
         <link>https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</link>
         <pubDate>Sun, 10 Mar 2024 10:59:06 +0000</pubDate>
