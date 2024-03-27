@@ -35,7 +35,8 @@
     gtag('js', new Date());
 
     gtag('config', 'G-NQR0VXREZN');
-</script><meta property='og:title' content='How to create a Custom connector for OpenAI in PowerApps'>
+</script>
+<meta property='og:title' content='How to create a Custom connector for OpenAI in PowerApps'>
 <meta property='og:description' content='In this blog post, I&#39;ll show you how to set up a custom connector for OpenAI and test it in a canvas app.'>
 <meta property='og:url' content='https://www.menzel.it/post/2023/09/customconnectoropenai/'>
 <meta property='og:site_name' content='The State of the Microsoft 365 Nation'>
@@ -375,12 +376,13 @@
   <header class="article-header">
         <div class="article-image">
             <a href="/post/2023/09/customconnectoropenai/">
-                <img src="/post/2023/09/customconnectoropenai/Blog_custom-connector_hu0f1f440f2b9b7592a7416835c1d006cb_74818_800x0_resize_q75_box.jpeg"
-                        srcset="/post/2023/09/customconnectoropenai/Blog_custom-connector_hu0f1f440f2b9b7592a7416835c1d006cb_74818_800x0_resize_q75_box.jpeg 800w, /post/2023/09/customconnectoropenai/Blog_custom-connector_hu0f1f440f2b9b7592a7416835c1d006cb_74818_1600x0_resize_q75_box.jpeg 1600w"
-                        width="800" 
-                        height="800" 
-                        loading="lazy"
-                        alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps" />
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/Blog_custom-connector_hu0f1f440f2b9b7592a7416835c1d006cb_74818_1024x1024_resize_q60_h2_box.webp" alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps">
+                        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/Blog_custom-connector_hu0f1f440f2b9b7592a7416835c1d006cb_74818_800x0_resize_q75_box.jpeg" alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps">
+                        <img loading="lazy" src="/post/2023/09/customconnectoropenai/Blog_custom-connector_hu0f1f440f2b9b7592a7416835c1d006cb_74818_800x0_resize_q75_box.jpeg" alt="Featured image of post How to create a Custom connector for OpenAI in PowerApps" 
+                            width="800"  height="800" >
+                    </picture>
+
                 
             </a>
         </div>
@@ -482,30 +484,45 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 <li>
 <p>In the left navigation pane, click on Custom connectors.
 
-
-
-
-<img src="/post/2023/09/customconnectoropenai/SCR-20230927-offd.png" alt="" style="width: 20%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-offd_hu48ae4f34d728c1ec2836ec2e9d43d4bb_25488_0x0_q60_h2__3.webp" alt="My Image" style="width: 20%; display: block;" >
+        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-offd.png" alt="My Image" style="width: 20%; display: block;">
+        <img loading="lazy" src="/post/2023/09/customconnectoropenai/SCR-20230927-offd.png" alt="My Image" decoding="async"  width="46"  height="102"   class="gallery-image" data-flex-grow="45" data-flex-basis="108px"  >
+    </picture>
+  
 
 </p>
 </li>
 <li>
 <p>Click on New custom connector &gt; Create from blank.
 
-
-
-
-<img src="/post/2023/09/customconnectoropenai/SCR-20230927-pkic.png" alt="" style="width: 30%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pkic_hud396fc5127ff6e353d665a6250e29195_18308_0x0_q60_h2__3.webp" alt="Create from blank" style="width: 30%; display: block;" >
+        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pkic.png" alt="Create from blank" style="width: 30%; display: block;">
+        <img loading="lazy" src="/post/2023/09/customconnectoropenai/SCR-20230927-pkic.png" alt="Create from blank" decoding="async"  width="165"  height="57"   class="gallery-image" data-flex-grow="289" data-flex-basis="694px"  >
+    </picture>
+  
 
 </p>
 </li>
 <li>
 <p>Enter a name for your connector, such as &ldquo;ChatGPT&rdquo;, and click Continue.
 
-
-
-
-<img src="/post/2023/09/customconnectoropenai/SCR-20230927-plig.png" alt="" style="width: 40%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-plig_hu8515548bfa3cb8d85aed2626bd53e2ff_29890_0x0_q60_h2__3.webp" alt="Connector name" style="width: 40%; display: block;" >
+        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-plig.png" alt="Connector name" style="width: 40%; display: block;">
+        <img loading="lazy" src="/post/2023/09/customconnectoropenai/SCR-20230927-plig.png" alt="Connector name" decoding="async"  width="497"  height="179"   class="gallery-image" data-flex-grow="277" data-flex-basis="666px"  >
+    </picture>
+  
 
 </p>
 </li>
@@ -517,10 +534,15 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 <li>Description: A brief description of your connector, such as &ldquo;A custom connector for OpenAI&rdquo;.</li>
 <li>Host: The base URL of the OpenAI API, which is &ldquo;api.openai.com&rdquo;.
 
-
-
-
-<img src="/post/2023/09/customconnectoropenai/SCR-20230927-pmek.png" alt="" style="width: 50%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pmek_hu9a9b3f59b857622ee0e7b1d8e5e417b4_229684_0x0_q60_h2__3.webp" alt="General Information" style="width: 50%; display: block;" >
+        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pmek.png" alt="General Information" style="width: 50%; display: block;">
+        <img loading="lazy" src="/post/2023/09/customconnectoropenai/SCR-20230927-pmek.png" alt="General Information" decoding="async"  width="1139"  height="844"   class="gallery-image" data-flex-grow="134" data-flex-basis="323px"  >
+    </picture>
+  
 
 </li>
 </ul>
@@ -533,10 +555,15 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 <li>Parameter name: The name of the header that holds your API key, which is &ldquo;Authorization&rdquo;.</li>
 <li>Parameter location: Select &ldquo;Header&rdquo; from the drop-down menu.
 
-
-
-
-<img src="/post/2023/09/customconnectoropenai/SCR-20230927-pmwf.png" alt="" style="width: 60%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pmwf_hu460ac45131e4df85c704358c03a6c3fe_168596_0x0_q60_h2__3.webp" alt="Security" style="width: 60%; display: block;" >
+        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pmwf.png" alt="Security" style="width: 60%; display: block;">
+        <img loading="lazy" src="/post/2023/09/customconnectoropenai/SCR-20230927-pmwf.png" alt="Security" decoding="async"  width="1346"  height="844"   class="gallery-image" data-flex-grow="159" data-flex-basis="382px"  >
+    </picture>
+  
 
 </li>
 </ul>
@@ -548,10 +575,15 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 <li>Description: A detailed description of what the action does, such as &ldquo;Generates text using OpenAI&rsquo;s GPT-3 engine based on a given prompt and parameters&rdquo;.</li>
 <li>Operation ID: A unique identifier for the action, such as &ldquo;GenerateText&rdquo;.
 
-
-
-
-<img src="/post/2023/09/customconnectoropenai/SCR-20230927-pnkn.png" alt="" style="width: 60%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pnkn_hua5dd4484250402b538c971547036f073_209157_0x0_q60_h2__3.webp" alt="Definition" style="width: 60%; display: block;" >
+        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pnkn.png" alt="Definition" style="width: 60%; display: block;">
+        <img loading="lazy" src="/post/2023/09/customconnectoropenai/SCR-20230927-pnkn.png" alt="Definition" decoding="async"  width="1306"  height="650"   class="gallery-image" data-flex-grow="200" data-flex-basis="482px"  >
+    </picture>
+  
 
 </li>
 </ul>
@@ -600,10 +632,15 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 </span></span></code></pre></td></tr></table>
 </div>
 </div>
-
-
-
-<img src="/post/2023/09/customconnectoropenai/SCR-20230927-pobx.png" alt="" style="width: 30%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pobx_hu6c07b214ea84c45dff480a9c4367052d_140122_0x0_q60_h2__3.webp" alt="Import from sample" style="width: 30%; display: block;" >
+        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pobx.png" alt="Import from sample" style="width: 30%; display: block;">
+        <img loading="lazy" src="/post/2023/09/customconnectoropenai/SCR-20230927-pobx.png" alt="Import from sample" decoding="async"  width="303"  height="433"   class="gallery-image" data-flex-grow="69" data-flex-basis="167px"  >
+    </picture>
+  
 
 
 <ol start="9">
@@ -617,10 +654,15 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 <li>role: The role of the user, such as &ldquo;system&rdquo;.</li>
 <li>content: The prompt that you want to use, such as &ldquo;Hello! How can I assist you today?&rdquo;.
 
-
-
-
-<img src="/post/2023/09/customconnectoropenai/SCR-20230927-pplu.png" alt="" style="width: 50%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pplu_hu4ef4f902446a6a3b14d96220da47e4b0_74875_0x0_q60_h2__3.webp" alt="Test connection" style="width: 50%; display: block;" >
+        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-pplu.png" alt="Test connection" style="width: 50%; display: block;">
+        <img loading="lazy" src="/post/2023/09/customconnectoropenai/SCR-20230927-pplu.png" alt="Test connection" decoding="async"  width="683"  height="655"   class="gallery-image" data-flex-grow="104" data-flex-basis="250px"  >
+    </picture>
+  
 
 </li>
 </ul>
@@ -677,10 +719,15 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 </div>
 </div><p>and go to the Definition tab. In the Response section, click on Add default response and click on &ldquo;Import from Sample&rdquo;. Enter the copied response body and click Import. This will bring the response body into the connector definition, which will allow you to use it in your app.
 
-
-
-
-<img src="/post/2023/09/customconnectoropenai/SCR-20230927-onbe.png" alt="" style="width: 50%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-onbe_hue66cbb9438087b0e48044de2b7d4e0a6_40916_0x0_q60_h2__3.webp" alt="Default response" style="width: 50%; display: block;" >
+        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-onbe.png" alt="Default response" style="width: 50%; display: block;">
+        <img loading="lazy" src="/post/2023/09/customconnectoropenai/SCR-20230927-onbe.png" alt="Default response" decoding="async"  width="362"  height="267"   class="gallery-image" data-flex-grow="135" data-flex-basis="325px"  >
+    </picture>
+  
 
 </p>
 <ol start="14">
@@ -718,10 +765,15 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 <li>
 <p>In the Properties tab, change the Text property of the button to &ldquo;Generate&rdquo;.
 
-
-
-
-<img src="/post/2023/09/customconnectoropenai/SCR-20230927-prhk.png" alt="" style="width: 70%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-prhk_hu7003b74d588d7625aed2bee83cc4a574_334626_0x0_q60_h2__3.webp" alt="PowerApps Builder" style="width: 70%; display: block;" >
+        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-prhk.png" alt="PowerApps Builder" style="width: 70%; display: block;">
+        <img loading="lazy" src="/post/2023/09/customconnectoropenai/SCR-20230927-prhk.png" alt="PowerApps Builder" decoding="async"  width="1989"  height="1209"   class="gallery-image" data-flex-grow="164" data-flex-basis="394px"  >
+    </picture>
+  
 
 </p>
 </li>
@@ -762,10 +814,15 @@ The ChatGPT API allows developers to integrate ChatGPT into their own applicatio
 </div><ol start="11">
 <li>Now you can test the App by entering a prompt in the text input and clicking on the button. The generated text will be displayed in the label.
 
-
-
-
-<img src="/post/2023/09/customconnectoropenai/SCR-20230927-oqaj.png" alt="" style="width: 60%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-oqaj_hu13fc1aa06f8c3b78de3fce5f429008b7_96588_0x0_q60_h2__3.webp" alt="Test PowerApp" style="width: 60%; display: block;" >
+        <source type="image/png" srcset="/post/2023/09/customconnectoropenai/SCR-20230927-oqaj.png" alt="Test PowerApp" style="width: 60%; display: block;">
+        <img loading="lazy" src="/post/2023/09/customconnectoropenai/SCR-20230927-oqaj.png" alt="Test PowerApp" decoding="async"  width="731"  height="576"   class="gallery-image" data-flex-grow="126" data-flex-basis="304px"  >
+    </picture>
+  
 
 </li>
 </ol>
@@ -1308,13 +1365,12 @@ background-color: #FF6600
         
         
             <div class="article-image">
-                <img src="/post/2023/08/powerappssearchgraphapi/Article-Image.484291a353f7bf2005843227b37ec4ed_hu74736329785e2436b8b83e4f5d265e4e_297929_250x150_fill_box_smart1_3.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest"
-                        data-key="PowerAppsSearchGraphAPI" 
-                        data-hash="md5-SEKRo1P3vyAFhDIns37E7Q==">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/08/powerappssearchgraphapi/Article-Image.484291a353f7bf2005843227b37ec4ed_hu74736329785e2436b8b83e4f5d265e4e_297929_561f7788fb8a4fd82a621ae3cca7dcb1.webp">
+                        <source type="image/png" srcset="/post/2023/08/powerappssearchgraphapi/Article-Image.484291a353f7bf2005843227b37ec4ed_hu74736329785e2436b8b83e4f5d265e4e_297929_250x150_fill_box_smart1_3.png">
+                        <img loading="lazy" src="/post/2023/08/powerappssearchgraphapi/Article-Image.484291a353f7bf2005843227b37ec4ed_hu74736329785e2436b8b83e4f5d265e4e_297929_250x150_fill_box_smart1_3.png" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
                 
             </div>
         
@@ -1332,13 +1388,12 @@ background-color: #FF6600
         
         
             <div class="article-image">
-                <img src="/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.0a02b1c5a01dd59b93c8b5647c5032b3_hud6ea2a34c0340bef7f9049ba72ad4486_1269955_250x150_fill_box_smart1_3.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Simplifying Collaboration: Sharing Power Platform Environments with Security Groups"
-                        data-key="EnvironmentSecurityGroups" 
-                        data-hash="md5-CgKxxaAd1ZuTyLVkfFAysw==">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.0a02b1c5a01dd59b93c8b5647c5032b3_hud6ea2a34c0340bef7f9049ba72ad4486_1269955_9aaa3642ea9a4f14c703eed63dafb5f6.webp">
+                        <source type="image/png" srcset="/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.0a02b1c5a01dd59b93c8b5647c5032b3_hud6ea2a34c0340bef7f9049ba72ad4486_1269955_250x150_fill_box_smart1_3.png">
+                        <img loading="lazy" src="/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.0a02b1c5a01dd59b93c8b5647c5032b3_hud6ea2a34c0340bef7f9049ba72ad4486_1269955_250x150_fill_box_smart1_3.png" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
                 
             </div>
         
@@ -1356,13 +1411,12 @@ background-color: #FF6600
         
         
             <div class="article-image">
-                <img src="/post/2023/11/power-automate-posting-bluesky-mastodon/Blog-Header.e942733934fb63b320dd167151d2558a_hu5a1df5d6cca77f0876c4c8749db3d7d6_134628_250x150_fill_q75_box_smart1.jpeg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Power Automate - How-to Posting on BlueSky and Mastodon"
-                        data-key="power-automate-posting-bluesky-mastodon" 
-                        data-hash="md5-6UJzOTT7Y7Mg3RZxUdJVig==">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/11/power-automate-posting-bluesky-mastodon/Blog-Header.e942733934fb63b320dd167151d2558a_hu5a1df5d6cca77f0876c4c8749db3d7d6_134628_1299508b7c32f3411d668ed9b1b546fb.webp">
+                        <source type="image/png" srcset="/post/2023/11/power-automate-posting-bluesky-mastodon/Blog-Header.e942733934fb63b320dd167151d2558a_hu5a1df5d6cca77f0876c4c8749db3d7d6_134628_250x150_fill_q75_box_smart1.jpeg">
+                        <img loading="lazy" src="/post/2023/11/power-automate-posting-bluesky-mastodon/Blog-Header.e942733934fb63b320dd167151d2558a_hu5a1df5d6cca77f0876c4c8749db3d7d6_134628_250x150_fill_q75_box_smart1.jpeg" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
                 
             </div>
         

@@ -35,7 +35,8 @@
     gtag('js', new Date());
 
     gtag('config', 'G-NQR0VXREZN');
-</script><meta property='og:title' content='How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell'>
+</script>
+<meta property='og:title' content='How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell'>
 <meta property='og:description' content='In this blog post, we will explore how to use PowerShell to set up Microsoft Clarity for a SharePoint portal SiteCollection. This can be useful if you want to gain insights into how users interact with your SharePoint portal and optimize the user experience.'>
 <meta property='og:url' content='https://www.menzel.it/post/2023/10/addclarity/'>
 <meta property='og:site_name' content='The State of the Microsoft 365 Nation'>
@@ -375,12 +376,13 @@
   <header class="article-header">
         <div class="article-image">
             <a href="/post/2023/10/addclarity/">
-                <img src="/post/2023/10/addclarity/HeaderImage_hu9a40e9a801e330a7ff36615729e71f63_1490024_800x0_resize_box_3.png"
-                        srcset="/post/2023/10/addclarity/HeaderImage_hu9a40e9a801e330a7ff36615729e71f63_1490024_800x0_resize_box_3.png 800w, /post/2023/10/addclarity/HeaderImage_hu9a40e9a801e330a7ff36615729e71f63_1490024_1600x0_resize_box_3.png 1600w"
-                        width="800" 
-                        height="800" 
-                        loading="lazy"
-                        alt="Featured image of post How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell" />
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/10/addclarity/HeaderImage_hu9a40e9a801e330a7ff36615729e71f63_1490024_1024x1024_resize_q60_h2_box_3.webp" alt="Featured image of post How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell">
+                        <source type="image/png" srcset="/post/2023/10/addclarity/HeaderImage_hu9a40e9a801e330a7ff36615729e71f63_1490024_800x0_resize_box_3.png" alt="Featured image of post How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell">
+                        <img loading="lazy" src="/post/2023/10/addclarity/HeaderImage_hu9a40e9a801e330a7ff36615729e71f63_1490024_800x0_resize_box_3.png" alt="Featured image of post How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell" 
+                            width="800"  height="800" >
+                    </picture>
+
                 
             </a>
         </div>
@@ -479,10 +481,15 @@
     >https://clarity.microsoft.com/</a>.
 Get the Product ID of the Clarity App. You will need it in the script.
 
-
-
-
-<img src="/post/2023/10/addclarity/ProjectID.png" alt="" style="width: 60%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/10/addclarity/ProjectID_huda0e23b5f0447d14ee5dcac885f6e30c_67705_0x0_q60_h2__3.webp" alt="MS Clarity Project ID in Settings" style="width: 60%; display: block;" >
+        <source type="image/png" srcset="/post/2023/10/addclarity/ProjectID.png" alt="MS Clarity Project ID in Settings" style="width: 60%; display: block;">
+        <img loading="lazy" src="/post/2023/10/addclarity/ProjectID.png" alt="MS Clarity Project ID in Settings" decoding="async"  width="1057"  height="242"   class="gallery-image" data-flex-grow="436" data-flex-basis="1048px"  >
+    </picture>
+  
 
 </li>
 </ul>
@@ -498,10 +505,15 @@ if you want more information about the app, you can also find an other version h
 <p><strong>Log in to the SharePoint Admin Center</strong>
 In the SharePoint Admin Center click on more features and then click on the <code>Apps</code> button.
 
-
-
-
-<img src="/post/2023/10/addclarity/SP-Apps.png" alt="" style="width: 60%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/10/addclarity/SP-Apps_huc9d07386693a9fc108bee66805517253_239395_0x0_q60_h2__3.webp" alt="SharePoint Admin Center App Center button" style="width: 60%; display: block;" >
+        <source type="image/png" srcset="/post/2023/10/addclarity/SP-Apps.png" alt="SharePoint Admin Center App Center button" style="width: 60%; display: block;">
+        <img loading="lazy" src="/post/2023/10/addclarity/SP-Apps.png" alt="SharePoint Admin Center App Center button" decoding="async"  width="1225"  height="825"   class="gallery-image" data-flex-grow="148" data-flex-basis="356px"  >
+    </picture>
+  
 
 </p>
 </li>
@@ -509,10 +521,15 @@ In the SharePoint Admin Center click on more features and then click on the <cod
 <p><strong>Upload App to the SharePoint</strong>
 Click the upload button and choose the dowloaded app file.
 
-
-
-
-<img src="/post/2023/10/addclarity/UploadClarityApp.png" alt="" style="width: 60%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/10/addclarity/UploadClarityApp_huf3cfa4244755a658169bcd9b243bc877_213394_0x0_q60_h2__3.webp" alt="Upload Clarity App" style="width: 60%; display: block;" >
+        <source type="image/png" srcset="/post/2023/10/addclarity/UploadClarityApp.png" alt="Upload Clarity App" style="width: 60%; display: block;">
+        <img loading="lazy" src="/post/2023/10/addclarity/UploadClarityApp.png" alt="Upload Clarity App" decoding="async"  width="777"  height="552"   class="gallery-image" data-flex-grow="140" data-flex-basis="337px"  >
+    </picture>
+  
 
 </p>
 </li>
@@ -520,10 +537,15 @@ Click the upload button and choose the dowloaded app file.
 <p><strong>Define the scope of the App</strong>
 Select if you want to install the App for the whole tenant or only for specific sites.
 
-
-
-
-<img src="/post/2023/10/addclarity/SelectClarityScope.png" alt="" style="width: 40%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/10/addclarity/SelectClarityScope_hu03a43dd9ab9ddffe800832d8b3078a0c_190121_0x0_q60_h2__3.webp" alt="Select Clarity App Scope" style="width: 40%; display: block;" >
+        <source type="image/png" srcset="/post/2023/10/addclarity/SelectClarityScope.png" alt="Select Clarity App Scope" style="width: 40%; display: block;">
+        <img loading="lazy" src="/post/2023/10/addclarity/SelectClarityScope.png" alt="Select Clarity App Scope" decoding="async"  width="449"  height="497"   class="gallery-image" data-flex-grow="90" data-flex-basis="216px"  >
+    </picture>
+  
 
 </p>
 </li>
@@ -531,10 +553,15 @@ Select if you want to install the App for the whole tenant or only for specific 
 <p><strong>Check Apps for SharePoint</strong>
 Check the Apps for SharePoint list to see if the app was added successfully.
 
-
-
-
-<img src="/post/2023/10/addclarity/ClarityInstalled.png" alt="" style="width: 70%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/10/addclarity/ClarityInstalled_hu5ad9eb8d3e11a544302d0cdea6877926_204298_0x0_q60_h2__3.webp" alt="Clarity App in Apps for SharePoint" style="width: 70%; display: block;" >
+        <source type="image/png" srcset="/post/2023/10/addclarity/ClarityInstalled.png" alt="Clarity App in Apps for SharePoint" style="width: 70%; display: block;">
+        <img loading="lazy" src="/post/2023/10/addclarity/ClarityInstalled.png" alt="Clarity App in Apps for SharePoint" decoding="async"  width="2060"  height="686"   class="gallery-image" data-flex-grow="300" data-flex-basis="720px"  >
+    </picture>
+  
 
 </p>
 </li>
@@ -545,18 +572,28 @@ Check the Apps for SharePoint list to see if the app was added successfully.
 <ul>
 <li>Go to the SiteCollection where you want to add the Clarity App and click on the cogwheel in the top right corner. Then click on <code>Add an app</code>.
 
-
-
-
-<img src="/post/2023/10/addclarity/AddClarityApp.png" alt="" style="width: 60%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/10/addclarity/AddClarityApp_hue857b13745c834e27b90ea53e0758a4b_43278_0x0_q60_h2__3.webp" alt="Add Clarity App to SiteCollection" style="width: 60%; display: block;" >
+        <source type="image/png" srcset="/post/2023/10/addclarity/AddClarityApp.png" alt="Add Clarity App to SiteCollection" style="width: 60%; display: block;">
+        <img loading="lazy" src="/post/2023/10/addclarity/AddClarityApp.png" alt="Add Clarity App to SiteCollection" decoding="async"  width="388"  height="272"   class="gallery-image" data-flex-grow="142" data-flex-basis="342px"  >
+    </picture>
+  
 
 </li>
 <li>In the My apps page click on the <code>All</code> tab and then click on the <code>Clarity</code> app.
 
-
-
-
-<img src="/post/2023/10/addclarity/ClarityApp.png" alt="" style="width: 60%; display: block;">
+  
+  
+    
+    <picture>
+        <source type="image/webp" srcset="/post/2023/10/addclarity/ClarityApp_huff501674120c83ffaec10a84a603063e_128472_0x0_q60_h2__3.webp" alt="Clarity App in My Apps" style="width: 60%; display: block;" >
+        <source type="image/png" srcset="/post/2023/10/addclarity/ClarityApp.png" alt="Clarity App in My Apps" style="width: 60%; display: block;">
+        <img loading="lazy" src="/post/2023/10/addclarity/ClarityApp.png" alt="Clarity App in My Apps" decoding="async"  width="792"  height="698"   class="gallery-image" data-flex-grow="113" data-flex-basis="272px"  >
+    </picture>
+  
 
 </li>
 </ul>
@@ -1135,13 +1172,12 @@ background-color: #FF6600
         
         
             <div class="article-image">
-                <img src="/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.2e47bd92dc6979860763354d7a91d734_hu8a0927647fb612d41352e2a9e1819f48_1340266_250x150_fill_box_smart1_3.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins"
-                        data-key="update-sharepoint-metadata-pnp-powershell" 
-                        data-hash="md5-Lke9ktxpeYYHYzVNepHXNA==">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.2e47bd92dc6979860763354d7a91d734_hu8a0927647fb612d41352e2a9e1819f48_1340266_18b5a15038ea1eba1a705fa2435166cf.webp">
+                        <source type="image/png" srcset="/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.2e47bd92dc6979860763354d7a91d734_hu8a0927647fb612d41352e2a9e1819f48_1340266_250x150_fill_box_smart1_3.png">
+                        <img loading="lazy" src="/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.2e47bd92dc6979860763354d7a91d734_hu8a0927647fb612d41352e2a9e1819f48_1340266_250x150_fill_box_smart1_3.png" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
                 
             </div>
         
@@ -1159,13 +1195,12 @@ background-color: #FF6600
         
         
             <div class="article-image">
-                <img src="/post/2023/10/restorerecyclebin/RecycleBin.f710c898cae8fa43a516445cda8c193a_hu5a1df5d6cca77f0876c4c8749db3d7d6_164575_250x150_fill_q75_box_smart1.jpeg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Restoring Files from the Recycle Bin in SharePoint using PnP PowerShell"
-                        data-key="RestoreRecycleBin" 
-                        data-hash="md5-9xDImMro&#43;kOlFkRc2owZOg==">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/10/restorerecyclebin/RecycleBin.f710c898cae8fa43a516445cda8c193a_hu5a1df5d6cca77f0876c4c8749db3d7d6_164575_3208aa79dc93e87c916a8c6191651c20.webp">
+                        <source type="image/png" srcset="/post/2023/10/restorerecyclebin/RecycleBin.f710c898cae8fa43a516445cda8c193a_hu5a1df5d6cca77f0876c4c8749db3d7d6_164575_250x150_fill_q75_box_smart1.jpeg">
+                        <img loading="lazy" src="/post/2023/10/restorerecyclebin/RecycleBin.f710c898cae8fa43a516445cda8c193a_hu5a1df5d6cca77f0876c4c8749db3d7d6_164575_250x150_fill_q75_box_smart1.jpeg" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
                 
             </div>
         
@@ -1183,13 +1218,12 @@ background-color: #FF6600
         
         
             <div class="article-image">
-                <img src="/post/2023/10/changepublishdate/ChangePublishDate.2a7af820461b6644226c8fab0c09ea28_huf677ab5284dc3059c291ae31652dfe1d_265353_250x150_fill_q75_box_smart1.jpeg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post How to use PowerShell to change the publish date of a news page in SharePoint Online"
-                        data-key="ChangePublishDate" 
-                        data-hash="md5-Knr4IEYbZkQibI&#43;rDAnqKA==">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/10/changepublishdate/ChangePublishDate.2a7af820461b6644226c8fab0c09ea28_huf677ab5284dc3059c291ae31652dfe1d_265353_70e8e7b8fd464854b8f4842f9e8ee90a.webp">
+                        <source type="image/png" srcset="/post/2023/10/changepublishdate/ChangePublishDate.2a7af820461b6644226c8fab0c09ea28_huf677ab5284dc3059c291ae31652dfe1d_265353_250x150_fill_q75_box_smart1.jpeg">
+                        <img loading="lazy" src="/post/2023/10/changepublishdate/ChangePublishDate.2a7af820461b6644226c8fab0c09ea28_huf677ab5284dc3059c291ae31652dfe1d_265353_250x150_fill_q75_box_smart1.jpeg" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
                 
             </div>
         
@@ -1207,13 +1241,12 @@ background-color: #FF6600
         
         
             <div class="article-image">
-                <img src="/post/2023/07/reconnect_pages/Reconnect.bcb3d7c1f2f8ff822d4cbe8b98f39ca8_hu58e59d2a09840853c5e0830e43305ea7_1183462_250x150_fill_box_smart1_3.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Reconnecting Pages with Language Variations After Copying Them with ShareGate"
-                        data-key="reconnect_pages" 
-                        data-hash="md5-vLPXwfL4/4ItTL6LmPOcqA==">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/07/reconnect_pages/Reconnect.bcb3d7c1f2f8ff822d4cbe8b98f39ca8_hu58e59d2a09840853c5e0830e43305ea7_1183462_fb720357491be577144422479c08ef2a.webp">
+                        <source type="image/png" srcset="/post/2023/07/reconnect_pages/Reconnect.bcb3d7c1f2f8ff822d4cbe8b98f39ca8_hu58e59d2a09840853c5e0830e43305ea7_1183462_250x150_fill_box_smart1_3.png">
+                        <img loading="lazy" src="/post/2023/07/reconnect_pages/Reconnect.bcb3d7c1f2f8ff822d4cbe8b98f39ca8_hu58e59d2a09840853c5e0830e43305ea7_1183462_250x150_fill_box_smart1_3.png" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
                 
             </div>
         
@@ -1231,13 +1264,12 @@ background-color: #FF6600
         
         
             <div class="article-image">
-                <img src="/post/2023/10/deleted_onedrive/header.98c466b4cb6f16ee9271dda25b59bce9_hu9a40e9a801e330a7ff36615729e71f63_1128335_250x150_fill_box_smart1_3.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Find / Restore Deleted OneDrive Sites with PnP PowerShell"
-                        data-key="Deleted_OneDrive" 
-                        data-hash="md5-mMRmtMtvFu6Scd2iW1m86Q==">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/10/deleted_onedrive/header.98c466b4cb6f16ee9271dda25b59bce9_hu9a40e9a801e330a7ff36615729e71f63_1128335_4c6516f8407e2bfe9637b0a27085081c.webp">
+                        <source type="image/png" srcset="/post/2023/10/deleted_onedrive/header.98c466b4cb6f16ee9271dda25b59bce9_hu9a40e9a801e330a7ff36615729e71f63_1128335_250x150_fill_box_smart1_3.png">
+                        <img loading="lazy" src="/post/2023/10/deleted_onedrive/header.98c466b4cb6f16ee9271dda25b59bce9_hu9a40e9a801e330a7ff36615729e71f63_1128335_250x150_fill_box_smart1_3.png" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
                 
             </div>
         
