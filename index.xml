@@ -6,7 +6,16 @@
         <description>Recent content on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 27 Mar 2024 17:00:34 +0000</lastBuildDate><atom:link href="https://www.menzel.it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 04 Apr 2024 15:15:59 +0000</lastBuildDate><atom:link href="https://www.menzel.it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Microsoft Teams Channel Types: How to Choose the Right One</title>
+        <link>https://www.menzel.it/post/2024/04/microsoft-teams-channel-types-choose/</link>
+        <pubDate>Thu, 04 Apr 2024 15:15:59 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/post/2024/04/microsoft-teams-channel-types-choose/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/04/microsoft-teams-channel-types-choose/Header-Image.jpeg" alt="Featured image of post Microsoft Teams Channel Types: How to Choose the Right One" /&gt;Introduction Microsoft Teams is a powerful collaboration tool that allows you to communicate, share, and work with your team members in a secure and efficient way. One of the key features of Teams is the ability to create and join different types of channels, which are subgroups within a team that focus on specific topics, projects, or tasks.
+But choosing the right channel type can be hard! In this blog post, I will explain the differences and benefits of the three channel types in Teams: Standard, Private and Shared.</description>
+        </item>
+        <item>
         <title>Limit Copilot&#39;s access to SharePoint Sites and Content</title>
         <link>https://www.menzel.it/post/2024/03/limit-copilot-access-sharepoint-sites-content/</link>
         <pubDate>Wed, 27 Mar 2024 17:00:34 +0000</pubDate>
