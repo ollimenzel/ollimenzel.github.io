@@ -204,14 +204,6 @@ This feature is particularly useful for accessing files across devices related t
         <guid>https://www.menzel.it/post/2023/05/disable_sharing/</guid>
         <description>&lt;img src="https://www.menzel.it/post/2023/05/disable_sharing/Microsoft365-Logo.png" alt="Featured image of post How to Disable Sharing for Non-Owners in SharePoint Online" /&gt;Steps to Disable Sharing for Non-Owners Open the SharePoint Online site where you want to disable sharing for non-owners. Click on the gear icon in the top right corner and select &amp;ldquo;Site Settings&amp;rdquo;. Under &amp;ldquo;Site Permissions&amp;rdquo;, click on &amp;ldquo;Advanced permission settings&amp;rdquo;. In the ribbon choose the &amp;ldquo;Access Request Settings&amp;rdquo;. Uncheck &amp;ldquo;Allow members to share the site and individual files and folders&amp;rdquo; to restrict sharing permissions for non-owners of a document. That&amp;rsquo;s it!</description>
         </item>
-        <item>
-        <title>Privacy Policy</title>
-        <link>https://www.menzel.it/privacy-policy/</link>
-        <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.menzel.it/privacy-policy/</guid>
-        <description>Text blah blah </description>
-        </item>
         
     </channel>
 </rss>
