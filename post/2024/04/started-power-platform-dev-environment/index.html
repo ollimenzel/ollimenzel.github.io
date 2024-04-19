@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='A guide to help you understand the differences and benefits of Standard, Private and Shared channels in Microsoft Teams.'>
-<meta name="keywords" content="Microsoft Teams channel types, Standard channel vs private channel, Shared channels in Teams, Collaboration in Microsoft Teams, Choosing the right channel type, Channel management best practices"><title>Microsoft Teams Channel Types: How to Choose the Right One</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='This post guides you through signing up for a Power Platform developer environment and creating your first environment(s).'>
+<meta name="keywords" content="Power Platform, Developer Environment, PowerApps, Power Automate, test apps"><title>Getting Started with Power Platform dev environment</title>
 
-<link rel='canonical' href='http://localhost:1313/post/2024/04/choose-teams-channel/'>
+<link rel='canonical' href='http://localhost:1313/post/2024/04/started-power-platform-dev-environment/'>
 
 <link rel="stylesheet" href="/scss/style.min.85ef553442abef9d388f896084b84473f204ae98903bc0468fa1d51e560ceb91.css"><script type="text/javascript">
+    (function (window, document, dataLayerName, id) {
+        window[dataLayerName] = window[dataLayerName] || [], window[dataLayerName].push({ start: (new Date).getTime(), event: "stg.start" }); var scripts = document.getElementsByTagName('script')[0], tags = document.createElement('script');
+        function stgCreateCookie(a, b, c) { var d = ""; if (c) { var e = new Date; e.setTime(e.getTime() + 24 * c * 60 * 60 * 1e3), d = "; expires=" + e.toUTCString(); f = "; SameSite=Strict" } document.cookie = a + "=" + b + d + f + "; path=/" }
+        var isStgDebug = (window.location.href.match("stg_debug") || document.cookie.match("stg_debug")) && !window.location.href.match("stg_disable_debug"); stgCreateCookie("stg_debug", isStgDebug ? 1 : "", isStgDebug ? 14 : -1);
+        var qP = []; dataLayerName !== "dataLayer" && qP.push("data_layer_name=" + dataLayerName), isStgDebug && qP.push("stg_debug"); var qPString = qP.length > 0 ? ("?" + qP.join("&")) : "";
+        tags.async = !0, tags.src = "https://menzel.containers.piwik.pro/" + id + ".js" + qPString, scripts.parentNode.insertBefore(tags, scripts);
+        !function (a, n, i) { a[n] = a[n] || {}; for (var c = 0; c < i.length; c++)!function (i) { a[n][i] = a[n][i] || {}, a[n][i].api = a[n][i].api || function () { var a = [].slice.call(arguments, 0); "string" == typeof a[0] && window[dataLayerName].push({ event: n + "." + i + ":" + a[0], parameters: [].slice.call(arguments, 1) }) } }(i[c]) }(window, "ppms", ["tm", "cm"]);
+    })(window, document, 'dataLayer', '8ec51a4c-56fd-4ee7-ad0a-1a4137496630');
+</script>
+<script type="text/javascript">
+    (function (l, p) { var e, t = "PPHeatmapClickProxyEvent"; l.addEventListener(t, function (e) { p._paq.push(["trackEvent", "Heatmap events", "Click", function (e, t) { function s(e) { var t = e; return i.forEach(function (e) { t = t.replace(new RegExp(e, "g"), " ").trim() }), t } function a(e) { for (var t, a = [], r = 0, n = e[r]; n && n !== l && n !== p && "html" !== (t = n.tagName.toLowerCase()); n = n.parentNode, r++) { if (n.id) { t = "#".concat(n.id), a.push(t); break } if (1 < Array.prototype.slice.call(n.parentNode.children).filter(function (e) { return e.tagName.toLowerCase() === t }).length) { var o = Array.prototype.slice.call(n.parentNode.children).indexOf(n) + 1; 0 < o && (t += ":nth-child(".concat(o, ")")) } if ("string" == typeof n.className && n.className) { var c = n.className.trim(); i.length && (c = s(c)), c = c.replace(/\s+/g, "."), t += ".".concat(c) } a.push(t) } return a.reverse().join(">") } var i = t.CSSClassesSeparators, r = [], n = ""; if (e.composedPath) n = a(e.composedPath()); else { for (var o = e.target; null !== o.parentNode;)r.push(o), o = o.parentNode; r.push(p.document), n = a(r) } return n }(e, { CSSClassesSeparators: [/\|\|/] })]) }), (e = l.createEvent("HTMLEvents")).initEvent(t, !0, !0), p.PPHeatmapClickEvent = e })(document, window);
+</script>
+<script type="text/javascript">
     !function (v, y, T) { var S = v.location, k = "script", D = "instrumentationKey", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = (D[b](), "crossOrigin"), N = "POST", e = "appInsightsSDK", t = T.name || "appInsights", n = ((T.name || v[e]) && (v[e] = t), v[t] || function (l) { var u = !1, d = !1, g = { initialize: !0, queue: [], sv: "6", version: 2, config: l }; function m(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (g.sv || g.version), { time: (a = new Date).getUTCFullYear() + "-" + i(1 + a.getUTCMonth()) + "-" + i(a.getUTCDate()) + "T" + i(a.getUTCHours()) + ":" + i(a.getUTCMinutes()) + ":" + i(a.getUTCSeconds()) + "." + (a.getUTCMilliseconds() / 1e3).toFixed(3).slice(2, 5) + "Z", iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } }; function i(e) { e = "" + e; return 1 === e.length ? "0" + e : e } } var e, n, f = l.url || T.src; function a(e) { var t, n, a, i, o, s, r, c, p; u = !0, g.queue = [], d || (d = !0, i = f, r = (c = function () { var e, t = {}, n = l.connectionString; if (n) for (var a = n.split(";"), i = 0; i < a.length; i++) { var o = a[i].split("="); 2 === o.length && (t[o[0][b]()] = o[1]) } return t[C] || (t[C] = "https://" + ((e = (n = t.endpointsuffix) ? t.location : null) ? e + "." : "") + "dc." + (n || "services.visualstudio.com")), t }()).instrumentationkey || l[D] || "", c = (c = c[C]) ? c + "/v2/track" : l.endpointUrl, (p = []).push((t = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", n = i, o = c, (s = (a = m(r, "Exception")).data).baseType = "ExceptionData", s.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: t.replace(/\./g, "-"), hasFullStack: !1, stack: t + "\nSnippet failed to load [" + n + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + o, parsedStack: [] }], a)), p.push((s = i, t = c, (o = (n = m(r, "Message")).data).baseType = "MessageData", (a = o.baseData).message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + s + ")").replace(/\"/g, "") + '"', a.properties = { endpoint: t }, n)), i = p, r = c, JSON && ((o = v.fetch) && !T.useXhr ? o(r, { method: N, body: JSON.stringify(i), mode: "cors" }) : XMLHttpRequest && ((s = new XMLHttpRequest).open(N, r), s.setRequestHeader("Content-type", "application/json"), s.send(JSON.stringify(i))))) } function i(e, t) { d || setTimeout(function () { !t && g.core || a() }, 500) } f && ((n = y.createElement(k)).src = f, !(o = T[w]) && "" !== o || "undefined" == n[w] || (n[w] = o), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, e = n, T.ld < 0 ? y.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { y.getElementsByTagName(k)[0].parentNode.appendChild(e) }, T.ld || 0)); try { g.cookie = y.cookie } catch (h) { } function t(e) { for (; e.length;)!function (t) { g[t] = function () { var e = arguments; u || g.queue.push(function () { g[t].apply(g, e) }) } }(e.pop()) } var s, r, o = "track", c = "TrackPage", p = "TrackEvent", o = (t([o + "Event", o + "PageView", o + "Exception", o + "Trace", o + "DependencyData", o + "Metric", o + "PageViewPerformance", "start" + c, "stop" + c, "start" + p, "stop" + p, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), g.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }, (l.extensionConfig || {}).ApplicationInsightsAnalytics || {}); return !0 !== l[I] && !0 !== o[I] && (t(["_" + (s = "onerror")]), r = v[s], v[s] = function (e, t, n, a, i) { var o = r && r(e, t, n, a, i); return !0 !== o && g["_" + s]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i, evt: v.event }), o }, l.autoExceptionInstrumented = !0), g }(T.cfg)); function a() { T.onInit && T.onInit(n) } (v[t] = n).queue && 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
         src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js",
         
@@ -36,14 +49,14 @@
 
     gtag('config', 'G-NQR0VXREZN');
 </script>
-<meta property='og:title' content='Microsoft Teams Channel Types: How to Choose the Right One'>
-<meta property='og:description' content='A guide to help you understand the differences and benefits of Standard, Private and Shared channels in Microsoft Teams.'>
-<meta property='og:url' content='http://localhost:1313/post/2024/04/choose-teams-channel/'>
+<meta property='og:title' content='Getting Started with Power Platform dev environment'>
+<meta property='og:description' content='This post guides you through signing up for a Power Platform developer environment and creating your first environment(s).'>
+<meta property='og:url' content='http://localhost:1313/post/2024/04/started-power-platform-dev-environment/'>
 <meta property='og:site_name' content='The State of the Microsoft 365 Nation'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-04-04T15:15:59&#43;00:00'/><meta property='article:modified_time' content='2024-04-04T15:15:59&#43;00:00'/><meta property='og:image' content='http://localhost:1313/post/2024/04/choose-teams-channel/Header-Image.jpeg' />
-<meta name="twitter:title" content="Microsoft Teams Channel Types: How to Choose the Right One">
-<meta name="twitter:description" content="A guide to help you understand the differences and benefits of Standard, Private and Shared channels in Microsoft Teams."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/post/2024/04/choose-teams-channel/Header-Image.jpeg' /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='How-to' /><meta property='article:tag' content='Power Platform' /><meta property='article:published_time' content='2024-04-18T13:33:02&#43;00:00'/><meta property='article:modified_time' content='2024-04-18T13:33:02&#43;00:00'/><meta property='og:image' content='http://localhost:1313/post/2024/04/started-power-platform-dev-environment/Header-Image.jpeg' />
+<meta name="twitter:title" content="Getting Started with Power Platform dev environment">
+<meta name="twitter:description" content="This post guides you through signing up for a Power Platform developer environment and creating your first environment(s)."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/post/2024/04/started-power-platform-dev-environment/Header-Image.jpeg' /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -394,11 +407,11 @@
     <article class="has-image main-article" data-clarity-region="article">
   <header class="article-header">
         <div class="article-image">
-            <a href="/post/2024/04/choose-teams-channel/">
+            <a href="/post/2024/04/started-power-platform-dev-environment/">
                 <picture>
-                        <source type="image/webp" srcset="/post/2024/04/choose-teams-channel/Header-Image_hu8b6ed487a9151e78588151fce27345be_113370_1024x1024_resize_q60_h2_box.webp" alt="Featured image of post Microsoft Teams Channel Types: How to Choose the Right One">
-                        <source type="image/png" srcset="/post/2024/04/choose-teams-channel/Header-Image_hu8b6ed487a9151e78588151fce27345be_113370_800x0_resize_q75_box.jpeg" alt="Featured image of post Microsoft Teams Channel Types: How to Choose the Right One">
-                        <img loading="lazy" src="/post/2024/04/choose-teams-channel/Header-Image_hu8b6ed487a9151e78588151fce27345be_113370_800x0_resize_q75_box.jpeg" alt="Featured image of post Microsoft Teams Channel Types: How to Choose the Right One" 
+                        <source type="image/webp" srcset="/post/2024/04/started-power-platform-dev-environment/Header-Image_huf4706acc6b9916447ac21f4ccd88750d_104595_1024x1024_resize_q60_h2_box.webp" alt="Featured image of post Getting Started with Power Platform dev environment">
+                        <source type="image/png" srcset="/post/2024/04/started-power-platform-dev-environment/Header-Image_huf4706acc6b9916447ac21f4ccd88750d_104595_800x0_resize_q75_box.jpeg" alt="Featured image of post Getting Started with Power Platform dev environment">
+                        <img loading="lazy" src="/post/2024/04/started-power-platform-dev-environment/Header-Image_huf4706acc6b9916447ac21f4ccd88750d_104595_800x0_resize_q75_box.jpeg" alt="Featured image of post Getting Started with Power Platform dev environment" 
                             width="800"  height="800" >
                     </picture>
 
@@ -409,15 +422,23 @@
 
     <div class="article-details">
     
+    <header class="article-category">
+        
+            <a href="/categories/microsoft365/" style="background-color: #2a9d8f; color: #fff;">
+                Microsoft365
+            </a>
+        
+    </header>
+    
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/2024/04/choose-teams-channel/">Microsoft Teams Channel Types: How to Choose the Right One</a>
+            <a href="/post/2024/04/started-power-platform-dev-environment/">Getting Started with Power Platform dev environment</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            A guide to help you understand the differences and benefits of Standard, Private and Shared channels in Microsoft Teams.
+            This post guides you through signing up for a Power Platform developer environment and creating your first environment(s).
         </h3>
         
     </div>
@@ -438,7 +459,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Apr 04, 2024</time>
+                <time class="article-time--published">Apr 18, 2024</time>
             </div>
         
 
@@ -453,7 +474,7 @@
 
 
                 <time class="article-time--reading">
-                    5 minute read
+                    3 minute read
                 </time>
             </div>
         
@@ -468,72 +489,48 @@
   <section class="article-content">
     
     
-    <h2 id="introduction">Introduction</h2>
-<p>Microsoft Teams is a powerful collaboration tool that allows you to communicate, share, and work with your team members in a secure and efficient way. One of the key features of Teams is the ability to create and join different types of channels, which are subgroups within a team that focus on specific topics, projects, or tasks.</p>
-<p>But how do you know which channel type to use for your needs? In this blog post, I will explain the differences and benefits of the three channel types in Teams: Standard, Private and Shared. I will also give you some tips on when to use each one, and how they affect the sharing, apps, and features available in Teams.</p>
-<h2 id="standard-channels">Standard Channels</h2>
-<p>Standard channels are the default and most common type of channels in Teams. They are open and visible to all members of the team, and anyone can join and participate in them. Standard channels are ideal for general discussions, announcements, and information sharing that are relevant to the whole team.</p>
-<p>Some of the benefits of Standard channels are:</p>
+    <p>Welcome to the exciting world of Power Platform! If you&rsquo;re new to this platform and eager to explore its capabilities, you&rsquo;ve come to the right place. This post will guide you through the process of setting up your Power Platform developer environment. I&rsquo;ll walk you through the steps of signing up for a Power Platform developer environment and creating your first environment(s). This will provide you with a sandbox where you can create, test, and share your apps, workflows, dashboards, and chatbots before publishing them.</p>
+<p><strong>Let&rsquo;s get started!</strong></p>
+<h2 id="why-do-you-need-a-developer-environment">Why do you need a developer environment?</h2>
 <ul>
-<li>They foster transparency and collaboration among team members.</li>
-<li>They allow you to use all the apps and features that Teams offers, such as chat, meetings, file sharing, tabs, Planner, Forms, and more.</li>
-<li>They can be moderated by team owners, who can set permissions and policies for posting and replying in the channel.</li>
+<li>A developer environment is a place where you can create and test your apps, workflows, dashboards, and chatbots before publishing them to your organization or customers.</li>
+<li>A developer environment lets you experiment with different features and functionalities of Power Platform without affecting your production environment.</li>
+<li>A developer environment also lets you collaborate with other developers and share your work with them.
+You can have up to 3 developer environments for different purposes and projects.</li>
 </ul>
-<p>Some of the limitations of Standard channels are:</p>
+<h2 id="how-to-get-a-developer-environment">How to get a developer environment?</h2>
+<h3 id="follow-these-steps-to-sign-up-for-the-power-apps-community-plan">Follow these steps to sign up for the Power Apps Community Plan:</h3>
 <ul>
-<li>Can become cluttered and overwhelming if too many people are posting and not staying on topic.</li>
-<li>May not be suitable for sensitive or confidential discussions.</li>
+<li>Go to <a class="link" href="https://www.microsoft.com/en-us/power-platform/products/power-apps/free"  target="_blank" rel="noopener"
+    >Power Apps Developer Plan website</a> and click on the &ldquo;Start free&rdquo; button.</li>
+<li>Enter your work or school email address or your Microsoft account and click on &ldquo;Get started&rdquo;.</li>
+<li>If you are using a work or school email address, you may need to verify your identity and consent to the terms and conditions.</li>
+<li>Wait for a few minutes while your account is being created and your developer environment is being provisioned.
+You will see your new developer environment in the list of environments.
+Click on the name of your new developer environment to access it.</li>
 </ul>
-<p>Some of the scenarios where you might want to use a Standard channel are:</p>
+<h3 id="you-can-also-create-additional-developer-environments-from-the-power-platform-admin-center">You can also create additional developer environments from the Power Platform admin center.</h3>
+<p>Follow these steps to create additional developer environments:</p>
 <ul>
-<li>You want to share news, updates, or feedback with the whole team.</li>
-<li>You want to create a space for brainstorming, ideation, or problem-solving with your team.</li>
-<li>You want to organize a team event, meeting, or training session.</li>
+<li>Go to <a class="link" href="https://admin.powerplatform.microsoft.com"  target="_blank" rel="noopener"
+    >Power Platform Admin Center</a> and sign in with your work account.</li>
+<li>Click on the &ldquo;Environments&rdquo; tab on the left sidebar.</li>
+<li>Click on the &ldquo;+ New&rdquo; button on the top right corner.</li>
+<li>Enter a name and a region for your new developer environment.</li>
+<li>Select &ldquo;Developer&rdquo; as the type of environment.</li>
+<li>Click on the &ldquo;Next&rdquo; button.</li>
+<li>Review the summary and click on the &ldquo;Save&rdquo; button.
+Wait for a few minutes while your new developer environment is being created.
+You will see your new developer environment in the list of environments.
+Click on the name of your new developer environment to access it.</li>
 </ul>
-<h2 id="private-channels">Private Channels</h2>
-<p>Private channels are a special type of channels that are only visible and accessible to a subset of members within a team. They are useful for sensitive or confidential topics, or for working with a smaller group of people on a specific project or task. Private channels have a padlock icon next to their name, and only the channel owner can add or remove members.</p>
-<p>Some of the benefits of Private channels are:</p>
-<ul>
-<li>They provide privacy and security for your conversations and files.</li>
-<li>They allow you to create a focused and dedicated space for your work.</li>
-<li>You can customize the settings and permissions them for your needs.</li>
-</ul>
-<p>Some of the limitations of Private channels are:</p>
-<ul>
-<li>They do not support all the apps and features that Teams offers, such as Planner, Forms (based on EntraID Office Group), and some third-party apps.</li>
-<li>They can be confusing or fragmented if you have too many private channels in your team.</li>
-<li>They can create silos and hinder transparency within a team.</li>
-<li>Members of a private channel must be members of the team that the channel belongs to.</li>
-</ul>
-<p>Some of the scenarios where you might want to use a Private channel are:</p>
-<ul>
-<li>You want to discuss sensitive or confidential information, such as financial data, legal matters, or personal issues.</li>
-<li>You want to work on a project or task with a specific group of people, without distracting or involving the rest of the team.</li>
-<li>You want to create a sub-team within a larger team, with its own identity and goals.</li>
-</ul>
-<h2 id="shared-channels">Shared Channels</h2>
-<p>Shared channels are a new type of channels that are available in Microsoft Teams. They allow you to create and join channels that are shared across multiple departments, either within your organization or with external partners. Shared channels in Microsoft Teams are allowing access without the need to switch tenants. Users can collaborate effectively while remaining on their home tenant, streamlining communication and workflow.</p>
-<p>Some of the benefits of Shared channels are:</p>
-<ul>
-<li>They enable cross-team and cross-organization collaboration, without the need to switch between different teams or accounts.</li>
-<li>They allow you to share files, chat, and co-edit documents with people outside your department or organization, while maintaining control and governance.</li>
-<li>They support most of the apps and features that Teams offers, such as meetings, tabs, polls, and more.</li>
-</ul>
-<p>Some of the limitations of Shared channels are:</p>
-<ul>
-<li>To collaborate via shared channels, both the inviting and invited organizations must have B2B direct connect set up by an admin.</li>
-<li>They don&rsquo;t support all the apps and features that Teams offers, such as Planner, Forms (based on EntraID Office Group), and some third-party apps.</li>
-<li>They can&rsquo;t be shared with guest users.</li>
-</ul>
-<p>Some of the scenarios where you might want to use a Shared channel are:</p>
-<ul>
-<li>You want to collaborate with another team or department on a common project or initiative.</li>
-<li>You want to communicate and coordinate with an external partner, such as a vendor, customer, or consultant.</li>
-<li>You want to create a community of interest or practice with people from different teams or organizations.</li>
-</ul>
-<h2 id="conclusion">Conclusion</h2>
-<p>Microsoft Teams offers different channel types to suit your collaboration needs and preferences. Whether you want to have an open and inclusive conversation with your whole team, a private and secure space for a specific group of people, or a shared and seamless experience with external partners, you can find the right channel type for you in Teams.</p>
-<p>I hope this blog post has helped you understand the differences and benefits of Standard, Private and Shared channels in Teams, and how to use them effectively. If you have any questions or feedback, please leave a comment below or contact me through any of my social media accounts.</p>
+<h2 id="next-steps">Next Steps</h2>
+<p>With your developer environments set up, you&rsquo;re ready to start exploring and creating. Build apps, automate workflows, and harness the power of Dataverse to manage data—all within your sandbox.</p>
+<p>For a more detailed guide and visual walkthrough, consider watching tutorial videos that cover the entire process. These resources can provide additional insights and tips to enhance your Power Platform journey.</p>
+<p>Happy developing!</p>
+<h2 id="learn-more">learn more</h2>
+<p><a class="link" href="https://learn.microsoft.com/en-us/power-platform/developer/plan"  target="_blank" rel="noopener"
+    >About the Power Apps Developer Plan</a></p>
 
 </section>
 
@@ -854,7 +851,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Microsoft%20Teams%20Channel%20Types%3a%20How%20to%20Choose%20the%20Right%20One&amp;url=http://localhost:1313/post/2024/04/choose-teams-channel/" target="_blank" rel="noopener" aria-label="" title="Twitter">
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Getting%20Started%20with%20Power%20Platform%20dev%20environment&amp;url=http://localhost:1313/post/2024/04/started-power-platform-dev-environment/" target="_blank" rel="noopener" aria-label="" title="Twitter">
   <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
@@ -869,7 +866,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="mailto:?subject=Microsoft%20Teams%20Channel%20Types%3a%20How%20to%20Choose%20the%20Right%20One&amp;body=http://localhost:1313/post/2024/04/choose-teams-channel/" target="_self" rel="noopener" aria-label="" title="E-Mail">
+<a class="resp-sharing-button__link" href="mailto:?subject=Getting%20Started%20with%20Power%20Platform%20dev%20environment&amp;body=http://localhost:1313/post/2024/04/started-power-platform-dev-environment/" target="_self" rel="noopener" aria-label="" title="E-Mail">
   <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z"/></svg>
@@ -884,7 +881,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/post/2024/04/choose-teams-channel/&amp;title=Microsoft%20Teams%20Channel%20Types%3a%20How%20to%20Choose%20the%20Right%20One&amp;summary=Microsoft%20Teams%20Channel%20Types%3a%20How%20to%20Choose%20the%20Right%20One&amp;http://localhost:1313/post/2024/04/choose-teams-channel/" target="_blank" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/post/2024/04/started-power-platform-dev-environment/&amp;title=Getting%20Started%20with%20Power%20Platform%20dev%20environment&amp;summary=Getting%20Started%20with%20Power%20Platform%20dev%20environment&amp;http://localhost:1313/post/2024/04/started-power-platform-dev-environment/" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
@@ -897,7 +894,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=http://localhost:1313/post/2024/04/choose-teams-channel/&amp;resubmit=true&amp;title=Microsoft%20Teams%20Channel%20Types%3a%20How%20to%20Choose%20the%20Right%20One" target="_blank" rel="noopener" aria-label="" title="Reddit">
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=http://localhost:1313/post/2024/04/started-power-platform-dev-environment/&amp;resubmit=true&amp;title=Getting%20Started%20with%20Power%20Platform%20dev%20environment" target="_blank" rel="noopener" aria-label="" title="Reddit">
   <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.75-1.64-6.07-1.72.08-1.1.4-3.05 1.52-3.7.72-.4 1.73-.24 3 .5C17.2 6.3 18.46 7.5 20 7.5c1.65 0 3-1.35 3-3s-1.35-3-3-3c-1.38 0-2.54.94-2.88 2.22-1.43-.72-2.64-.8-3.6-.25-1.64.94-1.95 3.47-2 4.55-2.33.08-4.45.7-6.1 1.72C4.86 8.98 3.96 8.5 3 8.5c-1.65 0-3 1.35-3 3 0 1.32.84 2.44 2.05 2.84-.03.22-.05.44-.05.66 0 3.86 4.5 7 10 7s10-3.14 10-7c0-.22-.02-.44-.05-.66 1.2-.4 2.05-1.54 2.05-2.84zM2.3 13.37C1.5 13.07 1 12.35 1 11.5c0-1.1.9-2 2-2 .64 0 1.22.32 1.6.82-1.1.85-1.92 1.9-2.3 3.05zm3.7.13c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9.8 4.8c-1.08.63-2.42.96-3.8.96-1.4 0-2.74-.34-3.8-.95-.24-.13-.32-.44-.2-.68.15-.24.46-.32.7-.18 1.83 1.06 4.76 1.06 6.6 0 .23-.13.53-.05.67.2.14.23.06.54-.18.67zm.2-2.8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm5.7-2.13c-.38-1.16-1.2-2.2-2.3-3.05.38-.5.97-.82 1.6-.82 1.1 0 2 .9 2 2 0 .84-.53 1.57-1.3 1.87z"/></svg>
@@ -910,7 +907,7 @@ background-color: #FF6600
 
 
 
-<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=http://localhost:1313/post/2024/04/choose-teams-channel/;title=Microsoft%20Teams%20Channel%20Types%3a%20How%20to%20Choose%20the%20Right%20One" target="_blank" rel="noopener" aria-label="">
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=http://localhost:1313/post/2024/04/started-power-platform-dev-environment/;title=Getting%20Started%20with%20Power%20Platform%20dev%20environment" target="_blank" rel="noopener" aria-label="">
   <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.2 9.7l-3-5.4C7.2 4 7 4 6.8 4h-5c-.3 0-.4 0-.5.2v.5L4 10 .4 16v.5c0 .2.2.3.4.3h5c.3 0 .4 0 .5-.2l4-6.6v-.5zM24 .2l-.5-.2H18s-.2 0-.3.3l-8 14v.4l5.2 9c0 .2 0 .3.3.3h5.4s.3 0 .4-.2c.2-.2.2-.4 0-.5l-5-8.8L24 .7V.2z"/></svg>
@@ -1042,6 +1039,14 @@ background-color: #FF6600
 
   <footer class="article-footer">
     
+    <section class="article-tags">
+        
+            <a href="/tags/how-to/">How-To</a>
+        
+            <a href="/tags/power-platform/">Power Platform</a>
+        
+    </section>
+
 
     <section class="article-lastmod">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -1053,7 +1058,7 @@ background-color: #FF6600
 
 
         <span>
-            Last updated on Apr 04, 2024 15:15 UTC
+            Last updated on Apr 18, 2024 13:33 UTC
         </span>
     </section></footer>
 
@@ -1065,6 +1070,130 @@ background-color: #FF6600
     
 
     
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/post/2023/12/set-owner-policy-microsoft-365-groups-important/">
+        
+        
+            <div class="article-image">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/12/set-owner-policy-microsoft-365-groups-important/image-2.a554478e9511e6a7303e12e37f722e64_hu1e55a1126ee4c67bc480facf05cd67b0_1527572_6db590cb459b54b65c8fd28becab08c0.webp">
+                        <source type="image/png" srcset="/post/2023/12/set-owner-policy-microsoft-365-groups-important/image-2.a554478e9511e6a7303e12e37f722e64_hu1e55a1126ee4c67bc480facf05cd67b0_1527572_250x150_fill_box_smart1_3.png">
+                        <img loading="lazy" src="/post/2023/12/set-owner-policy-microsoft-365-groups-important/image-2.a554478e9511e6a7303e12e37f722e64_hu1e55a1126ee4c67bc480facf05cd67b0_1527572_250x150_fill_box_smart1_3.png" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">M365 Groups: Set Up a &#39;No Owner Policy&#39; &amp; why it&#39;s Important</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/">
+        
+        
+            <div class="article-image">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/HeaderImage.b7191fe43a68e56325f33c0791ede241_hu0a623bf29a7672a240b15a0ca32d70e1_1618143_86e3aedf4350b24ec5a1f9f9ad9130b3.webp">
+                        <source type="image/png" srcset="/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/HeaderImage.b7191fe43a68e56325f33c0791ede241_hu0a623bf29a7672a240b15a0ca32d70e1_1618143_250x150_fill_box_smart1_3.png">
+                        <img loading="lazy" src="/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/HeaderImage.b7191fe43a68e56325f33c0791ede241_hu0a623bf29a7672a240b15a0ca32d70e1_1618143_250x150_fill_box_smart1_3.png" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">External User Access Reviews in Office 365</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2023/11/spimageediting/">
+        
+        
+            <div class="article-image">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/11/spimageediting/HeaderImage.5691c6c6d404e2357e39bdcb40e48ada_huefa2d296b3d689e8c666e69baf0e4849_779101_5cb0332947d0bd56ab13513091940613.webp">
+                        <source type="image/png" srcset="/post/2023/11/spimageediting/HeaderImage.5691c6c6d404e2357e39bdcb40e48ada_huefa2d296b3d689e8c666e69baf0e4849_779101_250x150_fill_box_smart1_3.png">
+                        <img loading="lazy" src="/post/2023/11/spimageediting/HeaderImage.5691c6c6d404e2357e39bdcb40e48ada_huefa2d296b3d689e8c666e69baf0e4849_779101_250x150_fill_box_smart1_3.png" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">New Image Editing Options in SharePoint Online: A Deep Dive into the Image Web Part</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2023/11/update-sharepoint-metadata-pnp-powershell/">
+        
+        
+            <div class="article-image">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.2e47bd92dc6979860763354d7a91d734_hu8a0927647fb612d41352e2a9e1819f48_1340266_18b5a15038ea1eba1a705fa2435166cf.webp">
+                        <source type="image/png" srcset="/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.2e47bd92dc6979860763354d7a91d734_hu8a0927647fb612d41352e2a9e1819f48_1340266_250x150_fill_box_smart1_3.png">
+                        <img loading="lazy" src="/post/2023/11/update-sharepoint-metadata-pnp-powershell/SP-Metadata.2e47bd92dc6979860763354d7a91d734_hu8a0927647fb612d41352e2a9e1819f48_1340266_250x150_fill_box_smart1_3.png" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2023/10/deleted_onedrive/">
+        
+        
+            <div class="article-image">
+                <picture>
+                        <source type="image/webp" srcset="/post/2023/10/deleted_onedrive/header.98c466b4cb6f16ee9271dda25b59bce9_hu9a40e9a801e330a7ff36615729e71f63_1128335_4c6516f8407e2bfe9637b0a27085081c.webp">
+                        <source type="image/png" srcset="/post/2023/10/deleted_onedrive/header.98c466b4cb6f16ee9271dda25b59bce9_hu9a40e9a801e330a7ff36615729e71f63_1128335_250x150_fill_box_smart1_3.png">
+                        <img loading="lazy" src="/post/2023/10/deleted_onedrive/header.98c466b4cb6f16ee9271dda25b59bce9_hu9a40e9a801e330a7ff36615729e71f63_1128335_250x150_fill_box_smart1_3.png" alt="Featured image of post " 
+                            width="250"   height="150" >
+                    </picture>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Find / Restore Deleted OneDrive Sites with PnP PowerShell</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
 
      
     
@@ -1082,7 +1211,16 @@ background-color: #FF6600
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.17.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        <div id='ppms_cm_privacy_settings' data-editor-centralize='true' data-main-container='true' data-root='true' ></div>
+            <div data-disable-select='true'>
+            <h3 class='ppms_cm_privacy_settings_form_link_header' id='ppms_cm_privacy_settings_form_link_header_id'>Privacy
+                settings</h3>
+            <p id='ppms_cm_privacy_settings_form_link_text_id'>We collect
+                and process your data on this site to better understand how it is used. We always ask you for consent to do
+                that. You can change your privacy settings here.</p><button id='ppms_cm_privacy_settings_button'>Manage settings</button>
+            </div>
+        </div>
     </section>
 </footer>
 
