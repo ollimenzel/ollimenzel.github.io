@@ -56,7 +56,10 @@
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='How-to' /><meta property='article:tag' content='Power Platform' /><meta property='article:tag' content='Security' /><meta property='article:published_time' content='2023-08-21T11:37:23&#43;02:00'/><meta property='article:modified_time' content='2023-08-21T11:37:23&#43;02:00'/><meta property='og:image' content='https://www.menzel.it/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.png' />
 <meta name="twitter:title" content="Simplifying Collaboration: Sharing Power Platform Environments with Security Groups">
 <meta name="twitter:description" content="Sharing Power Platform environments with security groups is a smart strategy for enhancing collaboration, security, and efficiency. By leveraging this approach, organizations can streamline user management, optimize resource allocation, and foster a secure and productive digital workspace."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://www.menzel.it/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.png' /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="twitter:image" content='https://www.menzel.it/post/2023/08/environmentsecuritygroups/SCR-20230822-kbzs-2.png' />
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -477,14 +480,14 @@
 <p>Before sharing your Power Platform environment, establish security groups within your organization&rsquo;s Entra ID (aka Azure Active Directory (AAD)). These groups can be based on roles, departments, projects, or any other relevant criteria. This step ensures that you can easily manage access permissions for a group of users instead of dealing with each user individually.</p>
 <h3 id="step-2-access-environment-settings">Step 2: Access Environment Settings</h3>
 <p>Within the Power Platform admin center, navigate to the environment you want to share. Open the environment settings, where you&rsquo;ll find the &ldquo;Access control&rdquo; section.
-<figure class="my-float-left"><img src="AdminSettings.png"
-         alt="Admin Settings Page" width="70%"/>
+<figure class="my-float-left"><img src="/post/2023/08/environmentsecuritygroups/AdminSettings.png"
+    alt="Admin Settings Page" width="70%">
 </figure>
 </p>
 <h3 id="step-3-add-security-groups">Step 3: Add Security Groups</h3>
 <p>In the &ldquo;Access control&rdquo; section, you&rsquo;ll see an Teams options to add security groups. There click on Create team.
-<figure class="my-float-left"><img src="NewTeam.png"
-         alt="New team form" width="30%"/>
+<figure class="my-float-left"><img src="/post/2023/08/environmentsecuritygroups/NewTeam.png"
+    alt="New team form" width="30%">
 </figure>
 
 Select the Team Type &ldquo;Microsoft Entra Identity Security Group&rdquo; security group(s) you want to grant access to. This will grant all members of the security group access to the environment without the need for separate invitations.
@@ -499,8 +502,8 @@ Fill out the other fields and click on Next.</li>
 </ul>
 <h3 id="step-4-manage-security-roles">Step 4: Manage Security roles</h3>
 <p>Power Platform provides various access levels, such as System Admin, Environment Maker, etc. Choose the appropriate access level for the security group members based on their responsibilities and requirements.
-<figure class="my-float-left"><img src="SecurityRoles.png"
-         alt="Security roles" width="40%"/>
+<figure class="my-float-left"><img src="/post/2023/08/environmentsecuritygroups/SecurityRoles.png"
+    alt="Security roles" width="40%">
 </figure>
 </p>
 <h3 id="step-5-save-changes">Step 5: Save Changes</h3>

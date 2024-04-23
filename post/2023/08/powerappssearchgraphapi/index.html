@@ -56,7 +56,10 @@
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='How-to' /><meta property='article:tag' content='PowerApps' /><meta property='article:tag' content='Search' /><meta property='article:tag' content='GraphAPI' /><meta property='article:published_time' content='2023-08-10T16:31:08&#43;02:00'/><meta property='article:modified_time' content='2023-08-10T16:31:08&#43;02:00'/><meta property='og:image' content='https://www.menzel.it/post/2023/08/powerappssearchgraphapi/Article-Image.png' />
 <meta name="twitter:title" content="Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest">
 <meta name="twitter:description" content="PowerApps is a powerful tool that allows you to create custom business applications without the need for coding. One of the ways you can enhance your PowerApps is by using Graph API calls to the search endpoint &#39;https://graph.microsoft.com/v1.0/search/query&#39;. In this blog post, we&#39;ll show you how to do this using the Office365Groups.HttpRequest and the preview feature &#39;ParseJSON function and untyped objects&#39;."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://www.menzel.it/post/2023/08/powerappssearchgraphapi/Article-Image.png' /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="twitter:image" content='https://www.menzel.it/post/2023/08/powerappssearchgraphapi/Article-Image.png' />
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -476,7 +479,7 @@
 <li>You need to add the Office365Groups connector to your PowerApps. To do this, go to the Data menu, and select Office 365 Groups. This will add the connector to your PowerApps.</li>
 </ol>
 <figure class="my-float-left"><img src="./Office365-Connector.png"
-         alt="Adding Office365 Connector" width="30%"/>
+    alt="Adding Office365 Connector" width="30%">
 </figure>
 
 <h2 id="using-office365groupshttprequest">Using Office365Groups.HttpRequest</h2>
@@ -704,21 +707,21 @@ The <code>varRequestBody</code> variable is then used to generate a Base64-encod
 </div>
 </div><p>The HTTP request is sent to the Microsoft Graph API&rsquo;s search endpoint (<code>https://graph.microsoft.com/v1.0/search/query</code>) using the <code>Office365Groups.HttpRequest</code> function. The function takes three arguments: the URL of the endpoint, the HTTP method to use (in this case, <code>POST</code>), and the request body to send with the request.
 This whole code can for example be put in a buttons OnSelect property to send the request when the button is clicked.</p>
-<figure class="my-float-left"><img src="SearchBehindButton.png"
-         alt="Button control with OnSelect code"/>
+<figure class="my-float-left"><img src="/post/2023/08/powerappssearchgraphapi/SearchBehindButton.png"
+    alt="Button control with OnSelect code">
 </figure>
 
 <h2 id="showing-the-results-in-a-gallery">Showing the Results in a Gallery</h2>
 <p>Once we&rsquo;ve made our HTTP request and retrieved the result, we can use a gallery to display the results. To do this, we&rsquo;ll need to insert a gallery control to our App and set the <code>Items</code> property of the gallery to the following. To be able to work with those results, we need to get the resonse body from the HTTP request. This is done by doing one of the following:</p>
 <ul>
 <li>Make the same call in the Graph Explorer and exam the response body from there
-<figure class="my-float-left"><img src="Graph-Explorer.png"
-             alt="Picture of the Graph Explorer" width="60%"/>
+<figure class="my-float-left"><img src="/post/2023/08/powerappssearchgraphapi/Graph-Explorer.png"
+        alt="Picture of the Graph Explorer" width="60%">
     </figure>
 </li>
 <li>In PowerApps start the App - Monitor to get the response body from there
-<figure class="my-float-left"><img src="Monitor.png"
-             alt="Advanced Tools with PowerApp Monitor" width="30%"/>
+<figure class="my-float-left"><img src="/post/2023/08/powerappssearchgraphapi/Monitor.png"
+        alt="Advanced Tools with PowerApp Monitor" width="30%">
     </figure>
 </li>
 </ul>
