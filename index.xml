@@ -6,7 +6,15 @@
         <description>Recent content on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 23 Apr 2024 19:20:14 +0000</lastBuildDate><atom:link href="https://www.menzel.it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 05 May 2024 12:02:41 +0000</lastBuildDate><atom:link href="https://www.menzel.it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Why I use Microsoft Copilot as AI assistant &amp; you should too</title>
+        <link>https://www.menzel.it/post/2024/05/microsoft-copilot/</link>
+        <pubDate>Sun, 05 May 2024 12:02:41 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/post/2024/05/microsoft-copilot/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/05/microsoft-copilot/Header-Image.jpeg" alt="Featured image of post Why I use Microsoft Copilot as AI assistant &amp; you should too" /&gt;I tried out a lot of LLM&amp;rsquo;s over time (ChatGPT, Gemini, etc.) and personally still prefer using Microsoft Copilot over the others for multiple reasons. Copilot is an innovative AI assistant, offering a plethora of features that cater to a wide spectrum of online activities. In my view the free version of Copilot is particularly noteworthy for its versatility and user-friendly approach even compared to other paid AI assistants. Everything I will mention here is based on the free version of Copilot.</description>
+        </item>
+        <item>
         <title>Organize Your SharePoint Informations with a News Web Part</title>
         <link>https://www.menzel.it/post/2024/04/organize-sharepoint-site-news-web-part/</link>
         <pubDate>Tue, 23 Apr 2024 19:20:14 +0000</pubDate>

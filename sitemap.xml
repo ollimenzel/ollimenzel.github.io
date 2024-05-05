@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.menzel.it/</loc>
-    <lastmod>2024-04-23T19:20:14+00:00</lastmod>
+    <lastmod>2024-05-05T12:02:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.menzel.it/categories/</loc>
-    <lastmod>2024-04-23T19:20:14+00:00</lastmod>
+    <lastmod>2024-05-05T12:02:41+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/copilot/</loc>
+    <lastmod>2024-05-05T12:02:41+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/categories/microsoft365/</loc>
+    <lastmod>2024-05-05T12:02:41+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/post/</loc>
+    <lastmod>2024-05-05T12:02:41+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/tags/</loc>
+    <lastmod>2024-05-05T12:02:41+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.menzel.it/post/2024/05/microsoft-copilot/</loc>
+    <lastmod>2024-05-05T12:02:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -22,27 +47,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/categories/microsoft365/</loc>
-    <lastmod>2024-04-23T19:20:14+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.menzel.it/post/2024/04/organize-sharepoint-site-news-web-part/</loc>
     <lastmod>2024-04-23T19:20:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/</loc>
-    <lastmod>2024-04-23T19:20:14+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.menzel.it/tags/sharepoint/</loc>
-    <lastmod>2024-04-23T19:20:14+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/tags/</loc>
     <lastmod>2024-04-23T19:20:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -69,11 +79,6 @@
   </url><url>
     <loc>https://www.menzel.it/tags/microsoft365/</loc>
     <lastmod>2024-04-04T15:15:59+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/tags/copilot/</loc>
-    <lastmod>2024-03-27T17:00:34+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
