@@ -2,317 +2,331 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.menzel.it/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-06-09T15:46:10+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/post/2024/06/granting-access-specific-sharepoint-sites-pnp-powershell/</loc>
+    <lastmod>2024-06-09T15:46:10+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2024-06-09T15:46:10+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-05-05T12:02:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/categories/</loc>
+    <loc>http://localhost:1313/tags/copilot/</loc>
     <lastmod>2024-05-05T12:02:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/copilot/</loc>
+    <loc>http://localhost:1313/categories/microsoft365/</loc>
     <lastmod>2024-05-05T12:02:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/categories/microsoft365/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-05-05T12:02:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/</loc>
+    <loc>http://localhost:1313/post/2024/05/microsoft-copilot/</loc>
     <lastmod>2024-05-05T12:02:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/</loc>
-    <lastmod>2024-05-05T12:02:41+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/post/2024/05/microsoft-copilot/</loc>
-    <lastmod>2024-05-05T12:02:41+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.menzel.it/tags/how-to/</loc>
+    <loc>http://localhost:1313/tags/how-to/</loc>
     <lastmod>2024-04-23T19:20:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/metadata/</loc>
+    <loc>http://localhost:1313/tags/metadata/</loc>
     <lastmod>2024-04-23T19:20:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2024/04/organize-sharepoint-site-news-web-part/</loc>
+    <loc>http://localhost:1313/post/2024/04/organize-sharepoint-site-news-web-part/</loc>
     <lastmod>2024-04-23T19:20:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/sharepoint/</loc>
+    <loc>http://localhost:1313/tags/sharepoint/</loc>
     <lastmod>2024-04-23T19:20:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2024/04/started-power-platform-dev-environment/</loc>
+    <loc>http://localhost:1313/post/2024/04/started-power-platform-dev-environment/</loc>
     <lastmod>2024-04-18T13:33:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/power-platform/</loc>
+    <loc>http://localhost:1313/tags/power-platform/</loc>
     <lastmod>2024-04-18T13:33:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/microsoft-teams/</loc>
+    <loc>http://localhost:1313/tags/microsoft-teams/</loc>
     <lastmod>2024-04-04T15:15:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2024/04/microsoft-teams-channel-types-choose/</loc>
+    <loc>http://localhost:1313/post/2024/04/microsoft-teams-channel-types-choose/</loc>
     <lastmod>2024-04-04T15:15:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/microsoft365/</loc>
+    <loc>http://localhost:1313/tags/microsoft365/</loc>
     <lastmod>2024-04-04T15:15:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/categories/governance/</loc>
+    <loc>http://localhost:1313/categories/governance/</loc>
     <lastmod>2024-03-27T17:00:34+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2024/03/limit-copilot-access-sharepoint-sites-content/</loc>
+    <loc>http://localhost:1313/post/2024/03/limit-copilot-access-sharepoint-sites-content/</loc>
     <lastmod>2024-03-27T17:00:34+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/permission-management/</loc>
+    <loc>http://localhost:1313/tags/permission-management/</loc>
     <lastmod>2024-03-27T17:00:34+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</loc>
+    <loc>http://localhost:1313/post/2024/03/finding-doublettes-sharepoint-list-pnp-powershell/</loc>
     <lastmod>2024-03-10T10:59:06+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/pnp/</loc>
+    <loc>http://localhost:1313/tags/pnp/</loc>
     <lastmod>2024-03-10T10:59:06+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/powershell/</loc>
+    <loc>http://localhost:1313/tags/powershell/</loc>
     <lastmod>2024-03-10T10:59:06+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/categories/sharepoint/</loc>
+    <loc>http://localhost:1313/categories/sharepoint/</loc>
     <lastmod>2024-03-10T10:59:06+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2024/02/change-sharepoint-group-security-groups-powershell/</loc>
+    <loc>http://localhost:1313/post/2024/02/change-sharepoint-group-security-groups-powershell/</loc>
     <lastmod>2024-02-12T16:29:31+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/security/</loc>
+    <loc>http://localhost:1313/tags/security/</loc>
     <lastmod>2024-02-12T16:29:31+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/ai-promts/</loc>
+    <loc>http://localhost:1313/tags/ai-promts/</loc>
     <lastmod>2024-01-28T09:57:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/power-automate/</loc>
+    <loc>http://localhost:1313/tags/power-automate/</loc>
     <lastmod>2024-01-28T09:57:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2024/01/social-media-content-creator-ai-prompts/</loc>
+    <loc>http://localhost:1313/post/2024/01/social-media-content-creator-ai-prompts/</loc>
     <lastmod>2024-01-28T09:57:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/</loc>
+    <loc>http://localhost:1313/post/2023/</loc>
     <lastmod>2023-12-19T10:00:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/12/set-owner-policy-microsoft-365-groups-important/</loc>
+    <loc>http://localhost:1313/post/2023/12/set-owner-policy-microsoft-365-groups-important/</loc>
     <lastmod>2023-12-19T10:00:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/microsoft-365/</loc>
+    <loc>http://localhost:1313/tags/microsoft-365/</loc>
     <lastmod>2023-12-19T10:00:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/microsoft-365-groups/</loc>
+    <loc>http://localhost:1313/tags/microsoft-365-groups/</loc>
     <lastmod>2023-12-19T10:00:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/policy/</loc>
+    <loc>http://localhost:1313/tags/policy/</loc>
     <lastmod>2023-12-19T10:00:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/11/power-automate-posting-bluesky-mastodon/</loc>
+    <loc>http://localhost:1313/post/2023/11/power-automate-posting-bluesky-mastodon/</loc>
     <lastmod>2023-11-26T21:25:48+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/categories/powerplatform/</loc>
+    <loc>http://localhost:1313/categories/powerplatform/</loc>
     <lastmod>2023-11-26T21:25:48+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/</loc>
+    <loc>http://localhost:1313/post/2023/11/external-user-access-reviews-office-365-ensuring-secure-collaboration/</loc>
     <lastmod>2023-11-12T20:19:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/siteowners/</loc>
+    <loc>http://localhost:1313/tags/siteowners/</loc>
     <lastmod>2023-11-12T20:19:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/11/spimageediting/</loc>
+    <loc>http://localhost:1313/post/2023/11/spimageediting/</loc>
     <lastmod>2023-11-09T13:19:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/categories/powershell/</loc>
+    <loc>http://localhost:1313/categories/powershell/</loc>
     <lastmod>2023-11-06T15:58:22+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/11/update-sharepoint-metadata-pnp-powershell/</loc>
+    <loc>http://localhost:1313/post/2023/11/update-sharepoint-metadata-pnp-powershell/</loc>
     <lastmod>2023-11-06T15:58:22+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/10/deleted_onedrive/</loc>
+    <loc>http://localhost:1313/post/2023/10/deleted_onedrive/</loc>
     <lastmod>2023-10-27T15:22:18+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/onedrive/</loc>
+    <loc>http://localhost:1313/tags/onedrive/</loc>
     <lastmod>2023-10-27T15:22:18+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/clarity/</loc>
+    <loc>http://localhost:1313/tags/clarity/</loc>
     <lastmod>2023-10-23T20:35:23+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/10/addclarity/</loc>
+    <loc>http://localhost:1313/post/2023/10/addclarity/</loc>
     <lastmod>2023-10-23T20:35:23+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/10/restorerecyclebin/</loc>
+    <loc>http://localhost:1313/post/2023/10/restorerecyclebin/</loc>
     <lastmod>2023-10-15T22:52:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/10/changepublishdate/</loc>
+    <loc>http://localhost:1313/post/2023/10/changepublishdate/</loc>
     <lastmod>2023-10-13T08:22:49+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/10/hub_sync_permissions/</loc>
+    <loc>http://localhost:1313/post/2023/10/hub_sync_permissions/</loc>
     <lastmod>2023-10-08T11:23:54+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/categories/ai/</loc>
+    <loc>http://localhost:1313/post/2023/10/disable_sharing/</loc>
+    <lastmod>2023-10-04T08:59:32+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/categories/ai/</loc>
     <lastmod>2023-09-27T15:56:44+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/09/customconnectoropenai/</loc>
+    <loc>http://localhost:1313/post/2023/09/customconnectoropenai/</loc>
     <lastmod>2023-09-27T15:56:44+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/powerapps/</loc>
+    <loc>http://localhost:1313/tags/powerapps/</loc>
     <lastmod>2023-09-27T15:56:44+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/08/environmentsecuritygroups/</loc>
+    <loc>http://localhost:1313/post/2023/08/environmentsecuritygroups/</loc>
     <lastmod>2023-08-21T11:37:23+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/graphapi/</loc>
+    <loc>http://localhost:1313/tags/graphapi/</loc>
     <lastmod>2023-08-10T16:31:08+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/search/</loc>
+    <loc>http://localhost:1313/tags/search/</loc>
     <lastmod>2023-08-10T16:31:08+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/08/powerappssearchgraphapi/</loc>
+    <loc>http://localhost:1313/post/2023/08/powerappssearchgraphapi/</loc>
     <lastmod>2023-08-10T16:31:08+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/07/reconnect_pages/</loc>
+    <loc>http://localhost:1313/post/2023/07/reconnect_pages/</loc>
     <lastmod>2023-07-27T11:57:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/tags/sharegate/</loc>
+    <loc>http://localhost:1313/tags/sharegate/</loc>
     <lastmod>2023-07-27T11:57:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/05/</loc>
+    <loc>http://localhost:1313/post/2023/05/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/05/add_to_onedrive/</loc>
+    <loc>http://localhost:1313/post/2023/05/add_to_onedrive/</loc>
     <lastmod>2023-05-16T16:38:45+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/about-me/</loc>
+    <loc>http://localhost:1313/about-me/</loc>
     <lastmod>2023-05-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/post/2023/05/disable_sharing/</loc>
+    <loc>http://localhost:1313/post/2023/05/disable_sharing/</loc>
     <lastmod>2023-05-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/page/</loc>
+    <loc>http://localhost:1313/page/</loc>
     <lastmod>2023-05-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/page/archives/</loc>
+    <loc>http://localhost:1313/page/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.menzel.it/page/search/</loc>
+    <loc>http://localhost:1313/links/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/page/search/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
