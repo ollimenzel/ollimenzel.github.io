@@ -6,7 +6,16 @@
         <description>Recent content on The State of the Microsoft 365 Nation</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 09 Jun 2024 15:46:10 +0000</lastBuildDate><atom:link href="https://www.menzel.it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 16 Jun 2024 13:02:43 +0000</lastBuildDate><atom:link href="https://www.menzel.it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Exploring the New Planner App in Microsoft Teams</title>
+        <link>https://www.menzel.it/post/2024/06/exploring-planner-app-microsoft-teams/</link>
+        <pubDate>Sun, 16 Jun 2024 13:02:43 +0000</pubDate>
+        
+        <guid>https://www.menzel.it/post/2024/06/exploring-planner-app-microsoft-teams/</guid>
+        <description>&lt;img src="https://www.menzel.it/post/2024/06/exploring-planner-app-microsoft-teams/header-image.png" alt="Featured image of post Exploring the New Planner App in Microsoft Teams" /&gt;Today, I want to share my thoughts on the newly revamped Planner app integrated within Microsoft Teams. It’s been a long wait, but I assure you, it’s worth it. Let’s dive into what’s new, what’s improved, and how it can make our lives easier.
+A Brief History and Introduction The Planner app in Teams has undergone several name changes and updates over the years. Initially, it was simply called Planner, then it became Tasks by Planner and To-Do, and now it’s back to Planner, but with a host of new features.</description>
+        </item>
+        <item>
         <title>Granting Access to Specific SharePoints with PnP-PowerShell</title>
         <link>https://www.menzel.it/post/2024/06/granting-access-specific-sharepoints-pnp-powershell/</link>
         <pubDate>Sun, 09 Jun 2024 15:46:10 +0000</pubDate>
